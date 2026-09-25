@@ -132,7 +132,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ userProgress, setActiveTab
             <div className="text-5xl font-black text-amber-400 font-outfit my-2">
               {daysRemaining} <span className="text-base font-bold text-slate-300">dias</span>
             </div>
-            <p className="text-xs text-slate-300 font-medium">Data da Prova: 26 de Outubro de 2026</p>
+            <p className="text-xs text-slate-300 font-medium">Data da Prova: 11 de Novembro de 2026</p>
           </div>
 
         </div>
