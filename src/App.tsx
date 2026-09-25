@@ -10,6 +10,9 @@ import { RedacaoGuide } from './components/RedacaoGuide';
 import { getStoredProgress } from './utils/storage';
 import { UserProgress, FontScaleMode } from './types';
 import { ShieldAlert, ExternalLink } from 'lucide-react';
+import { AudioProvider } from './context/AudioContext';
+import { AudioPlayerBar } from './components/AudioPlayerBar';
+import { AudioPlaylistDrawer } from './components/AudioPlaylistDrawer';
 
 export function App() {
   const [activeTab, setActiveTab] = useState<TabType>('dashboard');
@@ -38,86 +41,92 @@ export function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans">
-      
-      {/* Top Navbar */}
-      <Navbar
-        activeTab={activeTab}
-        setActiveTab={setActiveTab}
-        userProgress={userProgress}
-        fontScale={fontScale}
-        setFontScale={setFontScale}
-      />
+    <AudioProvider>
+      <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans relative pb-20">
+        
+        {/* Top Navbar */}
+        <Navbar
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+          userProgress={userProgress}
+          fontScale={fontScale}
+          setFontScale={setFontScale}
+        />
 
-      {/* Main Container */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {activeTab === 'dashboard' && (
-          <Dashboard
-            userProgress={userProgress}
-            setActiveTab={setActiveTab}
-            setSelectedSubjectFilter={setSelectedSubjectFilter}
-          />
-        )}
+        {/* Main Container */}
+        <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          {activeTab === 'dashboard' && (
+            <Dashboard
+              userProgress={userProgress}
+              setActiveTab={setActiveTab}
+              setSelectedSubjectFilter={setSelectedSubjectFilter}
+            />
+          )}
 
-        {activeTab === 'modules' && (
-          <ModuleStudy
-            userProgress={userProgress}
-            onProgressUpdate={handleProgressUpdate}
-            initialSubjectFilter={selectedSubjectFilter}
-          />
-        )}
+          {activeTab === 'modules' && (
+            <ModuleStudy
+              userProgress={userProgress}
+              onProgressUpdate={handleProgressUpdate}
+              initialSubjectFilter={selectedSubjectFilter}
+            />
+          )}
 
-        {activeTab === 'simulator' && (
-          <Simulator
-            userProgress={userProgress}
-            onProgressUpdate={handleProgressUpdate}
-          />
-        )}
+          {activeTab === 'simulator' && (
+            <Simulator
+              userProgress={userProgress}
+              onProgressUpdate={handleProgressUpdate}
+            />
+          )}
 
-        {activeTab === 'flashcards' && (
-          <Flashcards />
-        )}
+          {activeTab === 'flashcards' && (
+            <Flashcards />
+          )}
 
-        {activeTab === 'ctb_guide' && (
-          <CtbGuide />
-        )}
+          {activeTab === 'ctb_guide' && (
+            <CtbGuide />
+          )}
 
-        {activeTab === 'errors' && (
-          <ErrorNotebook
-            userProgress={userProgress}
-            onProgressUpdate={handleProgressUpdate}
-          />
-        )}
+          {activeTab === 'errors' && (
+            <ErrorNotebook
+              userProgress={userProgress}
+              onProgressUpdate={handleProgressUpdate}
+            />
+          )}
 
-        {activeTab === 'redacao' && (
-          <RedacaoGuide />
-        )}
-      </main>
+          {activeTab === 'redacao' && (
+            <RedacaoGuide />
+          )}
+        </main>
 
-      {/* Footer */}
-      <footer className="border-t border-slate-800 bg-slate-950 py-6 mt-12 text-xs sm:text-sm text-slate-500">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <ShieldAlert className="w-4 h-4 text-amber-400" />
-            <span className="font-bold text-slate-300">PrepDETRAN SP 2026</span>
-            <span>• Baseado no Edital DETRAN-SP (Banca Instituto Avalia)</span>
+        {/* Persistent CTB Audio Player Bar & Playlist Drawer */}
+        <AudioPlayerBar />
+        <AudioPlaylistDrawer />
+
+        {/* Footer */}
+        <footer className="border-t border-slate-800 bg-slate-950 py-6 mt-12 text-xs sm:text-sm text-slate-500">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-2">
+              <ShieldAlert className="w-4 h-4 text-amber-400" />
+              <span className="font-bold text-slate-300">PrepDETRAN SP 2026</span>
+              <span>• Baseado no Edital DETRAN-SP (Banca Instituto Avalia)</span>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <a
+                href="https://www.avalia.org.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-amber-400 flex items-center gap-1 transition-colors font-semibold"
+              >
+                <span>Instituto Avalia</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            </div>
           </div>
+        </footer>
 
-          <div className="flex items-center gap-4">
-            <a
-              href="https://www.avalia.org.br"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-amber-400 flex items-center gap-1 transition-colors font-semibold"
-            >
-              <span>Instituto Avalia</span>
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
-          </div>
-        </div>
-      </footer>
-
-    </div>
+      </div>
+    </AudioProvider>
   );
 }
 

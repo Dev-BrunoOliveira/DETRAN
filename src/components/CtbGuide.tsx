@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { CTB_CHAPTERS_SUMMARY } from '../data/ctbSummaryData';
-import { FileText, Search, Scale, ChevronDown, ChevronUp, AlertCircle, Bookmark } from 'lucide-react';
+import { FileText, Search, Scale, ChevronDown, ChevronUp, AlertCircle, Bookmark, Headphones, Play, Pause, Radio, ListMusic } from 'lucide-react';
+import { useAudioPlayer } from '../context/AudioContext';
 
 export const CtbGuide: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [expandedChapterId, setExpandedChapterId] = useState<string>('cap-1');
+  const { tracks, currentTrackIndex, isPlaying, playTrack, setIsPlaylistOpen, setIsPlayerVisible } = useAudioPlayer();
 
   const filteredChapters = CTB_CHAPTERS_SUMMARY.filter((chap) => {
     if (!searchQuery.trim()) return true;
@@ -16,19 +18,88 @@ export const CtbGuide: React.FC = () => {
     return inTitle || inSummary || inTakeaways || inArticles;
   });
 
+  const getTrackIndexForChapterNumber = (chapterNumber: string) => {
+    const idx = tracks.findIndex(t => t.chapterNumber.toLowerCase() === chapterNumber.toLowerCase());
+    return idx >= 0 ? idx : 0;
+  };
+
   return (
     <div className="space-y-6 animate-fadeIn">
       
-      {/* Header */}
-      <div className="glass-panel p-6 rounded-2xl border border-slate-800 space-y-4">
-        <div>
-          <h2 className="text-2xl font-bold text-white font-outfit flex items-center gap-2">
-            <FileText className="w-6 h-6 text-amber-400" />
-            Consulta Rápida & Resumo do CTB 2026 (Lei nº 9.503/1997)
-          </h2>
-          <p className="text-xs text-slate-400 mt-1">
-            Resumo esquematizado dos principais capítulos e artigos indispensáveis para o cargo de Agente Estadual de Trânsito.
-          </p>
+      {/* Header & Audio Banner */}
+      <div className="glass-panel p-6 rounded-2xl border border-slate-800 space-y-5">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <h2 className="text-2xl font-bold text-white font-outfit flex items-center gap-2">
+              <FileText className="w-6 h-6 text-amber-400" />
+              Consulta Rápida & Resumo do CTB 2026 (Lei nº 9.503/1997)
+            </h2>
+            <p className="text-xs text-slate-400 mt-1">
+              Resumo esquematizado dos principais capítulos e artigos indispensáveis para o cargo de Agente Estadual de Trânsito.
+            </p>
+          </div>
+
+          {/* Master Audio Button */}
+          <div className="flex items-center gap-2 shrink-0">
+            <button
+              onClick={() => {
+                setIsPlayerVisible(true);
+                if (!isPlaying) playTrack(0);
+              }}
+              className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-400 text-slate-950 font-extrabold text-xs shadow-lg shadow-amber-500/20 hover:scale-105 transition-all"
+            >
+              <Headphones className="w-4 h-4" />
+              <span>Ouvir CTB em Ordem (22 Áudios)</span>
+            </button>
+
+            <button
+              onClick={() => {
+                setIsPlayerVisible(true);
+                setIsPlaylistOpen(true);
+              }}
+              className="p-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-amber-400 transition-colors"
+              title="Ver lista de capítulos em áudio"
+            >
+              <ListMusic className="w-4 h-4" />
+            </button>
+          </div>
+        </div>
+
+        {/* Audio Player Card Banner */}
+        <div className="p-4 rounded-xl bg-gradient-to-r from-amber-500/10 via-slate-900 to-slate-900 border border-amber-500/30 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 shrink-0">
+              <Radio className="w-5 h-5 animate-pulse" />
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] font-black uppercase text-amber-400 bg-amber-500/20 px-2 py-0.5 rounded border border-amber-500/30">
+                  Audiobook do CTB
+                </span>
+                <span className="text-xs font-bold text-slate-300">Tocar Enquanto Estuda ou Responde Questões</span>
+              </div>
+              <p className="text-xs text-slate-400 mt-0.5">
+                Os 22 áudios continuam tocando sem interrupção mesmo se você mudar de tela ou resolver simulados!
+              </p>
+            </div>
+          </div>
+
+          <button
+            onClick={() => playTrack(currentTrackIndex)}
+            className="flex items-center justify-center gap-2 px-3.5 py-2 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 text-amber-300 font-bold text-xs transition-all shrink-0"
+          >
+            {isPlaying ? (
+              <>
+                <Pause className="w-4 h-4 fill-current" />
+                <span>Pausar Áudio Atual</span>
+              </>
+            ) : (
+              <>
+                <Play className="w-4 h-4 fill-current" />
+                <span>Continuar Áudio</span>
+              </>
+            )}
+          </button>
         </div>
 
         {/* Search */}
@@ -71,7 +142,34 @@ export const CtbGuide: React.FC = () => {
                   </div>
                 </div>
 
-                {isExpanded ? <ChevronUp className="w-5 h-5 text-slate-400" /> : <ChevronDown className="w-5 h-5 text-slate-400" />}
+                <div className="flex items-center gap-3">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      const trackIdx = getTrackIndexForChapterNumber(chap.chapterNumber);
+                      playTrack(trackIdx);
+                    }}
+                    className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all border ${
+                      currentTrackIndex === getTrackIndexForChapterNumber(chap.chapterNumber) && isPlaying
+                        ? 'bg-amber-500 text-slate-950 border-amber-400 font-extrabold shadow-md shadow-amber-500/20'
+                        : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-700 hover:text-white'
+                    }`}
+                  >
+                    {currentTrackIndex === getTrackIndexForChapterNumber(chap.chapterNumber) && isPlaying ? (
+                      <>
+                        <Pause className="w-3.5 h-3.5 fill-current" />
+                        <span>Tocando</span>
+                      </>
+                    ) : (
+                      <>
+                        <Play className="w-3.5 h-3.5 fill-current ml-0.5" />
+                        <span className="hidden sm:inline">Ouvir Áudio</span>
+                      </>
+                    )}
+                  </button>
+
+                  {isExpanded ? <ChevronUp className="w-5 h-5 text-slate-400" /> : <ChevronDown className="w-5 h-5 text-slate-400" />}
+                </div>
               </button>
 
               {isExpanded && (

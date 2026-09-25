@@ -3,7 +3,8 @@ import { UserProgress, SubjectId } from '../types';
 import { QUESTIONS_DATABASE } from '../data/questionsData';
 import { SUBJECTS_LIST } from '../data/editalData';
 import { QuestionCard } from './QuestionCard';
-import { Search, Filter, BookOpen, Sparkles, CheckCircle2 } from 'lucide-react';
+import { Search, Filter, BookOpen, Sparkles, CheckCircle2, Headphones, Radio } from 'lucide-react';
+import { useAudioPlayer } from '../context/AudioContext';
 
 interface ModuleStudyProps {
   userProgress: UserProgress;
@@ -16,6 +17,7 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
   onProgressUpdate,
   initialSubjectFilter = null,
 }) => {
+  const { isPlaying, setIsPlayerVisible, setIsPlaylistOpen } = useAudioPlayer();
   const [selectedSubject, setSelectedSubject] = useState<SubjectId | 'all'>(
     (initialSubjectFilter as SubjectId) || 'all'
   );
@@ -62,9 +64,26 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
           </p>
         </div>
 
-        <div className="flex items-center gap-2 text-xs font-semibold px-3 py-1.5 rounded-lg bg-amber-500/10 text-amber-300 border border-amber-500/20">
-          <Sparkles className="w-4 h-4 text-amber-400" />
-          <span>{filteredQuestions.length} questões encontradas</span>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => {
+              setIsPlayerVisible(true);
+              setIsPlaylistOpen(true);
+            }}
+            className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 border border-amber-500/30 font-bold text-xs transition-all shrink-0"
+          >
+            {isPlaying ? (
+              <Radio className="w-4 h-4 text-amber-400 animate-pulse" />
+            ) : (
+              <Headphones className="w-4 h-4 text-amber-400" />
+            )}
+            <span>{isPlaying ? 'Áudio CTB Tocando...' : 'Escutar CTB em Áudio'}</span>
+          </button>
+
+          <div className="flex items-center gap-2 text-xs font-semibold px-3 py-2 rounded-xl bg-slate-900 text-slate-300 border border-slate-800 shrink-0">
+            <Sparkles className="w-4 h-4 text-amber-400" />
+            <span>{filteredQuestions.length} questões</span>
+          </div>
         </div>
       </div>
 

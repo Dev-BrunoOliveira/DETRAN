@@ -13,9 +13,13 @@ import {
   Menu,
   X,
   Star,
-  ChevronRight
+  ChevronRight,
+  Headphones,
+  Radio,
+  Volume2
 } from 'lucide-react';
 import { UserProgress, FontScaleMode } from '../types';
+import { useAudioPlayer } from '../context/AudioContext';
 
 export type TabType = 
   | 'dashboard' 
@@ -42,6 +46,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   setFontScale
 }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+  const { isPlaying, currentTrack, setIsPlayerVisible, setIsPlaylistOpen } = useAudioPlayer();
 
   const answeredCount = Object.keys(userProgress.answeredQuestions).length;
   const errorsCount = userProgress.errorNotebookIds.length;
@@ -127,9 +132,34 @@ export const Navbar: React.FC<NavbarProps> = ({
             })}
           </nav>
 
-          {/* Right Controls: Font Scale Toggle, Streak & Mobile Hamburger */}
+          {/* Right Controls: Audio Player Trigger, Font Scale Toggle, Streak & Mobile Hamburger */}
           <div className="flex items-center gap-2 sm:gap-3">
             
+            {/* CTB Audio Button */}
+            <button
+              onClick={() => {
+                setIsPlayerVisible(true);
+                setIsPlaylistOpen(true);
+              }}
+              title="Escutar os áudios do CTB em ordem (22 capítulos)"
+              className={`flex items-center gap-1.5 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-lg sm:rounded-xl text-[11px] sm:text-xs font-bold transition-all border shadow-sm ${
+                isPlaying
+                  ? 'bg-amber-500/20 text-amber-300 border-amber-500/50 shadow-amber-500/10 animate-pulse'
+                  : 'bg-slate-900 hover:bg-slate-800 border-amber-500/30 text-amber-300 hover:border-amber-400'
+              }`}
+            >
+              {isPlaying ? (
+                <div className="flex items-end gap-0.5 h-3.5">
+                  <span className="w-0.5 bg-amber-400 animate-[bounce_1s_infinite_100ms] h-full" />
+                  <span className="w-0.5 bg-amber-400 animate-[bounce_1s_infinite_300ms] h-2/3" />
+                  <span className="w-0.5 bg-amber-400 animate-[bounce_1s_infinite_200ms] h-5/6" />
+                </div>
+              ) : (
+                <Headphones className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400" />
+              )}
+              <span className="hidden xs:inline">{isPlaying ? `Tocando ${currentTrack.chapterNumber}` : 'Áudio CTB'}</span>
+            </button>
+
             {/* Font Scale Button */}
             <button
               onClick={cycleFontScale}
