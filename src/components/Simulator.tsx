@@ -34,7 +34,8 @@ export const Simulator: React.FC<SimulatorProps> = ({ userProgress, onProgressUp
     
     SUBJECTS_LIST.filter(s => s.category !== 'Discursiva').forEach(subj => {
       const subjectQuestions = QUESTIONS_DATABASE.filter(q => q.subjectId === subj.id);
-      const picked = subjectQuestions.slice(0, Math.min(subjectQuestions.length, subj.questionCount));
+      const shuffled = [...subjectQuestions].sort(() => 0.5 - Math.random());
+      const picked = shuffled.slice(0, Math.min(shuffled.length, subj.questionCount));
       selected.push(...picked);
     });
 
