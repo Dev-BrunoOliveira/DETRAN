@@ -9,7 +9,6 @@ import {
   PenTool, 
   Flame, 
   ShieldAlert,
-  Type,
   Menu,
   X,
   Star,
@@ -34,16 +33,12 @@ interface NavbarProps {
   activeTab: TabType;
   setActiveTab: (tab: TabType) => void;
   userProgress: UserProgress;
-  fontScale: FontScaleMode;
-  setFontScale: (scale: FontScaleMode) => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({ 
   activeTab, 
   setActiveTab, 
-  userProgress,
-  fontScale,
-  setFontScale
+  userProgress
 }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
   const { isPlaying, currentTrack, setIsPlayerVisible, setIsPlaylistOpen } = useAudioPlayer();
@@ -60,18 +55,6 @@ export const Navbar: React.FC<NavbarProps> = ({
     { id: 'errors' as TabType, label: 'Caderno de Erros', icon: BookMarked, badge: errorsCount > 0 ? errorsCount : undefined, color: 'text-rose-400' },
     { id: 'redacao' as TabType, label: 'Redação Técnica', icon: PenTool }
   ];
-
-  const cycleFontScale = () => {
-    if (fontScale === 'normal') setFontScale('large');
-    else if (fontScale === 'large') setFontScale('xlarge');
-    else setFontScale('normal');
-  };
-
-  const getFontScaleLabel = () => {
-    if (fontScale === 'normal') return 'Média';
-    if (fontScale === 'large') return 'Grande 🔍';
-    return 'GG 🚀';
-  };
 
   const handleSelectTab = (id: TabType) => {
     setActiveTab(id);
@@ -132,7 +115,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             })}
           </nav>
 
-          {/* Right Controls: Audio Player Trigger, Font Scale Toggle, Streak & Mobile Hamburger */}
+          {}
           <div className="flex items-center gap-2 sm:gap-3">
             
             {/* CTB Audio Button */}
@@ -158,16 +141,6 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <Headphones className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400" />
               )}
               <span className="hidden xs:inline">{isPlaying ? `Tocando ${currentTrack.chapterNumber}` : 'Áudio CTB'}</span>
-            </button>
-
-            {/* Font Scale Button */}
-            <button
-              onClick={cycleFontScale}
-              title="Alternar tamanho da fonte da aplicação"
-              className="flex items-center gap-1 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-lg sm:rounded-xl bg-slate-900 hover:bg-slate-800 border border-amber-500/30 text-amber-300 text-[11px] sm:text-xs font-bold transition-all hover:border-amber-400 shadow-sm"
-            >
-              <Type className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400" />
-              <span>{getFontScaleLabel()}</span>
             </button>
 
             {/* Streak Badge */}
@@ -283,16 +256,6 @@ export const Navbar: React.FC<NavbarProps> = ({
             {/* Extra Drawer Controls */}
             <div className="pt-3 border-t border-slate-800/80 space-y-3">
               
-              <div className="flex items-center justify-between p-3 rounded-2xl bg-slate-900 border border-slate-800 text-xs">
-                <span className="text-slate-400 font-bold">Ajustar Tamanho de Fonte:</span>
-                <button
-                  onClick={cycleFontScale}
-                  className="px-3 py-1.5 rounded-xl bg-amber-500/20 text-amber-300 font-extrabold border border-amber-500/40"
-                >
-                  {getFontScaleLabel()}
-                </button>
-              </div>
-
               <div className="flex items-center justify-between p-3 rounded-2xl bg-slate-900 border border-slate-800 text-xs text-slate-400">
                 <div className="flex items-center gap-1.5">
                   <Star className="w-4 h-4 text-amber-400 fill-amber-400" />

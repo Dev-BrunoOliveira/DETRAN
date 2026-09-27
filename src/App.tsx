@@ -8,7 +8,7 @@ import { CtbGuide } from './components/CtbGuide';
 import { ErrorNotebook } from './components/ErrorNotebook';
 import { RedacaoGuide } from './components/RedacaoGuide';
 import { getStoredProgress } from './utils/storage';
-import { UserProgress, FontScaleMode } from './types';
+import { UserProgress } from './types';
 import { ShieldAlert, ExternalLink } from 'lucide-react';
 import { AudioProvider } from './context/AudioContext';
 import { AudioPlayerBar } from './components/AudioPlayerBar';
@@ -19,22 +19,10 @@ export function App() {
   const [userProgress, setUserProgress] = useState<UserProgress>(getStoredProgress());
   const [selectedSubjectFilter, setSelectedSubjectFilter] = useState<string | null>(null);
   
-  // Font scale mode state ('normal' | 'large' | 'xlarge')
-  const [fontScale, setFontScale] = useState<FontScaleMode>('large'); // Default to large font for super comfortable reading!
-
   useEffect(() => {
     setUserProgress(getStoredProgress());
+    document.documentElement.classList.add('font-scale-large');
   }, []);
-
-  useEffect(() => {
-    const root = document.documentElement;
-    root.classList.remove('font-scale-large', 'font-scale-xlarge');
-    if (fontScale === 'large') {
-      root.classList.add('font-scale-large');
-    } else if (fontScale === 'xlarge') {
-      root.classList.add('font-scale-xlarge');
-    }
-  }, [fontScale]);
 
   const handleProgressUpdate = (updated: UserProgress) => {
     setUserProgress(updated);
@@ -49,8 +37,6 @@ export function App() {
           activeTab={activeTab}
           setActiveTab={setActiveTab}
           userProgress={userProgress}
-          fontScale={fontScale}
-          setFontScale={setFontScale}
         />
 
         {/* Main Container */}
