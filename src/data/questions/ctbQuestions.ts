@@ -1,6 +1,7 @@
 import { Question } from '../../types';
 
 export const ctbQuestions: Question[] = [
+  // --- BLAG 1: REGRAS GERAIS DE CIRCULAÇÃO, SNT E VELOCIDADES (Q01 a Q15) ---
   {
     id: 'ctb-q01',
     subjectId: 'ctb',
@@ -60,945 +61,1703 @@ export const ctbQuestions: Question[] = [
     lawReference: 'Art. 261, § 5º do CTB',
     bancaTag: 'Prova Oficial DETRAN-SP - FCC',
     options: [
-      { letter: 'A', text: '10 a 14 pontos.' },
-      { letter: 'B', text: '14 a 19 pontos.' },
-      { letter: 'C', text: '20 a 29 pontos.' },
-      { letter: 'D', text: '30 a 39 pontos.' },
-      { letter: 'E', text: '15 a 25 pontos.' }
+      { letter: 'A', text: '30 pontos.' },
+      { letter: 'B', text: '20 pontos.' },
+      { letter: 'C', text: '14 pontos.' },
+      { letter: 'D', text: '10 pontos.' },
+      { letter: 'E', text: '40 pontos.' }
     ],
-    correctLetter: 'D',
-    generalExplanation: 'Após as alterações do CTB (Lei 14.071/20), o condutor que exerce atividade remunerada (EAR) em qualquer categoria pode optar pelo curso preventivo de reciclagem sempre que atingir de 30 a 39 pontos no período de 12 meses (Art. 261, § 5º). Na regra original de 2019 da FCC era 14 a 19 pontos em relação ao teto antigo de 20; porém atualizado pela Lei 14.071/20 para o teto de 40 pontos, o intervalo legal do § 5º é 30 a 39 pontos.',
+    correctLetter: 'A',
+    generalExplanation: 'Conforme o Art. 261, § 5º do CTB, o condutor habilitado nas categorias C, D ou E que exerça atividade remunerada (EAR) pode optar por participar de curso preventivo de reciclagem sempre que, no período de 12 meses, atingir 30 (trinta) pontos no seu prontuário (extinguindo a pontuação acumulada após a conclusão).',
     explanations: {
-      A: 'INCORRETA. Intervalo inexistente.',
-      B: 'INCORRETA. Era a regra antiga pré-2021.',
-      C: 'INCORRETA. O intervalo fixado no CTB atualizado é de 30 a 39 pontos.',
-      D: 'CORRETA. CTB Art. 261, § 5º: 30 a 39 pontos para o condutor EAR.',
-      E: 'INCORRETA. Não corresponde à redação do Art. 261.'
+      A: 'CORRETA. Art. 261, § 5º CTB: 30 pontos acumulados em 12 meses permite a reciclagem preventiva para condutor EAR.',
+      B: 'INCORRETA. 20 pontos é o gatilho de suspensão para quem comete 2 ou mais infrações gravíssimas.',
+      C: 'INCORRETA. 14 pontos era valor de norma antiga já revogada.',
+      D: 'INCORRETA. 10 pontos é insuficiente.',
+      E: 'INCORRETA. 40 pontos é o limite máximo geral sem gravíssimas.'
     }
   },
   {
     id: 'ctb-q04',
     subjectId: 'ctb',
-    topic: 'Velocidade e Suspensão da CNH (Art. 218)',
-    difficulty: 'Médio',
-    statement: '(Prova Real DETRAN-SP / FCC) Transitar em velocidade superior à máxima permitida em mais de 50% (cinquenta por cento) constitui infração de natureza gravíssima. Além da multa (multiplicada por 3), prevê expressamente o CTB como penalidade direta:',
-    lawReference: 'Art. 218, III do CTB',
-    bancaTag: 'Prova Oficial DETRAN-SP - FCC',
+    topic: 'Preferência em Cruzamento sem Sinalização (Art. 29)',
+    difficulty: 'Fácil',
+    statement: 'Ao transitar por vias urbanas em um cruzamento não sinalizado de duas vias de mesma hierarquia, a preferência de passagem, conforme o Art. 29, III, "c" do CTB, caberá ao veículo que:',
+    lawReference: 'Art. 29, III, "c" do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Apreensão do veículo e cassação da CNH.' },
-      { letter: 'B', text: 'Frequência em curso de reciclagem apenas.' },
-      { letter: 'C', text: 'Suspensão do direito de dirigir.' },
-      { letter: 'D', text: 'Retenção do veículo até a quitação das multas.' },
-      { letter: 'E', text: 'Advertência por escrito e recolhimento do CRLV.' }
+      { letter: 'A', text: 'Vier pela esquerda do condutor.' },
+      { letter: 'B', text: 'Vier pela direita do condutor.' },
+      { letter: 'C', text: 'Transitar em maior velocidade.' },
+      { letter: 'D', text: 'Estiver buzando de forma contínua.' },
+      { letter: 'E', text: 'For de maior porte físico.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'O Art. 218, III do CTB prevê que transitar em velocidade superior à máxima em mais de 50% é infração Gravíssima com penalidade de Multa (3x) e Suspensão do Direito de Dirigir (penalidade autossuspensiva direta).',
+    correctLetter: 'B',
+    generalExplanation: 'No cruzamento não sinalizado, a regra de ouro do Art. 29, III, "c" do CTB determina que a preferência de passagem é do veículo que se aproxima pela DIREITA do condutor.',
     explanations: {
-      A: 'INCORRETA. A apreensão do veículo não existe mais como penalidade no CTB.',
-      B: 'INCORRETA. A penalidade principal é a suspensão do direito de dirigir.',
-      C: 'CORRETA. Art. 218, III: Suspensão do direito de dirigir é a penalidade autossuspensiva.',
-      D: 'INCORRETA. Medida administrativa não se confunde com retenção por débitos.',
-      E: 'INCORRETA. Advertência é applied apenas em infrações leves ou médias sob condições específicas.'
+      A: 'INCORRETA. Pela esquerda não tem preferência.',
+      B: 'CORRETA. Art. 29, III, "c": Preferência para quem vem pela direita.',
+      C: 'INCORRETA. Velocidade maior não concede prioridade de trânsito.',
+      D: 'INCORRETA. Usar buzina não cria direito de passagem.',
+      E: 'INCORRETA. Porte físico maior exige responsabilidade pela segurança dos menores, não prioridade.'
     }
   },
   {
     id: 'ctb-q05',
     subjectId: 'ctb',
-    topic: 'Manobra Perigosa e Arrancada Brusca (Art. 175)',
-    difficulty: 'Difícil',
-    statement: '(Prova Real DETRAN-SP / FCC) Utilizar-se de veículo para demonstrar ou exibir manobra perigosa, mediante arrancada brusca, derrapagem ou frenagem com deslizamento de pneus é infração gravíssima com multa (10x). Quais são as MEDIDAS ADMINISTRATIVAS expressamente previstas para este tipo infracional?',
-    lawReference: 'Art. 175 do CTB',
-    bancaTag: 'Prova Oficial DETRAN-SP - FCC',
+    topic: 'Regra de Rotatória (Art. 29)',
+    difficulty: 'Fácil',
+    statement: 'Em uma rotatória não sinalizada por placas ou semáforos, a preferência de passagem (Art. 29, III, "b" do CTB) pertence ao veículo que:',
+    lawReference: 'Art. 29, III, "b" do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Recolhimento do Certificado de Registro e retenção do veículo.' },
-      { letter: 'B', text: 'Suspensão do direito de dirigir e apreensão do veículo.' },
-      { letter: 'C', text: 'Recolhimento do documento de habilitação e remoção do veículo.' },
-      { letter: 'D', text: 'Retenção do veículo e curso de reciclagem obrigatorio.' },
-      { letter: 'E', text: 'Recolhimento do Certificado de Licenciamento e transbordo de carga.' }
+      { letter: 'A', text: 'Estiver circulando por ela.' },
+      { letter: 'B', text: 'Estiver preste a entrar nela vindo da via principal.' },
+      { letter: 'C', text: 'Estiver em velocidade mais alta.' },
+      { letter: 'D', text: 'For transporte coletivo de passageiros.' },
+      { letter: 'E', text: 'Dar sinal de luz alta primeiro.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'O Art. 175 do CTB fixa expressamente as seguintes MEDIDAS ADMINISTRATIVAS: Recolhimento do documento de habilitação e Remoção do veículo. (Lembrando que a Suspensão do direito de dirigir é PENALIDADE, não medida administrativa).',
+    correctLetter: 'A',
+    generalExplanation: 'Nos termos do Art. 29, III, "b" do CTB, no caso de rotatória não sinalizada, a preferência de passagem é daquele veículo que já estiver circulando por ela.',
     explanations: {
-      A: 'INCORRETA. A medida não é recolhimento do CRV e retenção, mas remoção e recolhimento da CNH.',
-      B: 'INCORRETA. Suspensão é penalidade e apreensão de veículo foi revogada.',
-      C: 'CORRETA. Art. 175: Medidas administrativas - Recolhimento do documento de habilitação e remoção do veículo.',
-      D: 'INCORRETA. Curso é penalidade/acessório.',
-      E: 'INCORRETA. Medidas divergentes do CTB.'
+      A: 'CORRETA. Art. 29, III, "b": Preferência de quem já está circulando na rotatória.',
+      B: 'INCORRETA. Quem vai entrar deve dar preferência a quem já circula.',
+      C: 'INCORRETA. Velocidade não define preferência.',
+      D: 'INCORRETA. Tipo de veículo não altera a regra da rotatória.',
+      E: 'INCORRETA. Sinal de luz não concede preferência.'
     }
   },
   {
     id: 'ctb-q06',
     subjectId: 'ctb',
-    topic: 'Crime de Embriaguez ao Volante (Art. 306)',
-    difficulty: 'Difícil',
-    statement: '(Prova Real DETRAN-SP / FCC) Conforme a Resolução CONTRAN nº 432/2013 e o Art. 306 do CTB, a conduta de conduzir veículo automotor com capacidade psicomotora alterada em razão da influência de álcool configura CRIME DE TRÂNSITO quando a medição realizada por etilômetro (bafômetro) indicar valor considerado igual ou superior a:',
-    lawReference: 'Art. 306 do CTB & Res. CONTRAN 432/13',
-    bancaTag: 'Prova Oficial DETRAN-SP - FCC',
+    topic: 'Classificação das Vias Urbanas (Art. 60 e 61)',
+    difficulty: 'Médio',
+    statement: 'Considerando a classificação das vias públicas e as velocidades máximas estabelecidas no Art. 61 do CTB onde não houver sinalização, assinale a correlação CORRETA:',
+    lawReference: 'Art. 60 e 61 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '0,05 mg de álcool por litro de ar alveolar.' },
-      { letter: 'B', text: '0,14 mg de álcool por litro de ar alveolar.' },
-      { letter: 'C', text: '0,24 mg de álcool por litro de ar alveolar.' },
-      { letter: 'D', text: '0,34 mg de álcool por litro de ar alveolar.' },
-      { letter: 'E', text: '0,50 mg de álcool por litro de ar alveolar.' }
+      { letter: 'A', text: 'Via de Trânsito Rápido - 80 km/h.' },
+      { letter: 'B', text: 'Via Arterial - 40 km/h.' },
+      { letter: 'C', text: 'Via Coletora - 80 km/h.' },
+      { letter: 'D', text: 'Via Local - 60 km/h.' },
+      { letter: 'E', text: 'Rodovia de Pista Dupla - 60 km/h.' }
     ],
-    correctLetter: 'D',
-    generalExplanation: 'A caracterização do CRIME do Art. 306 do CTB via teste de etilômetro ocorre quando o valor considerado (após desconto da margem de erro) for IGUAL OU SUPERIOR A 0,34 mg/L de ar alveolar (ou 6 decigramas de álcool por litro de sangue). Qualquer valor acima de zero até 0,33 mg/L é apenas infração administrativa do Art. 165.',
+    correctLetter: 'A',
+    generalExplanation: 'Limites padrão nas vias urbanas não sinalizadas (Art. 61 CTB):\n- Via de Trânsito Rápido: 80 km/h;\n- Via Arterial: 60 km/h;\n- Via Coletora: 40 km/h;\n- Via Local: 30 km/h.',
     explanations: {
-      A: 'INCORRETA. 0,05 mg/L é apenas limite de tolerância técnica para infração administrativa.',
-      B: 'INCORRETA. Constitui infração administrativa do Art. 165, não crime.',
-      C: 'INCORRETA. Constitui infração administrativa.',
-      D: 'CORRETA. Art. 306 CTB / Res. 432: Valor considerado >= 0,34 mg/L configura CRIME DE TRÂNSITO.',
-      E: 'INCORRETA. Valor superior ao limiar criminal de 0,34 mg/L.'
+      A: 'CORRETA. Via de trânsito rápido = 80 km/h.',
+      B: 'INCORRETA. Via arterial o limite é 60 km/h (40 km/h é coletora).',
+      C: 'INCORRETA. Via coletora o limite é 40 km/h.',
+      D: 'INCORRETA. Via local o limite é 30 km/h.',
+      E: 'INCORRETA. Rodovia de pista dupla é via rural (110 km/h).'
     }
   },
   {
     id: 'ctb-q07',
     subjectId: 'ctb',
-    topic: 'Classificação das Vias Urbanas (Art. 60)',
-    difficulty: 'Fácil',
-    statement: '(Prova Real DETRAN-SP / FCC) As vias abertas à circulação, de acordo com a sua utilização, classificam-se em vias urbanas e vias rurais. Nos termos do Art. 60 do CTB, as vias urbanas dividem-se taxativamente em:',
-    lawReference: 'Art. 60, I do CTB',
-    bancaTag: 'Prova Oficial DETRAN-SP - FCC',
+    topic: 'Uso de Luzes e Faróis (Art. 40)',
+    difficulty: 'Médio',
+    statement: 'Sobre as regras de uso de luzes nos veículos (Art. 40 do CTB com redação atualizada), é correto afirmar que os veículos de transporte coletivo de passageiros circulando em faixas próprias devem manter acesos:',
+    lawReference: 'Art. 40, parágrafo único do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Via expressa, via arterial, via coletora e via secundária.' },
-      { letter: 'B', text: 'Via marginal, via arterial, via secundária e via local.' },
-      { letter: 'C', text: 'Via de trânsito rápido, via arterial, via coletora e via local.' },
-      { letter: 'D', text: 'Via expressa, via arterial, via coletora e rodovia.' },
-      { letter: 'E', text: 'Via de trânsito rápido, via arterial, via secundária e estrada.' }
+      { letter: 'A', text: 'Faróis de luz baixa de dia e de noite.' },
+      { letter: 'B', text: 'Luzes de pisca-alerta ininterruptamente.' },
+      { letter: 'C', text: 'Faróis de luz alta durante o dia.' },
+      { letter: 'D', text: 'Apenas as luzes de posição (lanternas).' },
+      { letter: 'E', text: 'Faróis de neblina dianteiros e traseiros.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'O Art. 60 do CTB estabelece a seguinte classificação para as vias urbanas:\n1) Via de trânsito rápido;\n2) Via arterial;\n3) Via coletora;\n4) Via local.\n(Rodovias e Estradas são vias rurais).',
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 40, parágrafo único do CTB determina que os veículos de transporte coletivo de passageiros circulando em faixas próprias e as motocicletas/motonetas/ciclomotores deverão manter acesos os faróis de luz baixa de dia e de noite.',
     explanations: {
-      A: 'INCORRETA. Não existe termo "via expressa" ou "secundária" na classificação do CTB.',
-      B: 'INCORRETA. "Via marginal" não é categoria formal do CTB.',
-      C: 'CORRETA. Art. 60, I: Trânsito rápido, arterial, coletora e local.',
-      D: 'INCORRETA. Rodovia é via rural.',
-      E: 'INCORRETA. Estrada é via rural não pavimentada.'
+      A: 'CORRETA. Art. 40: Farol de luz baixa aceso de dia e de noite para transporte coletivo em faixa própria e motocicletas.',
+      B: 'INCORRETA. Pisca-alerta é para imobilizações ou emergências.',
+      C: 'INCORRETA. Luz alta é vedada em vias com iluminação pública ou ao cruzar outros veículos.',
+      D: 'INCORRETA. A exigência legal é o farol baixo, não apenas luz de posição.',
+      E: 'INCORRETA. Farol de neblina é para condições adversas de visibilidade.'
     }
   },
   {
     id: 'ctb-q08',
     subjectId: 'ctb',
-    topic: 'Pontuação de CNH e Limites de Suspensão (Art. 261)',
-    difficulty: 'Médio',
-    statement: 'Com as alterações trazidas pela Lei nº 14.071/2020 ao Art. 261 do CTB, o direito de dirigir será suspenso quando o condutor atingir a seguinte pontuação no período de 12 meses, desde que NÃO exerci atividade remunerada:',
-    lawReference: 'Art. 261, I, II e III do CTB',
-    bancaTag: 'Vunesp / DETRAN-SP',
+    topic: 'Buzina e Horários Vedados (Art. 41)',
+    difficulty: 'Fácil',
+    statement: 'O uso da buzina por condutores é regulamentado no Art. 41 do CTB. É vedado o uso da buzina no período compreendido entre:',
+    lawReference: 'Art. 41, II do CTB & Art. 227, III',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '20 pontos se tiver 1 infração gravíssima; 30 pontos se tiver 2 gravíssimas; 40 pontos se não tiver nenhuma.' },
-      { letter: 'B', text: '20 pontos se tiver 2 ou mais infrações gravíssimas; 30 pontos se tiver 1 infração gravíssima; 40 pontos se não tiver nenhuma infração gravíssima.' },
-      { letter: 'C', text: '20 pontos em qualquer situação, independentemente da gravidade das infrações.' },
-      { letter: 'D', text: '30 pontos para qualquer condutor que cometa infrações graves ou gravíssimas.' },
-      { letter: 'E', text: '40 pontos para todos os condutores, independentemente do número de infrações gravíssimas.' }
+      { letter: 'A', text: '22 (vinte e duas) horas e 6 (seis) horas.' },
+      { letter: 'B', text: '20 (vinte) horas e 5 (cinco) horas.' },
+      { letter: 'C', text: '00 (zero) hora e 7 (sete) horas.' },
+      { letter: 'D', text: '21 (vinte e uma) horas e 6 (seis) horas.' },
+      { letter: 'E', text: '23 (vinte e três) horas e 5 (cinco) horas.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'O Art. 261, I, II e III do CTB estabelece a escala de pontuação acumulada em 12 meses para suspensão:\n- 20 PONTOS: se constarem 2 OU MAIS infrações gravíssimas;\n- 30 PONTOS: se constar 1 infração gravíssima;\n- 40 PONTOS: se NÃO constar NENHUMA infração gravíssima.',
+    correctLetter: 'A',
+    generalExplanation: 'É proibido o uso de buzina entre as 22:00 horas e as 06:00 horas, nos termos do Art. 41, II e Art. 227, III do CTB.',
     explanations: {
-      A: 'INCORRETA. Inverteu os critérios de 20 e 30 pontos.',
-      B: 'CORRETA. Escala oficial: 20 pts (>= 2 gravíssimas), 30 pts (1 gravíssima), 40 pts (0 gravíssimas).',
-      C: 'INCORRETA. Essa era a regra antiga antes da Lei 14.071/20.',
-      D: 'INCORRETA. A gradação depende da quantidade de infrações gravíssimas.',
-      E: 'INCORRETA. 40 pontos fixos independente de gravíssima aplica-se apenas ao condutor EAR.'
+      A: 'CORRETA. Horário vedado para buzina: 22h às 06h.',
+      B: 'INCORRETA. Horário fora do padrão legal.',
+      C: 'INCORRETA. Horário incorreto.',
+      D: 'INCORRETA. Horário incorreto.',
+      E: 'INCORRETA. Horário incorreto.'
     }
   },
   {
     id: 'ctb-q09',
     subjectId: 'ctb',
-    topic: 'Condutor EAR e Escala de Pontos (Art. 261 §1º)',
+    topic: 'Distância de Segurança e Ultrapassagem de Ciclista (Art. 201)',
     difficulty: 'Médio',
-    statement: 'Para o condutor que exerce atividade remunerada (EAR) ao veículo, qual é o limite de pontos acumulados em 12 meses para a aplicação da penalidade de suspensão do direito de dirigir?',
-    lawReference: 'Art. 261, § 5º e I, II, III do CTB',
-    bancaTag: 'Vunesp / Avalia',
+    statement: 'Deixar de guardar a distância lateral de segurança mínima ao ultrapassar ciclista (Art. 201 do CTB) constitui infração grave. Qual é a distância lateral mínima exigida por lei?',
+    lawReference: 'Art. 201 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '20 pontos, independentemente de infração gravíssima.' },
-      { letter: 'B', text: '30 pontos, se cometer mais de uma infração gravíssima.' },
-      { letter: 'C', text: '40 pontos, independentemente da natureza das infrações cometidas.' },
-      { letter: 'D', text: '50 pontos, desde que não cometa crime de trânsito.' },
-      { letter: 'E', text: '35 pontos, com redução de 5 pontos por ano sem infração.' }
+      { letter: 'A', text: '0,50 metro (meio metro).' },
+      { letter: 'B', text: '1,00 metro (um metro).' },
+      { letter: 'C', text: '1,50 metro (um metro e meio).' },
+      { letter: 'D', text: '2,00 metros (dois metros).' },
+      { letter: 'E', text: '2,50 metros (dois metros e meio).' }
     ],
     correctLetter: 'C',
-    generalExplanation: 'Segundo o Art. 261, parágrafo único e § 5º do CTB, para o condutor que exerce atividade remunerada (EAR) em veículo automotor, a suspensão por pontuação ocorrerá APENAS quando atingir 40 PONTOS, independentemente da gravidade das infrações cometidas.',
+    generalExplanation: 'Ao ultrapassar um ciclista, o condutor do veículo automotor deve guardar a distância lateral mínima de 1,50 metro (um metro e meio), sob pena de cometer infração de trânsito GRAVE (Art. 201 do CTB).',
     explanations: {
-      A: 'INCORRETA. Para EAR o teto é 40 pontos.',
-      B: 'INCORRETA. Não há redução para 30 pontos no caso do motorista EAR.',
-      C: 'CORRETA. Art. 261: O condutor EAR possui teto fixo de 40 pontos sem importar a quantidade de gravíssimas.',
-      D: 'INCORRETA. O CTB não prevê limite de 50 pontos.',
-      E: 'INCORRETA. Não existe essa previsão no CTB.'
+      A: 'INCORRETA. Distância perigosa e ilegal.',
+      B: 'INCORRETA. 1 metro é insuficiente perante o CTB.',
+      C: 'CORRETA. Art. 201 CTB: Distância lateral mínima de 1,50 m.',
+      D: 'INCORRETA. 2 metros é acima do valor legal mínimo fixado.',
+      E: 'INCORRETA. Distância incorreta.'
     }
   },
   {
     id: 'ctb-q10',
     subjectId: 'ctb',
-    topic: 'Exame Toxicológico e Infração (Art. 165-B)',
-    difficulty: 'Difícil',
-    statement: 'Dirigir veículo para o qual se exija habilitação nas categorias C, D ou E sem realizar o exame toxicológico periódico após 30 dias do vencimento do prazo estabelecido constitui infração:',
-    lawReference: 'Art. 165-B do CTB',
-    bancaTag: 'Avalia DETRAN-SP 2026',
+    topic: 'Composição do Sistema Nacional de Trânsito (Art. 7º)',
+    difficulty: 'Médio',
+    statement: 'Assinale a alternativa que indica o órgão normativo e consultivo do Sistema Nacional de Trânsito no âmbito da União (Art. 7º, I do CTB):',
+    lawReference: 'Art. 7º, I do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Grave, com multa (3x) e retenção do veículo.' },
-      { letter: 'B', text: 'Gravíssima, com multa (5x) e suspensão do direito de dirigir por 3 meses.' },
-      { letter: 'C', text: 'Gravíssima, com multa (5x) e recolhimento do veículo.' },
-      { letter: 'D', text: 'Média, com multa simples e retenção da CNH.' },
-      { letter: 'E', text: 'Gravíssima, com multa (10x) e cassação imediata da CNH.' }
+      { letter: 'A', text: 'Conselho Nacional de Trânsito (CONTRAN).' },
+      { letter: 'B', text: 'Departamento Nacional de Infraestrutura de Transportes (DNIT).' },
+      { letter: 'C', text: 'Conselho Estadual de Trânsito (CETRAN).' },
+      { letter: 'D', text: 'Junta Administrativa de Recursos de Infrações (JARI).' },
+      { letter: 'E', text: 'Polícia Rodoviária Federal (PRF).' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'O Art. 165-B do CTB disciplina a infração do Exame Toxicológico vencido há mais de 30 dias para categorias C, D e E: Infração GRAVÍSSIMA, penalidade de Multa (5 vezes) e Suspensão do direito de dirigir por 3 (três) meses, condicionada a liberação à comprovação de resultado negativo.',
+    correctLetter: 'A',
+    generalExplanation: 'O CONTRAN é o órgão máximo normativo e consultivo da União no SNT (Art. 7º, I do CTB). Os CETRANs atuam nos Estados e a JARI é órgão julgador de recursos.',
     explanations: {
-      A: 'INCORRETA. Não é infração grave.',
-      B: 'CORRETA. Art. 165-B do CTB: Infração Gravíssima, Multa (5x) e Suspensão do direito de dirigir por 3 meses.',
-      C: 'INCORRETA. O valor do multiplicador é 5x, mas a penalidade correta é a suspensão por 3 meses.',
-      D: 'INCORRETA. Não é infração média.',
-      E: 'INCORRETA. Não gera cassação imediata nem tem multiplicador de 10x.'
+      A: 'CORRETA. CONTRAN é o órgão normativo e consultivo máximo da União.',
+      B: 'INCORRETA. DNIT é órgão executivo rodoviário da União.',
+      C: 'INCORRETA. CETRAN atua no âmbito do Estado.',
+      D: 'INCORRETA. JARI é órgão colegiado julgador de recursos.',
+      E: 'INCORRETA. PRF é órgão executivo de fiscalização rodoviária federal.'
     }
   },
   {
     id: 'ctb-q11',
     subjectId: 'ctb',
-    topic: 'Validade da CNH por Faixa Etária (Art. 147)',
-    difficulty: 'Fácil',
-    statement: 'Conforme a redação do Art. 147, § 2º do CTB, a validade do exame de aptidão física e mental para renovação da CNH será de:',
-    lawReference: 'Art. 147, § 2º do CTB',
-    bancaTag: 'Vunesp / Avalia',
+    topic: 'JARI - Juntas Administrativas de Recursos de Infrações (Art. 16)',
+    difficulty: 'Médio',
+    statement: 'Junto a cada órgão ou entidade executivo de trânsito ou rodoviário funcionam as Juntas Administrativas de Recursos de Infrações (JARI). Conforme o Art. 16 do CTB, a JARI é um órgão:',
+    lawReference: 'Art. 16 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '10 anos para condutores com idade inferior a 50 anos; 5 anos para condutores de 50 a 69 anos; 3 anos para condutores com 70 anos ou mais.' },
-      { letter: 'B', text: '5 anos para todos os condutores com até 65 anos de idade.' },
-      { letter: 'C', text: '10 anos para condutores com idade até 60 anos e 5 anos para mais de 60 anos.' },
-      { letter: 'D', text: '5 anos para condutores até 50 anos e 2 anos para maiores de 70 anos.' },
-      { letter: 'E', text: '10 anos para condutores com idade até 40 anos e 3 anos para maiores de 60 anos.' }
+      { letter: 'A', text: 'Colegiado, responsável pelo julgamento dos recursos interpostos contra penalidades por eles impostas.' },
+      { letter: 'B', text: 'Normativo, responsável pela criação de resoluções de trânsito.' },
+      { letter: 'C', text: 'Policial, responsável pela prisão em flagrante de motoristas embriagados.' },
+      { letter: 'D', text: 'Exclusivamente médico, responsável pelos exames de aptidão física.' },
+      { letter: 'E', text: 'Municipal, competente apenas para cobrança de impostos de IPVA.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 147, § 2º do CTB - Prazos de renovação da CNH:\n- 10 ANOS: para condutores com idade inferior a 50 anos;\n- 5 ANOS: para condutores com idade igual ou superior a 50 anos e inferior a 70 anos;\n- 3 ANOS: para condutores com idade igual ou superior a 70 anos.',
+    generalExplanation: 'A JARI é o órgão colegiado julgador de 1ª instância administrativa, responsável pelo julgamento dos recursos interpostos pelos condutores/proprietários contra penalidades de trânsito (Art. 16 e 17 CTB).',
     explanations: {
-      A: 'CORRETA. Regra exata: 10 anos (<50 anos), 5 anos (50 a 69 anos) e 3 anos (>=70 anos).',
-      B: 'INCORRETA. Desconsidera as faixas etárias de 10 anos introduzidas na legislação recente.',
-      C: 'INCORRETA. O marco da regra de 10 anos é inferior a 50 anos, não 60.',
-      D: 'INCORRETA. Valores divergentes do CTB.',
-      E: 'INCORRETA. A faixa etária inicial é inferior a 50 anos.'
+      A: 'CORRETA. Art. 16 CTB: Órgão colegiado julgador de recursos administrativos de 1ª instância.',
+      B: 'INCORRETA. Órgão normativo é o CONTRAN/CETRAN.',
+      C: 'INCORRETA. A JARI não tem autoridade de polícia judiciária penal.',
+      D: 'INCORRETA. Exames médicos são realizados por peritos/juntas médicas.',
+      E: 'INCORRETA. IPVA é tributo gerido pela Secretaria da Fazenda Estadual.'
     }
   },
   {
     id: 'ctb-q12',
     subjectId: 'ctb',
-    topic: 'Categorias de Habilitação (Art. 143)',
-    difficulty: 'Médio',
-    statement: 'Um motorista deseja conduzir um veículo motorizado utilizado no transporte de passageiros com capacidade SUPERIOR a 8 (oito) lugares, excluído o do condutor. Para isso, necessita ser habilitado na categoria mínima:',
-    lawReference: 'Art. 143, IV do CTB',
-    bancaTag: 'FCC / DETRAN-SP',
+    topic: 'Prioridade de Batedores e Veículos de Emergência (Art. 29)',
+    difficulty: 'Fácil',
+    statement: 'Os veículos destinados a socorro de incêndio e salvamento, os de polícia, os de fiscalização e operação de trânsito e as ambulâncias (Art. 29, VII CTB) gozam de livre circulação, estacionamento e parada quando:',
+    lawReference: 'Art. 29, VII do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Categoria C.' },
-      { letter: 'B', text: 'Categoria B.' },
-      { letter: 'C', text: 'Categoria D.' },
-      { letter: 'D', text: 'Categoria E.' },
-      { letter: 'E', text: 'Categoria A.' }
+      { letter: 'A', text: 'Estiverem em prestação de serviço de urgência e devidamente identificados por dispositivos regulamentares de alarme sonoro e iluminação vermelha intermitente.' },
+      { letter: 'B', text: 'Transitarem em velocidade normal retornando ao quartel.' },
+      { letter: 'C', text: 'Estiverem estacionados em garagem particular.' },
+      { letter: 'D', text: 'Conduzidos por motoristas com mais de 10 anos de CNH sem sirene.' },
+      { letter: 'E', text: 'Transportarem familiares de servidores públicos.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'Art. 143, IV do CTB: Categoria D - condutor de veículo motorizado utilizado no transporte de PASSAGEIROS, cuja lotação exceda a 8 (oito) lugares, excluído o do condutor (ex: vans de passageiros, micro-ônibus, ônibus).',
+    correctLetter: 'A',
+    generalExplanation: 'A prioridade e a livre circulação dependem da demonstração da urgência por meio dos sinais sonoros (sirene) e luminosos (luzes vermelhas intermitentes) em acionamento concomitante (Art. 29, VII CTB).',
     explanations: {
-      A: 'INCORRETA. Categoria C destina-se a transporte de CARGA com PBT > 3.500 kg.',
-      B: 'INCORRETA. Categoria B limita-se a transporte de passageiros com até 8 lugares excluído o condutor.',
-      C: 'CORRETA. Art. 143, IV: Categoria D é exigida para transporte de passageiros > 8 lugares.',
-      D: 'INCORRETA. Categoria E aplica-se a combinação de veículos articulados ou acoplados.',
-      E: 'INCORRETA. Categoria A é para veículos de 2 ou 3 rodas.'
+      A: 'CORRETA. Serviço de urgência + sirene + iluminação vermelha intermitente.',
+      B: 'INCORRETA. Retorno sem urgência deve respeitar as regras gerais de circulação.',
+      C: 'INCORRETA. Não há prioridade em garagem privada sem emergência.',
+      D: 'INCORRETA. O acionamento dos dispositivos sonoros e luminosos é requisito indispensável.',
+      E: 'INCORRETA. Transporte de familiares não é serviço de urgência pública.'
     }
   },
   {
     id: 'ctb-q13',
     subjectId: 'ctb',
-    topic: 'Requisitos para Mudança de Categoria CNH (Art. 145)',
-    difficulty: 'Difícil',
-    statement: 'Para habilitar-se na Categoria D, o condutor deve preencher os seguintes requisitos previstos no Art. 145 do CTB, EXCETO:',
-    lawReference: 'Art. 145 do CTB',
-    bancaTag: 'Vunesp / Avalia',
+    topic: 'Uso de Cinto de Segurança (Art. 65)',
+    difficulty: 'Fácil',
+    statement: 'É obrigatório o uso do cinto de segurança para condutor e passageiros em todas as vias do território nacional (Art. 65 do CTB). Deixar de usar o cinto de segurança configura infração de natureza:',
+    lawReference: 'Art. 65 e Art. 167 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Estar habilitado no mínimo há 2 (dois) anos na Categoria B ou há no mínimo 1 (um) ano na Categoria C.' },
-      { letter: 'B', text: 'Ser maior de 21 (vinte e um) anos.' },
-      { letter: 'C', text: 'Não ter cometido mais de uma infração gravíssima nos últimos 12 (doze) meses.' },
-      { letter: 'D', text: 'Ter sido aprovado em curso especializado de transporte de passageiros.' },
-      { letter: 'E', text: 'Estar habilitado no mínimo há 3 (três) anos na Categoria A.' }
+      { letter: 'A', text: 'Leve.' },
+      { letter: 'B', text: 'Média.' },
+      { letter: 'C', text: 'Grave, com retenção do veículo até a colocação do cinto pelo infrator.' },
+      { letter: 'D', text: 'Gravíssima, com apreensão imediata da CNH.' },
+      { letter: 'E', text: 'Mera infração administrativa sem pontos.' }
     ],
-    correctLetter: 'E',
-    generalExplanation: 'Para obter a Categoria D, a pessoa deve ter pelo menos 21 anos, estar habilitada há pelo menos 2 anos na B ou 1 ano na C, e não ter cometido mais de 1 infração gravíssima nos últimos 12 meses. O tempo de Categoria A é irrelevante para a Categoria D.',
+    correctLetter: 'C',
+    generalExplanation: 'Deixar o condutor ou passageiro de usar o cinto de segurança (Art. 167 do CTB) é infração GRAVE (5 pontos), com medida administrativa de retenção do veículo até a colocação do cinto.',
     explanations: {
-      A: 'REQUISITO VERDADEIRO. Art. 145, I do CTB.',
-      B: 'REQUISITO VERDADEIRO. Art. 145, I (ser maior de 21 anos).',
-      C: 'REQUISITO VERDADEIRO. Art. 145, III (não ter cometido mais de uma gravíssima nos últimos 12 meses).',
-      D: 'REQUISITO VERDADEIRO. Art. 145, IV (curso de especialização).',
-      E: 'EXCEÇÃO / OPCÃO INCORRETA. Estar na Categoria A não é pré-requisito para habilitação na Categoria D.'
+      A: 'INCORRETA. Não é infração leve.',
+      B: 'INCORRETA. Não é infração média.',
+      C: 'CORRETA. Art. 167 CTB: Infração Grave + retenção do veículo.',
+      D: 'INCORRETA. Não é gravíssima nem gera apreensão de CNH.',
+      E: 'INCORRETA. Gera a pontuação correspondente à infração grave.'
     }
   },
   {
     id: 'ctb-q14',
     subjectId: 'ctb',
-    topic: 'Preferência em Interseções não Sinalizadas (Art. 29)',
-    difficulty: 'Fácil',
-    statement: 'Quando veículos, transitando por fluxos que se cruzam, se aproximarem de local não sinalizado, terá preferência de passagem:',
-    lawReference: 'Art. 29, III do CTB',
-    bancaTag: 'Vunesp',
+    topic: 'Transporte de Passageiros em Caçamba (Art. 230)',
+    difficulty: 'Médio',
+    statement: 'Transportar passageiros em compartimento de carga de caminhonete ou caminhão sem autorização prévia da autoridade de trânsito (Art. 230, II do CTB) constitui infração:',
+    lawReference: 'Art. 230, II do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'No caso de apenas um fluxo ser proveniente de rodovia, aquele que estiver saindo dela.' },
-      { letter: 'B', text: 'No caso de rotatória, aquele que estiver entrando nela.' },
-      { letter: 'C', text: 'Nos demais casos, o que vier pela direita do condutor.' },
-      { letter: 'D', text: 'Nos demais casos, o veículo de maior porte sobre o de menor porte.' },
-      { letter: 'E', text: 'O veículo que estiver desenvolvendo maior velocidade.' }
+      { letter: 'A', text: 'Gravíssima, com multa e remoção do veículo.' },
+      { letter: 'B', text: 'Grave, sem retenção.' },
+      { letter: 'C', text: 'Média, apenas com advertência.' },
+      { letter: 'D', text: 'Leve.' },
+      { letter: 'E', text: 'Permitida desde que a velocidade seja inferior a 20 km/h.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'Conforme o Art. 29, III do CTB:\na) no caso de rodovia, tem preferência quem transita por ela;\nb) no caso de rotatória, quem estiver circulando por ela;\nc) nos demais casos, quem vier pela DIREITA do condutor.',
+    correctLetter: 'A',
+    generalExplanation: 'Transportar pessoas no compartimento de carga ("pau de arara" improvisado em caçambas) constitui infração GRAVÍSSIMA (7 pontos), com penalidade de multa e medida administrativa de remoção do veículo (Art. 230, II CTB).',
     explanations: {
-      A: 'INCORRETA. A preferência é de quem transita na rodovia, e não de quem está saindo.',
-      B: 'INCORRETA. Na rotatória, a preferência é de quem já está circulando nela.',
-      C: 'CORRETA. Art. 29, III, "c": Nos cruzamentos não sinalizados, a preferência é do veículo que vem pela direita.',
-      D: 'INCORRETA. Porte do veículo estabelece dever de responsabilidade pela segurança, não preferência direta de passagem.',
-      E: 'INCORRETA. Velocidade não confere preferência.'
+      A: 'CORRETA. Art. 230, II: Infração Gravíssima + remoção do veículo.',
+      B: 'INCORRETA. Não é infração grave.',
+      C: 'INCORRETA. A gravidade e o risco à vida vedam mera advertência.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. Velocidade reduzida não autoriza transporte irregular em caçamba.'
     }
   },
   {
     id: 'ctb-q15',
     subjectId: 'ctb',
-    topic: 'Uso de Luzes e Faróis (Art. 40)',
+    topic: 'Conceito de Residência no Licenciamento (Art. 120)',
     difficulty: 'Médio',
-    statement: 'Sobre as regras de uso de luzes em veículos automotores previstas no Art. 40 do CTB, assinale a alternativa CORRETA:',
-    lawReference: 'Art. 40 do CTB',
-    bancaTag: 'FCC / Avalia',
+    statement: 'Todo veículo automotor deve ser registrado perante o órgão executivo de trânsito do Estado no Município de residência ou domicílio de seu proprietário (Art. 120 do CTB). Na alteração de domicílio de um proprietário para outro Município:',
+    lawReference: 'Art. 123, II do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'O condutor manterá acesos os faróis do veículo, utilizando luz baixa, durante a noite e durante o dia nas rodovias de pista simples fora dos perímetros urbanos.' },
-      { letter: 'B', text: 'O uso de luz alta é obrigatório em vias providas de iluminação pública.' },
-      { letter: 'C', text: 'As motocicletas devem utilizar luz baixa apenas durante a noite.' },
-      { letter: 'D', text: 'O pisca-alerta deve ser utilizado em trânsito normal sempre que houver neblina ou cerração.' },
-      { letter: 'E', text: 'Os veículos de transporte coletivo de passageiros não precisam acender luzes de dia.' }
+      { letter: 'A', text: 'Será obrigatória a expedição de novo Certificado de Registro do Veículo (CRV).' },
+      { letter: 'B', text: 'O registro anterior é cancelado e o veículo deve ser leiloado.' },
+      { letter: 'C', text: 'Não há necessidade de qualquer comunicação ao Detran.' },
+      { letter: 'D', text: 'O proprietário tem o prazo de 10 anos para atualizar a placa.' },
+      { letter: 'E', text: 'O veículo deve passar por nova vistoria do Exército.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Com a alteração da Lei 14.071/20, a obrigatoriedade da luz baixa durante o dia em rodovias aplica-se às RODOVIAS DE PISTA SIMPLES localizadas FORA DOS PERÍMETROS URBANOS (Art. 40, I, "b"). Veículos de transporte coletivo e motocicletas devem usar luz baixa de dia em qualquer via.',
+    generalExplanation: 'O Art. 123, II do CTB estabelece que é obrigatória a emissão de novo CRV quando o proprietário mudar o município de residência ou domicílio.',
     explanations: {
-      A: 'CORRETA. Redação atualizada do Art. 40, I, "b" do CTB.',
-      B: 'INCORRETA. Em vias com iluminação pública deve-se usar luz baixa.',
-      C: 'INCORRETA. Motocicletas devem manter luz baixa acesa de dia e de noite.',
-      D: 'INCORRETA. O pisca-alerta é para imobilizações, emergências ou quando a sinalização determinar.',
-      E: 'INCORRETA. Devem manter luz baixa acesa de dia em faixas próprias.'
+      A: 'CORRETA. Art. 123, II: Mudança de município exige novo CRV/CRLV-e.',
+      B: 'INCORRETA. O registro não é cancelado nem o bem vai a leilão.',
+      C: 'INCORRETA. A comunicação e atualização no Detran são obrigatórias.',
+      D: 'INCORRETA. A atualização deve ser providenciada de imediato.',
+      E: 'INCORRETA. Vistoria veicular é feita pelo Detran/Empresa Credenciada, não Exército.'
     }
   },
+
+  // --- BLOCO 2: INFRAÇÕES E PENALIDADES (Q16 a Q40) ---
   {
     id: 'ctb-q16',
     subjectId: 'ctb',
-    topic: 'Uso da Buzina (Art. 41)',
-    difficulty: 'Fácil',
-    statement: 'O condutor de veículo só poderá fazer uso da buzina, desde que em toque breve, nas seguintes situações previstas no CTB:',
-    lawReference: 'Art. 41 do CTB',
-    bancaTag: 'Vunesp',
+    topic: 'Embriaguez ao Volante e Teste de Etilômetro (Art. 165 e 165-A)',
+    difficulty: 'Difícil',
+    statement: 'Um condutor abordado em blitz de fiscalização recusa-se a ser submetido ao teste do etilômetro ("bafômetro"). Conforme o Art. 165-A do CTB, a conduta de recusar-se a ser submetido a teste ou exame clínico para atestar influência de álcool acarreta:',
+    lawReference: 'Art. 165-A do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Para apressar o pedestre na travessia e em qualquer horário.' },
-      { letter: 'B', text: 'Para advertir outro condutor quando for necessário evitar acidentes ou fora das áreas urbanas, quando for conveniente advertir a um condutor que se tem o propósito de ultrapassá-lo.' },
-      { letter: 'C', text: 'Para saudar conhecidos na via pública e em frente a hospitais.' },
-      { letter: 'D', text: 'Em trocas de sinal de trânsito para alertar sobre a luz verde.' },
-      { letter: 'E', text: 'Entre 22 horas e 6 horas em vias urbanas coletoras.' }
+      { letter: 'A', text: 'Infração Gravíssima, com multa multiplicada por 10 (dez) vezes e suspensão do direito de dirigir por 12 (doze) meses.' },
+      { letter: 'B', text: 'Infração Grave, com multa simples e retenção do veículo por 24 horas.' },
+      { letter: 'C', text: 'Mera falta administrativa, devendo o condutor ser liberado com advertência verbal.' },
+      { letter: 'D', text: 'Cassação definitiva de todas as categorias de CNH sem prazo de recurso.' },
+      { letter: 'E', text: 'Prisão em flagrante inafiançável de 5 a 10 anos.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'Art. 41 do CTB: O condutor só poderá buzinar, em toque breve: I - para evitar acidentes; II - fora de áreas urbanas, para advertir intenção de ultrapassar. É proibido buzinar entre 22h e 6h ou em locais com sinalização de proibição.',
+    correctLetter: 'A',
+    generalExplanation: 'A recusa ao teste do etilômetro (Art. 165-A CTB) possui exatamente as mesmas sanções administrativas da infração de dirigir embriagado (Art. 165): Infração GRAVÍSSIMA, multa multiplicada por 10 vezes (R$ 2.934,70) e suspensão do direito de dirigir por 12 meses.',
     explanations: {
-      A: 'INCORRETA. É proibido buzinar para pedestres.',
-      B: 'CORRETA. Art. 41, I e II do CTB.',
-      C: 'INCORRETA. Infração de trânsito.',
-      D: 'INCORRETA. Uso indevido da buzina.',
-      E: 'INCORRETA. Proibido buzinar entre 22h e 6h.'
+      A: 'CORRETA. Art. 165-A CTB: Gravíssima + Multa x10 + Suspensão da CNH por 12 meses.',
+      B: 'INCORRETA. Não é infração grave nem multa simples.',
+      C: 'INCORRETA. A recusa tem rigor administrativo idêntico ao teste positivo.',
+      D: 'INCORRETA. A penalidade aplicável é a suspensão por 12 meses, não a cassação sumária sem recurso.',
+      E: 'INCORRETA. A recusa em si gera sanção administrativa de trânsito (o crime do Art. 306 exige comprovação de alteração da capacidade psicomotora).'
     }
   },
   {
     id: 'ctb-q17',
     subjectId: 'ctb',
-    topic: 'Transporte de Crianças em Motocicleta (Art. 244, V)',
+    topic: 'Reincidência na Embriaguez em 12 Meses (Art. 165 e 165-A)',
     difficulty: 'Difícil',
-    statement: 'Conduzir motocicleta, motoneta ou ciclomotor transportando criança que não tenha condições de cuidar da própria segurança ou menor de X anos constitui infração gravíssima com suspensão do direito de dirigir. Qual é a idade mínima X fixada pela Lei 14.071/20 no Art. 244, V do CTB?',
-    lawReference: 'Art. 244, V do CTB',
-    bancaTag: 'Avalia / DETRAN-SP 2026',
+    statement: 'Caso o condutor cometa nova infração de dirigir sob efeito de álcool ou nova recusa ao teste do etilômetro no período de 12 (doze) meses (Art. 165 e 165-A, parágrafo único do CTB), a penalidade financeira de multa será aplicada:',
+    lawReference: 'Art. 165, parágrafo único do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '7 anos.' },
-      { letter: 'B', text: '10 anos.' },
-      { letter: 'C', text: '12 anos.' },
-      { letter: 'D', text: '8 anos.' },
-      { letter: 'E', text: '5 anos.' }
+      { letter: 'A', text: 'Em dobro (multa multiplicada por 20 vezes).' },
+      { letter: 'B', text: 'Com desconto de 50% por pagamento antecipado.' },
+      { letter: 'C', text: 'Mantida em valor simples sem fator multiplicador.' },
+      { letter: 'D', text: 'Em triplo (multa multiplicada por 30 vezes).' },
+      { letter: 'E', text: 'Substituída por prestação de cestas básicas.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'A Lei nº 14.071/2020 alterou a idade mínima para transporte de crianças na garupa de motocicletas do Art. 244, V do CTB de 7 para 10 ANOS. Transportar menor de 10 anos em moto é infração Gravíssima com suspensão direta da CNH.',
+    correctLetter: 'A',
+    generalExplanation: 'A reincidência nas infrações dos Arts. 165 e 165-A no período de 12 meses acarreta a aplicação da multa EM DOBRO (fator multiplicador x20, totalizando R$ 5.869,40), conforme determina a lei.',
     explanations: {
-      A: 'INCORRETA. 7 anos era o limite da lei antiga (anterior a 2021).',
-      B: 'CORRETA. Art. 244, V do CTB atualizado: menor de 10 anos é infração gravíssima com suspensão.',
-      C: 'INCORRETA. 12 anos não é a idade disposta no Art. 244.',
-      D: 'INCORRETA. Não é a idade legal.',
-      E: 'INCORRETA. Valor incorreto.'
+      A: 'CORRETA. Art. 165 e 165-A parágrafo único: Reincidência em 12 meses gera multa em DOBRO (x20).',
+      B: 'INCORRETA. Reincidente grave não tem benefício de abono.',
+      C: 'INCORRETA. Incide o agravamento do dobro.',
+      D: 'INCORRETA. O fator de reincidência previsto no CTB é o dobro (x20), e não o triplo.',
+      E: 'INCORRETA. Não há substituição de multa de trânsito por cestas básicas.'
     }
   },
   {
     id: 'ctb-q18',
     subjectId: 'ctb',
-    topic: 'Recusa ao Teste do Etilômetro (Art. 165-A)',
+    topic: 'Uso de Celular ao Dirigir (Art. 252)',
     difficulty: 'Médio',
-    statement: 'Recusar-se a ser submetido a teste, exame clínico, perícia ou outro procedimento que permita certificar influência de álcool ou outra substância psicoativa no organismo acarreta as seguintes sanções previstas no Art. 165-A do CTB:',
-    lawReference: 'Art. 165-A do CTB',
-    bancaTag: 'Vunesp / FCC',
+    statement: 'Segurar ou manusear telefone celular enquanto conduz veículo automotor (Art. 252, parágrafo único do CTB) configura infração de trânsito de natureza:',
+    lawReference: 'Art. 252, parágrafo único do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Infração grave, multa (3x) e retenção do veículo apenas.' },
-      { letter: 'B', text: 'Infração gravíssima, penalidade de multa (10x) e suspensão do direito de dirigir por 12 meses.' },
-      { letter: 'C', text: 'Crime de trânsito inafiançável com pena de reclusão de 1 a 3 anos.' },
-      { letter: 'D', text: 'Infração média com perda de 4 pontos e recolhimento imediato do veículo.' },
-      { letter: 'E', text: 'Nenhuma sanção, por força do princípio de não produzir prova contra si mesmo no âmbito administrativo.' }
+      { letter: 'A', text: 'Gravíssima (7 pontos).' },
+      { letter: 'B', text: 'Grave (5 pontos).' },
+      { letter: 'C', text: 'Média (4 pontos).' },
+      { letter: 'D', text: 'Leve (3 pontos).' },
+      { letter: 'E', text: 'Mera advertência sem pontos.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'Art. 165-A do CTB: A recusa ao teste do etilômetro é infração GRAVÍSSIMA, com penalidade de Multa (10 vezes = R$ 2.934,70) e Suspensão do Direito de Dirigir por 12 meses (mesma sanção do Art. 165). O STF confirmou a constitucionalidade desta sanção administrativa.',
+    correctLetter: 'A',
+    generalExplanation: 'A Lei nº 13.281/2016 alterou o Art. 252 do CTB, enquadrando a conduta de SEGURAR ou MANUSEAR telefone celular ao dirigir como infração GRAVÍSSIMA (7 pontos no prontuário).',
     explanations: {
-      A: 'INCORRETA. A infração é gravíssima com multiplicador 10x.',
-      B: 'CORRETA. Art. 165-A: Gravíssima, Multa (10x) e Suspensão da CNH por 12 meses.',
-      C: 'INCORRETA. A recusa em si é infração administrativa, não crime autônomo (o crime do Art. 306 exige prova da alteração da capacidade psicomotora).',
-      D: 'INCORRETA. Não é infração média.',
-      E: 'INCORRETA. O STF já pacificou a validade das sanções administrativas da recusa.'
+      A: 'CORRETA. Art. 252, parágrafo único: Manusear/segurar celular é infração GRAVÍSSIMA (7 pontos).',
+      B: 'INCORRETA. Falar ao celular usando fone de ouvido é infração média (Art. 252, VI), mas manusear/segurar é Gravíssima.',
+      C: 'INCORRETA. Não é média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. Gera os 7 pontos de infração gravíssima.'
     }
   },
   {
     id: 'ctb-q19',
     subjectId: 'ctb',
-    topic: 'Infração por Celular ao Volante (Art. 252)',
-    difficulty: 'Fácil',
-    statement: 'Manusear ou segurar telefone celular enquanto conduz veículo automotor é classificado pelo CTB como infração de natureza:',
-    lawReference: 'Art. 252, parágrafo único do CTB',
-    bancaTag: 'Vunesp',
+    topic: 'Transitar na Faixa Exclusiva de Ônibus (Art. 184)',
+    difficulty: 'Médio',
+    statement: 'Transitar com o veículo na faixa ou via de trânsito exclusivo regulamentada para o transporte coletivo público de passageiros (Art. 184, III do CTB) é infração de natureza:',
+    lawReference: 'Art. 184, III do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Leve (3 pontos).' },
-      { letter: 'B', text: 'Média (4 pontos).' },
-      { letter: 'C', text: 'Grave (5 pontos).' },
-      { letter: 'D', text: 'Gravíssima (7 pontos).' },
-      { letter: 'E', text: 'Gravíssima com multiplicador de 3 vezes.' }
+      { letter: 'A', text: 'Gravíssima, com apreensão do veículo.' },
+      { letter: 'B', text: 'Gravíssima, com multa e remoção do veículo.' },
+      { letter: 'C', text: 'Grave, apenas com multa.' },
+      { letter: 'D', text: 'Média.' },
+      { letter: 'E', text: 'Leve.' }
     ],
-    correctLetter: 'D',
-    generalExplanation: 'O Art. 252, parágrafo único do CTB estabelece que a hipótese de segurar ou manusear telefone celular ao conduzir veículo é infração GRAVÍSSIMA (7 pontos na CNH).',
+    correctLetter: 'B',
+    generalExplanation: 'Conforme o Art. 184, III do CTB, transitar na faixa ou via de circulação exclusiva para transporte coletivo de passageiros é infração GRAVÍSSIMA, sujeita a multa e remoção do veículo.',
     explanations: {
-      A: 'INCORRETA. Não é leve.',
-      B: 'INCORRETA. Falar ao celular usando fone era médio, mas manusear/segurar é gravíssima.',
-      C: 'INCORRETA. Não é grave.',
-      D: 'CORRETA. Art. 252, parágrafo único: Infração GRAVÍSSIMA (7 pontos).',
-      E: 'INCORRETA. Não tem fator multiplicador.'
+      A: 'INCORRETA. A medida administrativa é a remoção do veículo (a penalidade de apreensão foi revogada do CTB).',
+      B: 'CORRETA. Art. 184, III CTB: Infração Gravíssima + remoção do veículo.',
+      C: 'INCORRETA. Era infração grave no passado, foi elevada para Gravíssima.',
+      D: 'INCORRETA. Não é média.',
+      E: 'INCORRETA. Não é leve.'
     }
   },
   {
     id: 'ctb-q20',
     subjectId: 'ctb',
-    topic: 'Ultrapassagem Indevida (Art. 203)',
-    difficulty: 'Médio',
-    statement: 'Ultrapassar outro veículo pela contramão em linhas duplas contínuas amarelas é infração gravíssima. Qual é o valor do fator multiplicador aplicado à multa dessa infração (Art. 203, V do CTB)?',
-    lawReference: 'Art. 203, V do CTB',
-    bancaTag: 'FCC / DETRAN-SP',
+    topic: 'Avanço de Sinal Vermelho ou Parada Obrigatória (Art. 208)',
+    difficulty: 'Fácil',
+    statement: 'Avançar o sinal vermelho do semáforo ou o de parada obrigatória (Art. 208 do CTB) constitui infração de trânsito de natureza:',
+    lawReference: 'Art. 208 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Multa (2 vezes).' },
-      { letter: 'B', text: 'Multa (3 vezes).' },
-      { letter: 'C', text: 'Multa (5 vezes).' },
-      { letter: 'D', text: 'Multa (10 vezes).' },
-      { letter: 'E', text: 'Multa simples sem multiplicador.' }
+      { letter: 'A', text: 'Gravíssima (7 pontos).' },
+      { letter: 'B', text: 'Grave (5 pontos).' },
+      { letter: 'C', text: 'Média (4 pontos).' },
+      { letter: 'D', text: 'Leve (3 pontos).' },
+      { letter: 'E', text: 'Infração isenta de pontos no período noturno.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'O Art. 203 do CTB prevê que ultrapassar pela contramão em locais proibidos (linha contínua, curvas, pontes, viadutos, faixa de pedestres) é infração Gravíssima com penalidade de Multa (5 vezes). Em caso de reincidência no período de 12 meses, aplica-se o dobro (10 vezes).',
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 208 do CTB estabelece que avançar o sinal vermelho do semáforo ou a placa de parada obrigatória (PLACA PARE) é infração GRAVÍSSIMA (7 pontos).',
     explanations: {
-      A: 'INCORRETA. Não é 2x.',
-      B: 'INCORRETA. Não é 3x.',
-      C: 'CORRETA. Art. 203 do CTB: Fator multiplicador de 5 vezes na multa gravíssima.',
-      D: 'INCORRETA. 10x aplica-se em caso de reincidência específica no período de 12 meses.',
-      E: 'INCORRETA. Há fator multiplicador legal de 5x.'
+      A: 'CORRETA. Art. 208 CTB: Infração Gravíssima (7 pontos).',
+      B: 'INCORRETA. Não é grave.',
+      C: 'INCORRETA. Não é média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. O CTB veda a desobediência ao sinal vermelho sem ressalva automática semáforo.'
     }
   },
   {
     id: 'ctb-q21',
     subjectId: 'ctb',
-    topic: 'Competência do DETRAN (Art. 22)',
-    difficulty: 'Fácil',
-    statement: 'Compete aos órgãos ou entidades executivos de trânsito dos Estados e do Distrito Federal (DETRAN), no âmbito de sua jurisdição, EXCETO:',
-    lawReference: 'Art. 22 do CTB',
-    bancaTag: 'Vunesp / Avalia',
+    topic: 'Estacionar sobre a Faixa de Pedestres (Art. 181)',
+    difficulty: 'Médio',
+    statement: 'Estacionar o veículo sobre a faixa destinada a pedestres, sobre ciclovia ou ciclofaixa (Art. 181, VIII do CTB) configura infração:',
+    lawReference: 'Art. 181, VIII do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Vistoriar, registrar, emplacar e licenciar veículos.' },
-      { letter: 'B', text: 'Realizar, fiscalizar e ministrar cursos de formação de condutores.' },
-      { letter: 'C', text: 'Expedir e cassar a Carteira Nacional de Habilitação (CNH).' },
-      { letter: 'D', text: 'Estabelecer as normas regulamentares das diretrizes da Política Nacional de Trânsito no âmbito de todo o território brasileiro.' },
-      { letter: 'E', text: 'Aplicar penalidades de suspensão e cassação do direito de dirigir.' }
+      { letter: 'A', text: 'Grave, com multa e remoção do veículo.' },
+      { letter: 'B', text: 'Gravíssima, com suspensão da CNH.' },
+      { letter: 'C', text: 'Média, sem remoção.' },
+      { letter: 'D', text: 'Leve, apenas com advertência.' },
+      { letter: 'E', text: 'Permitida por até 15 minutos com pisca-alerta ligado.' }
     ],
-    correctLetter: 'D',
-    generalExplanation: 'Estabelecer as normas regulamentares do CTB e as diretrizes da Política Nacional de Trânsito para TODO o território nacional é competência do CONTRAN (Conselho Nacional de Trânsito - órgão normativo e consultivo da União - Art. 12, I). O DETRAN é órgão executivo estadual.',
+    correctLetter: 'A',
+    generalExplanation: 'Estacionar o veículo sobre a faixa de pedestres, ciclovia ou passeio é infração GRAVE (5 pontos), com penalidade de multa e medida administrativa de remoção do veículo (Art. 181, VIII CTB).',
     explanations: {
-      A: 'COMPETÊNCIA DO DETRAN. Art. 22, III.',
-      B: 'COMPETÊNCIA DO DETRAN. Art. 22, II.',
-      C: 'COMPETÊNCIA DO DETRAN. Art. 22, II e IV.',
-      D: 'EXCEÇÃO / RESPOSTA CORRETA. Função normativa nacional exclusiva do CONTRAN (Art. 12).',
-      E: 'COMPETÊNCIA DO DETRAN. Art. 22, V.'
+      A: 'CORRETA. Art. 181, VIII CTB: Infração Grave + remoção do veículo.',
+      B: 'INCORRETA. Não é gravíssima nem gera suspensão direta.',
+      C: 'INCORRETA. Cabe a medida de remoção do veículo.',
+      D: 'INCORRETA. Não é infração leve.',
+      E: 'INCORRETA. Ligar pisca-alerta sobre a faixa de pedestres não legaliza o estacionamento.'
     }
   },
   {
     id: 'ctb-q22',
     subjectId: 'ctb',
-    topic: 'Sistema Nacional de Trânsito - JARI (Art. 16 e 17)',
+    topic: 'Estacionar em Vaga de Idoso ou PCD sem Credencial (Art. 181)',
     difficulty: 'Médio',
-    statement: 'Junto a cada órgão ou entidade executiva de trânsito ou rodoviário funcionam as Juntas Administrativas de Recursos de Infrações (JARI). Sobre a JARI, assinale a afirmativa CORRETA:',
-    lawReference: 'Arts. 16 e 17 do CTB',
-    bancaTag: 'FCC / Vunesp',
+    statement: 'Estacionar o veículo nas vagas reservadas às pessoas com deficiência ou idosos sem a credencial que comprove tal condição (Art. 181, XX do CTB) constitui infração:',
+    lawReference: 'Art. 181, XX do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Trata-se de órgão normativo que elabora as resoluções estaduais de trânsito.' },
-      { letter: 'B', text: 'É órgão colegiado responsável pelo julgamento dos recursos interpostos contra penalidades aplicadas pelos órgãos executivos de trânsito.' },
-      { letter: 'C', text: 'É subordinada hierarquicamente ao Prefeito Municipal em todas as decisões.' },
-      { letter: 'D', text: 'Não possui autonomia de julgamento, apenas encaminha pareceres ao CETRAN.' },
-      { letter: 'E', text: 'Julga apenas processos de cassação de CNH em 1ª e única instância.' }
+      { letter: 'A', text: 'Gravíssima, com multa e remoção do veículo.' },
+      { letter: 'B', text: 'Grave, com retenção.' },
+      { letter: 'C', text: 'Média, sem remoção.' },
+      { letter: 'D', text: 'Leve.' },
+      { letter: 'E', text: 'Isenta se o motorista alegar emergência de compras.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'Art. 16 e 17 do CTB: As JARI são órgãos colegiados executivos que funcionam junto aos órgãos de trânsito, com autonomia de julgamento, competentes para julgar os recursos interpostos pelos infratores em 1ª instância administrativa.',
+    correctLetter: 'A',
+    generalExplanation: 'Estacionar em vaga reservada a idoso ou pessoa com deficiência sem credencial visível (Art. 181, XX do CTB) é infração GRAVÍSSIMA (7 pontos), com multa e remoção do veículo.',
     explanations: {
-      A: 'INCORRETA. JARI não é órgão normativo.',
-      B: 'CORRETA. Art. 16 e 17: Órgão colegiado que julga recursos de multas/penalidades em 1ª instância.',
-      C: 'INCORRETA. Tem autonomia administrativa e de julgamento.',
-      D: 'INCORRETA. Possui autonomia para prover ou negar provimento a recursos.',
-      E: 'INCORRETA. Julga recursos contra todas as penalidades aplicadas pelo órgão.'
+      A: 'CORRETA. Art. 181, XX CTB: Infração Gravíssima + 7 pontos + remoção do veículo.',
+      B: 'INCORRETA. Foi elevada de grave para gravíssima pela Lei da Acessibilidade.',
+      C: 'INCORRETA. Não é média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. Exige credencial oficial válida emitida pelo órgão de trânsito.'
     }
   },
   {
     id: 'ctb-q23',
     subjectId: 'ctb',
-    topic: 'Crime de Homicídio Culposo no Trânsito (Art. 302)',
-    difficulty: 'Difícil',
-    statement: 'No crime de Homicídio Culposo na direção de veículo automotor (Art. 302 do CTB), a pena é AUMENTADA de 1/3 (um terço) à metade se o agente:',
-    lawReference: 'Art. 302, § 1º do CTB',
-    bancaTag: 'Vunesp / Avalia',
+    topic: 'Velocidade Superior à Máxima em mais de 50% (Art. 218)',
+    difficulty: 'Médio',
+    statement: 'Transitar em velocidade superior à máxima permitida para o local em mais de 50% (cinquenta por cento) (Art. 218, III do CTB) acarreta como penalidade:',
+    lawReference: 'Art. 218, III do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Estiver conduzindo veículo com mais de 5 anos de fabricação.' },
-      { letter: 'B', text: 'Não possuir Permissão para Dirigir ou Carteira de Habilitação.' },
-      { letter: 'C', text: 'Cometer o crime em dia chuvoso ou com neblina.' },
-      { letter: 'D', text: 'Estiver com o licenciamento do veículo atrasado.' },
-      { letter: 'E', text: 'For réu primário e confessar espontaneamente o fato.' }
+      { letter: 'A', text: 'Infração Gravíssima, com multa multiplicada por 3 (três) vezes e suspensão direta do direito de dirigir.' },
+      { letter: 'B', text: 'Infração Grave, com multa simples e 5 pontos.' },
+      { letter: 'C', text: 'Infração Média, com recolhimento do veículo.' },
+      { letter: 'D', text: 'Infração Leve, com advertência por escrito.' },
+      { letter: 'E', text: 'Cassação imediata de todas as categorias e proibição de renovar por 10 anos.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'Art. 302, § 1º, I do CTB: No homicídio culposo ao volante, a pena é aumentada de 1/3 à metade se o condutor:\nI - não possuir CNH ou PPD;\nII - praticá-lo em faixa de pedestres ou calçada;\nIII - deixar de prestar socorro quando possível;\nIV - no exercício de profissão/atividade de transporte de passageiros.',
+    correctLetter: 'A',
+    generalExplanation: 'Superar a velocidade máxima em mais de 50% (Art. 218, III do CTB) é infração GRAVÍSSIMA AUTO-SUSPENSIVA, sujeita a multa multiplicada por 3 (R$ 880,41) e suspensão direta do direito de dirigir.',
     explanations: {
-      A: 'INCORRETA. Idade do veículo não é causa de aumento de pena.',
-      B: 'CORRETA. Art. 302, § 1º, I: Não possuir CNH ou PPD é causa de aumento de pena.',
-      C: 'INCORRETA. Condição climática não consta no § 1º.',
-      D: 'INCORRETA. Irregularidade administrativa de licenciamento não é causa de aumento penal.',
-      E: 'INCORRETA. Confissão e primariedade são atenuantes genéricas do CP.'
+      A: 'CORRETA. Art. 218, III: Gravíssima + Multa x3 + Suspensão do direito de dirigir.',
+      B: 'INCORRETA. Exceder até 20% é média; de 20% a 50% é grave; acima de 50% é Gravíssima com suspensão.',
+      C: 'INCORRETA. Não é média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. A penalidade aplicável é a suspensão do direito de dirigir (processo administrativo regular).'
     }
   },
   {
     id: 'ctb-q24',
     subjectId: 'ctb',
-    topic: 'Crime de Omissão de Socorro no Trânsito (Art. 304)',
-    difficulty: 'Médio',
-    statement: 'Deixar o condutor do veículo, na ocasião do acidente, de prestar imediato socorro à vítima, ou, não podendo fazê-lo diretamente, por justa causa, deixar de solicitar auxílio da autoridade pública configura crime previsto no Art. 304 do CTB. Incide nesse crime o condutor:',
-    lawReference: 'Art. 304 do CTB e Parágrafo Único',
-    bancaTag: 'FCC',
+    topic: 'Falta de Combustível na Via pública (Art. 180)',
+    difficulty: 'Fácil',
+    statement: 'Ter o veículo imobilizado na via por falta de combustível (conhecida como "pane seca") (Art. 180 do CTB) configura infração de trânsito de natureza:',
+    lawReference: 'Art. 180 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Mesmo que a sua omissão seja suprida por terceiros ou que se trate de vítima com morte instantânea ou ferimentos leves (conforme parágrafo único).' },
-      { letter: 'B', text: 'Apenas se o acidente tiver sido provocado exclusivamente por culpa sua.' },
-      { letter: 'C', text: 'Somente se houver testemunhas presenciais no momento da colisão.' },
-      { letter: 'D', text: 'Apenas quando a vítima for criança ou idoso.' },
-      { letter: 'E', text: 'Exceto se ele fugir para não ser preso em flagrante delito.' }
+      { letter: 'A', text: 'Média, com multa e remoção do veículo.' },
+      { letter: 'B', text: 'Grave, sem remoção.' },
+      { letter: 'C', text: 'Gravíssima, com apreensão da CNH.' },
+      { letter: 'D', text: 'Leve, sem multa.' },
+      { letter: 'E', text: 'Não constitui infração de trânsito por ser força maior.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 304, parágrafo único do CTB: Nas mesmas penas do crime de omissão de socorro incide o condutor do veículo ainda que a sua omissão seja suprida por terceiros ou que se trate de vítima com morte instantânea ou ferimentos leves.',
+    generalExplanation: 'Ter o veículo imobilizado por falta de combustível (Art. 180 do CTB) constitui infração MÉDIA (4 pontos), com penalidade de multa e medida administrativa de remoção do veículo.',
     explanations: {
-      A: 'CORRETA. Texto expresso do parágrafo único do Art. 304 do CTB.',
-      B: 'INCORRETA. O dever de socorrer independe de quem causou o acidente.',
-      C: 'INCORRETA. A existência de testemunhas não afasta a tipicidade do crime.',
-      D: 'INCORRETA. Aplica-se a qualquer vítima de acidente de trânsito.',
-      E: 'INCORRETA. Fugir para evitar prisão em flagrante constitui outro tipo de infração/crime (Art. 305).'
+      A: 'CORRETA. Art. 180 CTB: Infração Média + remoção do veículo.',
+      B: 'INCORRETA. Não é grave.',
+      C: 'INCORRETA. Não é gravíssima.',
+      D: 'INCORRETA. Gera multa e pontuação média.',
+      E: 'INCORRETA. O CTB responsabiliza o condutor pela manutenção prévia do nível de combustível.'
     }
   },
   {
     id: 'ctb-q25',
     subjectId: 'ctb',
-    topic: 'Dirigir sem Habilitação Gerando Perigo de Dano (Art. 309)',
-    difficulty: 'Difícil',
-    statement: 'Dirigir veículo automotor, em via pública, sem a devida Permissão para Dirigir ou Habilitação ou, ainda, se cassado o direito de dirigir, gerando perigo de dano (Art. 309 do CTB) configura:',
-    lawReference: 'Art. 309 do CTB e Súmula 98 do STJ',
-    bancaTag: 'Vunesp / Avalia',
+    topic: 'Dirigir sem Possuir CNH ou ACC (Art. 162)',
+    difficulty: 'Médio',
+    statement: 'Dirigir veículo sem possuir Carteira Nacional de Habilitação, Permissão para Dirigir ou Autorização para Conduzir Ciclomotor (Art. 162, I do CTB) constitui infração:',
+    lawReference: 'Art. 162, I do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Crime de perigo abstrato, não necessitando de comprovação de perigo real.' },
-      { letter: 'B', text: 'Infração exclusivamente administrativa, sem repercussão penal.' },
-      { letter: 'C', text: 'Crime de perigo concreto, exigindo a demonstração efetiva de perigo de dano à incolumidade pública ou privada.' },
-      { letter: 'D', text: 'Contravenção penal punida apenas com pena pecuniária.' },
-      { letter: 'E', text: 'Crime inafiançável com pena de reclusão de 4 a 8 anos.' }
+      { letter: 'A', text: 'Gravíssima, com multa multiplicada por 3 (três) vezes e retenção do veículo até a apresentação de condutor habilitado.' },
+      { letter: 'B', text: 'Grave, apenas com multa simples.' },
+      { letter: 'C', text: 'Média, com apreensão imediata do veículo.' },
+      { letter: 'D', text: 'Leve.' },
+      { letter: 'E', text: 'Mera falta administrativa sem multa.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'O crime do Art. 309 do CTB é de PERIGO CONCRETO. É indispensável demonstrar que a conduta de dirigir sem CNH gerou perigo real de dano (ex: dirigindo em zigue-zague, subindo na calçada, quase atropelando alguém). Se dirigir sem CNH de forma regular sem gerar perigo, é apenas a infração administrativa do Art. 162, I.',
+    correctLetter: 'A',
+    generalExplanation: 'Dirigir sem possuir CNH/PPD/ACC (Art. 162, I do CTB) é infração GRAVÍSSIMA, com penalidade de multa multiplicada por 3 (R$ 880,41) e retenção do veículo até a apresentação de condutor devidamente habilitado.',
     explanations: {
-      A: 'INCORRETA. Não é de perigo abstrato; a lei exige expressamente "gerando perigo de dano".',
-      B: 'INCORRETA. Se gerar perigo de dano, constitui crime do Art. 309.',
-      C: 'CORRETA. Crime de perigo concreto que exige a comprovação da situação de risco gerada.',
-      D: 'INCORRETA. Trata-se de crime de menor potencial ofensivo (detenção de 6 meses a 1 ano ou multa).',
-      E: 'INCORRETA. A pena é de detenção de 6 meses a 1 ano ou multa.'
+      A: 'CORRETA. Art. 162, I CTB: Infração Gravíssima + Multa x3 + Retenção do veículo.',
+      B: 'INCORRETA. A multa possui o fator multiplicador x3.',
+      C: 'INCORRETA. Não é infração média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. É infração gravíssima de trânsito.'
     }
   },
   {
     id: 'ctb-q26',
     subjectId: 'ctb',
-    topic: 'Prazos para Notificação da Autuação (Art. 281)',
+    topic: 'Entregar a Direção a Pessoa Não Habilitada (Art. 163)',
     difficulty: 'Médio',
-    statement: 'No processo administrativo de trânsito, se a Notificação da Autuação não for expedida no prazo máximo legal a contar da data da infração, o Auto de Infração será arquivado e seu auto julgado insubsistente. Qual é este prazo improrrogável estabelecido pelo Art. 281, II do CTB?',
-    lawReference: 'Art. 281, parágrafo único, II do CTB',
-    bancaTag: 'FCC / DETRAN-SP',
+    statement: 'Entregar a direção do veículo a pessoa que não possua CNH, PPD ou ACC (Art. 163 c/c Art. 162, I do CTB) acarreta para o proprietário do veículo:',
+    lawReference: 'Art. 163 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '15 (quinze) dias.' },
-      { letter: 'B', text: '30 (trinta) dias.' },
-      { letter: 'C', text: '60 (sessenta) dias.' },
-      { letter: 'D', text: '90 (noventa) dias.' },
-      { letter: 'E', text: '180 (cento e oitenta) dias.' }
+      { letter: 'A', text: 'As mesmas penalidades impostas ao condutor inabilitado (Infração Gravíssima, Multa x3 e retenção do veículo).' },
+      { letter: 'B', text: 'Apenas uma advertência verbal por telefone.' },
+      { letter: 'C', text: 'Infração Média com 4 pontos.' },
+      { letter: 'D', text: 'Isenção de responsabilidade se o proprietário não estava no veículo.' },
+      { letter: 'E', text: 'Cassação automática de todas as contas bancárias do proprietário.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'Art. 281, parágrafo único, II do CTB: O auto de infração será arquivado e seu auto julgado insubsistente se, no prazo máximo de 30 (TRINTA) DIAS, não for expedida a notificação da autuação.',
+    correctLetter: 'A',
+    generalExplanation: 'Conforme o Art. 163 do CTB, entregar a direção a pessoa inabilitada incorre nas MESMAS penalidades do Art. 162, I: Infração GRAVÍSSIMA, multa multiplicada por 3 e retenção do veículo.',
     explanations: {
-      A: 'INCORRETA. O prazo legal é de 30 dias.',
-      B: 'CORRETA. Art. 281, II: Expedição da Notificação da Autuação no prazo máximo de 30 dias.',
-      C: 'INCORRETA. Prazo incorreto.',
-      D: 'INCORRETA. 90 dias é o prazo para aplicação de penalidade em casos sem defesa prévia.',
-      E: 'INCORRETA. Prazo de prescrição intercorrente ou aplicação em casos com defesa prévia.'
+      A: 'CORRETA. Art. 163 CTB: Responsabilidade do proprietário idêntica à do infrator direto (Gravíssima x3).',
+      B: 'INCORRETA. Não é advertência verbal.',
+      C: 'INCORRETA. Não é infração média.',
+      D: 'INCORRETA. Entregar a chave ao inabilitado gera responsabilidade direta do proprietário.',
+      E: 'INCORRETA. O CTB não realiza bloqueio de contas bancárias.'
     }
   },
   {
     id: 'ctb-q27',
     subjectId: 'ctb',
-    topic: 'Diferença entre Penalidade e Medida Administrativa',
-    difficulty: 'Médio',
-    statement: 'No Código de Trânsito Brasileiro, as sanções dividem-se em Penalidades e Medidas Administrativas. Assinale a opção que apresenta exclusivamente MEDIDAS ADMINISTRATIVAS (Arts. 269 a 279 do CTB):',
-    lawReference: 'Art. 269 do CTB',
-    bancaTag: 'Vunesp',
+    topic: 'Dirigir com CNH Vencida há mais de 30 Dias (Art. 162)',
+    difficulty: 'Fácil',
+    statement: 'Dirigir veículo com a Carteira Nacional de Habilitação (CNH) ou PPD vencida há MAIS de 30 (trinta) dias (Art. 162, V do CTB) constitui infração:',
+    lawReference: 'Art. 162, V do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Multa, Suspensão do Direito de Dirigir e Cassação da CNH.' },
-      { letter: 'B', text: 'Retenção do Veículo, Remoção do Veículo e Recolhimento da CNH.' },
-      { letter: 'C', text: 'Advertência por Escrito, Frequência em Curso de Reciclagem e Multa.' },
-      { letter: 'D', text: 'Cassação da PPD, Multa e Recolhimento do CRLV.' },
-      { letter: 'E', text: 'Prestação de Serviços à Comunidade, Multa e Retenção do Veículo.' }
+      { letter: 'A', text: 'Gravíssima, com multa, recolhimento do documento de habilitação e retenção do veículo.' },
+      { letter: 'B', text: 'Grave, sem retenção.' },
+      { letter: 'C', text: 'Média.' },
+      { letter: 'D', text: 'Leve.' },
+      { letter: 'E', text: 'Permitida pelo prazo de até 6 meses de carência.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'Mnemônico fundamental de concurso:\n- MEDIDAS ADMINISTRATIVAS começam em geral com a letra "R" ou "T" (Retenção, Remoção, Recolhimento, Transbordo, Teste de etilômetro).\n- PENALIDADES (Art. 256) são aplicadas pela Autoridade de Trânsito (Multa, Suspensão, Cassação, Advertência por escrito, Frequência obrigatória em curso de reciclagem).',
+    correctLetter: 'A',
+    generalExplanation: 'Conduzir com a CNH vencida há mais de 30 dias (Art. 162, V do CTB) é infração GRAVÍSSIMA (7 pontos), sujeita a multa e retenção do veículo até a apresentação de condutor habilitado.',
     explanations: {
-      A: 'INCORRETA. São todas penalidades.',
-      B: 'CORRETA. Retenção, Remoção e Recolhimento são medidas administrativas (Art. 269).',
-      C: 'INCORRETA. São todas penalidades.',
-      D: 'INCORRETA. Cassação e Multa são penalidades.',
-      E: 'INCORRETA. Prestação de serviços é pena criminal; multa é penalidade administrativa.'
+      A: 'CORRETA. Art. 162, V CTB: Infração Gravíssima + recolhimento do documento + retenção do veículo.',
+      B: 'INCORRETA. Não é grave.',
+      C: 'INCORRETA. Não é média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. A tolerância de condução com CNH vencida é de no máximo 30 dias.'
     }
   },
   {
     id: 'ctb-q28',
     subjectId: 'ctb',
-    topic: 'Remoção de Veículo e Cobrança de Estadia (Art. 271)',
-    difficulty: 'Difícil',
-    statement: 'A medida administrativa de remoção do veículo (Art. 271 do CTB) será realizada por meio de guincho para o depósito fixado pelo órgão de trânsito. O pagamento das despesas de remoção e estada será exigido:',
-    lawReference: 'Art. 271, § 1º e § 10 do CTB',
-    bancaTag: 'Avalia / DETRAN-SP 2026',
+    topic: 'Prazo para Recurso de Defesa Prévia (Art. 281-A)',
+    difficulty: 'Médio',
+    statement: 'Após a lavratura do auto de infração, a autoridade de trânsito expedirá a Notificação da Autuação ao proprietário do veículo. O prazo mínimo concedido para apresentação de Defesa Prévia (Art. 281-A do CTB) não será inferior a:',
+    lawReference: 'Art. 281-A do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Para a restituição do veículo, limitada a cobrança de estada ao prazo máximo de 6 (seis) meses.' },
-      { letter: 'B', text: 'Apenas após a decisão final transitada em julgado do recurso administrativo.' },
-      { letter: 'C', text: 'Sem qualquer limite máximo de dias de permanência no depósito.' },
-      { letter: 'D', text: 'Exclusivamente se o condutor for reincidente na mesma infração.' },
-      { letter: 'E', text: 'Limitada a cobrança de estada a no máximo 30 (trinta) dias.' }
+      { letter: 'A', text: '30 (trinta) dias.' },
+      { letter: 'B', text: '15 (quinze) dias.' },
+      { letter: 'C', text: '10 (dez) dias.' },
+      { letter: 'D', text: '60 (sessenta) dias.' },
+      { letter: 'E', text: '5 (cinco) dias.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 271, § 1º e § 10 do CTB: A restituição dos veículos removidos só ocorrerá mediante prévio pagamento das multas, taxas e despesas com remoção e estada, sendo que a cobrança das despesas de estada é LIMITADA AO PRAZO MÁXIMO DE 6 (SEIS) MESES.',
+    generalExplanation: 'Com as alterações trazidas pela Lei nº 14.071/2020 (Art. 281-A do CTB), o prazo para indicação do condutor infrator e para apresentação da Defesa Prévia NÃO será inferior a 30 (trinta) dias.',
     explanations: {
-      A: 'CORRETA. Art. 271, § 10 do CTB: Teto legal máximo de cobrança de diárias de estada é de 6 meses.',
-      B: 'INCORRETA. A restituição exige pagamento prévio para liberação imediata do veículo.',
-      C: 'INCORRETA. Há limite de cobrança fixado em 6 meses.',
-      D: 'INCORRETA. Aplica-se a qualquer veículo removido.',
-      E: 'INCORRETA. O limite legal no CTB é de 6 meses.'
+      A: 'CORRETA. Art. 281-A CTB: Prazo mínimo de 30 dias para defesa prévia.',
+      B: 'INCORRETA. 15 dias era o prazo anterior sob a redação antiga.',
+      C: 'INCORRETA. 10 dias é insuficiente.',
+      D: 'INCORRETA. 60 dias é acima do limite mínimo fixado.',
+      E: 'INCORRETA. 5 dias não atende à ampla defesa.'
     }
   },
   {
     id: 'ctb-q29',
     subjectId: 'ctb',
-    topic: 'Transferência de Propriedade de Veículo (Art. 123)',
-    difficulty: 'Fácil',
-    statement: 'No caso de transferência de propriedade de veículo usado, o novo proprietário deverá adotar as providências necessárias à efetivação da expedição do novo Certificado de Registro de Veículo (CRV) no prazo máximo de:',
-    lawReference: 'Art. 123, § 1º do CTB',
-    bancaTag: 'Vunesp',
+    topic: 'Prazo de Expedição da Notificação de Autuação (Art. 281)',
+    difficulty: 'Difícil',
+    statement: 'Se a Notificação da Autuação da infração de trânsito não for expedida pela autoridade no prazo máximo de 30 (trinta) dias contados da data do cometimento da infração (Art. 281, parágrafo único, II do CTB), o auto de infração será:',
+    lawReference: 'Art. 281, parágrafo único, II do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '15 (quinze) dias.' },
-      { letter: 'B', text: '30 (trinta) dias.' },
-      { letter: 'C', text: '60 (sessenta) dias.' },
-      { letter: 'D', text: '45 (quarenta e cinco) dias.' },
-      { letter: 'E', text: '90 (noventa) dias.' }
+      { letter: 'A', text: 'Arquivado e seu auto julgado insubsistente.' },
+      { letter: 'B', text: 'Cobrado em dobro com acréscimo de juros de mora.' },
+      { letter: 'C', text: 'Encaminhado diretamente para execução fiscal no Fisco Estadual.' },
+      { letter: 'D', text: 'Convertido em advertência por escrito sem cancelamento.' },
+      { letter: 'E', text: 'Prorrogado por mais 180 dias de ofício.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'Art. 123, § 1º do CTB: No caso de transferência de propriedade, o prazo para o proprietário adotar as providências necessárias à expedição do novo CRV é de 30 (TRINTA) DIAS. O descumprimento gera infração média (Art. 233).',
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 281, parágrafo único, II do CTB dispõe expressamente que o auto de infração será ARQUIVADO e julgado insubsistente se no prazo máximo de 30 dias não for expedida a notificação da autuação.',
     explanations: {
-      A: 'INCORRETA. O prazo é de 30 dias.',
-      B: 'CORRETA. Art. 123, § 1º: Prazo legal de 30 dias.',
-      C: 'INCORRETA. Prazo excessivo.',
-      D: 'INCORRETA. Não previsto no CTB.',
-      E: 'INCORRETA. Prazo incorreto.'
+      A: 'CORRETA. Art. 281, parágrafo único, II: Decadência do direito de punir -> arquivamento e insubsistência.',
+      B: 'INCORRETA. A demora da administração pública extingue a autuação, não aumenta o valor.',
+      C: 'INCORRETA. Não há execução fiscal de autuação caduca.',
+      D: 'INCORRETA. Não pode ser convertido nem mantido.',
+      E: 'INCORRETA. Não há prorrogação de ofício para o prazo decadencial de 30 dias.'
     }
   },
   {
     id: 'ctb-q30',
     subjectId: 'ctb',
-    topic: 'Equipamentos Obrigatórios (Art. 105)',
+    topic: 'Desconto de 40% no Pagamento via SNE (Art. 284)',
     difficulty: 'Médio',
-    statement: 'São equipamentos obrigatórios dos veículos, entre outros a serem estabelecidos pelo CONTRAN, EXCETO:',
-    lawReference: 'Art. 105 do CTB',
-    bancaTag: 'FCC',
+    statement: 'O proprietário ou condutor autuado que optar pelo Sistema de Notificação Eletrônica (SNE) e reconhecer o cometimento da infração, sem apresentar defesa prévia ou recurso (Art. 284, § 1º do CTB), terá direito ao desconto no pagamento da multa no percentual de:',
+    lawReference: 'Art. 284, § 1º do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Cinto de segurança, para todos os ocupantes do veículo.' },
-      { letter: 'B', text: 'Registrador instantâneo inalterável de velocidade e tempo (tacógrafo), para veículos de transporte escolar e de carga com PBT > 4.536 kg.' },
-      { letter: 'C', text: 'Encosto de cabeça, para todos os tipos de veículos automotores, segundo normas do CONTRAN.' },
-      { letter: 'D', text: 'Extintor de incêndio obrigatório para todos os veículos de passeio particulares.' },
-      { letter: 'E', text: 'Dispositivo destinado ao controle de emissão de gases poluentes e de ruído.' }
+      { letter: 'A', text: '40% (quarenta por cento).' },
+      { letter: 'B', text: '20% (vinte por cento).' },
+      { letter: 'C', text: '50% (cinquenta por cento).' },
+      { letter: 'D', text: '10% (dez por cento).' },
+      { letter: 'E', text: '30% (trinta por cento).' }
     ],
-    correctLetter: 'D',
-    generalExplanation: 'Pela Resolução CONTRAN nº 556/2015 e atualização do Art. 105, o extintor de incêndio tornou-se FACULTATIVO para automóveis de passeio, utilitários, camionetas e caminhonetes particulares. Permanece obrigatório apenas para veículos de transporte coletivo de passageiros, caminhões, caminhão-trator e escolares.',
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 284, § 1º do CTB prevê que o pagamento da multa efetuado através do SNE com renúncia expressa a recurso garante o desconto de 40% (quarenta por cento) até a data de vencimento.',
     explanations: {
-      A: 'EQUIPAMENTO OBRIGATÓRIO. Art. 105, I.',
-      B: 'EQUIPAMENTO OBRIGATÓRIO. Art. 105, II.',
-      C: 'EQUIPAMENTO OBRIGATÓRIO. Art. 105, III.',
-      D: 'EXCEÇÃO / OPCÃO CORRETA. O extintor tornou-se opcional/facultativo para carros de passeio particulares.',
-      E: 'EQUIPAMENTO OBRIGATÓRIO. Art. 105, V.'
+      A: 'CORRETA. Art. 284, § 1º CTB: Desconto de 40% via SNE com renúncia a recurso.',
+      B: 'INCORRETA. 20% é o desconto padrão para pagamento em dia no boleto convencional sem o SNE.',
+      C: 'INCORRETA. 50% não é o percentual do CTB.',
+      D: 'INCORRETA. 10% é incorreto.',
+      E: 'INCORRETA. 30% é incorreto.'
     }
   },
+
+  // --- BLOCO 3: CRIMES DE TRÂNSITO, PROCESSO E PENALIDADES (Q31 a Q55) ---
   {
     id: 'ctb-q31',
     subjectId: 'ctb',
-    topic: 'Condução de Veículo Escolar (Art. 136 e 138)',
-    difficulty: 'Difícil',
-    statement: 'Para conduzir veículos destinados à condução de escolares, o condutor deverá preencher requisitos especiais previstos no Art. 138 do CTB. Assinale a alternativa que NÃO apresenta um desses requisitos:',
-    lawReference: 'Art. 138 do CTB',
-    bancaTag: 'Vunesp / Avalia',
+    topic: 'Crime de Homicídio Culposo na Condução de Veículo (Art. 302)',
+    difficulty: 'Médio',
+    statement: 'Praticar homicídio culposo na direção de veículo automotor (Art. 302 do CTB) sujeita o infrator às penas de:',
+    lawReference: 'Art. 302 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Ter idade superior a 21 (vinte e um) anos.' },
-      { letter: 'B', text: 'Ser habilitado na Categoria D.' },
-      { letter: 'C', text: 'Não ter cometido nenhuma infração gravíssima nos últimos 12 (doze) meses.' },
-      { letter: 'D', text: 'Ser aprovado em curso especializado de transporte escolar.' },
-      { letter: 'E', text: 'Ter pelo menos 5 (cinco) anos de habilitação na Categoria B.' }
+      { letter: 'A', text: 'Prisão simples de 1 a 3 meses apenas.' },
+      { letter: 'B', text: 'Penas de reclusão de 10 a 20 anos.' },
+      { letter: 'C', text: 'Detenção de 2 a 4 anos, e suspensão ou proibição de se obter a permissão ou a habilitação para dirigir veículo automotor.' },
+      { letter: 'D', text: 'Multa pecuniária revestida em cestas básicas sem sanção penal.' },
+      { letter: 'E', text: 'Trabalho comunitário por 30 dias.' }
     ],
-    correctLetter: 'E',
-    generalExplanation: 'Requisitos do Art. 138 do CTB para condutor de escolar:\n1) Ter idade superior a 21 anos;\n2) Ser habilitado na Categoria D;\n3) Não ter cometido mais de uma infração gravíssima nos últimos 12 meses;\n4) Ser aprovado em curso especializado.\nNão existe exigência de "5 anos na categoria B".',
+    correctLetter: 'C',
+    generalExplanation: 'O Art. 302 do CTB tipifica o crime de homicídio culposo no trânsito, com penas de DETENÇÃO DE 2 A 4 ANOS, cumulada com a suspensão ou proibição de se obter CNH/PPD.',
     explanations: {
-      A: 'REQUISITO VERDADEIRO. Art. 138, I.',
-      B: 'REQUISITO VERDADEIRO. Art. 138, II.',
-      C: 'REQUISITO VERDADEIRO. Art. 138, IV.',
-      D: 'REQUISITO VERDADEIRO. Art. 138, V.',
-      E: 'EXCEÇÃO / RESPOSTA CORRETA. Não há essa exigência de 5 anos na categoria B.'
+      A: 'INCORRETA. 1 a 3 meses é pena desproporcional à perda da vida.',
+      B: 'INCORRETA. Reclusão de 10 a 20 anos é pena de homicídio doloso qualificado no Código Penal.',
+      C: 'CORRETA. Art. 302 CTB: Detenção de 2 a 4 anos + suspensão/proibição de CNH.',
+      D: 'INCORRETA. Trata-se de crime de trânsito com sanção privativa de liberdade.',
+      E: 'INCORRETA. Não se restringe a 30 dias de trabalho comunitário.'
     }
   },
   {
     id: 'ctb-q32',
     subjectId: 'ctb',
-    topic: 'Competência da Polícia Rodoviária Federal (Art. 20)',
-    difficulty: 'Fácil',
-    statement: 'No âmbito das rodovias e estradas federais, a competência para realizar patrulhamento ostensivo, executar a fiscalização de trânsito e aplicar multas e medidas administrativas cabe precipuamente à:',
-    lawReference: 'Art. 20 do CTB e Art. 144, § 2º da CF/88',
-    bancaTag: 'FCC',
+    topic: 'Causa de Aumento de Pena no Homicídio Culposo (Art. 302)',
+    difficulty: 'Difícil',
+    statement: 'No crime de homicídio culposo praticado na direção de veículo automotor (Art. 302, § 1º do CTB), a pena é AUMENTADA de 1/3 (um terço) à metade se o agente:',
+    lawReference: 'Art. 302, § 1º do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Polícia Militar do Estado.' },
-      { letter: 'B', text: 'Polícia Rodoviária Federal (PRF).' },
-      { letter: 'C', text: 'Agência Nacional de Transportes Terrestres (ANTT).' },
-      { letter: 'D', text: 'Guarda Municipal dos municípios lindeiros.' },
-      { letter: 'E', text: 'Polícia Civil da União.' }
+      { letter: 'A', text: 'Não possuir Permissão para Dirigir ou Carteira de Habilitação.' },
+      { letter: 'B', text: 'Estar conduzindo veículo com mais de 10 anos de fabricação.' },
+      { letter: 'C', text: 'Cometer o fato em dia de chuva intensa.' },
+      { letter: 'D', text: 'Estiver acompanhado de passageiros menores de 18 anos.' },
+      { letter: 'E', text: 'Utilizar veículo de cor vermelha.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'Art. 20 do CTB: Compete à Polícia Rodoviária Federal (PRF), no âmbito das rodovias e estradas FEDERAIS, realizar o patrulhamento ostensivo, fiscalizar o cumprimento das normas de trânsito e aplicar multas.',
+    correctLetter: 'A',
+    generalExplanation: 'São causas de aumento de pena no Art. 302, § 1º do CTB: I - não possuir CNH ou PPD; II - praticá-lo em faixa de pedestres ou na calçada; III - deixar de prestar socorro à vítima; IV - no exercício de profissão ou atividade de transporte de passageiros.',
     explanations: {
-      A: 'INCORRETA. PM atua em rodovias estaduais ou mediante convênio.',
-      B: 'CORRETA. Art. 20 do CTB: Atuação nas rodovias e estradas federais é da PRF.',
-      C: 'INCORRETA. ANTT é agência reguladora de transporte concedido.',
-      D: 'INCORRETA. Guardas atuam no âmbito das vias municipais.',
-      E: 'INCORRETA. Polícia Civil é órgão de polícia judiciária e investigação.'
+      A: 'CORRETA. Art. 302, § 1º, I: Não possuir CNH ou PPD é causa de aumento de pena de 1/3 à metade.',
+      B: 'INCORRETA. Idade do veículo não é causa de aumento de pena penal.',
+      C: 'INCORRETA. Chuva não é causa de aumento tipificada.',
+      D: 'INCORRETA. Presença de passageiros menores não está no rol do § 1º.',
+      E: 'INCORRETA. Cor do veículo é irrelevante.'
     }
   },
   {
     id: 'ctb-q33',
     subjectId: 'ctb',
-    topic: 'Advertência por Escrito (Art. 267)',
-    difficulty: 'Médio',
-    statement: 'Com a redação dada pela Lei nº 14.071/2020 ao Art. 267 do CTB, a penalidade de advertência por escrito DEVERÁ ser imposta pela autoridade de trânsito quando:',
-    lawReference: 'Art. 267 do CTB',
-    bancaTag: 'Vunesp / Avalia',
+    topic: 'Crime de Embriaguez ao Volante (Art. 306)',
+    difficulty: 'Difícil',
+    statement: 'Conduzir veículo automotor com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (Art. 306 do CTB) configura CRIME DE TRÂNSITO. A conduta é constatada mediante concentração de álcool por litro de sangue igual ou superior a:',
+    lawReference: 'Art. 306, § 1º, I do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'O infrator cometer infração de natureza leve ou média, desde que não tenha cometido nenhuma outra infração nos últimos 12 (doze) meses.' },
-      { letter: 'B', text: 'O infrator for condutor profissional EAR e cometer infração grave.' },
-      { letter: 'C', text: 'O condutor confessar o cometimento da infração no prazo da Defesa Prévia.' },
-      { letter: 'D', text: 'Tratar-se de primeira infração gravíssima cometida em rodovia federal.' },
-      { letter: 'E', text: 'A critério puramente discricionário do agente autuador no momento do ato.' }
+      { letter: 'A', text: '6 decigramas de álcool por litro de sangue (ou 0,34 miligrama por litro de ar alveolar).' },
+      { letter: 'B', text: '2 decigramas de álcool por litro de sangue.' },
+      { letter: 'C', text: '1 decigrama de álcool por litro de sangue.' },
+      { letter: 'D', text: '10 decigramas de álcool por litro de sangue.' },
+      { letter: 'E', text: 'Qualquer quantidade acima de zero apurada exclusivamente por foto.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Lei 14.071/2020 alterou o Art. 267 do CTB tornando a conversão da multa em advertência por escrito OBRIGATÓRIA (vinculada): Deverá ser imposta a advertência por escrito para infração LEVE ou MÉDIA, desde que o infrator não tenha cometido nenhuma outra infração nos últimos 12 meses.',
+    generalExplanation: 'O crime do Art. 306 do CTB caracteriza-se pelo teste de sangue igual ou superior a 6 (seis) decigramas de álcool por litro de sangue ou teste de etilômetro com medição igual ou superior a 0,34 miligrama de álcool por litro de ar alveolar.',
     explanations: {
-      A: 'CORRETA. Art. 267 do CTB: Conversão vinculada/obrigatória para infração leve ou média sem reincidência em 12 meses.',
-      B: 'INCORRETA. Não se aplica a infrações graves.',
-      C: 'INCORRETA. Confissão não é requisito nem gera conversão automática.',
-      D: 'INCORRETA. Não se aplica a infrações gravíssimas.',
-      E: 'INCORRETA. Deixou de ser ato discricionário e tornou-se ato vinculado se preenchidos os requisitos legais.'
+      A: 'CORRETA. Art. 306, § 1º, I: Concentração igual ou superior a 6 decigramas/litro de sangue ou 0,34 mg/L no ar alveolar.',
+      B: 'INCORRETA. 2 decigramas é valor de tolerância de infração administrativa em legislações antigas (hoje a margem de infração é tolerância zero).',
+      C: 'INCORRETA. Valor incorreto.',
+      D: 'INCORRETA. 10 decigramas é valor acima do limite penal fixado.',
+      E: 'INCORRETA. Foto não mede concentração alcoólica.'
     }
   },
   {
     id: 'ctb-q34',
     subjectId: 'ctb',
-    topic: 'Cassação da CNH (Art. 263)',
-    difficulty: 'Difícil',
-    statement: 'A Cassação da Carteira Nacional de Habilitação será aplicada pela autoridade de trânsito nas hipóteses previstas no Art. 263 do CTB, entre as quais se destaca:',
-    lawReference: 'Art. 263, I do CTB',
-    bancaTag: 'FCC / DETRAN-SP',
+    topic: 'Crime de Racha ou Exibição Não Autorizada (Art. 308)',
+    difficulty: 'Médio',
+    statement: 'Participar, na direção de veículo automotor, em via pública, de corrida, disputa ou competição automobilística não autorizada ("racha") (Art. 308 do CTB), gerando situação de risco à incolumidade pública ou privada, sujeita o infrator às penas de:',
+    lawReference: 'Art. 308 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Quando, suspenso o direito de dirigir, o infrator conduzir qualquer veículo.' },
-      { letter: 'B', text: 'Sempre que o condutor acumular 20 pontos no período de 6 meses.' },
-      { letter: 'C', text: 'Em caso de atraso na renovação do exame de saúde por mais de 60 dias.' },
-      { letter: 'D', text: 'Quando o condutor for autuado por estacionar sobre a calçada.' },
-      { letter: 'E', text: 'Sempre que o veículo for apreendido por falta de pagamento do IPVA.' }
+      { letter: 'A', text: 'Detenção, de 6 (seis) meses a 3 (três) anos, multa e suspensão ou proibição de se obter a permissão ou a habilitação para dirigir.' },
+      { letter: 'B', text: 'Apenas multa administrativa no valor de R$ 100,00.' },
+      { letter: 'C', text: 'Reclusão de 15 a 30 anos sem direito a advogado.' },
+      { letter: 'D', text: 'Trabalho gratuito na prefeitura aos finais de semana por 5 anos.' },
+      { letter: 'E', text: 'Cassação dos direitos políticos do condutor.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 263, I do CTB: A cassação do documento de habilitação dar-se-á quando, SUSPENSO O DIREITO DE DIRIGIR, O INFRATOR CONDUZIR QUALQUER VEÍCULO. Decorridos 2 anos da cassação, o condutor poderá requerer sua reabilitação.',
+    generalExplanation: 'O crime de racha (Art. 308 do CTB) prevê pena de DETENÇÃO DE 6 MESES A 3 ANOS, multa e suspensão/proibição do direito de dirigir.',
     explanations: {
-      A: 'CORRETA. Art. 263, I do CTB: Dirigir com a CNH suspensa acarreta a CASSAÇÃO do documento de habilitação.',
-      B: 'INCORRETA. Acúmulo de pontos gera suspensão, não cassação direta.',
-      C: 'INCORRETA. Atrasar exame de saúde gera apenas infração ao dirigir com CNH vencida há mais de 30 dias (Art. 162, V).',
-      D: 'INCORRETA. Estacionar na calçada é infração grave com remoção do veículo.',
-      E: 'INCORRETA. Não existe cassação por motivo tributário.'
+      A: 'CORRETA. Art. 308 CTB: Detenção de 6 meses a 3 anos + multa + suspensão/proibição de CNH.',
+      B: 'INCORRETA. Além da gravíssima infração administrativa (Art. 173/174), a conduta tipifica crime de trânsito.',
+      C: 'INCORRETA. 15 a 30 anos é pena de homicídio qualificado gravíssimo.',
+      D: 'INCORRETA. Não é sanção direta estipulada no tipo penal principal.',
+      E: 'INCORRETA. Direitos políticos só são suspensos após condenação criminal transitada em julgado (Art. 15, III CF/88).'
     }
   },
   {
     id: 'ctb-q35',
     subjectId: 'ctb',
-    topic: 'Prazo de Reabilitação após Cassação da CNH (Art. 263 §2º)',
+    topic: 'Crime de Dirigir sem CNH Gerando Perigo de Dano (Art. 309)',
     difficulty: 'Médio',
-    statement: 'Decorridos quanto tempo da cassação da CNH o infrator poderá requerer sua reabilitação, submetendo-se a todos os exames necessários à habilitação, na forma estabelecida pelo CONTRAN?',
-    lawReference: 'Art. 263, § 2º do CTB',
-    bancaTag: 'Vunesp',
+    statement: 'Dirigir veículo automotor, em via pública, sem a devida Permissão para Dirigir ou Carteira de Habilitação ou, ainda, se cassado o direito de dirigir (Art. 309 do CTB), configurará CRIME DE TRÂNSITO se a conduta:',
+    lawReference: 'Art. 309 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '6 (seis) meses.' },
-      { letter: 'B', text: '1 (um) ano.' },
-      { letter: 'C', text: '2 (dois) anos.' },
-      { letter: 'D', text: '3 (três) anos.' },
-      { letter: 'E', text: '5 (cinco) anos.' }
+      { letter: 'A', text: 'Gerar perigo de dano concreto à segurança do trânsito.' },
+      { letter: 'B', text: 'Ocorrer em dia de domingo ou feriado nacional.' },
+      { letter: 'C', text: 'For praticada por pessoa com mais de 60 anos.' },
+      { letter: 'D', text: 'Ocorrer em rodovia concedida à iniciativa privada.' },
+      { letter: 'E', text: 'For cometida por motorista usando óculos escuros.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'Art. 263, § 2º do CTB: Decorridos 2 (DOIS) ANOS da cassação da CNH, o infrator poderá requerer a sua reabilitação, realizando novos exames de habilitação.',
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 309 do CTB exige expressamente a ocorrência de PERIGO DE DANO CONCRETO (ex: quase colidir, trafegar na calçada ou ziguezaguar perigosamente). Sem o perigo de dano, a conduta é apenas a infração administrativa do Art. 162, I.',
     explanations: {
-      A: 'INCORRETA. O prazo legal é de 2 anos.',
-      B: 'INCORRETA. 1 ano é o prazo de suspensão máxima por recusa/embriaguez.',
-      C: 'CORRETA. Art. 263, § 2º: Prazo de 2 anos para requerer reabilitação.',
-      D: 'INCORRETA. Prazo incorreto.',
-      E: 'INCORRETA. Prazo incorreto.'
+      A: 'CORRETA. Art. 309 CTB: O crime exige o elemento "gerando perigo de dano".',
+      B: 'INCORRETA. O dia da semana não transforma infração em crime.',
+      C: 'INCORRETA. Idade do agente não altera o tipo penal.',
+      D: 'INCORRETA. Tipo de concessão da via é irrelevante.',
+      E: 'INCORRETA. Irrelevante.'
     }
   },
   {
     id: 'ctb-q36',
     subjectId: 'ctb',
-    topic: 'Categorias de CNH e Reboque (Art. 143)',
-    difficulty: 'Difícil',
-    statement: 'Para conduzir combinação de veículos em que a unidade tracionadora se enquadre na categoria B, C ou D e cuja unidade acoplada, reboque, semi-reboque, trailer ou articulada tenha 6.000 kg ou mais de PBT, ou cuja lotação exceda a 8 lugares, é exigida a Categoria:',
-    lawReference: 'Art. 143, V do CTB',
-    bancaTag: 'FCC',
+    topic: 'Crime de Omissão de Socorro no Trânsito (Art. 304)',
+    difficulty: 'Médio',
+    statement: 'Deixar o condutor do veículo, na ocasião do acidente, de prestar imediato socorro à vítima, ou, não podendo fazê-lo diretamente, por justa causa, deixar de solicitar auxílio da autoridade pública (Art. 304 do CTB), sujeita o infrator às penas de:',
+    lawReference: 'Art. 304 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Categoria C.' },
-      { letter: 'B', text: 'Categoria D.' },
-      { letter: 'C', text: 'Categoria E.' },
-      { letter: 'D', text: 'Categoria B.' },
-      { letter: 'E', text: 'Categoria ACC.' }
+      { letter: 'A', text: 'Detenção, de 6 (seis) meses a 1 (um) ano, ou multa, se o fato não constituir elemento de crime mais grave.' },
+      { letter: 'B', text: 'Reclusão de 4 a 8 anos sem fiança.' },
+      { letter: 'C', text: 'Mera advertência verbal dada pela polícia rodoviária.' },
+      { letter: 'D', text: 'Trabalho forçado em hospital militar por 2 anos.' },
+      { letter: 'E', text: 'Perda do direito de propriedade do veículo envolvido.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'Art. 143, V do CTB: Categoria E - condutor de combinação de veículos em que a unidade tracionadora se enquadre nas categorias B, C ou D e cuja unidade acoplada (reboque/semi-reboque/trailer) tenha 6.000 kg ou mais de PBT, ou lotação > 8 lugares.',
+    correctLetter: 'A',
+    generalExplanation: 'O crime do Art. 304 do CTB pune a omissão de socorro no acidente com pena de DETENÇÃO DE 6 MESES A 1 ANO, ou multa, desde que o fato não integre crime mais grave (como causa de aumento do homicídio ou lesão culposa).',
     explanations: {
-      A: 'INCORRETA. Categoria C limita a unidade acoplada a menos de 6.000 kg PBT.',
-      B: 'INCORRETA. Categoria D é para passageiros na unidade tracionadora.',
-      C: 'CORRETA. Art. 143, V: Categoria E é exigida para reboques/articulados >= 6.000 kg PBT.',
-      D: 'INCORRETA. Categoria B limita reboque a até 3.500 kg PBT total.',
-      E: 'INCORRETA. ACC é Autorização para Conduzir Ciclomotores (até 50cc).'
+      A: 'CORRETA. Art. 304 CTB: Detenção de 6 meses a 1 ano, ou multa.',
+      B: 'INCORRETA. Não é pena de reclusão de 4 a 8 anos.',
+      C: 'INCORRETA. É crime de trânsito tipificado no CTB.',
+      D: 'INCORRETA. Não há previsão de trabalho forçado.',
+      E: 'INCORRETA. Não gera confisco de propriedade.'
     }
   },
   {
     id: 'ctb-q37',
     subjectId: 'ctb',
-    topic: 'Pega ou Racha em Via Pública (Art. 308)',
-    difficulty: 'Difícil',
-    statement: 'Participar, na direção de veículo automotor, em via pública, de corrida, disputa ou competição automobilística não autorizada pela autoridade competente (Pega ou Racha - Art. 308 do CTB) configura crime de trânsito. Se da prática resultar LESÃO CORPORAL DE NATUREZA GRAVE, a pena privativa de liberdade é de:',
-    lawReference: 'Art. 308, § 1º do CTB',
-    bancaTag: 'Vunesp / Avalia 2026',
+    topic: 'Crime de Afastar-se do Local do Acidente para Fugir à Responsabilidade (Art. 305)',
+    difficulty: 'Médio',
+    statement: 'Afastar-se o condutor do veículo do local do acidente, para fugir à responsabilidade penal ou civil que lhe possa ser atribuída (Art. 305 do CTB), configura crime punido com:',
+    lawReference: 'Art. 305 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Reclusão, de 3 (três) a 6 (seis) anos.' },
-      { letter: 'B', text: 'Detenção, de 6 meses a 2 anos.' },
-      { letter: 'C', text: 'Reclusão, de 5 (cinco) a 10 (dez) anos.' },
-      { letter: 'D', text: 'Prestação de serviços comunitários por 90 dias.' },
-      { letter: 'E', text: 'Detenção de 1 a 3 anos em regime aberto.' }
+      { letter: 'A', text: 'Detenção, de 6 (seis) meses a 1 (um) ano, ou multa.' },
+      { letter: 'B', text: 'Reclusão de 5 a 10 anos.' },
+      { letter: 'C', text: 'Prisão perpétua.' },
+      { letter: 'D', text: 'Apenas multa administrativa sem registro criminal.' },
+      { letter: 'E', text: 'Cassação dos documentos de identidade do passageiro.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 308 do CTB:\n- Caput: Detenção de 6 meses a 3 anos (pega simples);\n- § 1º (Se resultar LESÃO CORPORAL GRAVE): RECLUSÃO, de 3 a 6 anos;\n- § 2º (Se resultar MORTE): RECLUSÃO, de 5 a 10 anos.',
+    generalExplanation: 'Fugir do local do acidente para evadir-se da responsabilidade (Art. 305 CTB) é crime punido com pena de DETENÇÃO DE 6 MESES A 1 ANO, ou multa.',
     explanations: {
-      A: 'CORRETA. Art. 308, § 1º: Lesão corporal grave no pega/racha gera pena de Reclusão de 3 a 6 anos.',
-      B: 'INCORRETA. Detenção de 6 meses a 3 anos é a pena do crime simples sem lesão grave.',
-      C: 'INCORRETA. Reclusão de 5 a 10 anos é para o resultado morte (§ 2º).',
-      D: 'INCORRETA. Não é sanção penal autônoma isolada para lesão grave.',
-      E: 'INCORRETA. Regime de reclusão previsto em lei.'
+      A: 'CORRETA. Art. 305 CTB: Detenção de 6 meses a 1 ano, ou multa.',
+      B: 'INCORRETA. Pena incompatível.',
+      C: 'INCORRETA. Não existe prisão perpétua no direito penal brasileiro (Art. 5º, XLVII "a" CF/88).',
+      D: 'INCORRETA. Trata-se de crime ambiental/viário tipificado.',
+      E: 'INCORRETA. Irrelevante.'
     }
   },
   {
     id: 'ctb-q38',
     subjectId: 'ctb',
-    topic: 'Uso de Película Espelhada e Escura (Art. 230, XVI)',
-    difficulty: 'Fácil',
-    statement: 'Conduzir veículo com vidros cobertos por películas refletivas ou espelhadas, ou com índice de transmitância luminosa inferior ao mínimo regulamentado pelo CONTRAN constitui infração:',
-    lawReference: 'Art. 230, XVI do CTB',
-    bancaTag: 'FCC',
+    topic: 'Medida Administrativa vs Penalidade (Arts. 256 e 269)',
+    difficulty: 'Difícil',
+    statement: 'No âmbito do direito administrativo de trânsito, é fundamental distinguir as PENALIDADES (Art. 256) das MEDIDAS ADMINISTRATIVAS (Art. 269). Assinale a alternativa que apresenta EXCLUSIVAMENTE Medidas Administrativas:',
+    lawReference: 'Art. 269 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Grave, penalidade de multa e medida administrativa de retenção do veículo para regularização.' },
-      { letter: 'B', text: 'Gravíssima, penalidade de multa (5x) e apreensão do veículo.' },
-      { letter: 'C', text: 'Média, penalidade de advertência por escrito.' },
-      { letter: 'D', text: 'Leve, sem retenção do veículo.' },
-      { letter: 'E', text: 'Crime de trânsito do Art. 311.' }
+      { letter: 'A', text: 'Retenção do veículo, remoção do veículo e recolhimento do documento de habilitação.' },
+      { letter: 'B', text: 'Multa, suspensão do direito de dirigir e cassação da CNH.' },
+      { letter: 'C', text: 'Advertência por escrito, curso de reciclagem e multa.' },
+      { letter: 'D', text: 'Cassação da PPD, frequencia obrigatória em curso e multa.' },
+      { letter: 'E', text: 'Multa, retenção do veículo e cassação do credenciamento.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 230, XVI do CTB: Conduzir veículo com vidros total ou parcialmente cobertos por películas refletivas/espelhadas ou fora dos limites de transmitância é infração GRAVE, com multa e retenção do veículo para regularização.',
+    generalExplanation: 'As Medidas Administrativas (Art. 269 CTB) são ações de campo praticadas pelo agente de trânsito e geralmente começam pela letra "R": Retenção, Remoção, Recolhimento do documento, Realização de teste de etilômetro. Já Multa, Suspensão e Cassação são PENALIDADES (Art. 256) aplicadas pela autoridade de trânsito.',
     explanations: {
-      A: 'CORRETA. Art. 230, XVI do CTB: Infração Grave, multa e retenção do veículo para regularização.',
-      B: 'INCORRETA. Não é gravíssima multiplicada nem gera apreensão.',
-      C: 'INCORRETA. Não é média.',
-      D: 'INCORRETA. É infração de natureza grave.',
-      E: 'INCORRETA. Trata-se de ilícito estritamente administrativo.'
+      A: 'CORRETA. Retenção, Remoção e Recolhimento de documento são MEDIDAS ADMINISTRATIVAS (Art. 269).',
+      B: 'INCORRETA. Multa, suspensão e cassação são PENALIDADES (Art. 256).',
+      C: 'INCORRETA. Advertência e multa são penalidades.',
+      D: 'INCORRETA. Multa e cassação são penalidades.',
+      E: 'INCORRETA. Multa é penalidade.'
     }
   },
   {
     id: 'ctb-q39',
     subjectId: 'ctb',
-    topic: 'Transporte de Carga no Compartimento de Passageiros',
+    topic: 'Competência do Agente de Trânsito no Auto de Infração (Art. 280)',
     difficulty: 'Médio',
-    statement: 'Conduzir veículo transportando passageiros em compartimento de carga, ressalvadas as exceções regulamentadas pelo CONTRAN em casos de força maior ou interesse público, é infração:',
-    lawReference: 'Art. 230, II do CTB',
-    bancaTag: 'Vunesp',
+    statement: 'O auto de infração de trânsito (Art. 280 do CTB) é o documento formal que dá início ao processo administrativo sancionatório. Assinale o elemento que NÃO é de preenchimento obrigatório no auto de infração:',
+    lawReference: 'Art. 280 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Gravíssima, com multa e apreensão do veículo, e remoção do veículo.' },
-      { letter: 'B', text: 'Gravíssima, com multa e apreensão do veículo, e medida administrativa de remoção do veículo.' },
-      { letter: 'C', text: 'Gravíssima, com multa e medida administrativa de retenção do veículo.' },
-      { letter: 'D', text: 'Grave, com multa e retenção do veículo.' },
-      { letter: 'E', text: 'Média, com multa simples.' }
+      { letter: 'A', text: 'Assinatura do infrator, quando não for possível colhê-la no local da abordagem.' },
+      { letter: 'B', text: 'Tipificação da infração cometida.' },
+      { letter: 'C', text: 'Local, data e hora do cometimento da infração.' },
+      { letter: 'D', text: 'Placa e caracteres de identificação do veículo.' },
+      { letter: 'E', text: 'Identificação do órgão, da autoridade ou do agente autuador.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'Art. 230, II do CTB: Transportar passageiros em compartimento de carga é infração GRAVÍSSIMA, com penalidade de Multa e medida administrativa de Retenção do veículo até a descarga/transbordo seguro dos passageiros.',
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 280, VI do CTB dispõe que a assinatura do infrator será colhida "sempre que possível". Portanto, a ausência de assinatura do infrator (ex: autuação por radar ou condutor que recusa assinar) NÃO invalida o auto de infração.',
     explanations: {
-      A: 'INCORRETA. A penalidade de apreensão de veículo foi revogada da legislação.',
-      B: 'INCORRETA. A medida é retenção para transbordo dos passageiros.',
-      C: 'CORRETA. Art. 230, II do CTB: Infração GRAVÍSSIMA com retenção do veículo.',
-      D: 'INCORRETA. A gravidade é gravíssima.',
-      E: 'INCORRETA. Não é infração média.'
+      A: 'CORRETA. Art. 280, VI: A assinatura do condutor é dispensável quando não for possível colhê-la.',
+      B: 'INCORRETA. A tipificação é requisito obrigatório sob pena de nulidade.',
+      C: 'INCORRETA. Local, data e hora são obrigatórios.',
+      D: 'INCORRETA. Placa e marca/modelo são indispensáveis.',
+      E: 'INCORRETA. Identificação do agente autuador é obrigatória.'
     }
   },
   {
     id: 'ctb-q40',
     subjectId: 'ctb',
-    topic: 'Suspensão da CNH por Decisão Judicial (Art. 293)',
-    difficulty: 'Difícil',
-    statement: 'A penalidade judicial de suspensão ou de proibição de se obter a permissão ou a habilitação para dirigir veículo automotor (Art. 293 do CTB) tem a duração de:',
-    lawReference: 'Art. 293 do CTB',
-    bancaTag: 'FCC / Avalia 2026',
+    topic: 'Cassação do Credenciamento de CFC (Art. 256)',
+    difficulty: 'Médio',
+    statement: 'A cassação da Carteira Nacional de Habilitação (Art. 263 do CTB) será aplicada pela autoridade de trânsito quando:',
+    lawReference: 'Art. 263 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '1 (um) mês a 1 (um) ano.' },
-      { letter: 'B', text: '2 (dois) meses a 5 (cinco) anos.' },
-      { letter: 'C', text: '6 (seis) meses a 3 (três) anos.' },
-      { letter: 'D', text: '1 (um) ano a 10 (dez) anos.' },
-      { letter: 'E', text: '3 (três) meses a 2 (dois) anos.' }
+      { letter: 'A', text: 'O condutor for flagrado dirigindo qualquer veículo com o direito de dirigir suspenso.' },
+      { letter: 'B', text: 'O condutor cometer 1 infração leve no período de 5 anos.' },
+      { letter: 'C', text: 'O veículo ficar sem combustível em via pública por 2 vezes.' },
+      { letter: 'D', text: 'O proprietário atrasar o pagamento do IPVA por 30 dias.' },
+      { letter: 'E', text: 'O condutor mudar de endereço residencial sem avisar a prefeitura.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'Art. 293 do CTB: A penalidade JUDICIAL de suspensão ou proibição de se obter CNH/PPD tem a duração de 2 (DOIS) MESES a 5 (CINCO) ANOS. A autoridade judiciária comunicará a decisão ao CONTRAN e ao DETRAN.',
+    correctLetter: 'A',
+    generalExplanation: 'Conforme o Art. 263, I do CTB, a CASSAÇÃO da CNH é aplicada quando o condutor for flagrado pilotando/dirigindo estando com o direito de dirigir suspenso.',
     explanations: {
-      A: 'INCORRETA. Na esfera administrativa a suspensão varia de 2 a 8 meses ou 8 a 2 anos (reincidência); na judicial o limite é 2 meses a 5 anos.',
-      B: 'CORRETA. Art. 293 do CTB: Duração de 2 meses a 5 anos.',
-      C: 'INCORRETA. Prazo incorreto.',
-      D: 'INCORRETA. Prazo inexistente no CTB.',
-      E: 'INCORRETA. Limites incompatíveis com o CTB.'
+      A: 'CORRETA. Art. 263, I CTB: Dirigir com CNH suspensa gera a CASSAÇÃO da CNH.',
+      B: 'INCORRETA. Infração leve não gera cassação.',
+      C: 'INCORRETA. Falta de combustível é infração média (Art. 180).',
+      D: 'INCORRETA. Atraso de IPVA não gera cassação de CNH.',
+      E: 'INCORRETA. Mudança de endereço exige atualização no Detran, mas não cassa CNH.'
+    }
+  },
+
+  // --- BLOCO 4: NORMAS ADICIONAIS DE CIRCULAÇÃO E SINALIZAÇÃO (Q41 a Q55) ---
+  {
+    id: 'ctb-q41',
+    subjectId: 'ctb',
+    topic: 'Prioridade em Vias de Fluxo Cruzado (Art. 29)',
+    difficulty: 'Médio',
+    statement: 'Em um cruzamento não sinalizado entre uma rodovia e uma via urbana comum, a preferência de passagem (Art. 29, III, "a" do CTB) caberá ao veículo que:',
+    lawReference: 'Art. 29, III, "a" do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Estiver transitando pela rodovia.' },
+      { letter: 'B', text: 'Estiver transitando pela via urbana por ser mais movimentada.' },
+      { letter: 'C', text: 'Estiver à esquerda do condutor.' },
+      { letter: 'D', text: 'Acionar os faróis altos em sinal de advertência.' },
+      { letter: 'E', text: 'Transportar carga viva.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 29, III, "a" estabelece expressamente que no caso de fluxo de veículos que se cruzam em local não sinalizado, a preferência de passagem será, no caso de apenas um fluxo ser proveniente de RODOVIA, daquele que estiver transitando por ela.',
+    explanations: {
+      A: 'CORRETA. Art. 29, III, "a": Veículo que transita pela rodovia tem preferência sobre a via secundária.',
+      B: 'INCORRETA. A prioridade legal da rodovia prevalece sobre a via urbana comum.',
+      C: 'INCORRETA. Pela esquerda não há preferência.',
+      D: 'INCORRETA. Sinal de luz alta não altera a preferência.',
+      E: 'INCORRETA. Tipo de carga não altera a regra de cruzamento.'
+    }
+  },
+  {
+    id: 'ctb-q42',
+    subjectId: 'ctb',
+    topic: 'Sinalização Semafórica de Orientação (Art. 80)',
+    difficulty: 'Fácil',
+    statement: 'A sinalização de trânsito prevalece sobre as demais regras de circulação. A ordem hierárquica de prevalência da sinalização de trânsito (Art. 89 do CTB) coloca em PRIMEIRO lugar:',
+    lawReference: 'Art. 89, I do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'As ordens do agente de trânsito sobre as normas de circulação e outros sinais.' },
+      { letter: 'B', text: ' As indicações do semáforo sobre os agentes de trânsito.' },
+      { letter: 'C', text: 'As placas de regulamentação sobre o agente de trânsito.' },
+      { letter: 'D', text: 'As marcas viárias pintadas no asfalto sobre qualquer sinal.' },
+      { letter: 'E', text: 'O desejo dos pedestres em atravessar.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A ordem de prevalência das sinalizações (Art. 89 CTB):\n1º - As ORDENS DO AGENTE DE TRÂNSITO sobre as normas de circulação e outros sinais;\n2º - As indicações do SEMÁFORO sobre os demais sinais;\n3º - As indicações dos SINAIS (placas) sobre as demais normas.',
+    explanations: {
+      A: 'CORRETA. Art. 89, I CTB: A ordem direta do agente de trânsito prevalece sobre tudo.',
+      B: 'INCORRETA. A indicação semafórica cede lugar à ordem do agente de trânsito.',
+      C: 'INCORRETA. As placas não prevalecem sobre a ordem humana do agente.',
+      D: 'INCORRETA. Pintura no asfalto é sinalização secundária.',
+      E: 'INCORRETA. Pedestres devem respeitar a sinalização e as ordens do agente.'
+    }
+  },
+  {
+    id: 'ctb-q43',
+    subjectId: 'ctb',
+    topic: 'Parada e Estacionamento - Definição Técnica (Anexo I)',
+    difficulty: 'Médio',
+    statement: 'De acordo com os conceitos e definições do Anexo I do CTB, diferencia-se a PARADA do ESTACIONAMENTO pelo seguinte critério técnico:',
+    lawReference: 'Anexo I do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'A PARADA é a imobilização pelo tempo estritamente necessário para embarque ou desembarque de passageiros; o ESTACIONAMENTO é por tempo superior a isso.' },
+      { letter: 'B', text: 'A PARADA exige que o motorista desligue o motor; o ESTACIONAMENTO exige motor ligado.' },
+      { letter: 'C', text: 'A PARADA aplica-se apenas a caminhões de carga.' },
+      { letter: 'D', text: 'O ESTACIONAMENTO é permitido apenas nas esquinas.' },
+      { letter: 'E', text: 'Não há diferença legal entre os dois termos.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'No Anexo I do CTB:\n- PARADA: Imobilização do veículo com a finalidade e pelo tempo estritamente necessário para o embarque ou desembarque de passageiros.\n- ESTACIONAMENTO: Imobilização do veículo por tempo superior ao necessário para embarque ou desembarque de passageiros.',
+    explanations: {
+      A: 'CORRETA. Anexo I CTB: Parada = tempo estrito de embarque/desembarque; Estacionamento = tempo superior.',
+      B: 'INCORRETA. Desligar o motor não é o elemento divisor conceitual.',
+      C: 'INCORRETA. Aplica-se a qualquer veículo.',
+      D: 'INCORRETA. Estacionar em esquinas a menos de 5m é infração grave (Art. 181, I).',
+      E: 'INCORRETA. Há nítida diferença jurídica.'
+    }
+  },
+  {
+    id: 'ctb-q44',
+    subjectId: 'ctb',
+    topic: 'Operação de Carga e Descarga (Art. 47)',
+    difficulty: 'Médio',
+    statement: 'A operação de carga ou descarga de mercadorias no veículo (Art. 47 do CTB) é considerada para fins de regulamentação e sinalização como:',
+    lawReference: 'Art. 47 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'ESTACIONAMENTO, devendo ser realizada no tempo fixado pela autoridade e nos locais sinalizados.' },
+      { letter: 'B', text: 'Mera PARADA temporária de passageiros.' },
+      { letter: 'C', text: 'Infração gravíssima isenta de regulamentação.' },
+      { letter: 'D', text: 'Direito absoluto em qualquer calçada do município.' },
+      { letter: 'E', text: 'Trânsito livre com luzes de pisca-alerta acesas.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 47 do CTB estabelece que a operação de carga e descarga é considerada ESTACIONAMENTO e será regulamentada pelo órgão executivo de trânsito local.',
+    explanations: {
+      A: 'CORRETA. Art. 47 CTB: Carga e descarga é considerada juridicamente como ESTACIONAMENTO.',
+      B: 'INCORRETA. Carga e descarga movimenta mercadorias/bens, não embarque/desembarque de passageiros.',
+      C: 'INCORRETA. É permitida e regulamentada nas vagas/horários próprios.',
+      D: 'INCORRETA. Não há direito de estacionar sobre a calçada.',
+      E: 'INCORRETA. Pisca-alerta não converte carga em trânsito livre.'
+    }
+  },
+  {
+    id: 'ctb-q45',
+    subjectId: 'ctb',
+    topic: 'Regra de Trânsito em Aclive Semissinalizado (Art. 29)',
+    difficulty: 'Médio',
+    statement: 'Nos trechos de vias em declive ou aclive acentuados sem espaço para passagem simultânea de dois veículos (Art. 29, § 2º do CTB), a preferência de passagem cabe ao veículo que:',
+    lawReference: 'Art. 29, § 2º do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Estiver subindo (em aclive), salvo se o que estiver descendo for de maior porte.' },
+      { letter: 'B', text: 'Estiver descendo (em declive).' },
+      { letter: 'C', text: 'Estiver transportando carga mais pesada.' },
+      { letter: 'D', text: 'Transitar em maior velocidade.' },
+      { letter: 'E', text: 'Buzinar primeiro.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Nas vias íngremes e estreitas onde não caibam 2 veículos, a preferência é do veículo que ESTÁ SUBINDO (aclive), pois o arranque em subida é mais complexo. Se o que estiver descendo for de maior porte, este deve dar a passagem.',
+    explanations: {
+      A: 'CORRETA. Art. 29, § 2º CTB: Preferência de quem está subindo (aclive).',
+      B: 'INCORRETA. Quem desce deve dar passagem a quem sobe.',
+      C: 'INCORRETA. O fator determinante é o sentido da via (aclive vs declive).',
+      D: 'INCORRETA. Velocidade não define prioridade.',
+      E: 'INCORRETA. Buzina não é critério legal de passagem.'
+    }
+  },
+  {
+    id: 'ctb-q46',
+    subjectId: 'ctb',
+    topic: 'Fiscalização por Radar e Medição de Velocidade (Art. 280)',
+    difficulty: 'Médio',
+    statement: 'Na fiscalização de velocidade por instrumentos eletrônicos medidores (radares fixos ou portáteis), para a lavratura do auto de infração por excesso de velocidade exige-se que o equipamento esteja homologado e calibrado pelo:',
+    lawReference: 'Art. 280, § 2º do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'INMETRO (Instituto Nacional de Metrologia, Qualidade e Tecnologia) ou entidade por ele credenciada.' },
+      { letter: 'B', text: 'Ministério da Justiça.' },
+      { letter: 'C', text: 'Sindicato dos motoristas de táxi.' },
+      { letter: 'D', text: 'Conselho Regional de Engenharia (CREA).' },
+      { letter: 'E', text: 'Corpo de Bombeiros Militar.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 280, § 2º do CTB exige que a medição por instrumento ou equipamento eletrônico (radares) seja aprovada e aferida pelo INMETRO ou entidade por ele delegada (verificação anual).',
+    explanations: {
+      A: 'CORRETA. Art. 280, § 2º CTB: Aferição pelo INMETRO.',
+      B: 'INCORRETA. Ministério da Justiça não faz metrologia legal de radares.',
+      C: 'INCORRETA. Sindicato privado não tem função metrológica pública.',
+      D: 'INCORRETA. CREA fiscaliza exercício profissional de engenharia, não aferição técnica de velocímetros de rua.',
+      E: 'INCORRETA. Bombeiros atuam no resgate e segurança contra incêndio.'
+    }
+  },
+  {
+    id: 'ctb-q47',
+    subjectId: 'ctb',
+    topic: 'Identificação Externa dos Veículos e Placas (Art. 115)',
+    difficulty: 'Fácil',
+    statement: 'O veículo será identificado externamente por meio de placas dianteira e traseira, sendo esta lacrada ou fixada na estrutura do veículo (Art. 115 do CTB). Os caracteres das placas constituem a identificação do veículo e são:',
+    lawReference: 'Art. 115 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Individuais e reestruturados a cada proprietário sem reutilização.' },
+      { letter: 'B', text: 'Alterados anualmente na renovação do licenciamento.' },
+      { letter: 'C', text: 'Fixados livremente pelo próprio motorista.' },
+      { letter: 'D', text: 'Excluídos após 5 anos de fabricação do carro.' },
+      { letter: 'E', text: 'Iguais para todos os veículos da mesma cor na cidade.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'As placas de identificação veicular (Padrão Mercosul / CTB Art. 115) possuem caracteres alfa-numéricos individuais que acompanham o veículo desde a sua fabricação até a baixa definitiva.',
+    explanations: {
+      A: 'CORRETA. Art. 115 CTB: Caracteres individuais que acompanham o registro do veículo.',
+      B: 'INCORRETA. As placas não mudam anualmente.',
+      C: 'INCORRETA. Placas são confeccionadas por estampadoras credenciadas com padrão Senatran.',
+      D: 'INCORRETA. O veículo mantém as placas até a baixa do registro.',
+      E: 'INCORRETA. Cada placa é única por veículo.'
+    }
+  },
+  {
+    id: 'ctb-q48',
+    subjectId: 'ctb',
+    topic: 'Equipamentos Obrigatórios dos Veículos (Art. 105)',
+    difficulty: 'Médio',
+    statement: 'São equipamentos obrigatórios dos veículos automotores, nos termos do Art. 105 do CTB, EXCETO:',
+    lawReference: 'Art. 105 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Cinto de segurança e encosto de cabeça para os passageiros.' },
+      { letter: 'B', text: 'Air bag frontal para condutor e passageiro do banco dianteiro.' },
+      { letter: 'C', text: 'Registrador instantâneo inalterável de velocidade e tempo (tacógrafo) para veículos de transporte escolar e de carga pesada.' },
+      { letter: 'D', text: 'Dispositivo de rádio AM/FM com antena cromada.' },
+      { letter: 'E', text: 'Pneu sobressalente (estepe), chave de roda e macaco.' }
+    ],
+    correctLetter: 'D',
+    generalExplanation: 'O rádio com antena não é equipamento de segurança obrigatório previsto no Art. 105 do CTB. Cinto, air bag frontal, estepe, chave de roda, macaco e tacógrafo (para transporte escolar/pesado) são exigências legais.',
+    explanations: {
+      A: 'INCORRETA. Cinto de segurança e encosto de cabeça são equipamentos obrigatórios.',
+      B: 'INCORRETA. Air bag frontal é obrigatório para veículos produzidos/importados conforme legislação.',
+      C: 'INCORRETA. Tacógrafo é obrigatório no transporte escolar e pesados.',
+      D: 'CORRETA. Rádio AM/FM é item de conforto/acessório opcional, NÃO sendo equipamento obrigatório do Art. 105.',
+      E: 'INCORRETA. Estepe, macaco e chave de roda são equipamentos obrigatórios.'
+    }
+  },
+  {
+    id: 'ctb-q49',
+    subjectId: 'ctb',
+    topic: 'Uso de Triângulo de Sinalização de Emergência (Art. 46)',
+    difficulty: 'Fácil',
+    statement: 'Sempre que o veículo estiver impossibilitado de circular por avaria ou acidente (Art. 46 do CTB), o condutor deve acionar o pisca-alerta e colocar o triângulo de sinalização de emergência. A ausência do triângulo no veículo configura infração:',
+    lawReference: 'Art. 46 e Art. 230, IX do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Grave, com multa e retenção do veículo para regularização.' },
+      { letter: 'B', text: 'Média, sem multa.' },
+      { letter: 'C', text: 'Gravíssima, com suspensão da CNH.' },
+      { letter: 'D', text: 'Leve.' },
+      { letter: 'E', text: 'Mera recomendação sem caráter punitivo.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Conduzir veículo sem equipamento obrigatório ou com este inoperante (Art. 230, IX do CTB) é infração GRAVE (5 pontos), sujeita a multa e retenção do veículo para regularização.',
+    explanations: {
+      A: 'CORRETA. Art. 230, IX CTB: Ausência de equipamento obrigatório (triângulo) é infração GRAVE + retenção do veículo.',
+      B: 'INCORRETA. Não é média.',
+      C: 'INCORRETA. Não é gravíssima.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. O triângulo é de presença obrigatória por lei.'
+    }
+  },
+  {
+    id: 'ctb-q50',
+    subjectId: 'ctb',
+    topic: 'Veículos em Fila de Socorro e Ambulâncias (Art. 29)',
+    difficulty: 'Fácil',
+    statement: 'Seguir veículo em serviço de urgência com iluminação e alarme sonoro acionados (aproveitar o "vácuo" ou abertura de trânsito gerada por ambulâncias) (Art. 190 do CTB) configura infração de natureza:',
+    lawReference: 'Art. 190 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Grave (5 pontos).' },
+      { letter: 'B', text: 'Gravíssima (7 pontos).' },
+      { letter: 'C', text: 'Média (4 pontos).' },
+      { letter: 'D', text: 'Leve (3 pontos).' },
+      { letter: 'E', text: 'Permitida desde que o condutor acione as luzes de pisca-alerta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Seguir veículo em serviço de urgência, com prioridade de passagem sinalizada por alarme sonoro e iluminação (Art. 190 do CTB), é infração GRAVE (5 pontos).',
+    explanations: {
+      A: 'CORRETA. Art. 190 CTB: Seguir veículo de emergência em serviço de urgência é infração GRAVE.',
+      B: 'INCORRETA. Não é gravíssima.',
+      C: 'INCORRETA. Não é média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. A conduta coloca em risco a vida dos resgatistas e é expressamente proibida.'
+    }
+  },
+
+  // --- BLOCO 5: REGRAS COMPLEMENTARES E PROCESSO ADMINISTRATIVO (Q51 a Q70) ---
+  {
+    id: 'ctb-q51',
+    subjectId: 'ctb',
+    topic: 'Recurso em 2ª Instância no CETRAN (Art. 288 e 289)',
+    difficulty: 'Difícil',
+    statement: 'Das decisões da JARI que indeferirem o recurso contra a imposição de penalidade de trânsito (Art. 288 do CTB), caberá recurso em 2ª Instância Administrativa perante o:',
+    lawReference: 'Art. 288 e 289 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Conselho Estadual de Trânsito (CETRAN) ou CONTRANDIFE (no DF).' },
+      { letter: 'B', text: 'Conselho Nacional de Trânsito (CONTRAN).' },
+      { letter: 'C', text: 'Prefeito Municipal do local da infração.' },
+      { letter: 'D', text: 'Juizado Especial Cível.' },
+      { letter: 'E', text: 'Ministro dos Transportes.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Das decisões da JARI (1ª instância), o recurso de 2ª instância no âmbito estadual/municipal é apreciado pelo CETRAN (Conselho Estadual de Trânsito) ou CONTRANDIFE (no DF), nos termos do Art. 288 e 289 do CTB.',
+    explanations: {
+      A: 'CORRETA. Art. 288 e 289 CTB: 2ª Instância administrativa = CETRAN / CONTRANDIFE.',
+      B: 'INCORRETA. O CONTRAN não é órgão recursal de 2ª instância para infrações comuns estaduais/municipais.',
+      C: 'INCORRETA. Prefeito não atua como julgador de recursos de trânsito.',
+      D: 'INCORRETA. O Juizado Especial é órgão do Poder Judiciário, não 2ª instância administrativa.',
+      E: 'INCORRETA. O Ministro dos Transportes não julga recursos de autuações de trânsito individuais.'
+    }
+  },
+  {
+    id: 'ctb-q52',
+    subjectId: 'ctb',
+    topic: 'Encerramento da Instância Administrativa (Art. 290)',
+    difficulty: 'Médio',
+    statement: 'A apreciação do recurso em 2ª instância pelo CETRAN encerra a instância administrativa de julgamento de infrações de trânsito (Art. 290 do CTB). Após o encerramento sem provimento do recurso:',
+    lawReference: 'Art. 290 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'A penalidade torna-se definitiva e o valor da multa é exigível, sendo a pontuação inserida no prontuário.' },
+      { letter: 'B', text: 'O processo é automaticamente anulado por prescrição.' },
+      { letter: 'C', text: 'O condutor ganha o direito a mais 3 instâncias no Ministério do Trabalho.' },
+      { letter: 'D', text: 'A multa é cancelada e convertida em doação de sangue.' },
+      { letter: 'E', text: 'O auto de infração é incinerado.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Encerrada a instância administrativa com a decisão do CETRAN (Art. 290 do CTB), a penalidade aplicada torna-se definitiva, tornando a multa exigível e os pontos lançados definitivamente no prontuário do condutor.',
+    explanations: {
+      A: 'CORRETA. Art. 290 CTB: Encerrada a instância administrativa, a penalidade é definitiva e exigível.',
+      B: 'INCORRETA. A decisão do recurso esgota o processo administrativo com validade sancionatória.',
+      C: 'INCORRETA. Não há instância no Ministério do Trabalho para infrações de trânsito.',
+      D: 'INCORRETA. Não há conversão automática.',
+      E: 'INCORRETA. O registro permanece digitalizado no RENAINF/RENACH.'
+    }
+  },
+  {
+    id: 'ctb-q53',
+    subjectId: 'ctb',
+    topic: 'Notificação por Edital na Impossibilidade de Notificar (Art. 282)',
+    difficulty: 'Médio',
+    statement: 'Quando a Notificação da Autuação ou da Penalidade for devolvida por desatualização do endereço do proprietário junto ao Detran (Art. 282, § 1º do CTB), a notificação considera-se:',
+    lawReference: 'Art. 282, § 1º do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Válida para todos os efeitos legais.' },
+      { letter: 'B', text: 'Nula e o auto de infração arquivado.' },
+      { letter: 'C', text: 'Suspensa até que o proprietário vá voluntariamente ao Detran.' },
+      { letter: 'D', text: 'Causadora de prisão preventiva imediata.' },
+      { letter: 'E', text: 'Enviada para o endereço dos vizinhos.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 282, § 1º do CTB estabelece expressamente que a notificação devolvida por desatualização do endereço do proprietário no registro do veículo será considerada VÁLIDA para todos os efeitos legais (dever do proprietário manter o endereço atualizado).',
+    explanations: {
+      A: 'CORRETA. Art. 282, § 1º CTB: Notificação enviada ao endereço cadastrado e devolvida por desatualização é VÁLIDA legalmente.',
+      B: 'INCORRETA. O proprietário tem a obrigação de manter seu endereço cadastral correto no Detran.',
+      C: 'INCORRETA. O processo administrativo não fica paralisado.',
+      D: 'INCORRETA. Não há prisão por devolução de notificação postal.',
+      E: 'INCORRETA. Não se envia a vizinhos.'
+    }
+  },
+  {
+    id: 'ctb-q54',
+    subjectId: 'ctb',
+    topic: 'Pontuação de Infrações no Prontuário (Art. 259)',
+    difficulty: 'Fácil',
+    statement: 'A cada infração cometida são computados os seguintes números de pontos no prontuário do condutor (Art. 259 do CTB):',
+    lawReference: 'Art. 259 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Gravíssima: 7 pontos; Grave: 5 pontos; Média: 4 pontos; Leve: 3 pontos.' },
+      { letter: 'B', text: 'Gravíssima: 10 pontos; Grave: 8 pontos; Média: 5 pontos; Leve: 2 pontos.' },
+      { letter: 'C', text: 'Gravíssima: 5 pontos; Grave: 4 pontos; Média: 3 pontos; Leve: 1 ponto.' },
+      { letter: 'D', text: 'Gravíssima: 7 pontos; Grave: 6 pontos; Média: 5 pontos; Leve: 4 pontos.' },
+      { letter: 'E', text: 'Gravíssima: 12 pontos; Grave: 9 pontos; Média: 6 pontos; Leve: 3 pontos.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A escala de pontuação fixada pelo Art. 259 do CTB é:\n- Gravíssima: 7 pontos;\n- Grave: 5 pontos;\n- Média: 4 pontos;\n- Leve: 3 pontos.',
+    explanations: {
+      A: 'CORRETA. Art. 259 CTB: Gravíssima (7), Grave (5), Média (4), Leve (3).',
+      B: 'INCORRETA. Tabela incorreta.',
+      C: 'INCORRETA. Tabela incorreta.',
+      D: 'INCORRETA. Tabela incorreta.',
+      E: 'INCORRETA. Tabela incorreta.'
+    }
+  },
+  {
+    id: 'ctb-q55',
+    subjectId: 'ctb',
+    topic: 'Advertência por Escrito (Art. 267)',
+    difficulty: 'Médio',
+    statement: 'Conforme o Art. 267 do CTB (com redação da Lei nº 14.071/2020), a penalidade de advertência por escrito DEVERÁ ser imposta pela autoridade de trânsito ao infrator quando este cometer infração de natureza leve ou média, desde que:',
+    lawReference: 'Art. 267 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Não tenha cometido nenhuma outra infração nos últimos 12 (doze) meses.' },
+      { letter: 'B', text: 'Pague 50% do valor da multa antecipadamente.' },
+      { letter: 'C', text: 'Seja maior de 65 anos e aposentado.' },
+      { letter: 'D', text: 'Tenha CNH de categoria profissional D ou E.' },
+      { letter: 'E', text: 'Apresente atestado de bons antecedentes criminais.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Com a nova redação do Art. 267 do CTB, a conversão da multa em advertência por escrito passou a ser OBRIGATÓRIA ("deverá ser imposta") para infração de natureza LEVE ou MÉDIA, caso o infrator não tenha cometido nenhuma outra infração nos últimos 12 meses.',
+    explanations: {
+      A: 'CORRETA. Art. 267 CTB: Infração leve ou média + sem outras infrações nos últimos 12 meses = Advertência por escrito obrigatória.',
+      B: 'INCORRETA. A advertência por escrito isenta a cobrança de multa.',
+      C: 'INCORRETA. Não se exige requisito etário.',
+      D: 'INCORRETA. Aplica-se a qualquer condutor habilitado.',
+      E: 'INCORRETA. Não se exige antecedentes penais.'
+    }
+  },
+  {
+    id: 'ctb-q56',
+    subjectId: 'ctb',
+    topic: 'Suspensão do Direito de Dirigir por Pontos (Art. 261)',
+    difficulty: 'Difícil',
+    statement: 'A penalidade de suspensão do direito de dirigir será imposta pelo prazo mínimo de 2 (dois) meses até 8 (oito) meses quando o condutor atingir no período de 12 meses a seguinte pontuação acumulada (Art. 261, I do CTB):',
+    lawReference: 'Art. 261, I, "a", "b" e "c" do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: '20 pontos se constar 2 ou mais infrações gravíssimas; 30 pontos se constar 1 gravíssima; ou 40 pontos se não constar nenhuma gravíssima.' },
+      { letter: 'B', text: 'Sempre 20 pontos, independentemente da gravidade das infrações.' },
+      { letter: 'C', text: 'Sempre 40 pontos para qualquer condutor.' },
+      { letter: 'D', text: '10 pontos para condutores amadores e 100 pontos para profissionais.' },
+      { letter: 'E', text: '50 pontos absolutos.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Escala gradativa do Art. 261, I do CTB:\n- 20 PONTOS: se constar 2 ou mais infrações gravíssimas;\n- 30 PONTOS: se constar 1 infração gravíssima;\n- 40 PONTOS: se não constar nenhuma infração gravíssima.',
+    explanations: {
+      A: 'CORRETA. Art. 261, I CTB: 20 pts (2+ gravíssimas), 30 pts (1 gravíssima) e 40 pts (0 gravíssima).',
+      B: 'INCORRETA. A regra fixa de 20 pontos foi substituída pela regra gradativa na Lei 14.071/2020.',
+      C: 'INCORRETA. 40 pontos exige ausência total de infrações gravíssimas.',
+      D: 'INCORRETA. Tabela incorreta.',
+      E: 'INCORRETA. Limite máximo geral é 40 pontos.'
+    }
+  },
+  {
+    id: 'ctb-q57',
+    subjectId: 'ctb',
+    topic: 'Limite de 40 Pontos para Condutor Profissional (EAR) (Art. 261)',
+    difficulty: 'Difícil',
+    statement: 'Para os condutores que exercem atividade remunerada ao veículo (EAR) em qualquer categoria de CNH (Art. 261, § 5º e § 11 do CTB), a suspensão do direito de dirigir por pontuação ocorrerá:',
+    lawReference: 'Art. 261, § 11 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Sempre com 40 (quarenta) pontos, independentemente da natureza das infrações cometidas.' },
+      { letter: 'B', text: 'Com 20 pontos se tiver 1 infração média.' },
+      { letter: 'C', text: 'Com 10 pontos se dirigir à noite.' },
+      { letter: 'D', text: 'Com 50 pontos se for motorista de aplicativo.' },
+      { letter: 'E', text: 'Apenas após condenação na Justiça Federal.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Para o condutor que possui a observação EAR (Exercício de Atividade Remunerada) na CNH, o limite de suspensão é FIXO EM 40 PONTOS, independentemente da quantidade de infrações gravíssimas cometidas (Art. 261, § 11 CTB).',
+    explanations: {
+      A: 'CORRETA. Art. 261, § 11 CTB: O condutor EAR possui limite cravado de 40 pontos independente da natureza das infrações.',
+      B: 'INCORRETA. Para EAR o limite não cai para 20 pontos.',
+      C: 'INCORRETA. Horário não interfere.',
+      D: 'INCORRETA. Não é 50 pontos.',
+      E: 'INCORRETA. Trata-se de pontuação administrativa de trânsito.'
+    }
+  },
+  {
+    id: 'ctb-q58',
+    subjectId: 'ctb',
+    topic: 'Renovação do Exame Médico - Regulamentação no CTB (Art. 147)',
+    difficulty: 'Fácil',
+    statement: 'Nos termos do Art. 147, § 2º do CTB, o exame de aptidão física e mental para renovação da CNH será realizado a cada 10 anos para condutores com idade:',
+    lawReference: 'Art. 147, § 2º, I do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Inferior a 50 (cinquenta) anos.' },
+      { letter: 'B', text: 'Entre 50 e 69 anos.' },
+      { letter: 'C', text: 'Igual ou superior a 70 anos.' },
+      { letter: 'D', text: 'Inferior a 18 anos.' },
+      { letter: 'E', text: 'Superior a 80 anos.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Art. 147, § 2º, I do CTB: a validade do exame médico é de até 10 anos para condutores com idade INFERIOR A 50 ANOS.',
+    explanations: {
+      A: 'CORRETA. Art. 147, § 2º, I CTB: Validade de 10 anos para idade < 50 anos.',
+      B: 'INCORRETA. Faixa de 50 a 69 anos a validade é de até 5 anos.',
+      C: 'INCORRETA. Idade igual ou superior a 70 anos a validade é de até 3 anos.',
+      D: 'INCORRETA. Menores de 18 anos não podem habilitar-se.',
+      E: 'INCORRETA. Acima de 70 anos o prazo é de 3 anos.'
+    }
+  },
+  {
+    id: 'ctb-q59',
+    subjectId: 'ctb',
+    topic: 'Transitar em Calçadas e Passeios (Art. 193)',
+    difficulty: 'Médio',
+    statement: 'Transitar com o veículo em calçadas, passeios, passarelas, ciclovias ou gramados (Art. 193 do CTB) configura infração de trânsito com a seguinte valoração:',
+    lawReference: 'Art. 193 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Gravíssima, com multa multiplicada por 3 (três) vezes.' },
+      { letter: 'B', text: 'Grave, com multa simples.' },
+      { letter: 'C', text: 'Média.' },
+      { letter: 'D', text: 'Leve.' },
+      { letter: 'E', text: 'Permitida para cortar caminho no trânsito.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Transitar em calçadas, passeios, ciclovias ou canteiros centrais (Art. 193 do CTB) é infração GRAVÍSSIMA (7 pontos), com penalidade de MULTA MULTIPLICADA POR 3 (R$ 880,41).',
+    explanations: {
+      A: 'CORRETA. Art. 193 CTB: Infração Gravíssima + Multa x3 (R$ 880,41).',
+      B: 'INCORRETA. Não é apenas grave.',
+      C: 'INCORRETA. Não é média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. Transitabilidade em calçada é estritamente proibida por colocar em risco a vida de pedestres.'
+    }
+  },
+  {
+    id: 'ctb-q60',
+    subjectId: 'ctb',
+    topic: 'Forçar Passagem entre Veículos (Art. 191)',
+    difficulty: 'Difícil',
+    statement: 'Forçar passagem entre veículos que, transitando em sentidos opostos, estejam na iminência de passar um pelo outro ao realizar operação de ultrapassagem (Art. 191 do CTB) acarreta:',
+    lawReference: 'Art. 191 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Infração Gravíssima, com multa multiplicada por 10 (dez) vezes e suspensão do direito de dirigir.' },
+      { letter: 'B', text: 'Infração Grave com 5 pontos.' },
+      { letter: 'C', text: 'Infração Média com remoção do veículo.' },
+      { letter: 'D', text: 'Infração Leve.' },
+      { letter: 'E', text: 'Isenção de pena se os dois carros forem pequenos.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Forçar passagem entre veículos em sentidos opostos (Art. 191 do CTB) é uma das infrações mais perigosas do código: Infração GRAVÍSSIMA, com MULTA MULTIPLICADA POR 10 (R$ 2.934,70) e suspensão do direito de dirigir.',
+    explanations: {
+      A: 'CORRETA. Art. 191 CTB: Infração Gravíssima + Multa x10 + Suspensão do direito de dirigir.',
+      B: 'INCORRETA. A gravidade extrema eleva para o fator multiplicador x10.',
+      C: 'INCORRETA. Não é média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. Tamanho do carro é irrelevante.'
+    }
+  },
+  {
+    id: 'ctb-q61',
+    subjectId: 'ctb',
+    topic: 'Uso de Dispositivo Alarme Não Autorizado (Art. 229)',
+    difficulty: 'Médio',
+    statement: 'Usar no veículo alarme ou aparelho produtor de som que perturbe o sossego público, em desacordo com as normas fixadas pelo CONTRAN (Art. 229 do CTB), constitui infração:',
+    lawReference: 'Art. 229 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Média, com multa e apreensão/remoção do veículo para regularização.' },
+      { letter: 'B', text: 'Gravíssima com cassação da CNH.' },
+      { letter: 'C', text: 'Grave sem multa.' },
+      { letter: 'D', text: 'Leve.' },
+      { letter: 'E', text: 'Permitida aos finais de semana.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Usar alarme ou som em desacordo com as normas do CONTRAN (Art. 229 do CTB) é infração MÉDIA (4 pontos), com multa e retenção do veículo para regularização.',
+    explanations: {
+      A: 'CORRETA. Art. 229 CTB: Infração Média + multa + retenção/remoção do veículo.',
+      B: 'INCORRETA. Não é gravíssima.',
+      C: 'INCORRETA. Não é grave.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. Perturbação do sossego viário é proibida em qualquer dia.'
+    }
+  },
+  {
+    id: 'ctb-q62',
+    subjectId: 'ctb',
+    topic: 'Licenciamento Anual Obrigatório (Art. 130 e 131)',
+    difficulty: 'Fácil',
+    statement: 'Todo veículo automotor para circular na via pública deve ser licenciado anualmente pelo órgão executivo de trânsito (Art. 130 do CTB). O Certificado de Licenciamento Anual (CRLV-e) somente será expedido após a quitação de:',
+    lawReference: 'Art. 131, § 2º do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Todos os débitos vinculados ao veículo relativos a tributos (IPVA), encargos e multas de trânsito e ambientais já transitadas em julgado.' },
+      { letter: 'B', text: 'Apenas a taxa de emplacamento inicial.' },
+      { letter: 'C', text: 'Exclusivamente o imposto sobre renda do proprietário.' },
+      { letter: 'D', text: 'Mensalidade do seguro privado facultativo de danos.' },
+      { letter: 'E', text: 'Apenas a contribuição sindical do motorista.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 131, § 2º do CTB dispõe que o licenciamento anual (CRLV-e) só é emitido após a quitação integral de todos os débitos de IPVA, taxas e multas de trânsito/ambientais vinculadas ao veículo.',
+    explanations: {
+      A: 'CORRETA. Art. 131, § 2º CTB: Exige quitação de tributos, taxas e multas de trânsito notificadas.',
+      B: 'INCORRETA. A quitação anual abrange todos os débitos em aberto.',
+      C: 'INCORRETA. Imposto de Renda (IRPF) não é tributo vinculado ao veículo no Detran.',
+      D: 'INCORRETA. Seguro facultativo privado não é requisito para emissão do CRLV-e.',
+      E: 'INCORRETA. Contribuição sindical não vincula licenciamento veicular.'
+    }
+  },
+  {
+    id: 'ctb-q63',
+    subjectId: 'ctb',
+    topic: 'Conduzir Veículo sem Estar Licenciado (Art. 230)',
+    difficulty: 'Médio',
+    statement: 'Conduzir veículo que não esteja registrado e devidamente licenciado (Art. 230, V do CTB) configura infração de trânsito de natureza:',
+    lawReference: 'Art. 230, V do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Gravíssima, com multa e remoção do veículo.' },
+      { letter: 'B', text: 'Grave, sem remoção.' },
+      { letter: 'C', text: 'Média.' },
+      { letter: 'D', text: 'Leve.' },
+      { letter: 'E', text: 'Isenta se o proprietário alegar esquecimento de pagamento.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Conduzir veículo sem estar registrado e licenciado (Art. 230, V do CTB) é infração GRAVÍSSIMA (7 pontos), com penalidade de multa e medida administrativa de remoção do veículo ao pátio.',
+    explanations: {
+      A: 'CORRETA. Art. 230, V CTB: Infração Gravíssima + 7 pontos + remoção do veículo.',
+      B: 'INCORRETA. Não é grave.',
+      C: 'INCORRETA. Não é média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. Alegação de esquecimento não anula a autuação.'
+    }
+  },
+  {
+    id: 'ctb-q64',
+    subjectId: 'ctb',
+    topic: 'Transitar com Veículo Derramando Carga na Via (Art. 231)',
+    difficulty: 'Médio',
+    statement: 'Transitar com o veículo derramando, lançando ou arrastando sobre a via a carga que estiver transportando ou combustível/lubrificante (Art. 231, II do CTB) constitui infração:',
+    lawReference: 'Art. 231, II do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Gravíssima, com multa e retenção do veículo para regularização.' },
+      { letter: 'B', text: 'Grave.' },
+      { letter: 'C', text: 'Média.' },
+      { letter: 'D', text: 'Leve.' },
+      { letter: 'E', text: 'Permitida em rodovias rurais.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Derramar ou lançar carga/combustível na pista (Art. 231, II do CTB) é infração GRAVÍSSIMA (7 pontos), com penalidade de multa e retenção do veículo para regularização da carga.',
+    explanations: {
+      A: 'CORRETA. Art. 231, II CTB: Infração Gravíssima + retenção do veículo.',
+      B: 'INCORRETA. Não é grave.',
+      C: 'INCORRETA. Lançar objetos/saco de lixo pela janela é média (Art. 172), mas derramar a carga do veículo sobre a pista é GRAVÍSSIMA.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. O risco de derrapagem e acidentes veda a prática.'
+    }
+  },
+  {
+    id: 'ctb-q65',
+    subjectId: 'ctb',
+    topic: 'Atirar Objetos ou Lixo do Veículo (Art. 172)',
+    difficulty: 'Fácil',
+    statement: 'Atirar do veículo ou abandonar na via objetos ou substâncias (ex: latinhas, sacos de lixo ou bitucas de cigarro) (Art. 172 do CTB) constitui infração de trânsito de natureza:',
+    lawReference: 'Art. 172 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Média (4 pontos).' },
+      { letter: 'B', text: 'Gravíssima (7 pontos).' },
+      { letter: 'C', text: 'Grave (5 pontos).' },
+      { letter: 'D', text: 'Leve (3 pontos).' },
+      { letter: 'E', text: 'Infração isenta de multa por ser delito ambiental.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Atirar objetos ou lixo para fora do veículo (Art. 172 do CTB) é infração MÉDIA (4 pontos), sujeita à penalidade de multa.',
+    explanations: {
+      A: 'CORRETA. Art. 172 CTB: Infração Média (4 pontos).',
+      B: 'INCORRETA. Não é gravíssima.',
+      C: 'INCORRETA. Não é grave.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. É infração de trânsito punida com multa.'
+    }
+  },
+  {
+    id: 'ctb-q66',
+    subjectId: 'ctb',
+    topic: 'Estacionar Impedindo a Saída de Outro Veículo (Art. 181)',
+    difficulty: 'Fácil',
+    statement: 'Estacionar o veículo onde houver meio-fio rebaixado destinado à entrada ou saída de veículos (garagens) (Art. 181, IX do CTB) configura infração de natureza:',
+    lawReference: 'Art. 181, IX do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Média, com multa e remoção do veículo.' },
+      { letter: 'B', text: 'Gravíssima, com cassação da CNH.' },
+      { letter: 'C', text: 'Grave, sem remoção.' },
+      { letter: 'D', text: 'Leve.' },
+      { letter: 'E', text: 'Permitida se a garagem for do próprio condutor.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Estacionar na guia rebaixada bloqueando garagem (Art. 181, IX do CTB) é infração MÉDIA (4 pontos), sujeita a multa e remoção do veículo ao pátio.',
+    explanations: {
+      A: 'CORRETA. Art. 181, IX CTB: Infração Média + remoção do veículo.',
+      B: 'INCORRETA. Não é gravíssima.',
+      C: 'INCORRETA. Cabe a medida administrativa de remoção.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. A infração se caracteriza ao bloquear a guia rebaixada de acesso.'
+    }
+  },
+  {
+    id: 'ctb-q67',
+    subjectId: 'ctb',
+    topic: 'Conduzir Motocicleta Carregando Criança Menor de 10 Anos (Art. 244)',
+    difficulty: 'Difícil',
+    statement: 'Conduzir motocicleta, motoneta ou ciclomotor transportando criança menor de 10 (dez) anos ou que não tenha, nas circunstâncias, condições de cuidar da própria segurança (Art. 244, V do CTB com redação da Lei 14.071/20) acarreta:',
+    lawReference: 'Art. 244, V do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Infração Gravíssima, com multa e suspensão do direito de dirigir.' },
+      { letter: 'B', text: 'Infração Grave com 5 pontos apenas.' },
+      { letter: 'C', text: 'Infração Média.' },
+      { letter: 'D', text: 'Infração Leve.' },
+      { letter: 'E', text: 'Permitida se a criança estiver usando capacete infantil.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A Lei nº 14.071/2020 elevou a idade mínima para transportar crianças em motocicletas de 7 para 10 ANOS. Transportar criança menor de 10 anos em moto (Art. 244, V CTB) é infração GRAVÍSSIMA com suspensão do direito de dirigir.',
+    explanations: {
+      A: 'CORRETA. Art. 244, V CTB: Criança menor de 10 anos em moto = Infração Gravíssima + Suspensão da CNH.',
+      B: 'INCORRETA. A norma é auto-suspensiva gravíssima.',
+      C: 'INCORRETA. Não é média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. Mesmo de capacete, o transporte de menores de 10 anos em motocicletas é estritamente proibido.'
+    }
+  },
+  {
+    id: 'ctb-q68',
+    subjectId: 'ctb',
+    topic: 'Conduzir Moto Fazendo Malabarismos ou em Uma Roda (Art. 244)',
+    difficulty: 'Médio',
+    statement: 'Conduzir motocicleta, motoneta ou ciclomotor fazendo malabarismo ou equilibrando-se apenas em uma roda ("empinar a moto") (Art. 244, III do CTB) é infração:',
+    lawReference: 'Art. 244, III do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Gravíssima, com multa, suspensão do direito de dirigir e recolhimento do documento de habilitação.' },
+      { letter: 'B', text: 'Grave sem suspensão.' },
+      { letter: 'C', text: 'Média.' },
+      { letter: 'D', text: 'Leve.' },
+      { letter: 'E', text: 'Permitida em vias urbanas secundárias.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Fazer malabarismo ou empinar moto em via pública (Art. 244, III CTB) é infração GRAVÍSSIMA, sujeita a multa, suspensão direta do direito de dirigir e recolhimento da CNH.',
+    explanations: {
+      A: 'CORRETA. Art. 244, III CTB: Infração Gravíssima + Suspensão direta do direito de dirigir + recolhimento da CNH.',
+      B: 'INCORRETA. Trata-se de infração auto-suspensiva.',
+      C: 'INCORRETA. Não é média.',
+      D: 'INCORRETA. Não é leve.',
+      E: 'INCORRETA. Malabarismo em via pública é conduta proibida de elevado risco.'
+    }
+  },
+  {
+    id: 'ctb-q69',
+    subjectId: 'ctb',
+    topic: 'Renovação do Exame Médico - Faixa Etária de 50 a 69 Anos (Art. 147)',
+    difficulty: 'Fácil',
+    statement: 'De acordo com o Art. 147, § 2º, II do CTB, a renovação do exame de aptidão física e mental para condutores com idade igual ou superior a 50 (cinquenta) anos e inferior a 70 (setenta) anos ocorrerá a cada:',
+    lawReference: 'Art. 147, § 2º, II do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: '5 (cinco) anos.' },
+      { letter: 'B', text: '10 (dez) anos.' },
+      { letter: 'C', text: '3 (três) anos.' },
+      { letter: 'D', text: '2 (dois) anos.' },
+      { letter: 'E', text: '1 (um) ano.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Para a faixa etária de 50 a 69 anos de idade, o prazo máximo de renovação do exame médico da CNH é de 5 (cinco) anos (Art. 147, § 2º, II CTB).',
+    explanations: {
+      A: 'CORRETA. Art. 147, § 2º, II CTB: Validade de 5 anos para a faixa etária de 50 a 69 anos.',
+      B: 'INCORRETA. 10 anos aplica-se aos condutores com idade inferior a 50 anos.',
+      C: 'INCORRETA. 3 anos aplica-se aos condutores com idade de 70 anos ou mais.',
+      D: 'INCORRETA. 2 anos é incorreto.',
+      E: 'INCORRETA. 1 ano é validade da PPD.'
+    }
+  },
+  {
+    id: 'ctb-q70',
+    subjectId: 'ctb',
+    topic: 'Renovação do Exame Médico - Faixa Etária de 70 Anos ou Mais (Art. 147)',
+    difficulty: 'Fácil',
+    statement: 'Para os condutores com idade igual ou superior a 70 (setenta) anos (Art. 147, § 2º, III do CTB), a validade máxima do exame de aptidão física e mental será de:',
+    lawReference: 'Art. 147, § 2º, III do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: '3 (três) anos.' },
+      { letter: 'B', text: '5 (cinco) anos.' },
+      { letter: 'C', text: '10 (dez) anos.' },
+      { letter: 'D', text: '6 (seis) meses.' },
+      { letter: 'E', text: '2 (dois) anos.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Para condutores com 70 anos de idade ou mais, a validade do exame médico de renovação da CNH é de até 3 (três) anos (Art. 147, § 2º, III CTB).',
+    explanations: {
+      A: 'CORRETA. Art. 147, § 2º, III CTB: Validade máxima de 3 anos para condutores maiores de 70 anos.',
+      B: 'INCORRETA. 5 anos é para a faixa de 50 a 69 anos.',
+      C: 'INCORRETA. 10 anos é para menores de 50 anos.',
+      D: 'INCORRETA. 6 meses não é padrão regulamentar.',
+      E: 'INCORRETA. 2 anos é incorreto.'
     }
   }
 ];

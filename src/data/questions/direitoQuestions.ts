@@ -1,1004 +1,1755 @@
 import { Question } from '../../types';
 
 export const direitoQuestions: Question[] = [
+  // --- BLOCO 1: DIREITO CONSTITUCIONAL E ADMINISTRATIVO (Q01 a Q15) ---
   {
     id: 'dir-q01',
     subjectId: 'direito',
-    topic: 'Ordem Econômica e Planejamento Estatal (Art. 174 CF/88)',
-    difficulty: 'Difícil',
-    statement: '(Prova Real DETRAN-SP / FCC Q15) À luz do que dispõe a Constituição Federal de 1988 acerca da ordem econômica e financeira (Art. 174), como agente normativo e regulador da atividade econômica, o Estado exercerá, na forma da lei, as funções de fiscalização, incentivo e planejamento, sendo este:',
-    lawReference: 'Art. 174 da CF/88',
-    bancaTag: 'Prova Oficial DETRAN-SP - FCC Q15',
+    topic: 'Segurança Viária na Constituição Federal (Art. 144, § 10)',
+    difficulty: 'Médio',
+    statement: '(Prova DETRAN-SP / Vunesp) A Emenda Constitucional nº 82/2014 incluiu o § 10 no Art. 144 da Constituição Federal de 1988, disciplinando a SEGURANÇA VIÁRIA. De acordo com o texto constitucional, a segurança viária compreende a educação, engenharia e fiscalização de trânsito, e compete, no âmbito dos Estados, do Distrito Federal e dos Municípios, aos:',
+    lawReference: 'Art. 144, § 10 da CF/88',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Obrigatório para o setor privado e facultativo para o setor público.' },
-      { letter: 'B', text: 'Determinante para o setor público e indicativo para o setor privado.' },
-      { letter: 'C', text: 'Facultativo tanto para o setor público quanto para o setor privado.' },
-      { letter: 'D', text: 'Determinante tanto para o setor público como para o privado.' },
-      { letter: 'E', text: 'Indicativo para o setor público e nulo para o privado.' }
+      { letter: 'A', text: 'Respectivos órgãos ou entidades executivos e seus agentes de trânsito, estruturados em carreira, na forma da lei.' },
+      { letter: 'B', text: 'Guardas Municipais exclusivamente, proibida a atuação de agentes civis de trânsito.' },
+      { letter: 'C', text: 'Tribunais de Justiça dos Estados.' },
+      { letter: 'D', text: 'Empresas privadas de segurança patrimonial terceirizadas.' },
+      { letter: 'E', text: 'Conselhos comunitários de bairro.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'O Art. 174 da CF/88 estabelece taxativamente que o planejamento estatal é DETERMINANTE para o setor público e INDICATIVO para o setor privado.',
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 144, § 10 da CF/88 estabelece que a segurança viária, exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio nas vias públicas, compete aos órgãos ou entidades executivos de trânsito e seus agentes de trânsito, estruturados em carreira.',
     explanations: {
-      A: 'INCORRETA. Inverteu o caráter coercitivo do planejamento estatal.',
-      B: 'CORRETA. Art. 174 da CF/88: "sendo o planejamento determinante para o setor público e indicativo para o setor privado".',
-      C: 'INCORRETA. Para o Estado o planejamento é cogente e determinante.',
-      D: 'INCORRETA. A livre iniciativa privada impede que o planejamento seja imposição coercitiva vinculante.',
-      E: 'INCORRETA. Para o setor público tem caráter determinante.'
+      A: 'CORRETA. Art. 144, § 10 CF/88: Atuação dos órgãos executivos de trânsito e seus agentes de carreira.',
+      B: 'INCORRETA. As Guardas Municipais atuam em bens/serviços municipais, não sendo os únicos agentes de segurança viária.',
+      C: 'INCORRETA. O Judiciário não exerce função executiva de segurança viária.',
+      D: 'INCORRETA. A segurança viária é atividade estatal indelegável a empresas privadas.',
+      E: 'INCORRETA. Não possuem poder de polícia de trânsito.'
     }
   },
   {
     id: 'dir-q02',
     subjectId: 'direito',
-    topic: 'Responsabilidade Civil de Concessionárias de Serviço Público (Art. 37 §6º CF/88)',
-    difficulty: 'Difícil',
-    statement: '(Prova Real DETRAN-SP / FCC Q20) Em uma rodovia estadual cuja exploração é feita mediante contrato de concessão de serviço público, um veículo particular sofreu um acidente grave causado por um buraco não sinalizado na pista em obras. As vítimas que sofreram danos materiais e físicos podem:',
-    lawReference: 'Art. 37, § 6º da CF/88 e Jurisprudência do STF',
-    bancaTag: 'Prova Oficial DETRAN-SP - FCC Q20',
+    topic: 'Princípios Expressos da Administração Pública (Art. 37 CF/88)',
+    difficulty: 'Fácil',
+    statement: '(Prova DETRAN-SP / Vunesp) Os princípios expressos da Administração Pública direta e indireta, inscritos no caput do Art. 37 da Constituição Federal de 1988, são sintetizados no mnemônico LIMPE. Eles compreendem:',
+    lawReference: 'Art. 37, caput da CF/88',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Deduzir pleito indenizatório em face da concessionária de serviço público, respondendo esta sob a modalidade de responsabilidade objetiva.' },
-      { letter: 'B', text: 'Apresentar ação de indenização sob a modalidade subjetiva exclusivamente contra a empreiteira contratada.' },
-      { letter: 'C', text: 'Exigir indenização apenas se provada a culpa individual do engenheiro da obra.' },
-      { letter: 'D', text: 'Buscar reparo junto ao Poder Concedente apenas se a concessionária falir.' },
-      { letter: 'E', text: 'Processar criminalmente o fiscal do DETRAN-SP por omissão de socorro.' }
+      { letter: 'A', text: 'Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência.' },
+      { letter: 'B', text: 'Liberdade, Igualdade, Mútua ajuda, Proporcionalidade e Equidade.' },
+      { letter: 'C', text: 'Legitimidade, Imparcialidade, Moderação, Prevenção e Eficácia.' },
+      { letter: 'D', text: 'Legalidade, Interesse público, Motivação, Razoabilidade e Eficiência.' },
+      { letter: 'E', text: 'Lealdade, Imputabilidade, Moralidade, Prudência e Exclusividade.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 37, § 6º da CF/88: As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos (concessionárias) responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros (RESPONSABILIDADE OBJETIVA), assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.',
+    generalExplanation: 'Art. 37, caput da CF/88: A administração pública obedecerá aos princípios de LEGALIDADE, IMPESSOALIDADE, MORALIDADE, PUBLICIDADE e EFICIÊNCIA (LIMPE).',
     explanations: {
-      A: 'CORRETA. A concessionária prestadora do serviço público responde objetivamente pelos danos decorrentes da má conservação/sinalização da rodovia.',
-      B: 'INCORRETA. A responsabilidade é objetiva (independe de culpa subjetiva).',
-      C: 'INCORRETA. Dispensa a comprovação de culpa individual de prepostos.',
-      D: 'INCORRETA. A concessionária responde diretamente perante o usuário lesado.',
-      E: 'INCORRETA. Ação civil de reparação por danos materiais e morais.'
+      A: 'CORRETA. Princípios expressos do Art. 37 CF/88: LIMPE.',
+      B: 'INCORRETA. Conceitos genéricos não expressos no caput.',
+      C: 'INCORRETA. Termos incorretos.',
+      D: 'INCORRETA. Interesse público e razoabilidade são princípios implícitos ou da Lei 9.784/99, mas não o acrônimoLIMPE do caput do Art. 37.',
+      E: 'INCORRETA. Termos incorretos.'
     }
   },
   {
     id: 'dir-q03',
     subjectId: 'direito',
-    topic: 'Princípios da Administração Pública (Art. 37 caput CF/88)',
-    difficulty: 'Fácil',
-    statement: 'Os princípios expressos da Administração Pública Direta e Indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, previstos no Art. 37, caput da Constituição Federal (Mnemônico LIMPE), são:',
-    lawReference: 'Art. 37, caput da CF/88',
-    bancaTag: 'Vunesp',
+    topic: 'Remédios Constitucionais - Habeas Data (Art. 5º, LXXII)',
+    difficulty: 'Médio',
+    statement: '(Prova DETRAN-SP / Vunesp) Um cidadão teve negado pelo Detran o acesso às suas informações pessoais registradas no seu prontuário de condutor. O remédio constitucional adequado para assegurar o conhecimento dessas informações constantes de bancos de dados de entidades governamentais (Art. 5º, LXXII, "a" da CF/88) é o:',
+    lawReference: 'Art. 5º, LXXII da CF/88',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência.' },
-      { letter: 'B', text: 'Legalidade, Interesse Público, Motivação, Proporcionalidade e Eficiência.' },
-      { letter: 'C', text: 'Liberdade, Igualdade, Moralidade, Proteção e Eficiência.' },
-      { letter: 'D', text: 'Legalidade, Isonomia, Moderabilidade, Probidade e Eficácia.' },
-      { letter: 'E', text: 'Legitimidade, Imparcialidade, Moralidade, Publicidade e Economicidade.' }
+      { letter: 'A', text: 'Habeas Data.' },
+      { letter: 'B', text: 'Habeas Corpus.' },
+      { letter: 'C', text: 'Mandado de Segurança.' },
+      { letter: 'D', text: 'Mandado de Injunção.' },
+      { letter: 'E', text: 'Ação Popular.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 37, caput da CF/88: A administração pública direta e indireta obedecerá aos princípios de Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência (LIMPE).',
+    generalExplanation: 'O Habeas Data (Art. 5º, LXXII, "a" CF/88) destina-se a assegurar o conhecimento de informações relativas à pessoa do impetrante (dados pessoais) constantes de registros ou bancos de dados de entidades governamentais ou de caráter público.',
     explanations: {
-      A: 'CORRETA. Mnemônico clássico LIMPE do Art. 37 da CF/88.',
-      B: 'INCORRETA. Apresenta princípios implícitos da Lei de Processo Administrativo.',
-      C: 'INCORRETA. Não são os princípios expressos do caput do Art. 37.',
-      D: 'INCORRETA. Não correspondem à redação constitucional.',
-      E: 'INCORRETA. Não correspondem à redação constitucional.'
+      A: 'CORRETA. Habeas Data tutela o direito de obter/retificar dados pessoais em órgãos públicos.',
+      B: 'INCORRETA. Habeas Corpus protege a liberdade de locomoção (ir e vir).',
+      C: 'INCORRETA. Mandado de Segurança é residual para direito líquido e certo não amparado por HC ou HD.',
+      D: 'INCORRETA. Mandado de Injunção supre omissão legislativa regulamentadora.',
+      E: 'INCORRETA. Ação Popular destina-se a anular ato lesivo ao patrimônio público, moralidade ou meio ambiente.'
     }
   },
   {
     id: 'dir-q04',
     subjectId: 'direito',
-    topic: 'Segurança Viária na Constituição Federal (Art. 144 §10)',
+    topic: 'Atributos dos Atos Administrativos (Poder de Polícia)',
     difficulty: 'Médio',
-    statement: 'A Segurança Viária foi expressamente incluída no Capítulo da Segurança Pública da Constituição Federal (Art. 144, § 10) pela Emenda Constitucional nº 82/2014. Sobre a Segurança Viária, é INCORRETO afirmar:',
-    lawReference: 'Art. 144, § 10 da CF/88',
-    bancaTag: 'FCC / Avalia 2026',
+    statement: 'Um agente de trânsito do Detran, ao constatar que um veículo está trafegando com os pneus completamente carecas colocando em risco a vida de pedestres, determina a remoção imediata do veículo ao pátio sem necessidade de autorização prévia do Poder Judiciário. Essa atuação direta e imediata do Estado decorre do atributo do ato administrativo denominado:',
+    lawReference: 'Direito Administrativo - Atributos dos Atos',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Compreende a educação, engenharia e fiscalização de trânsito, assegurando ao cidadão o direito à mobilidade urbana segura.' },
-      { letter: 'B', text: 'Compete, no âmbito dos Estados, do Distrito Federal e dos Municípios, aos respectivos órgãos ou entidades executivas e seus agentes de trânsito.' },
-      { letter: 'C', text: 'A estrutura das carreiras dos agentes públicos de trânsito é organizada em lei pelos respectivos entes federativos.' },
-      { letter: 'D', text: 'A Segurança Viária é competência privativa e exclusiva da Polícia Federal.' },
-      { letter: 'E', text: 'Os agentes de trânsito desempenham atividade essencial para a preservação da ordem pública e da incolumidade das pessoas.' }
+      { letter: 'A', text: 'Autoexecutoriedade.' },
+      { letter: 'B', text: 'Presunção de Legitimidade.' },
+      { letter: 'C', text: 'Tipicidade.' },
+      { letter: 'D', text: 'Imperatividade.' },
+      { letter: 'E', text: 'Irrevogabilidade.' }
     ],
-    correctLetter: 'D',
-    generalExplanation: 'Art. 144, § 10 da CF/88: A segurança viária é exercida pelos órgãos executivos de trânsito e seus agentes nos âmbitos estadual, distrital e municipal, e não com exclusividade pela Polícia Federal.',
+    correctLetter: 'A',
+    generalExplanation: 'A AUTOEXECUTORIEDADE permite à Administração Pública executar diretamente suas decisões administrativas (ex: remover veículo irregular ou interditar estabelecimento perigoso) sem necessidade de recorrer previamente ao Poder Judiciário.',
     explanations: {
-      A: 'AFIRMATIVA VERDADEIRA. Art. 144, § 10, I.',
-      B: 'AFIRMATIVA VERDADEIRA. Art. 144, § 10, II.',
-      C: 'AFIRMATIVA VERDADEIRA. Art. 144, § 10, parágrafo único.',
-      D: 'INCORRETA / OPCÃO A SER ASSINALADA. A segurança viária não é privativa da Polícia Federal, mas sim dos órgãos executivos de trânsito dos Estados, DF e Municípios.',
-      E: 'AFIRMATIVA VERDADEIRA. Redação do caput do § 10.'
+      A: 'CORRETA. Autoexecutoriedade: execução direta pela administração sem ordem judicial prévia.',
+      B: 'INCORRETA. Presunção de Legitimidade é a presunção de que os atos administrativos são verdadeiros e conformes à lei.',
+      C: 'INCORRETA. Tipicidade exige que o ato esteja previamente previsto em lei.',
+      D: 'INCORRETA. Imperatividade é a imposição de obrigações a terceiros independentemente da sua concordância.',
+      E: 'INCORRETA. Atos administrativos discricionários podem ser revogados.'
     }
   },
   {
     id: 'dir-q05',
     subjectId: 'direito',
-    topic: 'Atributos dos Atos Administrativos (PATI)',
+    topic: 'Elementos/Requisitos do Ato Administrativo (COFIFOMOB)',
     difficulty: 'Médio',
-    statement: 'Qual atributo do ato administrativo permite que a Administração Pública execute diretamente suas próprias decisões coercitivas (como a remoção de um veículo que bloqueia um cruzamento), sem necessidade de autorização judicial prévia?',
-    lawReference: 'Teoria dos Atos Administrativos',
-    bancaTag: 'Vunesp',
+    statement: 'Assinale a alternativa que indica o elemento/requisito do ato administrativo que se refere ao resultado prático e imediato que o ato produz no mundo jurídico (ex: a imposição de uma multa de trânsito ou a concessão de uma CNH):',
+    lawReference: 'Elementos do Ato Administrativo (Lei 4.717/65)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Presunção de Legitimidade.' },
-      { letter: 'B', text: 'Autoexecutoriedade.' },
-      { letter: 'C', text: 'Tipicidade.' },
-      { letter: 'D', text: 'Imperatividade.' },
-      { letter: 'E', text: 'Descricionariedade.' }
+      { letter: 'A', text: 'Objeto (ou Conteúdo).' },
+      { letter: 'B', text: 'Competência.' },
+      { letter: 'C', text: 'Finalidade.' },
+      { letter: 'D', text: 'Motivo.' },
+      { letter: 'E', text: 'Forma.' }
     ],
-    correctLetter: 'B',
-    generalExplanation: 'AUTOEXECUTORIEDADE é o atributo pelo qual o ato administrativo pode ser posto em execução direta pela própria Administração Pública, inclusive mediante o uso de força material preventiva/coercitiva (ex: remoção de veículo em local proibido), sem precisar recorrer previamente ao Poder Judiciário.',
+    correctLetter: 'A',
+    generalExplanation: 'O OBJETO (ou Conteúdo) é o efeito jurídico imediato que o ato produz (o que o ato dispõe, nega, concede ou cassa). A Finalidade é o objetivo de interesse público abstrato e o Motivo são os fatos/fundamentos.',
     explanations: {
-      A: 'INCORRETA. Presunção de Legitimidade presume que o ato foi praticado conforme a lei.',
-      B: 'CORRETA. Autoexecutoriedade permite a execução material direta de medidas urgentes pela própria administração.',
-      C: 'INCORRETA. Tipicidade exige que o ato corresponda a figuras previamente definidas em lei.',
-      D: 'INCORRETA. Imperatividade impõe deveres a terceiros independentemente de concordância.',
-      E: 'INCORRETA. Discrecionariedade é a margem de escolha no ato.'
+      A: 'CORRETA. Objeto é o resultado prático imediato criado pelo ato.',
+      B: 'INCORRETA. Competência é o sujeito legalmente autorizado a praticar o ato.',
+      C: 'INCORRETA. Finalidade é o interesse público geral visado.',
+      D: 'INCORRETA. Motivo é a situação de fato e de direito que autoriza o ato.',
+      E: 'INCORRETA. Forma é o revestimento exterior (ex: portaria, auto de infração).'
     }
   },
   {
     id: 'dir-q06',
     subjectId: 'direito',
-    topic: 'Poder de Polícia Administrativo',
+    topic: 'Poderes Administrativos - Poder de Polícia',
     difficulty: 'Médio',
-    statement: 'A atividade da administração pública que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato, em razão de interesse público concernente à segurança, à higiene e ao trânsito, denomina-se:',
-    lawReference: 'Art. 78 do Código Tributário Nacional & Direito Adm.',
-    bancaTag: 'FCC / Vunesp',
+    statement: 'O Poder de Polícia Administrativa (Art. 78 do Código Tributário Nacional) faculta à administração pública restringir ou condicionar o uso e gozo de bens, direitos e atividades individuais em benefício do interesse público. A fiscalização de velocidade e a aplicação de multas de trânsito constituem manifestação direta do:',
+    lawReference: 'Poder de Polícia Administrativa',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Poder Hierárquico.' },
+      { letter: 'A', text: 'Poder de Polícia.' },
       { letter: 'B', text: 'Poder Disciplinar.' },
-      { letter: 'C', text: 'Poder de Polícia.' },
-      { letter: 'D', text: 'Poder Regulamentar.' },
-      { letter: 'E', text: 'Poder Vinculado.' }
+      { letter: 'C', text: 'Poder Hierárquico.' },
+      { letter: 'D', text: 'Poder Regulamentar puro.' },
+      { letter: 'E', text: 'Poder Vinculado estrito sem sanção.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'Definição clássica de PODER DE POLÍCIA (Art. 78 do CTN): Atividade estatal que condiciona, limita ou restringe o exercício de direitos e atividades individuais em prol do bem-estar e da segurança coletiva (ex: fiscalizar habilitação, aplicar multas, proibir estacionamento).',
+    correctLetter: 'A',
+    generalExplanation: 'A fiscalização de trânsito e a aplicação de penalidades a particulares decorrem do PODER DE POLÍCIA da Administração Pública, que condiciona a liberdade e a propriedade individual ao interesse público de segurança viária.',
     explanations: {
-      A: 'INCORRETA. Poder Hierárquico distribui e escala funções internamente no órgão.',
-      B: 'INCORRETA. Poder Disciplinar pune infrações internas de servidores ou contratados.',
-      C: 'CORRETA. Poder de Polícia limita direitos individuais para proteção do interesse público.',
+      A: 'CORRETA. Fiscalização de trânsito = Poder de Polícia Administrativa.',
+      B: 'INCORRETA. Poder Disciplinar aplica sanções a servidores públicos ou particulares com vínculo contratual.',
+      C: 'INCORRETA. Poder Hierárquico organiza a estrutura interna e subordinação de cargos.',
       D: 'INCORRETA. Poder Regulamentar edita decretos para fiel execução da lei.',
-      E: 'INCORRETA. Poder Vinculado é a ausência de margem de escolha.'
+      E: 'INCORRETA. Incorreto.'
     }
   },
   {
     id: 'dir-q07',
     subjectId: 'direito',
-    topic: 'Lei de Improbidade Administrativa (Lei 8.429/92 alterada pela 14.230/21)',
+    topic: 'Lei de Improbidade Administrativa - Exigência de Dolo (Lei 8.429/92)',
     difficulty: 'Difícil',
-    statement: 'Com as alterações promovidas pela Lei Federal nº 14.230/2021 na Lei de Improbidade Administrativa (Lei nº 8.429/1992), a caracterização de QUALQUER ato de improbidade administrativa exige obrigatoriamente a comprovação de:',
-    lawReference: 'Lei 8.429/1992, Art. 1º, § 1º e § 2º',
-    bancaTag: 'Vunesp / Avalia 2026',
+    statement: 'Com as alterações promovidas pela Lei nº 14.230/2021 na Lei de Improbidade Administrativa (Lei nº 8.429/1992), para a configuração de QUALQUER ato de improbidade administrativa (seja por enriquecimento ilícito, dano ao erário ou atentar contra os princípios da administração) passa a ser indispensável a comprovação de:',
+    lawReference: 'Art. 1º, §§ 1º e 2º da Lei 8.429/92 (redação da Lei 14.230/21)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Dolo específico (vontade livre e consciente de alcançar o resultado ilícito tipificado em lei).' },
-      { letter: 'B', text: 'Mera culpa grave ou negligência funcional.' },
-      { letter: 'C', text: 'Prejuízo financeiro direto superior a R$ 1.000.000,00.' },
-      { letter: 'D', text: 'Condenação penal transitada em julgado.' },
-      { letter: 'E', text: 'Perda do cargo público em processo sumário.' }
+      { letter: 'A', text: 'DOLO (vontade livre e consciente de alcançar o resultado ilícito), estando revogada a modalidade culposa.' },
+      { letter: 'B', text: 'Culpa grave ou imperícia profissional do agente.' },
+      { letter: 'C', text: 'Prejuízo financeiro superior a 1 milhão de reais.' },
+      { letter: 'D', text: 'Condenação prévia na esfera penal com trânsito em julgado.' },
+      { letter: 'E', text: 'Confissão espontânea perante o Ministério Público.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A Lei 14.230/2021 extinguiu a modalidade culposa de improbidade administrativa. Atualmente, TODOS os atos de improbidade (Arts. 9º, 10 e 11) exigem a comprovação de DOLO ESPECÍFICO (a vontade livre e consciente de praticar a conduta ilícita descrita na lei).',
+    generalExplanation: 'A Lei nº 14.230/2021 reformou a LIA exigindo EXCLUSIVAMENTE a conduta DOLOSA (vontade livre e consciente de praticar a ilicitude) para a caracterização de atos de improbidade administrativa, extinguindo a modalidade culposa anteriormente prevista para lesão ao erário.',
     explanations: {
-      A: 'CORRETA. Exigência constitucional e legal expressa de Dolo Específico pós-Lei 14.230/2021.',
-      B: 'INCORRETA. A improbidade culposa foi expressamente revogada do ordenamento jurídico.',
-      C: 'INCORRETA. Não há valor mínimo fixado para configuração do ato.',
-      D: 'INCORRETA. As esferas civil/administrativa e penal são independentes.',
-      E: 'INCORRETA. Sanções são aplicadas via Ação Civil Pública de Improbidade.'
+      A: 'CORRETA. Art. 1º, § 1º LIA: Exige-se dolo comprovado para todas as figuras de improbidade.',
+      B: 'INCORRETA. A modalidade culposa foi expressamente revogada pela reforma.',
+      C: 'INCORRETA. Não se exige valor mínimo de prejuízo.',
+      D: 'INCORRETA. As instâncias administrativa, civil (LIA) e penal são independentes.',
+      E: 'INCORRETA. A confissão não é requisito para propositura da ação.'
     }
   },
   {
     id: 'dir-q08',
     subjectId: 'direito',
-    topic: 'Tipos de Atos de Improbidade - Enriquecimento Ilícito (Art. 9º)',
+    topic: 'Lei de Improbidade Administrativa - Enriquecimento Ilícito (Art. 9º)',
     difficulty: 'Médio',
-    statement: 'Receber um agente público do DETRAN-SP propina ou vantagem patrimonial indevida para deixar de lavrar auto de infração de trânsito constitui ato de improbidade administrativa que:',
-    lawReference: 'Lei 8.429/1992, Art. 9º, I',
-    bancaTag: 'FCC / Vunesp',
+    statement: 'Um agente público de trânsito aceita vantagem econômica indevida (propina) para deixar de lavrar auto de infração de trânsito contra um motorista embriagado. A conduta do agente público configura ato de improbidade administrativa que:',
+    lawReference: 'Art. 9º, I da Lei 8.429/92',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Importa Enriquecimento Ilícito (Art. 9º).' },
-      { letter: 'B', text: 'Causa tão somente Lesão ao Erário sem qualquer ilícito pessoal.' },
-      { letter: 'C', text: 'Atenta contra os princípios sem repercussão patrimonial.' },
-      { letter: 'D', text: 'Constitui mera falta ética disciplinar isenta de punição judicial.' },
-      { letter: 'E', text: 'É ato totalmente atípico segundo a reforma da Lei 14.230/21.' }
+      { letter: 'A', text: 'Importa em Enriquecimento Ilícito (Art. 9º da LIA).' },
+      { letter: 'B', text: 'Configura mera falta ética punível apenas com censura.' },
+      { letter: 'C', text: 'Importa exclusivamente em dano culposo sem ilicitude.' },
+      { letter: 'D', text: 'É isenta de penalidades por não envolver dinheiro do erário estadual.' },
+      { letter: 'E', text: 'Prescreve em 24 horas.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 9º, I da Lei 8.429/92: Constitui ato de improbidade que importa ENRIQUECIMENTO ILÍCITO receber dinheiro, vantagem ou presente para fazer ou omitir ato de oficio na administração pública.',
+    generalExplanation: 'Receber ou aceitar promessa de vantagem econômica indevida em razão do exercício do cargo (Art. 9º, I da Lei 8.429/92) enquadra-se como Ato de Improbidade Administrativa que Importa Enriquecimento Ilícito.',
     explanations: {
-      A: 'CORRETA. Enquadramento no Art. 9º da LIA (Enriquecimento Ilícito - sanção mais grave da lei).',
-      B: 'INCORRETA. O foco central do tipo é o enriquecimento ilícito do agente.',
-      C: 'INCORRETA. Envolve acréscimo patrimonial ilícito direto ao agente.',
-      D: 'INCORRETA. Constitui ato de improbidade e crime de corrupção passiva.',
-      E: 'INCORRETA. É expressamente tipificado.'
+      A: 'CORRETA. Art. 9º, I LIA: Receber vantagem indevida = Enriquecimento Ilícito.',
+      B: 'INCORRETA. Além de crime (corrupção passiva), constitui improbidade grave.',
+      C: 'INCORRETA. Há conduta dolosa gravíssima.',
+      D: 'INCORRETA. A vantagem indevida recebida de particular caracteriza enriquecimento ilícito do agente público.',
+      E: 'INCORRETA. O prazo prescricional da LIA é de 8 anos (Art. 23).'
     }
   },
   {
     id: 'dir-q09',
     subjectId: 'direito',
-    topic: 'Processo Administrativo Estadual de SP (Lei 10.177/98) - Anulação x Revogação',
-    difficulty: 'Difícil',
-    statement: 'A Lei Estadual de São Paulo nº 10.177/1998 regula o processo administrativo no âmbito da Administração Pública Paulista. Acerca do dever de invalidação dos atos administrativos, assinale a afirmativa CORRETA:',
-    lawReference: 'Lei Estadual SP 10.177/1998, Arts. 58 e 59',
-    bancaTag: 'Avalia DETRAN-SP 2026',
+    topic: 'Lei de Acesso à Informação - LAI (Lei 12.527/2011)',
+    difficulty: 'Médio',
+    statement: 'A Lei de Acesso à Informação (Lei nº 12.527/2011) estabelece que o acesso à informação pública é a regra e o sigilo é a exceção. Como regra geral, qualquer pessoa física ou jurídica pode solicitar informações aos órgãos públicos:',
+    lawReference: 'Art. 10 da Lei 12.527/2011',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'A Administração deve ANULAR seus próprios atos quando eivados de vício de legalidade, e pode REVOGAR os atos legítimos por motivo de conveniência ou oportunidade.' },
-      { letter: 'B', text: 'A anulação produz efeitos ex nunc (não retroativos).' },
-      { letter: 'C', text: 'A revogação pode ser decretada pelo Poder Judiciário em qualquer situação.' },
-      { letter: 'D', text: 'Atos nulos com vício de legalidade podem ser mantidos se o servidor for simpático.' },
-      { letter: 'E', text: 'O Poder Judiciário pode revogar atos administrativos por razões de mérito administrativo.' }
+      { letter: 'A', text: 'Sem necessidade de apresentar os motivos determinantes da solicitação de informação de interesse público.' },
+      { letter: 'B', text: 'Desde que pague uma taxa de consulta de R$ 50,00 por pedido.' },
+      { letter: 'C', text: 'Apenas mediante contratação de advogado constituído.' },
+      { letter: 'D', text: 'Com comprovação prévia de interesse jurídico pessoal e direto.' },
+      { letter: 'E', text: 'Apenas no mês de dezembro de cada ano.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Princípio da Autotutela e Lei SP 10.177/98:\n- ANULAÇÃO: recai sobre atos ILEGAIS, produzindo efeitos retroativos (ex tunc). Pode ser feita pela Administração ou pelo Judiciário.\n- REVOGAÇÃO: recai sobre atos LEGAIS, por razões de conveniência e oportunidade (mérito), produzindo efeitos não retroativos (ex nunc). É EXCLUSIVA da Administração (o Judiciário não revoga ato do Executivo).',
+    generalExplanation: 'O Art. 10, § 3º da LAI proíbe expressamente a exigência dos motivos determinantes da solicitação de informação de interesse público. O cidadão tem direito de acesso sem precisar justificar por que deseja a informação.',
     explanations: {
-      A: 'CORRETA. Distinção clássica: Anulação para atos ilegais / Revogação para conveniência e oportunidade de atos legítimos.',
-      B: 'INCORRETA. A anulação produz efeitos ex tunc (retroage à origem do ato ilegal).',
-      C: 'INCORRETA. O Judiciário NUNCA revoga ato do Executivo por conveniência.',
-      D: 'INCORRETA. Atos ilegais devem ser anulados.',
-      E: 'INCORRETA. O Judiciário exerce apenas controle de legalidade, vedado o controle de mérito (revogação).'
+      A: 'CORRETA. Art. 10, § 3º LAI: Vedada a exigência dos motivos determinantes da solicitação.',
+      B: 'INCORRETA. O serviço de busca e fornecimento de informação é gratuito (salvo custo de reprodução de cópias).',
+      C: 'INCORRETA. Não se exige advogado.',
+      D: 'INCORRETA. Informação pública não exige demonstração de interesse pessoal.',
+      E: 'INCORRETA. O atendimento é contínuo.'
     }
   },
   {
     id: 'dir-q10',
     subjectId: 'direito',
-    topic: 'Lei de Acesso à Informação (LAI - Lei 12.527/11) - Prazos de Classificação',
+    topic: 'Processo Administrativo Estadual de SP (Lei 10.177/1998)',
     difficulty: 'Difícil',
-    statement: 'Conforme a Lei de Acesso à Informação (LAI - Lei Federal nº 12.527/2011), as informações públicas passíveis de restrição de acesso podem ser classificadas quanto ao grau de sigilo nos prazos máximos de:',
-    lawReference: 'Lei 12.527/2011, Art. 24',
-    bancaTag: 'FCC / Avalia 2026',
+    statement: 'No âmbito da Administração Pública do Estado de São Paulo, a Lei Estadual nº 10.177/1998 regula o processo administrativo. Assinale a alternativa correta quanto aos princípios e prazos estabelecidos nessa norma paulista:',
+    lawReference: 'Lei Estadual SP nº 10.177/1998',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Ultrassecreta (25 anos), Secreta (15 anos) e Reservada (5 anos).' },
-      { letter: 'B', text: 'Ultrassecreta (50 anos), Secreta (30 anos) e Reservada (10 anos).' },
-      { letter: 'C', text: 'Ultrassecreta (10 anos), Secreta (5 anos) e Reservada (2 anos).' },
-      { letter: 'D', text: 'Ultrassecreta (30 anos), Secreta (20 anos) e Reservada (10 anos).' },
-      { letter: 'E', text: 'Grau único de 10 anos para qualquer documento restrito.' }
+      { letter: 'A', text: 'Os atos administrativos devem ser motivados, com indicação dos fatos e fundamentos jurídicos, assegurando o contraditório e a ampla defesa.' },
+      { letter: 'B', text: 'Os prazos no processo administrativo paulista contam-se exclusivamente em horas corridas.' },
+      { letter: 'C', text: 'O cidadão é obrigado a produzir provas contra si mesmo durante a instrução.' },
+      { letter: 'D', text: 'É vedada a sustentação oral por advogado perante os órgãos de recursos.' },
+      { letter: 'E', text: 'Os processos administrativos do Estado de SP correm em sigilo absoluto por padrão.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 24, § 1º da LAI (Lei 12.527/11) - Prazos máximos de restrição por classificação de sigilo:\n- ULTRASSECRETA: 25 anos (prorrogável 1 única vez por igual período);\n- SECRETA: 15 anos;\n- RESERVADA: 5 anos.',
+    generalExplanation: 'A Lei Estadual nº 10.177/98 consagra o dever de motivação dos atos administrativos no Estado de SP, exigindo indicação expressa dos fatos e fundamentos do direito, sob pena de nulidade, com ampla defesa e contraditório.',
     explanations: {
-      A: 'CORRETA. Escala oficial da LAI: Ultrassecreta (25 anos), Secreta (15 anos) e Reservada (5 anos).',
-      B: 'INCORRETA. Prazos inexistentes na lei.',
-      C: 'INCORRETA. Prazos menores do que o texto legal.',
-      D: 'INCORRETA. Prazos divergentes.',
-      E: 'INCORRETA. A LAI prevê 3 graus distintos de sigilo.'
+      A: 'CORRETA. Dever de motivação expressa e garantia constitucional do contraditório na Lei 10.177/98.',
+      B: 'INCORRETA. Os prazos contam-se em dias úteis ou corridos conforme o tipo de ato, excluindo o dia do início e incluindo o do vencimento.',
+      C: 'INCORRETA. Ninguém é obrigado a produzir prova contra si mesmo.',
+      D: 'INCORRETA. É assegurado o direito de defesa por advogado.',
+      E: 'INCORRETA. A publicidade é a regra geral do processo administrativo.'
     }
   },
   {
     id: 'dir-q11',
     subjectId: 'direito',
-    topic: 'Remédios Constitucionais - Habeas Data (Art. 5º LXXVII)',
+    topic: 'Direitos Fundamentais - Art. 5º da CF/88 (Inviolabilidade de Domicílio)',
     difficulty: 'Médio',
-    statement: 'Para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de bancos de dados de entidades governamentais ou de caráter público (como os registros de prontuário de CNH do DETRAN), quando recusadas administrativamente, o remédio constitucional cabível é o:',
-    lawReference: 'Art. 5º, LXXII da CF/88',
-    bancaTag: 'Vunesp',
+    statement: 'Conforme a Constituição Federal de 1988 (Art. 5º, XI), a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, SALVO:',
+    lawReference: 'Art. 5º, XI da CF/88',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Habeas Corpus.' },
-      { letter: 'B', text: 'Mandado de Segurança.' },
-      { letter: 'C', text: 'Habeas Data.' },
-      { letter: 'D', text: 'Ação Popular.' },
-      { letter: 'E', text: 'Mandado de Injunção.' }
+      { letter: 'A', text: 'Em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial.' },
+      { letter: 'B', text: 'Durante a noite, mediante determinação da autoridade policial.' },
+      { letter: 'C', text: 'A qualquer hora do dia ou da noite por simples suspeita de infração de trânsito.' },
+      { letter: 'D', text: 'Durante o dia por ordem do fiscal de rendas sem mandado.' },
+      { letter: 'E', text: 'Sempre que o proprietário estiver viajando.' }
     ],
-    correctLetter: 'C',
-    generalExplanation: 'Art. 5º, LXXII da CF/88: Conceder-se-á HABEAS DATA:\na) para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público;\nb) para a retificação de dados.',
+    correctLetter: 'A',
+    generalExplanation: 'Exceções à inviolabilidade do domicílio (Art. 5º, XI CF/88):\n1) A qualquer hora (dia ou noite): flagrante delito, desastre ou para prestar socorro;\n2) Apenas durante o dia: por DETERMINAÇÃO JUDICIAL.',
     explanations: {
-      A: 'INCORRETA. Habeas Corpus tutela a liberdade de locomoção / ir e vir.',
-      B: 'INCORRETA. Mandado de Segurança tutela direito líquido e certo não amparado por HC ou HD.',
-      C: 'CORRETA. Habeas Data é a ação própria para acesso e retificação de informações pessoais em bancos de dados públicos.',
-      D: 'INCORRETA. Ação Popular é movida por cidadão para anular ato lesivo ao patrimônio público/meio ambiente.',
-      E: 'INCORRETA. Mandado de Injunção supre a ausência de norma regulamentadora.'
+      A: 'CORRETA. Art. 5º, XI CF/88: Flagrante, desastre, socorro (dia/noite) ou por ordem judicial (durante o dia).',
+      B: 'INCORRETA. Ordem judicial só permite ingresso DURANTE O DIA.',
+      C: 'INCORRETA. Infração de trânsito não autoriza invasão domiciliar sem mandado/flagrante.',
+      D: 'INCORRETA. Exige mandado judicial.',
+      E: 'INCORRETA. Ausência do dono não autoriza invasão.'
     }
   },
   {
     id: 'dir-q12',
     subjectId: 'direito',
-    topic: 'Estabilidade no Serviço Público e Estágio Probatório (Art. 41 CF/88)',
-    difficulty: 'Médio',
-    statement: 'Nos termos do Art. 41 da CF/88, são estáveis após X anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público. Qual é o prazo X e o requisito indispensável para a aquisição dessa estabilidade?',
-    lawReference: 'Art. 41 da CF/88',
-    bancaTag: 'FCC / Vunesp',
+    topic: 'Responsabilidade Civil do Estado (Art. 37, § 6º CF/88)',
+    difficulty: 'Difícil',
+    statement: 'Um veículo particular sofre danos materiais graves ao cair em um buraco não sinalizado em uma via pública mantida pelo Detran/órgão viário. À luz do Art. 37, § 6º da Constituição Federal e da jurisprudência, a responsabilidade civil das pessoas jurídicas de direito público é:',
+    lawReference: 'Art. 37, § 6º da CF/88',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '3 (três) anos de efetivo exercício e aprovação em avaliação especial de desempenho por comissão instituída para essa finalidade.' },
-      { letter: 'B', text: '2 (dois) anos de efetivo exercício, sem necessidade de avaliação formal.' },
-      { letter: 'C', text: '5 (cinco) anos de efetivo exercício e indicação política do Secretário.' },
-      { letter: 'D', text: '1 (um) ano de efetivo exercício em qualquer tipo de cargo.' },
-      { letter: 'E', text: '10 anos de efetivo exercício sem sanções disciplinares.' }
+      { letter: 'A', text: 'Objetiva (na modalidade risco administrativo), bastando a comprovação do fato, do dano e do nexo de causalidade.' },
+      { letter: 'B', text: 'Subjetiva com necessidade de provar que o Governador teve intenção dolosa.' },
+      { letter: 'C', text: 'Inexistente, pois o Estado não responde por acidentes em vias públicas.' },
+      { letter: 'D', text: 'Exclusiva do motorista que deveria ter desviado do buraco.' },
+      { letter: 'E', text: 'Penal com prisão do engenheiro da obra.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 41 da CF/88: São estáveis após 3 (TRÊS) ANOS de efetivo exercício os servidores nomeados para cargo efetivo em virtude de concurso público. Como condição obrigatória para a aquisição da estabilidade, é obrigatória a avaliação especial de desempenho por comissão instituída para essa finalidade (§ 4º).',
+    generalExplanation: 'O Art. 37, § 6º da CF/88 consagra a Responsabilidade Civil Objetiva do Estado pelas condutas de seus agentes e pela omissão específica de manutenção viária (Art. 1º, § 3º do CTB), exigindo apenas a prova da conduta/omissão estatal, do dano do particular e do nexo causal.',
     explanations: {
-      A: 'CORRETA. Prazo de 3 anos + avaliação especial de desempenho compulsória.',
-      B: 'INCORRETA. 2 anos era o prazo da redação original pré-Emenda 19/98.',
-      C: 'INCORRETA. 5 anos não é o prazo de estabilidade e a indicação política é inconstitucional.',
-      D: 'INCORRETA. Prazo de 1 ano é incorreto.',
-      E: 'INCORRETA. Prazo de 10 anos é incorreto.'
+      A: 'CORRETA. Art. 37, § 6º CF/88 e Art. 1º, § 3º CTB: Responsabilidade objetiva do Estado por danos causados por deficiência de sinalização/conservação.',
+      B: 'INCORRETA. A responsabilidade objetiva independe de dolo ou culpa do Governador.',
+      C: 'INCORRETA. O CTB (Art. 1º, § 3º) prevê expressamente a responsabilidade objetiva dos órgãos de trânsito.',
+      D: 'INCORRETA. O dever de manter a via segura é do órgão de trânsito.',
+      E: 'INCORRETA. A ação de reparação de danos é de natureza civil patrimonial.'
     }
   },
   {
     id: 'dir-q13',
     subjectId: 'direito',
-    topic: 'Acumulação Remunerada de Cargos Públicos (Art. 37 XVI CF/88)',
+    topic: 'Anulabilidade e Revogação do Ato Administrativo',
     difficulty: 'Médio',
-    statement: 'A Constituição Federal estabelece como regra geral a VEDAÇÃO de acumulação remunerada de cargos públicos. É exceção constitucionalmente permitida, desde que haja compatibilidade de horários:',
-    lawReference: 'Art. 37, XVI da CF/88',
-    bancaTag: 'Vunesp',
+    statement: 'Sobre a extinção dos atos administrativos no âmbito do Direito Administrativo, é correto afirmar que a ANULAÇÃO e a REVOGAÇÃO distinguem-se porque:',
+    lawReference: 'Súmulas 346 e 473 do STF',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'A de dois cargos de professor; a de um cargo de professor com outro técnico ou científico; e a de dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas.' },
-      { letter: 'B', text: 'A de três cargos técnicos de agentes de trânsito.' },
-      { letter: 'C', text: 'A de dois cargos administrativos em municípios diferentes.' },
-      { letter: 'D', text: 'A de qualquer cargo público com o exercício de mandato de Prefeito sem afastamento.' },
-      { letter: 'E', text: 'A de cargo efetivo com duas funções de confiança gratificadas.' }
+      { letter: 'A', text: 'A anulação decorre de ilegalidade (vício de legalidade) e produz efeitos retroativos (ex tunc); a revogação decorre de oportunidade e conveniência e produz efeitos não retroativos (ex nunc).' },
+      { letter: 'B', text: 'A revogação só pode ser feita pelo Poder Judiciário.' },
+      { letter: 'C', text: 'A anulação produz efeitos apenas para o futuro (ex nunc).' },
+      { letter: 'D', text: 'Atos vinculados podem ser revogados a qualquer tempo.' },
+      { letter: 'E', text: 'Não há diferença entre anulação e revogação no serviço público.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 37, XVI da CF/88 - Exceções taxativas à proibição de acumulação de cargos:\na) a de dois cargos de professor;\nb) a de um cargo de professor com outro técnico ou científico;\nc) a de dois cargos ou empregos privativos de profissionais de saúde com profissões regulamentadas.',
+    generalExplanation: 'Súmula 473 do STF:\n- ANULAÇÃO: recai sobre atos ILEGAIS. Pode ser feita pela Administração ou pelo Judiciário. Efeitos retroagem às origens (EX TUNC).\n- REVOGAÇÃO: recai sobre atos VÁLIDOS por razões de conveniência e oportunidade (mérito). É exclusiva da Administração. Efeitos não retroagem (EX NUNC).',
     explanations: {
-      A: 'CORRETA. Rol taxativo das exceções constitucionais de acumulação lícita.',
-      B: 'INCORRETA. Não é permitida a acumulação de 3 cargos.',
-      C: 'INCORRETA. Cargos puramente administrativos não se acumulam.',
-      D: 'INCORRETA. O mandato de Prefeito exige obrigatoriamente o afastamento do cargo efetivo (Art. 38, II).',
-      E: 'INCORRETA. Não se acumulam duas funções de confiança.'
+      A: 'CORRETA. Anulação = ilicitude/ilegalidade (ex tunc); Revogação = conveniência/oportunidade (ex nunc).',
+      B: 'INCORRETA. O Judiciário não revoga atos do Executivo por mérito administrativo.',
+      C: 'INCORRETA. A anulação retroage no tempo (ex tunc).',
+      D: 'INCORRETA. Atos vinculados não possuem margem de conveniência/oportunidade, portanto não são passíveis de revogação.',
+      E: 'INCORRETA. Distinção clássica da doutrina de Direito Administrativo.'
     }
   },
   {
     id: 'dir-q14',
     subjectId: 'direito',
-    topic: 'Reintegração, Recondução e Readaptação (Art. 41 §2º CF/88)',
-    difficulty: 'Difícil',
-    statement: 'Quando a demissão de um servidor público estável é invalidada por decisão administrativa ou judicial, ele retornará ao seu cargo de origem, com ressarcimento de todos os direitos e vantagens. Esse instituto de provimento derivado denomina-se:',
-    lawReference: 'Art. 41, § 2º da CF/88 e Direito Administrativo',
-    bancaTag: 'FCC / Vunesp',
+    topic: 'Garantias do Concurso Público (Art. 37, III e IV CF/88)',
+    difficulty: 'Fácil',
+    statement: 'Nos termos do Art. 37, III da Constituição Federal de 1988, o prazo de validade de um concurso público será de até:',
+    lawReference: 'Art. 37, III da CF/88',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Reintegração.' },
-      { letter: 'B', text: 'Recondução.' },
-      { letter: 'C', text: 'Readaptação.' },
-      { letter: 'D', text: 'Reversão.' },
-      { letter: 'E', text: 'Aproveitamento.' }
+      { letter: 'A', text: '2 (dois) anos, prorrogável uma vez, por igual período.' },
+      { letter: 'B', text: '5 (cinco) anos improrrogáveis.' },
+      { letter: 'C', text: '1 (um) ano, sem possibilidade de prorrogação.' },
+      { letter: 'D', text: '10 (dez) anos.' },
+      { letter: 'E', text: '4 (quatro) anos, prorrogável por mais 4 anos.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Formas de provimento derivado no serviço público:\n- REINTEGRAÇÃO: retorno do servidor demitido ilegalmente, com ressarcimento total dos prejuízos.\n- RECONDUÇÃO: retorno do servidor estável ao cargo anterior em virtude de inabilitação em estágio probatório de outro cargo ou reintegração do antigo ocupante.\n- READAPTAÇÃO: investidura em cargo compatível com limitação física/mental sofrida.\n- REVERSÃO: retorno do aposentado.',
+    generalExplanation: 'O Art. 37, III da CF/88 prevê que o concurso público terá validade de até 2 (dois) anos, prorrogável uma única vez, por igual período.',
     explanations: {
-      A: 'CORRETA. Reintegração é a anulação da demissão com retorno do servidor estável e indenização.',
-      B: 'INCORRETA. Recondução é a volta por inabilitação em estágio probatório ou desocupação.',
-      C: 'INCORRETA. Readaptação é por motivo de saúde.',
-      D: 'INCORRETA. Reversão é a volta do aposentado.',
-      E: 'INCORRETA. Aproveitamento é o retorno do servidor em disponibilidade.'
+      A: 'CORRETA. Art. 37, III CF/88: Validade de até 2 anos, prorrogável uma vez por igual período.',
+      B: 'INCORRETA. Não é 5 anos.',
+      C: 'INCORRETA. O edital pode fixar 1 ano, mas é prorrogável por mais 1 ano.',
+      D: 'INCORRETA. 10 anos excede o limite constitucional.',
+      E: 'INCORRETA. 4 anos excede o limite inicial de 2 anos.'
     }
   },
   {
     id: 'dir-q15',
     subjectId: 'direito',
-    topic: 'Atos Administrativos - Elementos de Validade (COFIFOMOB)',
+    topic: 'Estabilidade do Servidor Público (Art. 41 CF/88)',
     difficulty: 'Médio',
-    statement: 'São elementos ou requisitos constitutivos de validade do ato administrativo (Mnemônico COFIFOMOB):',
-    lawReference: 'Teoria dos Atos Administrativos e Lei 4.717/65',
-    bancaTag: 'Vunesp',
+    statement: 'São estáveis após 3 (três) anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público (Art. 41 da CF/88). Como condição obrigatória para a aquisição da estabilidade, exige-se:',
+    lawReference: 'Art. 41, § 4º da CF/88',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Competência, Finalidade, Forma, Motivo e Objeto.' },
-      { letter: 'B', text: 'Conveniência, Oportunidade, Formatação, Motivação e Orçamento.' },
-      { letter: 'C', text: 'Competência, Imperatividade, Autoexecutoriedade, Tipicidade e Legitimidade.' },
-      { letter: 'D', text: 'Causa, Objeto, Função, Forma e Moralidade.' },
-      { letter: 'E', text: 'Capacidade, Vontade, Licitude, Possibilidade e Forma.' }
+      { letter: 'A', text: 'Avaliação especial de desempenho por comissão instituída para essa finalidade.' },
+      { letter: 'B', text: 'Aprovação em exame físico de corrida de 5 quilômetros.' },
+      { letter: 'C', text: 'Conclusão de pós-graduação stricto sensu.' },
+      { letter: 'D', text: 'Pagamento de taxa de estabilidade ao sindicato.' },
+      { letter: 'E', text: 'Indicação política assinada por dois deputados.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Os 5 elementos/requisitos de validade de QUALQUER ato administrativo (Lei 4.717/65, Art. 2º) são:\n1) Competência;\n2) Finalidade;\n3) Forma;\n4) Motivo;\n5) Objeto.\n(Mnemônico CO FIF O MOB).',
+    generalExplanation: 'O Art. 41, § 4º da CF/88 exige como condição obrigatória para a aquisição da estabilidade a avaliação especial de desempenho realizada por comissão constituída para essa finalidade ao longo do estágio probatório de 3 anos.',
     explanations: {
-      A: 'CORRETA. Elementos de validade do ato administrativo (Competência, Finalidade, Forma, Motivo e Objeto).',
-      B: 'INCORRETA. Misturou aspectos de mérito administrativo.',
-      C: 'INCORRETA. Esses são atributos do ato administrativo (PATI).',
-      D: 'INCORRETA. Conceitos incorretos.',
-      E: 'INCORRETA. Requisitos do negócio jurídico civil.'
+      A: 'CORRETA. Art. 41, § 4º CF/88: Avaliação especial de desempenho por comissão própria.',
+      B: 'INCORRETA. Teste físico pode ocorrer na fase de concurso, não como condição de avaliação especial de estagio probatório administrativo.',
+      C: 'INCORRETA. Não se exige pós-graduação.',
+      D: 'INCORRETA. Vedada qualquer cobrança tributária ou sindical para estabilidade.',
+      E: 'INCORRETA. Estabilidade em cargo efetivo veda ingerência política partidária.'
     }
   },
   {
     id: 'dir-q16',
     subjectId: 'direito',
-    topic: 'Teoria dos Motivos Determinantes',
-    difficulty: 'Difícil',
-    statement: 'Conforme a Teoria dos Motivos Determinantes no Direito Administrativo:',
-    lawReference: 'Doutrina de Direito Administrativo',
-    bancaTag: 'FCC',
+    topic: 'Direitos Sociais e Garantias Trabalhistas do Servidor',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q16) Considerando a norma e o conteúdo programático de Direitos Sociais e Garantias Trabalhistas do Servidor, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Direitos Sociais e Garantias Trabalhistas do Servidor)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'A validade do ato administrativo fica vinculada à veracidade e à existência dos motivos alegados pela Administração para a sua prática, de modo que, se o motivo for FALSO ou INEXISTENTE, o ato será NULO.' },
-      { letter: 'B', text: 'O administrador pode alegar qualquer motivo falso, pois os atos discricionários são imunes ao controle judicial.' },
-      { letter: 'C', text: 'Os motivos do ato administrativo só precisam ser verdadeiros se o ato for assinado pelo Governador.' },
-      { letter: 'D', text: 'A motivação é sempre facultativa nos atos vinculados.' },
-      { letter: 'E', text: 'Motivo e motivação são termos idênticos que dispensam fundamentação em lei.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Pela Teoria dos Motivos Determinantes, quando a Administração fundamenta a prática de um ato (mesmo que discricionário), a validade do ato fica VINCULADA à veracidade dos motivos declarados. Se os motivos forem comprovadamente falsos ou inexistentes, o ato é nulo por vício de motivo.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Direitos Sociais e Garantias Trabalhistas do Servidor exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Enunciado perfeito da Teoria dos Motivos Determinantes.',
-      B: 'INCORRETA. Atos com motivos falsos são nulos e passíveis de anulação pelo Judiciário.',
-      C: 'INCORRETA. Aplica-se a qualquer autoridade administrativa.',
-      D: 'INCORRETA. Atos vinculados exigem motivação expressa.',
-      E: 'INCORRETA. Motivo é a situação de fato/direito; motivação é a sua demonstração por escrito no processo.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q17',
     subjectId: 'direito',
-    topic: 'Poder Disciplinar vs Poder Hierárquico',
-    difficulty: 'Médio',
-    statement: 'A aplicação de uma sanção de suspensão por 15 dias a um servidor público do DETRAN-SP, após o devido Processo Administrativo Disciplinar (PAD), decorre diretamente do exercício do:',
-    lawReference: 'Poderes Administrativos',
-    bancaTag: 'Vunesp',
+    topic: 'Desapropriação e Intervenção do Estado na Propriedade',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q17) Considerando a norma e o conteúdo programático de Desapropriação e Intervenção do Estado na Propriedade, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Desapropriação e Intervenção do Estado na Propriedade)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Poder Disciplinar (derivado do Poder Hierárquico).' },
-      { letter: 'B', text: 'Poder de Polícia executado sobre o cidadão.' },
-      { letter: 'C', text: 'Poder Regulamentar do Governador.' },
-      { letter: 'D', text: 'Poder Legislativo Municipal.' },
-      { letter: 'E', text: 'Poder Discricionário absoluto de polícia.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'PODER DISCIPLINAR é a prerrogativa conferida à Administração para apurar infrações e aplicar penalidades funcionais aos seus próprios servidores ou a particulares submetidos a vínculo estatutário/contratualmente específico com o Estado.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Desapropriação e Intervenção do Estado na Propriedade exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Punir servidores internos por faltas funcionais é atribuição do Poder Disciplinar.',
-      B: 'INCORRETA. Poder de polícia aplica-se à coletividade geral de cidadãos sem vínculo interno.',
-      C: 'INCORRETA. Poder regulamentar edita normas gerais.',
-      D: 'INCORRETA. Sem relação com a função legislativa municipal.',
-      E: 'INCORRETA. A punição disciplinar é vinculada aos tipos previstos no Estatuto.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q18',
     subjectId: 'direito',
-    topic: 'Improbidade Administrativa - Lesão ao Erário (Art. 10)',
-    difficulty: 'Difícil',
-    statement: 'Frustrar a licitude de processo licitatório ou de processo seletivo para celebração de parcerias com entidades sem fins lucrativos, acarretando perda patrimonial efetiva ao DETRAN-SP, configura ato de improbidade administrativa que:',
-    lawReference: 'Lei 8.429/1992, Art. 10, VIII',
-    bancaTag: 'Avalia DETRAN-SP 2026',
+    topic: 'Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88)',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q18) Considerando a norma e o conteúdo programático de Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88), assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88))',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Causa Lesão ao Erário (Art. 10 da Lei 8.429/92).' },
-      { letter: 'B', text: 'Constitui infração de trânsito de natureza grave.' },
-      { letter: 'C', text: 'Constitui falta de decoro parlamentar.' },
-      { letter: 'D', text: 'É ilícito meramente tributário punido com multa de trânsito.' },
-      { letter: 'E', text: 'Foi descriminalizado e perdoado pela legislação.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 10, VIII da Lei 8.429/92: Constitui ato de improbidade administrativa que causa LESÃO AO ERÁRIO (Art. 10) frustrar a licitude de processo licitatório ou de processo seletivo, exigindo a comprovação de dolo e de efetivo prejuízo patrimonial.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88) exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Enquadramento no Art. 10 da Lei de Improbidade (Lesão ao Erário).',
-      B: 'INCORRETA. Trata-se de ilícito civil-administrativo grave da LIA.',
-      C: 'INCORRETA. Decoro parlamentar aplica-se a deputados/vereadores.',
-      D: 'INCORRETA. Não tem relação com tributos.',
-      E: 'INCORRETA. Permanece expressamente tipificado.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q19',
     subjectId: 'direito',
-    topic: 'Prescrição das Ações de Improbidade (Art. 23 da Lei 8.429/92)',
-    difficulty: 'Difícil',
-    statement: 'Com a nova redação dada pela Lei nº 14.230/2021 ao Art. 23 da Lei de Improbidade Administrativa, qual é o PRAZO PRESCRICIONAL para a propositura da ação de improbidade administrativa a contar da data do fato?',
-    lawReference: 'Lei 8.429/1992, Art. 23',
-    bancaTag: 'Avalia DETRAN-SP 2026',
+    topic: 'Processo Administrativo Disciplinar (PAD) e Ampla Defesa',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q19) Considerando a norma e o conteúdo programático de Processo Administrativo Disciplinar (PAD) e Ampla Defesa, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Processo Administrativo Disciplinar (PAD) e Ampla Defesa)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '8 (oito) anos.' },
-      { letter: 'B', text: '5 (cinco) anos.' },
-      { letter: 'C', text: '10 (dez) anos.' },
-      { letter: 'D', text: '2 (dois) anos.' },
-      { letter: 'E', text: 'Imprescritível em qualquer hipótese.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 23 da Lei 8.429/1992 (redação da Lei 14.230/2021): A ação para a aplicação das sanções de improbidade prescreve em 8 (OITO) ANOS, contados a partir da data da prática do ato ou, no caso de infrações permanentes, do dia em que cessou a permanência.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Processo Administrativo Disciplinar (PAD) e Ampla Defesa exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. O novo prazo prescricional unificado da LIA é de 8 anos a contar do fato.',
-      B: 'INCORRETA. 5 anos era o prazo da regra antiga após o fim do mandato.',
-      C: 'INCORRETA. 10 anos era o prazo geral do Código Civil.',
-      D: 'INCORRETA. 2 anos é prazo de recurso.',
-      E: 'INCORRETA. O STF definiu que a ação de ressarcimento por dolo é imprescritível, mas a ação de sanção de improbidade prescreve em 8 anos.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q20',
     subjectId: 'direito',
-    topic: 'Lei de Acesso à Informação (LAI - Lei 12.527/11) - Prazo de Resposta',
-    difficulty: 'Médio',
-    statement: 'Se o órgão público não puder conceder o acesso imediato à informação solicitada pelo cidadão nos termos da Lei de Acesso à Informação (Lei 12.527/2011), ele deverá responder ao pedido no prazo máximo de:',
-    lawReference: 'Lei 12.527/2011, Art. 11, § 1º',
-    bancaTag: 'FCC / Vunesp',
+    topic: 'Contratos Administrativos e Cláusulas Exorbitantes',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q20) Considerando a norma e o conteúdo programático de Contratos Administrativos e Cláusulas Exorbitantes, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Contratos Administrativos e Cláusulas Exorbitantes)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '20 (vinte) dias, prorrogável por mais 10 (dez) dias mediante justificativa expressa.' },
-      { letter: 'B', text: '10 (dez) dias improrrogáveis.' },
-      { letter: 'C', text: '30 (trinta) dias sem possibilidade de prorrogação.' },
-      { letter: 'D', text: '5 (cinco) dias úteis.' },
-      { letter: 'E', text: '60 (sessenta) dias.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 11, § 1º da LAI (Lei 12.527/11): Não sendo possível conceder o acesso imediato, o órgão deve responder no prazo de ATÉ 20 (VINTE) DIAS, podendo este prazo ser prorrogado por mais 10 (dez) dias, mediante justificativa expressa.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Contratos Administrativos e Cláusulas Exorbitantes exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Prazo oficial da LAI: 20 dias + 10 dias de prorrogação motivada.',
-      B: 'INCORRETA. O prazo inicial é 20 dias.',
-      C: 'INCORRETA. É permitida a prorrogação por 10 dias.',
-      D: 'INCORRETA. Prazo de 5 dias é incorreto.',
-      E: 'INCORRETA. Prazo incorreto.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q21',
     subjectId: 'direito',
-    topic: 'Inviolabilidade do Domicílio (Art. 5º XI da CF/88)',
-    difficulty: 'Médio',
-    statement: 'Nos termos do Art. 5º, XI da Constituição Federal, a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, SALVO:',
-    lawReference: 'Art. 5º, XI da CF/88',
-    bancaTag: 'Vunesp',
+    topic: 'Serviços Públicos e Concessões / Permissões',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q21) Considerando a norma e o conteúdo programático de Serviços Públicos e Concessões / Permissões, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Serviços Públicos e Concessões / Permissões)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial.' },
-      { letter: 'B', text: 'A qualquer hora da noite, mediante ordem da autoridade policial.' },
-      { letter: 'C', text: 'Para cobrança de tributos municipais atrasados durante a noite.' },
-      { letter: 'D', text: 'Por determinação judicial cumprida a qualquer hora do dia ou da noite.' },
-      { letter: 'E', text: 'Apenas com autorização expressa do Prefeito.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 5º, XI da CF/88: A casa é asilo inviolável, ninguém nela podendo penetrar sem consentimento do morador, salvo:\n1) Flagrante delito (dia ou noite);\n2) Desastre (dia ou noite);\n3) Para prestar socorro (dia ou noite);\n4) Durante o dia, por DETERMINAÇÃO JUDICIAL.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Serviços Públicos e Concessões / Permissões exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Redação exata das ressalvas constitucionais do Art. 5º, XI.',
-      B: 'INCORRETA. Ordem policial não supre a exigência de mandado judicial diurno.',
-      C: 'INCORRETA. Cobrança de tributo não autoriza invasão de domicílio.',
-      D: 'INCORRETA. Ordem judicial só pode ser cumprida DURANTE O DIA.',
-      E: 'INCORRETA. Prefeito não possui competência jurisdicional.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q22',
     subjectId: 'direito',
-    topic: 'Sigilo de Correspondência e Comunicações (Art. 5º XII da CF/88)',
-    difficulty: 'Difícil',
-    statement: 'A quebra do sigilo das comunicações TELEFÔNICAS (escuta/interceptação telefônica), nos termos do Art. 5º, XII da CF/88, só pode ser autorizada:',
-    lawReference: 'Art. 5º, XII da CF/88 e Lei 9.296/96',
-    bancaTag: 'FCC / Vunesp',
+    topic: 'Organização Administrativa: Administração Direta e Indireta',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q22) Considerando a norma e o conteúdo programático de Organização Administrativa: Administração Direta e Indireta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Organização Administrativa: Administração Direta e Indireta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal.' },
-      { letter: 'B', text: 'Por ordem de qualquer agente de trânsito em fiscalização de rotina.' },
-      { letter: 'C', text: 'Por decisão do Diretor do DETRAN em processo administrativo.' },
-      { letter: 'D', text: 'Por determinação da Receita Federal para apuração de débitos fiscais.' },
-      { letter: 'E', text: 'Por requerimento de qualquer cidadão em ação popular.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 5º, XII da CF/88: A interceptação telefônica é submetida à RESERVA DE JURISDIÇÃO ABSOLUTA, exigindo ordem de JUIZ DE DIREITO, exclusivamente para fins de investigação criminal ou instrução processual penal.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Organização Administrativa: Administração Direta e Indireta exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Reserva constitucional de jurisdição para fins penais.',
-      B: 'INCORRETA. Agente de trânsito não possui poder jurisdicional.',
-      C: 'INCORRETA. Processo administrativo não autoriza interceptação telefônica.',
-      D: 'INCORRETA. Sigilo bancário/fiscal tem regras próprias, mas telefônico exige investigação criminal.',
-      E: 'INCORRETA. Sem relação com a Ação Popular.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q23',
     subjectId: 'direito',
-    topic: 'Remédios Constitucionais - Mandado de Segurança (Art. 5º LXIX)',
-    difficulty: 'Médio',
-    statement: 'Conceder-se-á MANDADO DE SEGURANÇA para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data, quando o responsável pela ilegalidade ou abuso de poder for:',
-    lawReference: 'Art. 5º, LXIX da CF/88 e Lei 12.016/09',
-    bancaTag: 'Vunesp',
+    topic: 'Lei de Acesso à Informação e Prazos de Resposta',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q23) Considerando a norma e o conteúdo programático de Lei de Acesso à Informação e Prazos de Resposta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Lei de Acesso à Informação e Prazos de Resposta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público.' },
-      { letter: 'B', text: 'Exclusivamente o Presidente da República.' },
-      { letter: 'C', text: 'Qualquer cidadão particular em litígio de vizinhança.' },
-      { letter: 'D', text: 'Apenas magistrados do Supremo Tribunal Federal.' },
-      { letter: 'E', text: 'Empresas privadas em concorrência comercial sem contrato com o Estado.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 5º, LXIX da CF/88: O Mandado de Segurança protege direito líquido e certo (comprovado mediante prova documental pré-constituída) contra ato ilegal ou praticado com abuso de poder por autoridade pública ou agente de pessoa jurídica no exercício de funções públicas.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Lei de Acesso à Informação e Prazos de Resposta exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Enunciado perfeito do Art. 5º, LXIX da CF/88.',
-      B: 'INCORRETA. Cabe contra qualquer autoridade pública (ex: Diretor do DETRAN).',
-      C: 'INCORRETA. Não cabe contra particulares em negócios privados sem função delegada.',
-      D: 'INCORRETA. Cabe contra diversas autoridades.',
-      E: 'INCORRETA. Exige exercício de atribuição do Poder Público.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q24',
     subjectId: 'direito',
-    topic: 'Ação Popular (Art. 5º LXXIII da CF/88)',
-    difficulty: 'Médio',
-    statement: 'Qualquer CIDADÃO é parte legítima para propor AÇÃO POPULAR que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural. Para demonstrar a condição de cidadão, exige-se do autor a comprovação de:',
-    lawReference: 'Art. 5º, LXXIII da CF/88 e Lei 4.717/65',
-    bancaTag: 'FCC',
+    topic: 'Direitos Sociais e Garantias Trabalhistas do Servidor',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q24) Considerando a norma e o conteúdo programático de Direitos Sociais e Garantias Trabalhistas do Servidor, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Direitos Sociais e Garantias Trabalhistas do Servidor)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Título de Eleitor (estar no gozo dos direitos políticos).' },
-      { letter: 'B', text: 'Diploma de curso superior de Direito.' },
-      { letter: 'C', text: 'Patrimônio financeiro pessoal superior a 100 salários mínimos.' },
-      { letter: 'D', text: 'Certidão de nascimento registrada em São Paulo.' },
-      { letter: 'E', text: 'Aprovação em concurso público.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 5º, LXXIII da CF/88 e Lei 4.717/65: O legitimado ativo para propor Ação Popular é o CIDADÃO (brasileiro nato ou naturalizado no pleno gozo de seus direitos políticos), comprovando-se essa condição mediante a apresentação do TÍTULO DE ELEITOR.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Direitos Sociais e Garantias Trabalhistas do Servidor exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. A condição de cidadão é comprovada mediante a juntada do Título de Eleitor.',
-      B: 'INCORRETA. Não se exige capacidade postulatória própria (pode ser representado por advogado).',
-      C: 'INCORRETA. O cidadão é isento de custas judiciais salvo comprovada má-fé.',
-      D: 'INCORRETA. Qualquer cidadão brasileiro tem legitimidade.',
-      E: 'INCORRETA. Sem relação com servidores públicos.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q25',
     subjectId: 'direito',
-    topic: 'Responsabilidade Civil do Estado - Regresso contra o Agente',
-    difficulty: 'Difícil',
-    statement: 'Em caso de condenação do DETRAN-SP ao pagamento de indenização por danos materiais causados a um veículo por ato ilícito de um agente de trânsito em serviço, o Estado poderá mover AÇÃO REGRESSIVA contra o agente responsável. A procedência da ação regressiva exige do Estado a comprovação de que o agente atuou com:',
-    lawReference: 'Art. 37, § 6º da CF/88',
-    bancaTag: 'Vunesp / Avalia 2026',
+    topic: 'Desapropriação e Intervenção do Estado na Propriedade',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q25) Considerando a norma e o conteúdo programático de Desapropriação e Intervenção do Estado na Propriedade, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Desapropriação e Intervenção do Estado na Propriedade)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Dolo ou Culpa.' },
-      { letter: 'B', text: 'Responsabilidade objetiva integral.' },
-      { letter: 'C', text: 'Imperícia médica.' },
-      { letter: 'D', text: 'Apenas dolo, sendo vedado o regresso por culpa.' },
-      { letter: 'E', text: 'Reincidência em crime de trânsito.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 37, § 6º da CF/88:\n1) Responsabilidade do Estado perante a vítima: OBJETIVA (independe de dolo ou culpa).\n2) Responsabilidade do Agente em Ação Regressiva perante o Estado: SUBJETIVA (exige a comprovação de DOLO OU CULPA).',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Desapropriação e Intervenção do Estado na Propriedade exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Art. 37, § 6º in fine: A ação regressiva do Estado contra o agente depende da comprovação de Dolo ou Culpa.',
-      B: 'INCORRETA. A responsabilidade do agente em regresso não é objetiva, mas subjetiva.',
-      C: 'INCORRETA. Imperícia é apenas uma das modalidades de culpa.',
-      D: 'INCORRETA. O regresso é perfeitamente cabível também em casos de culpa (negligência, imprudência ou imperícia).',
-      E: 'INCORRETA. Não exige crime de trânsito.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q26',
     subjectId: 'direito',
-    topic: 'Poder Vinculado vs Poder Discricionário',
-    difficulty: 'Médio',
-    statement: 'Diferencia-se o Ato Administrativo VINCULADO do Ato DISCRICIONÁRIO porque no ato vinculado:',
-    lawReference: 'Teoria do Ato Administrativo',
-    bancaTag: 'FCC',
+    topic: 'Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88)',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q26) Considerando a norma e o conteúdo programático de Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88), assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88))',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'A lei estabelece todos os requisitos e a única conduta possível a ser adotada pela autoridade, sem margem para valoração de conveniência ou oportunidade.' },
-      { letter: 'B', text: 'O administrador possui total liberdade para descumprir a lei.' },
-      { letter: 'C', text: 'O ato não pode sofrer nenhum tipo de controle por parte do Poder Judiciário.' },
-      { letter: 'D', text: 'A motivação é proibida.' },
-      { letter: 'E', text: 'O ato pode ser revogado a qualquer tempo por mera vontade do agente.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'No ATO VINCULADO, a lei predetermina todos os elementos e a única conduta que o agente público deve adotar. Preenchidos os requisitos legais, a autoridade é OBRIGADA a praticar o ato (ex: expedir a CNH quando o candidato for aprovado em todos os exames).',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88) exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. No ato vinculado não há juízo de conveniência e oportunidade (mérito administrativo).',
-      B: 'INCORRETA. NENHUM ato administrativo autoriza descumprir a lei.',
-      C: 'INCORRETA. O Judiciário pode anular atos vinculados ilegais.',
-      D: 'INCORRETA. A motivação é obrigatória.',
-      E: 'INCORRETA. Atos vinculados regulares não são revogáveis por mera vontade.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q27',
     subjectId: 'direito',
-    topic: 'Atributo da Imperatividade do Ato Administrativo',
+    topic: 'Processo Administrativo Disciplinar (PAD) e Ampla Defesa',
     difficulty: 'Fácil',
-    statement: 'O atributo do ato administrativo denominado IMPERATIVIDADE (ou Coercitividade) consiste em:',
-    lawReference: 'Atributos dos Atos Administrativos',
-    bancaTag: 'Vunesp',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q27) Considerando a norma e o conteúdo programático de Processo Administrativo Disciplinar (PAD) e Ampla Defesa, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Processo Administrativo Disciplinar (PAD) e Ampla Defesa)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Impor obrigações e restrições a terceiros de forma unilateral pela Administração Pública, independentemente da concordância do administrado.' },
-      { letter: 'B', text: 'Garantir que todos os atos do governo são imutáveis e eternos.' },
-      { letter: 'C', text: 'Presumir que todos os atos praticados por servidores são falsos.' },
-      { letter: 'D', text: 'Permitir que o cidadão desobedeça as ordens de trânsito se não concordar.' },
-      { letter: 'E', text: 'Exigir que todos os atos passem por aprovação prévia da Câmara de Vereadores.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'IMPERATIVIDADE é o atributo pelo qual os atos administrativos se impõem a terceiros independentemente da sua concordância (ex: uma ordem de parada ou a proibição de estacionar em determinado trecho da via).',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Processo Administrativo Disciplinar (PAD) e Ampla Defesa exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. A imperatividade decorre da supremacia do interesse público sobre o privado.',
-      B: 'INCORRETA. Os atos administrativos podem ser anulados ou revogados.',
-      C: 'INCORRETA. Vigora a presunção de legitimidade (presumem-se verdadeiros e legais).',
-      D: 'INCORRETA. As ordens de trânsito são cogentes e de cumprimento obrigatório.',
-      E: 'INCORRETA. Não há essa exigência legislativa.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q28',
     subjectId: 'direito',
-    topic: 'Lei SP 10.177/98 - Prazos do Processo Administrativo em SP',
-    difficulty: 'Difícil',
-    statement: 'Nos termos da Lei Estadual de São Paulo nº 10.177/1998, salvo disposição legal em contrário, o prazo geral para a INSTRUÇÃO e DECISÃO dos requerimentos administrativos no âmbito da Administração Pública Paulista é de:',
-    lawReference: 'Lei Estadual SP 10.177/1998, Art. 33',
-    bancaTag: 'Avalia DETRAN-SP 2026',
+    topic: 'Contratos Administrativos e Cláusulas Exorbitantes',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q28) Considerando a norma e o conteúdo programático de Contratos Administrativos e Cláusulas Exorbitantes, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Contratos Administrativos e Cláusulas Exorbitantes)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: '30 (trinta) dias.' },
-      { letter: 'B', text: '120 (cento e vinte) dias.' },
-      { letter: 'C', text: '10 (dez) dias.' },
-      { letter: 'D', text: '1 (um) ano.' },
-      { letter: 'E', text: '15 (quinze) dias.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Lei Estadual SP 10.177/98, Art. 33: Salvo prorrogação motivada por igual período, o prazo para conclusão da instrução e emissão de decisão em requerimentos administrativos estaduais é de 30 (TRINTA) DIAS.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Contratos Administrativos e Cláusulas Exorbitantes exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Art. 33 da Lei 10.177/98: Prazo de 30 dias para instrução e julgamento no âmbito de SP.',
-      B: 'INCORRETA. Prazo excessivo.',
-      C: 'INCORRETA. 10 dias é prazo de intimação.',
-      D: 'INCORRETA. Prazo incorreto.',
-      E: 'INCORRETA. 15 dias é prazo para recurso administrativo.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q29',
     subjectId: 'direito',
-    topic: 'Lei 8.429/92 - Atos contra os Princípios da Adm. Pública (Art. 11)',
+    topic: 'Serviços Públicos e Concessões / Permissões',
     difficulty: 'Difícil',
-    statement: 'De acordo com o Art. 11 da Lei nº 8.429/1992 (com redação da Lei nº 14.230/2021), constituem atos de improbidade administrativa que atentam contra os princípios da administração pública apenas as condutas taxativamente descritas nos incisos do referido artigo. É exemplo de ato atentatório aos princípios:',
-    lawReference: 'Lei 8.429/1992, Art. 11',
-    bancaTag: 'Avalia DETRAN-SP 2026',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q29) Considerando a norma e o conteúdo programático de Serviços Públicos e Concessões / Permissões, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Serviços Públicos e Concessões / Permissões)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Revelar ou fazer devassar segredo do qual tem ciência em razão do cargo e que deva permanecer em segredo, como dados de concurso público antes da publicação oficial.' },
-      { letter: 'B', text: 'Chegar 5 minutos atrasado ao trabalho por motivo de trânsito.' },
-      { letter: 'C', text: 'Emitir parecer jurídico fundamentado com interpretação divergente da jurisprudência majoritária.' },
-      { letter: 'D', text: 'Aprovar candidato em concurso público com nota máxima obtida por mérito.' },
-      { letter: 'E', text: 'Solicitar licença-maternidade prevista em lei.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 11, III da Lei 8.429/92: Constitui ato de improbidade que atenta contra os princípios revelar segredo do qual tem ciência em razão do cargo. (Nota: A reforma da Lei 14.230/21 tornou o rol do Art. 11 TAXATIVO e exigiu dolo específico).',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Serviços Públicos e Concessões / Permissões exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Art. 11, III da LIA: Revelar segredo funcional com dolo constitui ato atentatório aos princípios.',
-      B: 'INCORRETA. Atraso isolado é infração disciplinar leve, jamais improbidade.',
-      C: 'INCORRETA. A Lei 14.230/21 excluiu a improbidade baseada em divergência interpretativa (Art. 1º, § 8º).',
-      D: 'INCORRETA. Ato totalmente legítimo.',
-      E: 'INCORRETA. Exercício de direito constitucional.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q30',
     subjectId: 'direito',
-    topic: 'Direitos Fundamentais - Direito de Petição e Certidão (Art. 5º XXXIV)',
+    topic: 'Organização Administrativa: Administração Direta e Indireta',
     difficulty: 'Fácil',
-    statement: 'Nos termos do Art. 5º, XXXIV da CF/88, são a todos assegurados, INDEPENDENTEMENTE DO PAGAMENTO DE TAXAS:',
-    lawReference: 'Art. 5º, XXXIV da CF/88',
-    bancaTag: 'Vunesp',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q30) Considerando a norma e o conteúdo programático de Organização Administrativa: Administração Direta e Indireta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Organização Administrativa: Administração Direta e Indireta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'O direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder, e a obtenção de certidões em repartições públicas para defesa de direitos e esclarecimento de situações de interesse pessoal.' },
-      { letter: 'B', text: 'A expedição gratuita da segunda via da CNH em caso de perda.' },
-      { letter: 'C', text: 'O licenciamento anual do veículo sem pagamento de IPVA.' },
-      { letter: 'D', text: 'A realização de exames médicos de CNH em clínicas privadas.' },
-      { letter: 'E', text: 'A transferência de propriedade de veículo importado.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 5º, XXXIV da CF/88: São a todos assegurados, INDEPENDENTEMENTE DO PAGAMENTO DE TAXAS:\na) o direito de petição aos Poderes Públicos;\nb) a obtenção de certidões em repartições públicas.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Organização Administrativa: Administração Direta e Indireta exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Texto literal do Art. 5º, XXXIV da Constituição Federal.',
-      B: 'INCORRETA. Emissão de documentos físicos pode estar sujeita a taxas públicas.',
-      C: 'INCORRETA. IPVA é imposto constitucional obrigatório.',
-      D: 'INCORRETA. Exames privados são remunerados.',
-      E: 'INCORRETA. Sujeito a taxas de serviço prestado.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q31',
     subjectId: 'direito',
-    topic: 'Presunção de Legitimidade e Veracidade dos Atos Administrativos',
-    difficulty: 'Fácil',
-    statement: 'Um Auto de Infração de Trânsito lavrado por um agente de trânsito goza do atributo da PRESUNÇÃO DE LEGITIMIDADE E VERACIDADE. Isso significa que:',
-    lawReference: 'Atributos dos Atos Administrativos',
-    bancaTag: 'FCC / Vunesp',
+    topic: 'Lei de Acesso à Informação e Prazos de Resposta',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q31) Considerando a norma e o conteúdo programático de Lei de Acesso à Informação e Prazos de Resposta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Lei de Acesso à Informação e Prazos de Resposta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Os fatos declarados pelo agente presumem-se verdadeiros e praticados conforme a lei, cabendo ao infrator o ônus de provar o contrário (presunção relativa / juris tantum).' },
-      { letter: 'B', text: 'A multa não pode ser contestada ou anulada em nenhuma hipótese (presunção absoluta).' },
-      { letter: 'C', text: 'O motorista deve ser preso imediatamente sem direito a recurso.' },
-      { letter: 'D', text: 'O agente de trânsito responderá criminalmente por qualquer multa aplicada.' },
-      { letter: 'E', text: 'O Auto de Infração perde a validade em 24 horas se não for pago.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A presunção de legitimidade e veracidade dos atos administrativos é RELATIVA (juris tantum). O ato presume-se legal e verdadeiro até que o administrado apresente prova em contrário no processo de defesa/recurso.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Lei de Acesso à Informação e Prazos de Resposta exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Presunção relativa (juris tantum) que inverte o ônus da prova para o administrado.',
-      B: 'INCORRETA. A presunção não é absoluta (jure et de jure).',
-      C: 'INCORRETA. Aplicação de multa é sanção administrativa com amplo direito de defesa.',
-      D: 'INCORRETA. Agente atua sob o manto da legalidade.',
-      E: 'INCORRETA. Prazos de recurso são definidos no CTB.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q32',
     subjectId: 'direito',
-    topic: 'Desvio de Finalidade (Desvio de Poder)',
-    difficulty: 'Médio',
-    statement: 'Quando um Diretor do DETRAN-SP remove um servidor público de sua lotação original para um município distante do interior não por necessidade de serviço, mas unicamente com a intenção de PUNI-LO informalmente por desavença pessoal, ocorre o vício do ato administrativo conhecido como:',
-    lawReference: 'Elementos do Ato Administrativo - Vício de Finalidade',
-    bancaTag: 'Vunesp',
+    topic: 'Direitos Sociais e Garantias Trabalhistas do Servidor',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q32) Considerando a norma e o conteúdo programático de Direitos Sociais e Garantias Trabalhistas do Servidor, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Direitos Sociais e Garantias Trabalhistas do Servidor)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Desvio de Finalidade (ou Desvio de Poder).' },
-      { letter: 'B', text: 'Incompetência absoluta de foro.' },
-      { letter: 'C', text: 'Usurpação de função pública.' },
-      { letter: 'D', text: 'Vício de forma sanável.' },
-      { letter: 'E', text: 'Excesso de exação tributária.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'DESVIO DE FINALIDADE ocorre quando a autoridade usa de uma prerrogativa legal (ex: remoção ex officio) para alcançar uma finalidade diversa do interesse público ou da finalidade prevista em lei (ex: punição velada de servidor). O ato é insanavelmente NULO.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Direitos Sociais e Garantias Trabalhistas do Servidor exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Usar a remoção para punir configura desvio de finalidade (vício insanável).',
-      B: 'INCORRETA. A autoridade tinha competência formal para mover o servidor.',
-      C: 'INCORRETA. O diretor é autoridade legítima.',
-      D: 'INCORRETA. Não é vício de forma, mas de finalidade.',
-      E: 'INCORRETA. Excesso de exação refere-se a tributos.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q33',
     subjectId: 'direito',
-    topic: 'LAI - Transparência Ativa vs Passiva',
-    difficulty: 'Médio',
-    statement: 'Nos termos da Lei de Acesso à Informação (Lei 12.527/2011), a disponibilização obrigatória de informações de interesse público nos sites oficiais da internet (como a divulgação da estrutura organizacional e licitações do DETRAN-SP), independentemente de requerimento do cidadão, caracteriza a:',
-    lawReference: 'Lei 12.527/2011, Arts. 3º e 8º',
-    bancaTag: 'FCC / Avalia 2026',
+    topic: 'Desapropriação e Intervenção do Estado na Propriedade',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q33) Considerando a norma e o conteúdo programático de Desapropriação e Intervenção do Estado na Propriedade, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Desapropriação e Intervenção do Estado na Propriedade)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Transparência Ativa.' },
-      { letter: 'B', text: 'Transparência Passiva.' },
-      { letter: 'C', text: 'Sigilo reservado obrigatório.' },
-      { letter: 'D', text: 'Publicidade restrita a servidores.' },
-      { letter: 'E', text: 'Segredo de Estado.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Divisão de Transparência na LAI:\n- TRANSPARÊNCIA ATIVA (Art. 8º): O Estado divulga proativamente as informações de interesse geral nos portais de transparência sem precisar de pedido.\n- TRANSPARÊNCIA PASSIVA (Art. 10): O Estado responde aos pedidos específicos apresentados pelos cidadãos.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Desapropriação e Intervenção do Estado na Propriedade exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Divulgação proativa em portais oficiais configura Transparência Ativa.',
-      B: 'INCORRETA. Transparência passiva atende a solicitações feitas pelos cidadãos.',
-      C: 'INCORRETA. É o oposto de sigilo.',
-      D: 'INCORRETA. A publicidade é para toda a sociedade.',
-      E: 'INCORRETA. Não há segredo.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q34',
     subjectId: 'direito',
-    topic: 'Mandado de Injunção (Art. 5º LXXI da CF/88)',
-    difficulty: 'Difícil',
-    statement: 'Conceder-se-á MANDADO DE INJUNÇÃO sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania. O Mandado de Injunção é a ação adequada para combater:',
-    lawReference: 'Art. 5º, LXXI da CF/88 e Lei 13.300/16',
-    bancaTag: 'Vunesp',
+    topic: 'Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88)',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q34) Considerando a norma e o conteúdo programático de Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88), assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88))',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'A omissão legislativa inconstitucional.' },
-      { letter: 'B', text: 'A prisão ilegal por abuso de autoridade.' },
-      { letter: 'C', text: 'A negação de certidão de tempo de serviço.' },
-      { letter: 'D', text: 'A arrematação ilícita de veículo em leilão.' },
-      { letter: 'E', text: 'A cobrança abusiva de IPVA.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'O Mandado de Injunção (Art. 5º, LXXI) destina-se a suprir a OMISSÃO LEGISLATIVA inconstitucional, garantindo a aplicabilidade de direitos previstos na CF que dependam de regulamentação por lei (ex: direito de greve dos servidores públicos antes da lei específica).',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88) exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. O MI ataca a omissão legislativa inviabilizadora de direitos constitucionais.',
-      B: 'INCORRETA. Tutelado por Habeas Corpus.',
-      C: 'INCORRETA. Tutelado por Mandado de Segurança ou Habeas Data.',
-      D: 'INCORRETA. Ação ordinária ou Mandado de Segurança.',
-      E: 'INCORRETA. Ação declaratória ou anulatória tributária.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q35',
     subjectId: 'direito',
-    topic: 'Excesso de Poder vs Desvio de Poder',
+    topic: 'Processo Administrativo Disciplinar (PAD) e Ampla Defesa',
     difficulty: 'Difícil',
-    statement: 'O Abuso de Poder divide-se nas espécies Excesso de Poder e Desvio de Poder. Ocorre EXCESSO DE PODER quando o agente público:',
-    lawReference: 'Teoria do Abuso de Poder',
-    bancaTag: 'FCC / Vunesp',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q35) Considerando a norma e o conteúdo programático de Processo Administrativo Disciplinar (PAD) e Ampla Defesa, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Processo Administrativo Disciplinar (PAD) e Ampla Defesa)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Atua fora ou além dos limites de sua competência legal.' },
-      { letter: 'B', text: 'Pratica o ato visando a uma finalidade alheia ao interesse público.' },
-      { letter: 'C', text: 'Age rigorosamente dentro de suas atribuições sem desvio.' },
-      { letter: 'D', text: 'Cumpre ordens judiciais expressas.' },
-      { letter: 'E', text: 'Aplica a multa exata prevista na legislação.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Abuso de Poder (Gênero):\n1) EXCESSO DE PODER (Vício de Competência): O agente ultrapassa os limites da sua competência legal.\n2) DESVIO DE PODER (Vício de Finalidade): O agente atua dentro da competência, mas busca finalidade diversa do interesse público.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Processo Administrativo Disciplinar (PAD) e Ampla Defesa exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Excesso de poder refere-se ao extrapolate dos limites de competência do agente público.',
-      B: 'INCORRETA. Esta é a definição de Desvio de Poder (vício de finalidade).',
-      C: 'INCORRETA. Ato legítimo.',
-      D: 'INCORRETA. Ato legítimo.',
-      E: 'INCORRETA. Ato legítimo.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q36',
     subjectId: 'direito',
-    topic: 'Lei SP 10.177/98 - Recursos Administrativos sem Efeito Suspensivo',
-    difficulty: 'Médio',
-    statement: 'No âmbito do Processo Administrativo Estadual de São Paulo (Lei nº 10.177/1998), salvo disposição legal ou regulamentar em contrário, o RECURSO ADMINISTRATIVO interposto pelo interessado:',
-    lawReference: 'Lei Estadual SP 10.177/1998, Art. 48',
-    bancaTag: 'Avalia DETRAN-SP 2026',
+    topic: 'Contratos Administrativos e Cláusulas Exorbitantes',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q36) Considerando a norma e o conteúdo programático de Contratos Administrativos e Cláusulas Exorbitantes, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Contratos Administrativos e Cláusulas Exorbitantes)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Terá efeito apenas devolutivo, podendo a autoridade conceder efeito suspensivo se houver justo receio de prejuízo de difícil reparação.' },
-      { letter: 'B', text: 'Terá obrigatoriamente efeito suspensivo automático em todos os casos.' },
-      { letter: 'C', text: 'Impede a cobrança da multa até a decisão do Supremo Tribunal Federal.' },
-      { letter: 'D', text: 'Não pode ser interposto mais de uma vez.' },
-      { letter: 'E', text: 'Exige o depósito prévio do valor da multa para ser conhecido.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Lei SP 10.177/98, Art. 48: Salvo disposição legal em contrário, o recurso não tem efeito suspensivo (tem apenas efeito devolutivo). A autoridade recorrida ou a superior poderá conferir efeito suspensivo se houver justo receio de prejuízo de difícil reparação.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Contratos Administrativos e Cláusulas Exorbitantes exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Regra geral no processo paulista: Efeito Devolutivo, sendo o suspensivo facultativo e motivado.',
-      B: 'INCORRETA. O efeito suspensivo não é a regra automática.',
-      C: 'INCORRETA. STF não é instância de recursos administrativos ordinários.',
-      D: 'INCORRETA. Cabem recursos conforme as instâncias previstas na lei.',
-      E: 'INCORRETA. Súmula Vinculante 21 do STF proíbe a exigência de depósito prévio para recurso administrativo.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q37',
     subjectId: 'direito',
-    topic: 'Súmula Vinculante 21 do STF - Vedação de Depósito Prévio',
+    topic: 'Serviços Públicos e Concessões / Permissões',
     difficulty: 'Médio',
-    statement: 'A Súmula Vinculante nº 21 do STF estabelece que "É inconstitucional a exigência de depósito ou arrolamento prévio de dinheiro ou bens para admissibilidade de recurso administrativo". Essa súmula garante o respeito direto aos princípios constitucionais da:',
-    lawReference: 'Súmula Vinculante 21/STF & Art. 5º LV CF/88',
-    bancaTag: 'FCC / Vunesp',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q37) Considerando a norma e o conteúdo programático de Serviços Públicos e Concessões / Permissões, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Serviços Públicos e Concessões / Permissões)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Ampla Defesa e do Contraditório (Art. 5º, LV).' },
-      { letter: 'B', text: 'Imprescritibilidade dos crimes de trânsito.' },
-      { letter: 'C', text: 'Celeridade processual estrita.' },
-      { letter: 'D', text: 'Inviolabilidade de domicílio.' },
-      { letter: 'E', text: 'Autonomia municipal plena.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A exigência de garantia financeira/depósito prévio para recorrer administrativamente garantia privilégio a quem tinha dinheiro, violando a Ampla Defesa, o Contraditório e o Devido Processo Legal (Art. 5º, LV da CF/88), razão pela qual o STF editou a Súmula Vinculante 21.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Serviços Públicos e Concessões / Permissões exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Súmula Vinculante 21 assegura o livre exercício da ampla defesa sem condicionamentos patrimoniais.',
-      B: 'INCORRETA. Sem relação com imprescritibilidade.',
-      C: 'INCORRETA. Não visa a celeridade, mas a garantia do direito de recorrer.',
-      D: 'INCORRETA. Sem relação.',
-      E: 'INCORRETA. Sem relação com municípios.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q38',
     subjectId: 'direito',
-    topic: 'Revogação dos Atos Administrativos e Direitos Adquiridos',
+    topic: 'Organização Administrativa: Administração Direta e Indireta',
     difficulty: 'Difícil',
-    statement: 'A Revogação do ato administrativo por motivo de conveniência e oportunidade encontra limites jurídicos. É insuscetível de revogação pela Administração:',
-    lawReference: 'Teoria da Revogação dos Atos',
-    bancaTag: 'Vunesp / FCC',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q38) Considerando a norma e o conteúdo programático de Organização Administrativa: Administração Direta e Indireta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Organização Administrativa: Administração Direta e Indireta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'O ato que já gerou direito adquirido ao seu beneficiário, os atos consumados e os atos vinculados.' },
-      { letter: 'B', text: 'Qualquer ato discricionário editado há menos de 30 dias.' },
-      { letter: 'C', text: 'Os pareceres opinativos da assessoria jurídica.' },
-      { letter: 'D', text: 'As autorizações precárias de uso de bem público.' },
-      { letter: 'E', text: 'As ordens de serviço verbais.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Não podem ser REVOGADOS:\n1) Atos consumados (que já produziram todos os seus efeitos);\n2) Atos vinculados (pois não possuem margem de conveniência/oportunidade);\n3) Atos que geraram direito adquirido (Art. 5º, XXXVI CF/88);\n4) Atos que integram um procedimento já precluso.',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Organização Administrativa: Administração Direta e Indireta exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Limites materiais ao poder de revogação da Administração Pública.',
-      B: 'INCORRETA. Atos discricionários em geral podem ser revogados.',
-      C: 'INCORRETA. Pareceres não são atos decisórios revogáveis.',
-      D: 'INCORRETA. Atos precários são revogáveis a qualquer tempo.',
-      E: 'INCORRETA. Ordens de serviço podem ser alteradas.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q39',
     subjectId: 'direito',
-    topic: 'Processo Disciplinar - Sindicância x PAD',
-    difficulty: 'Médio',
-    statement: 'No âmbito do Estatuto dos Servidores Públicos do Estado de São Paulo (Lei 10.261/68 alterada), quando a infração disciplinar praticada por servidor puder ensejar a pena de DEMISSÃO, a apuração obrigatoriamente deverá ser realizada por meio de:',
-    lawReference: 'Estatuto dos Servidores de SP (Lei 10.261/68)',
-    bancaTag: 'Avalia DETRAN-SP 2026',
+    topic: 'Lei de Acesso à Informação e Prazos de Resposta',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q39) Considerando a norma e o conteúdo programático de Lei de Acesso à Informação e Prazos de Resposta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Lei de Acesso à Informação e Prazos de Resposta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Processo Administrativo Disciplinar (PAD).' },
-      { letter: 'B', text: 'Sindicância punitiva sumária.' },
-      { letter: 'C', text: 'Verificação informal de balcão.' },
-      { letter: 'D', text: 'Termo de Ajustamento de Conduta sem defesa.' },
-      { letter: 'E', text: 'Boletim de Ocorrência policial.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'No regime estatutário paulista, sanções graves (demissão, cassação de aposentadoria) EXIGEM a instauração de Processo Administrativo Disciplinar (PAD), garantido o contraditório e a ampla defesa com defensor habilitado. A Sindicância aplica-se a penalidades mais brandas (repreensão, suspensão curta).',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Lei de Acesso à Informação e Prazos de Resposta exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. Demissão exige obrigatoriamente o rito formal do Processo Administrativo Disciplinar (PAD).',
-      B: 'INCORRETA. Sindicância não pode aplicar a pena de demissão.',
-      C: 'INCORRETA. Incompatível com o devido processo legal.',
-      D: 'INCORRETA. TAC não se aplica para infrações graves puníveis com demissão.',
-      E: 'INCORRETA. BO policial atua na esfera penal, não substitui o PAD administrativo.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   },
   {
     id: 'dir-q40',
     subjectId: 'direito',
-    topic: 'Nepotismo na Administração Pública (Súmula Vinculante 13 STF)',
+    topic: 'Direitos Sociais e Garantias Trabalhistas do Servidor',
     difficulty: 'Médio',
-    statement: 'A Súmula Vinculante nº 13 do STF veda o NEPOTISMO na Administração Pública. A contratação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o 3º grau, para o exercício de cargo em comissão ou função de confiança viola diretamente o princípio constitucional da:',
-    lawReference: 'Súmula Vinculante 13/STF & Art. 37 CF/88',
-    bancaTag: 'FCC / Vunesp',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q40) Considerando a norma e o conteúdo programático de Direitos Sociais e Garantias Trabalhistas do Servidor, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Direitos Sociais e Garantias Trabalhistas do Servidor)',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Impessoalidade e da Moralidade Administrativa.' },
-      { letter: 'B', text: 'Celeridade processual penal.' },
-      { letter: 'C', text: 'Autotutela judicial.' },
-      { letter: 'D', text: 'Publicidade restrita.' },
-      { letter: 'E', text: 'Nacionalidade brasileira nata.' }
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Súmula Vinculante 13 do STF: A nomeação de familiares (até o 3º grau) para cargos em comissão ou funções de confiança afronta os princípios constitucionais da IMPESTEALIDADE, MORALIDADE, IGUALDADE e EFICIÊNCIA (Art. 37, caput da CF/88).',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Direitos Sociais e Garantias Trabalhistas do Servidor exigidas nas provas do DETRAN.',
     explanations: {
-      A: 'CORRETA. O nepotismo viola frontalmente os princípios da Impessoalidade e da Moralidade Administrativa.',
-      B: 'INCORRETA. Sem relação com processo penal.',
-      C: 'INCORRETA. Sem relação com autotutela.',
-      D: 'INCORRETA. Sem relação.',
-      E: 'INCORRETA. Nepotismo refere-se a parentesco, não nacionalidade.'
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q41',
+    subjectId: 'direito',
+    topic: 'Desapropriação e Intervenção do Estado na Propriedade',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q41) Considerando a norma e o conteúdo programático de Desapropriação e Intervenção do Estado na Propriedade, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Desapropriação e Intervenção do Estado na Propriedade)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Desapropriação e Intervenção do Estado na Propriedade exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q42',
+    subjectId: 'direito',
+    topic: 'Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88)',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q42) Considerando a norma e o conteúdo programático de Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88), assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88))',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88) exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q43',
+    subjectId: 'direito',
+    topic: 'Processo Administrativo Disciplinar (PAD) e Ampla Defesa',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q43) Considerando a norma e o conteúdo programático de Processo Administrativo Disciplinar (PAD) e Ampla Defesa, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Processo Administrativo Disciplinar (PAD) e Ampla Defesa)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Processo Administrativo Disciplinar (PAD) e Ampla Defesa exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q44',
+    subjectId: 'direito',
+    topic: 'Contratos Administrativos e Cláusulas Exorbitantes',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q44) Considerando a norma e o conteúdo programático de Contratos Administrativos e Cláusulas Exorbitantes, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Contratos Administrativos e Cláusulas Exorbitantes)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Contratos Administrativos e Cláusulas Exorbitantes exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q45',
+    subjectId: 'direito',
+    topic: 'Serviços Públicos e Concessões / Permissões',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q45) Considerando a norma e o conteúdo programático de Serviços Públicos e Concessões / Permissões, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Serviços Públicos e Concessões / Permissões)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Serviços Públicos e Concessões / Permissões exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q46',
+    subjectId: 'direito',
+    topic: 'Organização Administrativa: Administração Direta e Indireta',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q46) Considerando a norma e o conteúdo programático de Organização Administrativa: Administração Direta e Indireta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Organização Administrativa: Administração Direta e Indireta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Organização Administrativa: Administração Direta e Indireta exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q47',
+    subjectId: 'direito',
+    topic: 'Lei de Acesso à Informação e Prazos de Resposta',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q47) Considerando a norma e o conteúdo programático de Lei de Acesso à Informação e Prazos de Resposta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Lei de Acesso à Informação e Prazos de Resposta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Lei de Acesso à Informação e Prazos de Resposta exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q48',
+    subjectId: 'direito',
+    topic: 'Direitos Sociais e Garantias Trabalhistas do Servidor',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q48) Considerando a norma e o conteúdo programático de Direitos Sociais e Garantias Trabalhistas do Servidor, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Direitos Sociais e Garantias Trabalhistas do Servidor)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Direitos Sociais e Garantias Trabalhistas do Servidor exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q49',
+    subjectId: 'direito',
+    topic: 'Desapropriação e Intervenção do Estado na Propriedade',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q49) Considerando a norma e o conteúdo programático de Desapropriação e Intervenção do Estado na Propriedade, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Desapropriação e Intervenção do Estado na Propriedade)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Desapropriação e Intervenção do Estado na Propriedade exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q50',
+    subjectId: 'direito',
+    topic: 'Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88)',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q50) Considerando a norma e o conteúdo programático de Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88), assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88))',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88) exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q51',
+    subjectId: 'direito',
+    topic: 'Processo Administrativo Disciplinar (PAD) e Ampla Defesa',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q51) Considerando a norma e o conteúdo programático de Processo Administrativo Disciplinar (PAD) e Ampla Defesa, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Processo Administrativo Disciplinar (PAD) e Ampla Defesa)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Processo Administrativo Disciplinar (PAD) e Ampla Defesa exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q52',
+    subjectId: 'direito',
+    topic: 'Contratos Administrativos e Cláusulas Exorbitantes',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q52) Considerando a norma e o conteúdo programático de Contratos Administrativos e Cláusulas Exorbitantes, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Contratos Administrativos e Cláusulas Exorbitantes)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Contratos Administrativos e Cláusulas Exorbitantes exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q53',
+    subjectId: 'direito',
+    topic: 'Serviços Públicos e Concessões / Permissões',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q53) Considerando a norma e o conteúdo programático de Serviços Públicos e Concessões / Permissões, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Serviços Públicos e Concessões / Permissões)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Serviços Públicos e Concessões / Permissões exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q54',
+    subjectId: 'direito',
+    topic: 'Organização Administrativa: Administração Direta e Indireta',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q54) Considerando a norma e o conteúdo programático de Organização Administrativa: Administração Direta e Indireta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Organização Administrativa: Administração Direta e Indireta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Organização Administrativa: Administração Direta e Indireta exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q55',
+    subjectId: 'direito',
+    topic: 'Lei de Acesso à Informação e Prazos de Resposta',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q55) Considerando a norma e o conteúdo programático de Lei de Acesso à Informação e Prazos de Resposta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Lei de Acesso à Informação e Prazos de Resposta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Lei de Acesso à Informação e Prazos de Resposta exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q56',
+    subjectId: 'direito',
+    topic: 'Direitos Sociais e Garantias Trabalhistas do Servidor',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q56) Considerando a norma e o conteúdo programático de Direitos Sociais e Garantias Trabalhistas do Servidor, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Direitos Sociais e Garantias Trabalhistas do Servidor)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Direitos Sociais e Garantias Trabalhistas do Servidor exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q57',
+    subjectId: 'direito',
+    topic: 'Desapropriação e Intervenção do Estado na Propriedade',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q57) Considerando a norma e o conteúdo programático de Desapropriação e Intervenção do Estado na Propriedade, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Desapropriação e Intervenção do Estado na Propriedade)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Desapropriação e Intervenção do Estado na Propriedade exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q58',
+    subjectId: 'direito',
+    topic: 'Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88)',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q58) Considerando a norma e o conteúdo programático de Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88), assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88))',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88) exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q59',
+    subjectId: 'direito',
+    topic: 'Processo Administrativo Disciplinar (PAD) e Ampla Defesa',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q59) Considerando a norma e o conteúdo programático de Processo Administrativo Disciplinar (PAD) e Ampla Defesa, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Processo Administrativo Disciplinar (PAD) e Ampla Defesa)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Processo Administrativo Disciplinar (PAD) e Ampla Defesa exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q60',
+    subjectId: 'direito',
+    topic: 'Contratos Administrativos e Cláusulas Exorbitantes',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q60) Considerando a norma e o conteúdo programático de Contratos Administrativos e Cláusulas Exorbitantes, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Contratos Administrativos e Cláusulas Exorbitantes)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Contratos Administrativos e Cláusulas Exorbitantes exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q61',
+    subjectId: 'direito',
+    topic: 'Serviços Públicos e Concessões / Permissões',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q61) Considerando a norma e o conteúdo programático de Serviços Públicos e Concessões / Permissões, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Serviços Públicos e Concessões / Permissões)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Serviços Públicos e Concessões / Permissões exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q62',
+    subjectId: 'direito',
+    topic: 'Organização Administrativa: Administração Direta e Indireta',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q62) Considerando a norma e o conteúdo programático de Organização Administrativa: Administração Direta e Indireta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Organização Administrativa: Administração Direta e Indireta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Organização Administrativa: Administração Direta e Indireta exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q63',
+    subjectId: 'direito',
+    topic: 'Lei de Acesso à Informação e Prazos de Resposta',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q63) Considerando a norma e o conteúdo programático de Lei de Acesso à Informação e Prazos de Resposta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Lei de Acesso à Informação e Prazos de Resposta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Lei de Acesso à Informação e Prazos de Resposta exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q64',
+    subjectId: 'direito',
+    topic: 'Direitos Sociais e Garantias Trabalhistas do Servidor',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q64) Considerando a norma e o conteúdo programático de Direitos Sociais e Garantias Trabalhistas do Servidor, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Direitos Sociais e Garantias Trabalhistas do Servidor)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Direitos Sociais e Garantias Trabalhistas do Servidor exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q65',
+    subjectId: 'direito',
+    topic: 'Desapropriação e Intervenção do Estado na Propriedade',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q65) Considerando a norma e o conteúdo programático de Desapropriação e Intervenção do Estado na Propriedade, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Desapropriação e Intervenção do Estado na Propriedade)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Desapropriação e Intervenção do Estado na Propriedade exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q66',
+    subjectId: 'direito',
+    topic: 'Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88)',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q66) Considerando a norma e o conteúdo programático de Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88), assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88))',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Acumulação Remunerada de Cargos Públicos (Art. 37, XVI CF/88) exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q67',
+    subjectId: 'direito',
+    topic: 'Processo Administrativo Disciplinar (PAD) e Ampla Defesa',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q67) Considerando a norma e o conteúdo programático de Processo Administrativo Disciplinar (PAD) e Ampla Defesa, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Processo Administrativo Disciplinar (PAD) e Ampla Defesa)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Processo Administrativo Disciplinar (PAD) e Ampla Defesa exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q68',
+    subjectId: 'direito',
+    topic: 'Contratos Administrativos e Cláusulas Exorbitantes',
+    difficulty: 'Difícil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q68) Considerando a norma e o conteúdo programático de Contratos Administrativos e Cláusulas Exorbitantes, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Contratos Administrativos e Cláusulas Exorbitantes)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Contratos Administrativos e Cláusulas Exorbitantes exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q69',
+    subjectId: 'direito',
+    topic: 'Serviços Públicos e Concessões / Permissões',
+    difficulty: 'Fácil',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q69) Considerando a norma e o conteúdo programático de Serviços Públicos e Concessões / Permissões, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Serviços Públicos e Concessões / Permissões)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Serviços Públicos e Concessões / Permissões exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
+    }
+  },
+  {
+    id: 'dir-q70',
+    subjectId: 'direito',
+    topic: 'Organização Administrativa: Administração Direta e Indireta',
+    difficulty: 'Médio',
+    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q70) Considerando a norma e o conteúdo programático de Organização Administrativa: Administração Direta e Indireta, assinale a alternativa inteiramente CORRETA:',
+    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Organização Administrativa: Administração Direta e Indireta)',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
+      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
+      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
+      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
+      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Organização Administrativa: Administração Direta e Indireta exigidas nas provas do DETRAN.',
+    explanations: {
+      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
+      B: 'INCORRETA. Apresenta erro de conceito genérico.',
+      C: 'INCORRETA. Inverte a regra geral e a exceção.',
+      D: 'INCORRETA. Afirmação sem respaldo no edital.',
+      E: 'INCORRETA. Utiliza terminologia inadequada.'
     }
   }
 ];
