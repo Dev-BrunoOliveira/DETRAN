@@ -60,6 +60,7 @@ export const SUBJECTS_LIST: SubjectInfo[] = [
     iconName: 'FileCheck2',
     description: 'Resoluções atualizadas do CONTRAN (insulfilm, capacete, cadeirinha) e Legislação do Estado de SP (Código de Ética, Estrutura do DETRAN-SP e PSV-SP 2025-2035).',
     topics: [
+      'Resolução CONTRAN 1.020/2025 (Consolidação de Habilitação, Ciclomotores e Exames)',
       'Resolução CONTRAN 911/2022 (Exame Toxicológico)',
       'Resolução CONTRAN 960/2022 (Transmitância luminosa/Insulfilm)',
       'Resolução CONTRAN 940/2022 (Capacete de Motociclista)',

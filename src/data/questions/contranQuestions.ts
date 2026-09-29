@@ -1,39 +1,1398 @@
 import { Question } from '../../types';
 
 export const contranQuestions: Question[] = [
+  // --- BLAG 1: DOCUMENTOS DE HABILITAÇÃO, CATEGORIAS E REGISTROS (Q01 a Q15) ---
   {
     id: 'con-q01',
     subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 911/2022 - Exame Toxicológico',
-    difficulty: 'Médio',
-    statement: 'Nos termos da Resolução CONTRAN nº 911/2022 e do Art. 148-A do CTB, os condutores das categorias C, D e E deverão comprovar resultado negativo em exame toxicológico para obtenção e renovação da CNH. Qual é a periodicidade exigida para o exame toxicológico intermediário para condutores com idade inferior a 70 anos?',
-    lawReference: 'Resolução CONTRAN 911/2022 & Art. 148-A, § 2º do CTB',
-    bancaTag: 'Vunesp / Avalia 2026',
+    topic: 'Resolução CONTRAN 1.020/2025 - Competências e Abrangência',
+    difficulty: 'Fácil',
+    statement: 'Nos termos da Resolução CONTRAN nº 1.020/2025 e do Código de Trânsito Brasileiro, a competência para autorizar a condução de veículos de propulsão humana e de tração animal cabe aos:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 3º & Art. 24, XVIII do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'A cada 1 (um) ano.' },
-      { letter: 'B', text: 'A cada 2 (dois) anos e 6 (seis) meses.' },
-      { letter: 'C', text: 'A cada 3 (três) anos.' },
-      { letter: 'D', text: 'A cada 5 (cinco) anos.' },
-      { letter: 'E', text: 'Apenas no momento da renovação da CNH.' }
+      { letter: 'A', text: 'Órgãos executivos de trânsito dos Estados (DETRANs).' },
+      { letter: 'B', text: 'Órgãos e entidades executivos de trânsito dos Municípios.' },
+      { letter: 'C', text: 'Conselhos Estaduais de Trânsito (CETRANs).' },
+      { letter: 'D', text: 'Polícia Rodoviária Federal (PRF).' },
+      { letter: 'E', text: 'Órgão máximo executivo de trânsito da União (SENATRAN).' }
     ],
     correctLetter: 'B',
-    generalExplanation: 'Conforme a Resolução CONTRAN 911/2022 e o Art. 148-A, § 2º do CTB, os condutores das categorias C, D e E com idade inferior a 70 anos serão submetidos a novo exame toxicológico a cada período de 2 ANOS E 6 MESES, a contar da data de obtenção ou renovação da CNH.',
+    generalExplanation: 'Conforme o Art. 3º da Resolução CONTRAN nº 1.020/2025 e o Art. 24, inciso XVIII do CTB, a autorização para conduzir veículos de propulsão humana (ex: carroças de mão) e de tração animal (ex: charretes) compete exclusivamente aos órgãos e entidades executivos de trânsito dos Municípios.',
     explanations: {
-      A: 'INCORRETA. Não é anual.',
-      B: 'CORRETA. Prazo legal oficial: 2 anos e 6 meses (30 meses).',
-      C: 'INCORRETA. 3 anos é o prazo de renovação do exame de saúde para maiores de 70 anos.',
-      D: 'INCORRETA. 5 anos é o prazo geral de CNH para maiores de 50 anos.',
-      E: 'INCORRETA. O exame intermediário (toxicológico periódico) é obrigatório independentemente da validade total da CNH.'
+      A: 'INCORRETA. O Detran atua nos veículos automotores e documentos nacionais.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 3º e Art. 24, XVIII do CTB: Competência Municipal.',
+      C: 'INCORRETA. Os CETRANs são órgãos normativos e recursais estaduais.',
+      D: 'INCORRETA. A PRF atua na fiscalização de rodovias e estradas federais.',
+      E: 'INCORRETA. A Senatran é o órgão executivo da União.'
     }
   },
   {
     id: 'con-q02',
     subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 960/2022 - Transmitância Luminosa e Insulfilm',
+    topic: 'Resolução CONTRAN 1.020/2025 - Documentos de Habilitação',
+    difficulty: 'Fácil',
+    statement: 'De acordo com o Art. 4º da Resolução CONTRAN nº 1.020/2025, assinale a opção que apresenta CORRETAMENTE os três documentos oficiais de habilitação reconhecidos no Brasil:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 4º',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Licença de Aprendizagem (LADV), Registro RENACH e Carteira Nacional de Habilitação (CNH).' },
+      { letter: 'B', text: 'Permissão para Dirigir (PPD), Autorização para Conduzir Ciclomotor (ACC) e Carteira Nacional de Habilitação (CNH).' },
+      { letter: 'C', text: 'Certificado de Registro do Veículo (CRV), Permissão para Dirigir (PPD) e CNH.' },
+      { letter: 'D', text: 'Autorização Temporária de Trânsito, Registro BINCO e CNH.' },
+      { letter: 'E', text: 'Passaporte de Trânsito, LADV e Permissão para Dirigir (PPD).' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 4º estabelece taxativamente que são documentos de habilitação: I - Permissão para Dirigir (PPD); II - Autorização para Conduzir Ciclomotor (ACC); e III - Carteira Nacional de Habilitação (CNH).',
+    explanations: {
+      A: 'INCORRETA. LADV e RENACH não são documentos formais de habilitação final.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 4º: PPD, ACC e CNH.',
+      C: 'INCORRETA. CRV é documento de registro de propriedade do veículo.',
+      D: 'INCORRETA. BINCO é a base de dados informatizada da União.',
+      E: 'INCORRETA. Passaporte de trânsito não é categoria de documento de habilitação nacional.'
+    }
+  },
+  {
+    id: 'con-q03',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Ciclomotores e Categorias',
     difficulty: 'Médio',
-    statement: 'A Resolução CONTRAN nº 960/2022 estabelece os requisitos sobre a transmitância luminosa dos vidros dos veículos. O índice mínimo de transmitância luminosa para o parabrisa e demais vidros indispensáveis à dirigibilidade é de:',
+    statement: 'Um cidadão habilitado exclusivamente na Categoria B de CNH pretende conduzir um ciclomotor elétrico com velocidade máxima de fabricação de 45 km/h e potência de 3 kW. À luz da Resolução CONTRAN nº 1.020/2025, o condutor:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 5º, § 1º',
+    bancaTag: 'Instituto Avalia / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Está plenamente autorizado, pois a Categoria B engloba todos os veículos de duas rodas.' },
+      { letter: 'B', text: 'NÃO está autorizado, pois além dos portadores de ACC, apenas condutores habilitados na Categoria A podem conduzir ciclomotores.' },
+      { letter: 'C', text: 'Está autorizado apenas se o veículo possuir câmbio automático.' },
+      { letter: 'D', text: 'Poderá conduzir desde que realize curso de atualização de 10 horas em Autoescola.' },
+      { letter: 'E', text: 'Poderá conduzir apenas no período diurno e em vias urbanas secundárias.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Conforme a Resolução CONTRAN nº 1.020/2025, Art. 5º, § 1º, "Além dos condutores com Autorização para Conduzir Ciclomotor, apenas os habilitados na categoria A estão aptos a conduzirem ciclomotores." A Categoria B habilita veículos de 4 rodas até 3.500 kg, não cobrindo veículos de 2 rodas.',
+    explanations: {
+      A: 'INCORRETA. Categoria B habilita automóveis de passeio até 8 passageiros, não 2 rodas.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 5º § 1º: Somente Categoria A ou ACC podem conduzir ciclomotores.',
+      C: 'INCORRETA. Tipo de câmbio não altera a exigência legal da categoria.',
+      D: 'INCORRETA. Não há previsão de curso de 10h para liberar ciclomotor a condutor B.',
+      E: 'INCORRETA. Não há essa restrição de horário.'
+    }
+  },
+  {
+    id: 'con-q04',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Prontuário e Baixa Definitiva',
+    difficulty: 'Médio',
+    statement: 'A respeito do prontuário do condutor e do cancelamento do documento de habilitação (Resolução CONTRAN nº 1.020/2025), assinale a afirmativa CORRETA:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 4º, § 4º e Art. 7º, § 3º',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'A baixa definitiva do documento de habilitação ocorrerá exclusivamente com o óbito do condutor.' },
+      { letter: 'B', text: 'O prontuário do condutor é eliminado do sistema RENACH após 5 anos sem o cometimento de infrações.' },
+      { letter: 'C', text: 'A cassação da CNH gera a exclusão automática de todo o histórico do prontuário.' },
+      { letter: 'D', text: 'O cancelamento a pedido do condutor é irreversível e exige novo processo de primeira habilitação.' },
+      { letter: 'E', text: 'A validade do prontuário expira no momento em que a CNH atinge a data de vencimento do exame médico.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Nos termos do Art. 7º, § 3º da Resolução CONTRAN nº 1.020/2025, "A baixa definitiva do documento de habilitação ocorrerá exclusivamente com o óbito do condutor." O prontuário permanece ativo no RENACH durante toda a existência do indivíduo.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025, Art. 7º, § 3º: Baixa definitiva ocorre apenas no óbito.',
+      B: 'INCORRETA. O prontuário não é eliminado do RENACH.',
+      C: 'INCORRETA. A cassação inabilita o condutor, mas o registro histórico permanece no RENACH.',
+      D: 'INCORRETA. O Art. 7º, § 2º prevê que a reversão do cancelamento a pedido pode ser requerida via procedimentos de renovação.',
+      E: 'INCORRETA. O vencimento da CNH suspende o direito de dirigir, mas não apaga o prontuário.'
+    }
+  },
+  {
+    id: 'con-q05',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Números de Identificação (BINCO/RENACH)',
+    difficulty: 'Médio',
+    statement: 'Quanto aos elementos de identificação nacional e estadual constantes nos documentos de habilitação (Resolução CONTRAN nº 1.020/2025, Art. 10), é correto afirmar que o número do registro nacional BINCO:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 10, I',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'É modificado a cada renovação periódica da CNH.' },
+      { letter: 'B', text: 'É composto por 9 caracteres e 2 dígitos verificadores, sendo único para cada condutor durante toda a sua existência, vedada sua reutilização.' },
+      { letter: 'C', text: 'Varia conforme o Estado da Federação em que o condutor reside.' },
+      { letter: 'D', text: 'Identifica o lote do papel-moeda de impressão do espelho físico.' },
+      { letter: 'E', text: 'É temporário, expirando juntamente com a Permissão para Dirigir.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 10, I da Res. CONTRAN 1.020/2025 estabelece que o número do registro nacional BINCO é "gerado pelo sistema informatizado da BINCO/Senatran, composto de nove caracteres e dois dígitos verificadores, único para cada condutor durante toda a sua existência, sendo vedada sua reutilização".',
+    explanations: {
+      A: 'INCORRETA. O número do registro é perpétuo e não muda nas renovações.',
+      B: 'CORRETA. Res. 1.020/2025, Art. 10, I: 9 caracteres + 2 DVs, único e vitalício.',
+      C: 'INCORRETA. Quem possui sigla da UF é o formulário RENACH, não o registro BINCO.',
+      D: 'INCORRETA. O espelho é identificado pelo número do espelho (Art. 10, II).',
+      E: 'INCORRETA. O registro BINCO acompanha o condutor da PPD para a CNH e até a velhice.'
+    }
+  },
+  {
+    id: 'con-q06',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Requisitos para Primeira Habilitação',
+    difficulty: 'Fácil',
+    statement: 'Para dar início ao processo de obtenção da Carteira Nacional de Habilitação (CNH) ou da Autorização para Conduzir Ciclomotor (ACC), o candidato deve preencher os seguintes requisitos previstos na Resolução CONTRAN nº 1.020/2025 e no Art. 140 do CTB:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 17 & Art. 140 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Ser penalmente imputável, saber ler e escrever, e possuir documento de identidade e CPF.' },
+      { letter: 'B', text: 'Ter concluído o Ensino Médio, ter 18 anos completos e comprovar renda própria.' },
+      { letter: 'C', text: 'Ser maior de 21 anos, saber ler e escrever e ser domiciliado no município há mais de 2 anos.' },
+      { letter: 'D', text: 'Possuir título de eleitor, ser penalmente imputável e ter concluído o Ensino Fundamental.' },
+      { letter: 'E', text: 'Estar quitado com o serviço militar, ter 18 anos e carteira de trabalho assinada.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Conforme o Art. 17 da Res. 1.020/2025 e Art. 140 do CTB, os requisitos cumulativos para habilitação são: I - ser penalmente imputável (ter 18 anos completos); II - saber ler e escrever (alfabetizado); III - possuir documento de identidade; IV - possuir CPF.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 17: Penalmente imputável, alfabetizado, RG e CPF.',
+      B: 'INCORRETA. Não se exige escolaridade de ensino médio nem comprovação de renda.',
+      C: 'INCORRETA. Para 1ª habilitação (A ou B) a idade é 18 anos completos, não 21.',
+      D: 'INCORRETA. Não se exige ensino fundamental completo, apenas saber ler e escrever.',
+      E: 'INCORRETA. Não se exige carteira de trabalho ou quitação militar como pré-requisito de inscrição.'
+    }
+  },
+  {
+    id: 'con-q07',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Validade como Identificação Oficial',
+    difficulty: 'Fácil',
+    statement: 'Sobre o valor probatório e a validade dos documentos de habilitação como documento de identificação civil (Resolução CONTRAN nº 1.020/2025, Art. 8º), é correto afirmar que:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 8º, § 1º',
+    bancaTag: 'Vunesp',
+    options: [
+      { letter: 'A', text: 'A CNH perde a validade como documento de identidade civil assim que vence o prazo do exame de aptidão física e mental.' },
+      { letter: 'B', text: 'A perda de validade do documento de habilitação restringe-se ao exercício do direito de conduzir veículos, não afetando sua utilização como documento oficial de identificação em todo o território nacional.' },
+      { letter: 'C', text: 'A CNH digital possui valor secundário, devendo ser acompanhada obrigatoriamente do documento em papel-moeda.' },
+      { letter: 'D', text: 'A Permissão para Dirigir (PPD) não possui valor de documento de identidade civil.' },
+      { letter: 'E', text: 'O uso da CNH como documento de identificação depende de autorização da Polícia Federal.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 8º, § 1º da Res. 1.020/2025 estabelece expressamente que "A perda de validade do documento de habilitação restringe-se ao exercício do direito de conduzir veículos automotores em vias terrestres, não afetando sua utilização como documento oficial de identificação".',
+    explanations: {
+      A: 'INCORRETA. O vencimento atinge a licença de condução, mas a CNH continua valendo como RG.',
+      B: 'CORRETA. Res. 1.020/2025, Art. 8º, § 1º: Mantém fé pública como documento de identidade.',
+      C: 'INCORRETA. A CNH digital possui a mesma validade jurídica e fé pública do documento físico.',
+      D: 'INCORRETA. A PPD também equivale a documento de identidade.',
+      E: 'INCORRETA. É documento oficial por lei federal.'
+    }
+  },
+  {
+    id: 'con-q08',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Permissão Internacional para Dirigir (PID)',
+    difficulty: 'Médio',
+    statement: 'A respeito da Permissão Internacional para Dirigir (PID) emitida no Brasil nos termos do Art. 99 da Resolução CONTRAN nº 1.020/2025, assinale a alternativa correta:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 99 e 100',
+    bancaTag: 'FCC / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'A PID substitui integralmente a CNH nacional quando o condutor estiver transitando em território brasileiro.' },
+      { letter: 'B', text: 'A validade da PID será de no máximo 3 anos ou até a data de vencimento da CNH nacional, o que ocorrer primeiro.' },
+      { letter: 'C', text: 'A PID pode ser expedida para condutores titulares apenas de Permissão para Dirigir (PPD).' },
+      { letter: 'D', text: 'A obtenção da PID exige aprovação prévia em exame de proficiência na língua do país de destino.' },
+      { letter: 'E', text: 'A PID é emitida exclusivamente pelo Ministério das Relações Exteriores (Itamaraty).' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Conforme normatizado na Resolução CONTRAN nº 1.020/2025 (e regramento de documentos internacionais), a PID emitida no Brasil terá validade subordinada à validade da CNH nacional respectiva, limitada ao prazo máximo de 3 anos ou ao vencimento da CNH (o que vencer primeiro).',
+    explanations: {
+      A: 'INCORRETA. Em território nacional, o documento a ser apresentado é a CNH/PPD.',
+      B: 'CORRETA. Regra da PID: Máximo de 3 anos ou o vencimento da CNH de origem.',
+      C: 'INCORRETA. Exige CNH definitiva válida.',
+      D: 'INCORRETA. Não há exame de idiomas.',
+      E: 'INCORRETA. É emitida pelos órgãos de trânsito (Senatran/Detrans).'
+    }
+  },
+  {
+    id: 'con-q09',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Processo de Adição de Categoria',
+    difficulty: 'Médio',
+    statement: 'Um condutor habilitado na Categoria B deseja realizar o processo de adição da Categoria A. Nos termos da Resolução CONTRAN nº 1.020/2025 (Art. 62 a 66), as etapas obrigatórias compreendem:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 62',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'Realização de novo curso teórico completo de 45 horas e nova prova teórica.' },
+      { letter: 'B', text: 'Exame de aptidão física e mental, curso prático de direção veicular na categoria pretendida e exame prático de direção.' },
+      { letter: 'C', text: 'Apenas apresentação de atestado médico e pagamento de taxa simplificada, sem aulas práticas.' },
+      { letter: 'D', text: 'Exame toxicológico de larga janela e prova teórica de legislação específica.' },
+      { letter: 'E', text: 'Estágio supervisionado de 6 meses no órgão executivo de trânsito.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 62 da Resolução CONTRAN nº 1.020/2025 dispõe que o processo de adição de categoria constitui-se de: I - exame de aptidão física e mental (e avaliação psicológica se exercer atividade remunerada); II - curso prático de direção na categoria a ser adicionada; e III - exame prático de direção veicular.',
+    explanations: {
+      A: 'INCORRETA. Quem já possui CNH é dispensado de repetir o curso teórico geral.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 62: Exame médico + aulas práticas + exame prático.',
+      C: 'INCORRETA. Aulas práticas e exame de direção são indispensáveis para adição da categoria A.',
+      D: 'INCORRETA. Exame toxicológico é exigido para categorias C, D e E, não para adição de A.',
+      E: 'INCORRETA. Não existe estágio supervisionado em Detran.'
+    }
+  },
+  {
+    id: 'con-q10',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Reversão de Adição de Categoria',
+    difficulty: 'Fácil',
+    statement: 'Nos termos do Art. 66 da Resolução CONTRAN nº 1.020/2025, a adição de categoria realizada por um condutor:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 66',
+    bancaTag: 'Vunesp',
+    options: [
+      { letter: 'A', text: 'Torna-se vitalícia, sendo expressamente proibida sua exclusão ou renúncia.' },
+      { letter: 'B', text: 'Poderá ser revertida a qualquer tempo, por solicitação do condutor habilitado junto ao órgão executivo de trânsito.' },
+      { letter: 'C', text: 'Apenas poderá ser revertida mediante laudo de junta médica especial.' },
+      { letter: 'D', text: 'Será cancelada automaticamente caso o condutor fique 2 anos sem pilotar.' },
+      { letter: 'E', text: 'Exige pagamento de multa administrativa para desistência.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Conforme o Art. 66 da Resolução CONTRAN nº 1.020/2025, "A adição de categoria poderá ser revertida a qualquer tempo, por solicitação do condutor", permitindo o rebaixamento ou exclusão voluntária da categoria adicionada.',
+    explanations: {
+      A: 'INCORRETA. O condutor pode renunciar a uma categoria adicionada.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 66: Reversão a qualquer tempo a pedido do condutor.',
+      C: 'INCORRETA. Trata-se de ato voluntário administrativo, sem necessidade de laudo médico impeditivo.',
+      D: 'INCORRETA. Não há cancelamento por desuso.',
+      E: 'INCORRETA. Não se cobra multa por solicitar exclusão de categoria.'
+    }
+  },
+  {
+    id: 'con-q11',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Condutor Estrangeiro no Brasil',
+    difficulty: 'Difícil',
+    statement: 'Um condutor estrangeiro, habilitado em país signatário da Convenção de Viena, ingressa no Brasil em viagem de turismo. Com base nos artigos 101 a 103 da Resolução CONTRAN nº 1.020/2025, é CORRETO afirmar que ele poderá dirigir no território nacional:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 102 e 103',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Por até 180 (cento e oitenta) dias, respeitada a validade da habilitação de origem, acompanhada de documento de identificação e tradução oficial.' },
+      { letter: 'B', text: 'Por no máximo 30 dias, devendo em seguida realizar exame de direção veicular obrigatoriamente.' },
+      { letter: 'C', text: 'Indefinidamente, sem necessidade de qualquer tradução ou documento complementar.' },
+      { letter: 'D', text: 'Apenas se contratar seguro obrigatório de trânsito internacional em moeda nacional.' },
+      { letter: 'E', text: 'Por 1 ano, desde que efetue o cadastro prévio na Prefeitura da capital do Estado.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 102 da Res. CONTRAN 1.020/2025 estabelece que o condutor habilitado em país signatário de convenções ou acordos internacionais (como a Convenção de Viena) poderá dirigir no País pelo prazo de até 180 dias, contados da data de entrada, desde que amparado por sua habilitação de origem válida e documento oficial de identidade.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025, Art. 102: Prazo de até 180 dias para países com acordo/reciprocidade.',
+      B: 'INCORRETA. O prazo legal é de 180 dias, e não 30 dias.',
+      C: 'INCORRETA. Após 180 dias exige-se aprovação em exames médicos para expedição de CNH brasileira.',
+      D: 'INCORRETA. Não há exigência de seguro especial para valer a CNH estrangeira.',
+      E: 'INCORRETA. O prazo não é de 1 ano nem o cadastro é em prefeitura.'
+    }
+  },
+  {
+    id: 'con-q12',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Estrangeiro com Residência no Brasil',
+    difficulty: 'Médio',
+    statement: 'Um cidadão estrangeiro que fixou residência habitual no Brasil há mais de 180 dias pretende obter a Carteira Nacional de Habilitação (CNH) brasileira aproveitando sua habilitação de origem. Segundo o Art. 103 da Resolução CONTRAN nº 1.020/2025, ele deverá:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 103',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'Reiniciar todo o processo de primeira habilitação como se nunca tivesse sido habilitado.' },
+      { letter: 'B', text: 'Submeter-se aos exames de aptidão física e mental e à avaliação psicológica, respeitada a equivalência de categoria.' },
+      { letter: 'C', text: 'Realizar apenas prova prática de baliza e percurso em autoescola pública.' },
+      { letter: 'D', text: 'Solicitar a validação direta no Consulado sem necessidade de exames médicos.' },
+      { letter: 'E', text: 'Aguardar o prazo de 5 anos de residência contínua para requerer a CNH.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Conforme o Art. 103 da Res. 1.020/2025, decorrido o prazo de 180 dias de permanência no País, o condutor estrangeiro que pretenda continuar dirigindo deverá requerer a expedição da CNH submetendo-se aos exames de aptidão física e mental e avaliação psicológica.',
+    explanations: {
+      A: 'INCORRETA. Se houver reciprocidade/acordo, ele não precisa refazer o curso teórico e prático do zero.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 103: Exames de aptidão física e mental e avaliação psicológica.',
+      C: 'INCORRETA. O exame de direção é dispensado se houver acordo internacional de reciprocidade.',
+      D: 'INCORRETA. Exige-se avaliação médica no Brasil.',
+      E: 'INCORRETA. Pode requerer após os 180 dias de residência.'
+    }
+  },
+  {
+    id: 'con-q13',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Atividade Remunerada (EAR)',
+    difficulty: 'Fácil',
+    statement: 'Para incluir a observação de Exercício de Atividade Remunerada (EAR) na CNH de qualquer categoria, a Resolução CONTRAN nº 1.020/2025 e o Art. 147, § 3º do CTB exigem obrigatoriamente:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 30 & Art. 147, § 3º do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Aprovação em Exame Toxicológico independentemente da categoria de CNH.' },
+      { letter: 'B', text: 'Aprovação em Avaliação Psicológica específica realizada por perito credenciado.' },
+      { letter: 'C', text: 'Curso presencial de direção defensiva avançada com carga horária de 100 horas.' },
+      { letter: 'D', text: 'Certidão negativa de débitos estaduais e municipais.' },
+      { letter: 'E', text: 'Exame prático especial em veículo comercial equipado com tacógrafo.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 147, § 3º do CTB e a Resolução CONTRAN nº 1.020/2025 estabelecem que o condutor que exerce atividade remunerada ao veículo (EAR) deve ser submetido à Avaliação Psicológica na concessão e em cada renovação da CNH.',
+    explanations: {
+      A: 'INCORRETA. Toxicológico é exigido para categorias C, D e E, não para EAR em A ou B.',
+      B: 'CORRETA. EAR exige obrigatoriamente avaliação psicológica pericial.',
+      C: 'INCORRETA. Não há exigência de curso de 100 horas apenas para a sigla EAR.',
+      D: 'INCORRETA. Débitos fiscais não impedem avaliação médica/psicológica.',
+      E: 'INCORRETA. Não exige novo exame prático de direção.'
+    }
+  },
+  {
+    id: 'con-q14',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Identificação na PPD e CNH',
+    difficulty: 'Fácil',
+    statement: 'A Permissão para Dirigir (PPD) distingue-se visualmente do modelo definitivo da CNH no documento físico e digital por conter (Resolução CONTRAN nº 1.020/2025, Art. 9º, I):',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 9º, I',
+    bancaTag: 'Vunesp',
+    options: [
+      { letter: 'A', text: 'A tarja vermelha com a inscrição "CONDUTOR EM ESTÁGIO PROBATÓRIO".' },
+      { letter: 'B', text: 'A letra "P" gravada na lateral direita do anverso do documento.' },
+      { letter: 'C', text: 'Fundo de cor amarela fluorescente com marca d’água do Detran.' },
+      { letter: 'D', text: 'O número do CPF impresso em destaque em vermelho.' },
+      { letter: 'E', text: 'Um código de barras tridimensional exclusivo para iniciantes.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 9º, inciso I da Resolução CONTRAN nº 1.020/2025 especifica que "a Permissão para Dirigir será assinalada pela letra \'P\' na lateral direita do anverso do documento".',
+    explanations: {
+      A: 'INCORRETA. Não há tarja vermelha com essa inscrição.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 9º, I: Letra "P" no anverso do documento.',
+      C: 'INCORRETA. O modelo de espelho de papel/digital é padronizado e idêntico ao da CNH.',
+      D: 'INCORRETA. O CPF consta no padrão normal.',
+      E: 'INCORRETA. Não há código tridimensional exclusivo.'
+    }
+  },
+  {
+    id: 'con-q15',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Segunda Via do Documento',
+    difficulty: 'Fácil',
+    statement: 'A emissão de segunda via do documento de habilitação (Resolução CONTRAN nº 1.020/2025, Art. 6º, VIII) é o processo destinado a:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 6º, VIII',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'Prorrogar a validade do exame médico que se encontra vencido.' },
+      { letter: 'B', text: 'Expedir nova via do documento em casos de perda, dano ou extravio, sem quaisquer alterações nos dados constantes do documento original.' },
+      { letter: 'C', text: 'Incluir nova categoria de habilitação mediante requerimento simplificado.' },
+      { letter: 'D', text: 'Alterar o nome do condutor após casamento ou divórcio.' },
+      { letter: 'E', text: 'Transferir o prontuário para outro Estado da Federação.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Conforme o Art. 6º, VIII, a emissão de 2ª via é o "processo em que o condutor habilitado requer a emissão de nova via de seu documento de habilitação, nos casos de perda, dano ou extravio, sem quaisquer alterações nos dados constantes do documento original".',
+    explanations: {
+      A: 'INCORRETA. Prorrogação de validade é o processo de renovação (Art. 6º, IV).',
+      B: 'CORRETA. Res. 1.020/2025 Art. 6º, VIII: 2ª via por perda/dano sem alteração de dados.',
+      C: 'INCORRETA. Inclusão de categoria é o processo de adição (Art. 6º, III).',
+      D: 'INCORRETA. Alteração de dados cadastrais é o processo de atualização (Art. 6º, V).',
+      E: 'INCORRETA. Transferência de UF é o processo de transferência (Art. 6º, VI).'
+    }
+  },
+
+  // --- BLOCO 2: FORMAÇÃO, CURSO TEÓRICO, LADV E AULAS PRÁTICAS (Q16 a Q30) ---
+  {
+    id: 'con-q16',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Validade do Curso Teórico',
+    difficulty: 'Médio',
+    statement: 'No processo de primeira habilitação (Resolução CONTRAN nº 1.020/2025, Art. 21 a 24), a realização e conclusão do curso teórico presencial ou na modalidade EAD é formalmente comprovada no sistema por meio de:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 24',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Apresentação de declaração de próprio punho firmada pelo candidato.' },
+      { letter: 'B', text: 'Registro de sua realização no sistema RENACH pelo órgão ou entidade executivo de trânsito.' },
+      { letter: 'C', text: 'Apenas carimbo em ficha física arquivada na autoescola.' },
+      { letter: 'D', text: 'Publicação do nome do candidato no Diário Oficial do Estado.' },
+      { letter: 'E', text: 'Atestado emitido pelo Ministério da Educação (MEC).' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 24 da Res. CONTRAN 1.020/2025 dispõe que "O curso teórico será considerado concluído mediante registro de sua realização no Renach pelo órgão ou entidade executivo de trânsito do Estado ou do Distrito Federal".',
+    explanations: {
+      A: 'INCORRETA. Declaração do aluno não possui validade sistêmica.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 24: Registro sistêmico no RENACH.',
+      C: 'INCORRETA. O controle é obrigatoriamente informatizado e sistêmico via RENACH.',
+      D: 'INCORRETA. Não há publicação no Diário Oficial para conclusão de curso teórico de CNH.',
+      E: 'INCORRETA. O MEC não chancela exames teóricos de trânsito.'
+    }
+  },
+  {
+    id: 'con-q17',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Aproveitamento no Exame Teórico',
+    difficulty: 'Fácil',
+    statement: 'Para ser considerado APROVADO nos exames teóricos de habilitação (Resolução CONTRAN nº 1.020/2025, Art. 34), o candidato deverá alcançar o aproveitamento mínimo de:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 34',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: '50% (cinquenta por cento) dos pontos da prova.' },
+      { letter: 'B', text: '60% (sessenta por cento) dos pontos da prova.' },
+      { letter: 'C', text: '70% (setenta por cento) dos pontos da prova.' },
+      { letter: 'D', text: '80% (oitenta por cento) dos pontos da prova.' },
+      { letter: 'E', text: '90% (noventa por cento) dos pontos da prova.' }
+    ],
+    correctLetter: 'C',
+    generalExplanation: 'O Art. 34 da Resolução CONTRAN nº 1.020/2025 especifica expressamente: "Para aprovação nos exames teóricos, o candidato deverá alcançar aproveitamento mínimo de 70% (setenta por cento)". Em uma prova de 30 questões, o mínimo é 21 acertos.',
+    explanations: {
+      A: 'INCORRETA. 50% é insuficiente.',
+      B: 'INCORRETA. 60% não atinge a exigência legal.',
+      C: 'CORRETA. Res. 1.020/2025 Art. 34: Exige-se exatamente no mínimo 70% de aproveitamento.',
+      D: 'INCORRETA. 80% é acima da exigência regulamentar.',
+      E: 'INCORRETA. 90% não é o corte fixado.'
+    }
+  },
+  {
+    id: 'con-q18',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Expedição da LADV',
+    difficulty: 'Fácil',
+    statement: 'Segundo o Art. 35 da Resolução CONTRAN nº 1.020/2025, a Licença de Aprendizagem de Direção Veicular (LADV) será expedida imediatamente após:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 35',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'O cadastramento dos dados biométricos do candidato na etapa inicial.' },
+      { letter: 'B', text: 'O registro no RENACH do resultado de aprovação nos exames teóricos.' },
+      { letter: 'C', text: 'A conclusão de metade da carga horária de aulas práticas.' },
+      { letter: 'D', text: 'A aprovação no exame de direção veicular.' },
+      { letter: 'E', text: 'O pagamento da taxa de expedição da CNH definitiva.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Conforme o Art. 35 da Res. CONTRAN 1.020/2025, "O registro no Renach do resultado de aprovação nos exames teóricos resultará na expedição da Licença de Aprendizagem", autorizando o início da aprendizagem prática de direção.',
+    explanations: {
+      A: 'INCORRETA. A biometria antecede os exames médicos e teóricos.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 35: A LADV é emitida logo após o registro da aprovação teórica.',
+      C: 'INCORRETA. As aulas práticas exigem a LADV antes de iniciarem.',
+      D: 'INCORRETA. O exame prático exige ter concluído as aulas práticas com LADV.',
+      E: 'INCORRETA. A CNH é o documento final, após a LADV e aprovação prática.'
+    }
+  },
+  {
+    id: 'con-q19',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Requisitos das Aulas Práticas',
+    difficulty: 'Médio',
+    statement: 'Durante a realização das aulas práticas de direção veicular em vias públicas (Resolução CONTRAN nº 1.020/2025, Art. 37), o candidato deverá obrigatoriamente:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 37',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Estar desacompanhado no veículo para demonstrar autoconfiança no trânsito.' },
+      { letter: 'B', text: 'Portar a LADV (física ou digital) e documento oficial de identificação, acompanhado por instrutor de trânsito credenciado.' },
+      { letter: 'C', text: 'Portar apenas o comprovante de pagamento da taxa de matrícula da autoescola.' },
+      { letter: 'D', text: 'Transitar exclusivamente no período noturno até cumprir 50% das aulas.' },
+      { letter: 'E', text: 'Conduzir apenas veículos equipados com transmissão automática.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 37 exige expressamente que as aulas práticas em vias públicas ocorram com o candidato portando a LADV e documento de identidade oficial, acompanhado por instrutor credenciado e em veículo devidamente identificado.',
+    explanations: {
+      A: 'INCORRETA. O candidato em aprendizagem jamais pode conduzir desacompanhado.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 37: LADV + RG + acompanhado de instrutor credenciado.',
+      C: 'INCORRETA. Comprovante de taxa da autoescola não supre o documento legal (LADV).',
+      D: 'INCORRETA. Não há obrigatoriedade de fazer 50% das aulas à noite.',
+      E: 'INCORRETA. Não há restrição exclusiva para veículos automáticos.'
+    }
+  },
+  {
+    id: 'con-q20',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Penalidade para Direção sem LADV',
+    difficulty: 'Difícil',
+    statement: 'Caso um candidato à habilitação seja flagrado conduzindo veículo automotor em via pública sem estar acompanhado do instrutor credenciado ou desprovido da LADV, a Resolução CONTRAN nº 1.020/2025 estabelece como medida/penalidade administrativa:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 37, § 2º / Art. 130',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Advertência verbal pelo agente de trânsito e liberação imediata.' },
+      { letter: 'B', text: 'Suspensão da LADV pelo prazo de 6 (seis) meses.' },
+      { letter: 'C', text: 'Cancelamento definitivo e irrevogável do CPF do candidato.' },
+      { letter: 'D', text: 'Obrigação de refazer o curso teórico de 45 horas com pagamento em dobro.' },
+      { letter: 'E', text: 'Cassação imediata do direito de dirigir por 2 anos.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'A infração de conduzir veículo de aprendizagem desacompanhado de instrutor ou sem portar a LADV acarreta a suspensão da Licença de Aprendizagem pelo período de 6 (seis) meses, conforme disciplina da Resolução CONTRAN nº 1.020/2025.',
+    explanations: {
+      A: 'INCORRETA. Não é mera advertência verbal.',
+      B: 'CORRETA. Res. 1.020/2025: Suspensão da LADV pelo prazo de 6 meses.',
+      C: 'INCORRETA. O CTB/CONTRAN não tem competência para cancelar CPF.',
+      D: 'INCORRETA. A penalidade incidente sobre o processo de aprendizagem é a suspensão temporal da LADV.',
+      E: 'INCORRETA. O candidato ainda não possui CNH para ser cassada.'
+    }
+  },
+  {
+    id: 'con-q21',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Veículos de Aprendizagem e Duplo Comando',
+    difficulty: 'Médio',
+    statement: 'Os veículos destinados ao ensino prático de direção veicular pertencentes aos Centros de Formação de Condutores (Resolução CONTRAN nº 1.020/2025, Art. 127 e 128) devem possuir obrigatoriamente:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 128',
+    bancaTag: 'FCC / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Duplo comando de freio e embreagem e espelho retrovisor interno extra para o instrutor.' },
+      { letter: 'B', text: 'Sirene de emergência e faróis estroboscópicos azuis.' },
+      { letter: 'C', text: 'Blindagem nível III-A para proteção durante o exame.' },
+      { letter: 'D', text: 'Limitador de velocidade eletrônico travado em 30 km/h.' },
+      { letter: 'E', text: 'Câmeras internas com gravação contínua conectadas diretamente ao Exército.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 128 da Res. 1.020/2025 prevê que os veículos de instrução prática da Categoria B devem dispor de duplo comando de freio e embreagem, além de espelho retrovisor interno complementar para uso do instrutor/examinador.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 128: Duplo comando pedagógico de freio/embreagem e retrovisor extra.',
+      B: 'INCORRETA. Sirene e estroboscópio são exclusivos de veículos de emergência.',
+      C: 'INCORRETA. Blindagem não é exigida.',
+      D: 'INCORRETA. Não há limitador fixo de 30 km/h.',
+      E: 'INCORRETA. O Exército não monitora veículos de autoescola.'
+    }
+  },
+  {
+    id: 'con-q22',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Identidade do Candidato nos Exames',
+    difficulty: 'Fácil',
+    statement: 'Conforme estabelece o Art. 27 da Resolução CONTRAN nº 1.020/2025, a identificação do candidato na realização dos exames teórico e prático será verificada por meio de:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 27',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'Documento oficial de identidade e validação biográﬁca/biométrica no sistema.' },
+      { letter: 'B', text: 'Assinatura de testemunha presencial devidamente reconhecida em cartório.' },
+      { letter: 'C', text: 'Apenas apresentação de cartão de estudante ou crachá de trabalho.' },
+      { letter: 'D', text: 'Atestado de bons antecedentes emitido pela Polícia Civil.' },
+      { letter: 'E', text: 'Comprovante de residência atualizado em nome dos pais.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Conforme o Art. 27, a identidade do candidato será verificada nos exames teórico e prático por meio de documento oficial de identificação com foto e confirmação biométrica no sistema informatizado.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 27: Documento oficial de identificação + biometria.',
+      B: 'INCORRETA. Não se exige testemunha de cartório.',
+      C: 'INCORRETA. Cartão de estudante não supre a exigência de documento oficial de identidade.',
+      D: 'INCORRETA. Atestado de antecedentes não é a forma de checagem biométrica no ato do exame.',
+      E: 'INCORRETA. Comprovante de residência é usado na etapa de abertura do processo.'
+    }
+  },
+  {
+    id: 'con-q23',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Transferência de Estado no Processo',
+    difficulty: 'Médio',
+    statement: 'Um candidato iniciou o processo de obtenção da CNH no Estado de São Paulo e, por motivo de mudança de residência, transferiu seu domicílio para o Estado de Minas Gerais antes de concluir as aulas práticas. Segundo o Art. 14 da Resolução CONTRAN nº 1.020/2025:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 14',
+    bancaTag: 'Vunesp',
+    options: [
+      { letter: 'A', text: 'O candidato perderá todas as etapas já cumpridas, devendo reiniciar o processo do zero em Minas Gerais.' },
+      { letter: 'B', text: 'É assegurada a transferência do processo de formação entre órgãos executivos de trânsito, aproveitando-se as etapas e exames já concluídos com aprovação.' },
+      { letter: 'C', text: 'A transferência só é permitida se o candidato pagar multa de transferência interestadual.' },
+      { letter: 'D', text: 'O processo poderá ser transferido apenas se faltar apenas o exame de direção.' },
+      { letter: 'E', text: 'A transferência exige autorização do Juiz Diretor do Foro da comarca de origem.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 14 da Res. CONTRAN 1.020/2025 prevê a possibilidade de transferência do processo de habilitação entre Unidades da Federação, mediante reaproveitamento dos atos e exames já registrados com sucesso na Base BINCO/RENACH.',
+    explanations: {
+      A: 'INCORRETA. Não há perda das etapas teóricas ou exames médicos aprovados.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 14: Aproveitamento integral das etapas concluídas.',
+      C: 'INCORRETA. Não há incidência de multa por mudança de domicílio.',
+      D: 'INCORRETA. Pode ser transferido em qualquer fase do processo.',
+      E: 'INCORRETA. É procedimento estritamente administrativo entre Detrans.'
+    }
+  },
+  {
+    id: 'con-q24',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Banco Nacional de Questões',
+    difficulty: 'Fácil',
+    statement: 'As questões objetivas que integram as provas dos exames teóricos aplicados pelos Detrans em todo o Brasil (Resolução CONTRAN nº 1.020/2025, Art. 33) são extraídas obrigatoriamente do:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 33',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'Banco Nacional de Questões mantido pelo órgão máximo executivo de trânsito da União (SENATRAN).' },
+      { letter: 'B', text: 'Acervo privado de cada autoescola credenciada no município.' },
+      { letter: 'C', text: 'Arquivo de provas antigas do Ministério da Justiça.' },
+      { letter: 'D', text: 'Banco de dados da Polícia Rodoviária Federal.' },
+      { letter: 'E', text: 'Sistema de consulta pública do Tribunal Superior Eleitoral.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Conforme o Art. 33 da Res. 1.020/2025, as questões dos exames teóricos são padronizadas e extraídas do Banco Nacional de Questões sob gestão e responsabilidade da Senatran.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 33: Banco Nacional de Questões da Senatran.',
+      B: 'INCORRETA. Autoescolas não elaboram as provas teóricas oficiais.',
+      C: 'INCORRETA. O órgão responsável é a Senatran (Ministério dos Transportes).',
+      D: 'INCORRETA. A PRF não elabora o banco de exames de CNH.',
+      E: 'INCORRETA. O TSE não tem relação com trânsito.'
+    }
+  },
+  {
+    id: 'con-q25',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Candidato com Deficiência Auditiva',
+    difficulty: 'Médio',
+    statement: 'A Resolução CONTRAN nº 1.020/2025, em seu Art. 86, estabelece garantias aos candidatos com deficiência auditiva no processo de habilitação. É CORRETO afirmar que é assegurado a esses candidatos:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 86',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Isenção total de exames práticos e teóricos de direção.' },
+      { letter: 'B', text: 'Atendimento por intérprete da Língua Brasileira de Sinais (LIBRAS) ou uso de tecnologias assistivas nos exames.' },
+      { letter: 'C', text: 'Concessão direta de CNH na Categoria E sem necessidade de aulas.' },
+      { letter: 'D', text: 'Autorização exclusiva para dirigir no horário entre 08h e 12h.' },
+      { letter: 'E', text: 'Dispensa da obrigatoriedade do uso de espelhos retrovisores.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 86 garante a acessibilidade plena ao candidato com deficiência auditiva, assegurando a presença de tradutor/intérprete de LIBRAS ou utilização de recursos tecnológicos assistivos aprovados durante os exames.',
+    explanations: {
+      A: 'INCORRETA. A acessibilidade garante meios para realização dos exames, não a dispensa das avaliações.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 86: Intérprete de LIBRAS ou tecnologia assistiva.',
+      C: 'INCORRETA. Não há privilégio de categoria E direta sem processo prévio.',
+      D: 'INCORRETA. Não há restrição de horário decorrente unicamente da deficiência auditiva.',
+      E: 'INCORRETA. O uso de espelhos é ainda mais crítico para deficientes auditivos.'
+    }
+  },
+  {
+    id: 'con-q26',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Educação para o Trânsito nas Escolas',
+    difficulty: 'Fácil',
+    statement: 'O Capítulo IV, Seção V da Resolução CONTRAN nº 1.020/2025 institui formalmente o programa que permite a realização do conteúdo teórico do processo de habilitação em instituições de ensino. Esse programa é denominado:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 80',
+    bancaTag: 'Vunesp',
+    options: [
+      { letter: 'A', text: 'Programa Nacional de Educação para o Trânsito nas Escolas.' },
+      { letter: 'B', text: 'Programa Jovem Condutor das Rodovias.' },
+      { letter: 'C', text: 'Sistema Integrado de Trânsito Escolar.' },
+      { letter: 'D', text: 'Plano Nacional de Redução de Mortes (PNATRANS Escolar).' },
+      { letter: 'E', text: 'Projeto Escola Aberta de Trânsito.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 80 institui o "Programa Nacional de Educação para o Trânsito nas Escolas", destinado a promover a formação teórica de condutores no âmbito do ensino médio e superior das redes pública e privada.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 80: Programa Nacional de Educação para o Trânsito nas Escolas.',
+      B: 'INCORRETA. Nome incorreto.',
+      C: 'INCORRETA. Nome fictício.',
+      D: 'INCORRETA. PNATRANS é o plano de redução de mortes geral, não o programa escolar específico do Art. 80.',
+      E: 'INCORRETA. Denominação incorreta.'
+    }
+  },
+  {
+    id: 'con-q27',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Validade do Certificado Teórico',
+    difficulty: 'Médio',
+    statement: 'O certificado de conclusão do curso teórico emitido ao candidato aprovado no processo de formação de condutores (Resolução CONTRAN nº 1.020/2025, Art. 23):',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 23',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'Substitui a Permissão para Dirigir (PPD) pelo prazo de 30 dias até a chegada do documento.' },
+      { letter: 'B', text: 'Destina-se unicamente a comprovar o cumprimento da carga horária teórica para fins do processo de habilitação no RENACH.' },
+      { letter: 'C', text: 'Autoriza o aluno a pilotar ciclomotores em vias rurais não pavimentadas.' },
+      { letter: 'D', text: 'Concede desconto automático na compra de veículos zero quilômetro.' },
+      { letter: 'E', text: 'Serve como título de habilitação provisória internacional.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Conforme o Art. 23 da Res. 1.020/2025, o certificado de conclusão do curso teórico tem efeito exclusivamente pedagógico e cadastral, destinado a comprovar a realização das aulas para liberação do exame teórico e expedição da LADV.',
+    explanations: {
+      A: 'INCORRETA. Não autoriza condução de veículos automotores.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 23: Destina-se unicamente a comprovar a frequência/cumprimento das aulas teóricas no RENACH.',
+      C: 'INCORRETA. Não é licença de condução.',
+      D: 'INCORRETA. Não tem efeito fiscal ou comercial.',
+      E: 'INCORRETA. Não possui valor internacional.'
+    }
+  },
+  {
+    id: 'con-q28',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Cursos na Modalidade EAD',
+    difficulty: 'Médio',
+    statement: 'As entidades que oferecem cursos teóricos de trânsito na modalidade de educação a distância (EAD) devem cumprir requisitos estritos disciplinados na Resolução CONTRAN nº 1.020/2025 (Art. 121). É correto afirmar que essas entidades:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 121',
+    bancaTag: 'Vunesp',
+    options: [
+      { letter: 'A', text: 'Dependem de homologação da Senatran e validação de mecanismos de controle de frequência e biometria facial dos alunos.' },
+      { letter: 'B', text: 'Podem funcionar livremente sem qualquer fiscalização do Detran ou da Senatran.' },
+      { letter: 'C', text: 'Estão dispensadas de registrar a carga horária no sistema RENACH.' },
+      { letter: 'D', text: 'Podem emitir CNH definitiva diretamente aos alunos sem passar pelos exames do Detran.' },
+      { letter: 'E', text: 'São restritas a atender alunos com idade superior a 60 anos.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 121 exige que as soluções e plataformas EAD sejam homologadas pela Senatran e integradas ao RENACH, possuindo validação biométrica facial e controle rígido de presença para evitar fraudes.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 121: Homologação Senatran + controle biométrico facial/frequência.',
+      B: 'INCORRETA. São rigorosamente credenciadas e fiscalizadas.',
+      C: 'INCORRETA. O registro no RENACH é obrigatório.',
+      D: 'INCORRETA. A expedição da CNH é ato exclusivo do órgão público estadual de trânsito.',
+      E: 'INCORRETA. Modalidade EAD é acessível a qualquer aluno apto no processo.'
+    }
+  },
+  {
+    id: 'con-q29',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Exame Teórico e Desempenho',
+    difficulty: 'Fácil',
+    statement: 'Caso um candidato não alcance o aproveitamento mínimo de 70% no exame teórico do Detran (Resolução CONTRAN nº 1.020/2025), o procedimento correto é:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 34 e 35',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'Realizar o reexame teórico mediante reagendamento, sem necessidade de cumprir prazos de carência abusivos.' },
+      { letter: 'B', text: 'Ser sumariamente banido do sistema por 2 anos.' },
+      { letter: 'C', text: 'Ser obrigado a refazer todas as aulas médicas e psicológicas.' },
+      { letter: 'D', text: 'Ter seu documento de identidade confiscado pelo examinador.' },
+      { letter: 'E', text: 'Iniciar obrigatoriamente as aulas práticas de direção para compensar a nota.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Com a revogação do antigo prazo de espera de 15 dias, o candidato reprovado no exame teórico pode agendar o reexame assim que recolhida a respectiva taxa e disponibilizada a vaga pelo órgão de trânsito.',
+    explanations: {
+      A: 'CORRETA. Reexame mediante novo agendamento, sem prazos de carência despropositados.',
+      B: 'INCORRETA. Não há banimento do sistema.',
+      C: 'INCORRETA. Exames médicos aprovados continuam válidos.',
+      D: 'INCORRETA. Documentos pessoais não são confiscados.',
+      E: 'INCORRETA. As aulas práticas exigem aprovação prévia no exame teórico para emissão da LADV.'
+    }
+  },
+  {
+    id: 'con-q30',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Biometria no Processo de Habilitação',
+    difficulty: 'Fácil',
+    statement: 'A coleta de dados biométricos (impressões digitais e fotografia digital) durante o processo de habilitação (Resolução CONTRAN nº 1.020/2025, Art. 28) destina-se a:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 28',
+    bancaTag: 'Vunesp',
+    options: [
+      { letter: 'A', text: 'Garantir a unicidade cadastral no RENACH, prevenir fraudes e confeccionar os documentos de habilitação.' },
+      { letter: 'B', text: 'Vender os dados biométricos a empresas seguradoras de veículos.' },
+      { letter: 'C', text: 'Criar um banco de dados para a Justiça Eleitoral realizar votação por biometria.' },
+      { letter: 'D', text: 'Cadastrar o condutor no sistema de cobrança automática de pedágios.' },
+      { letter: 'E', text: 'Substituir a necessidade de apresentação da CNH em abordagens de fiscalização.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Conforme o Art. 28, os dados biométricos coletados destinam-se a garantir a identificação unívoca do condutor no RENACH/BINCO, evitar falsidade ideológica e alimentar os sistemas de confecção dos documentos físico e digital.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 28: Identificação unívoca, segurança e expedição de documentos.',
+      B: 'INCORRETA. Comercialização de dados biométricos é crime e viola a LGPD.',
+      C: 'INCORRETA. A finalidade do RENACH é estritamente no âmbito do SNT.',
+      D: 'INCORRETA. Não se destina a cobrança de pedágio.',
+      E: 'INCORRETA. O condutor continua obrigado a portar a CNH (física ou digital).'
+    }
+  },
+
+  // --- BLOCO 3: EXAME PRÁTICO, FALTAS, PONTUAÇÃO, PPD E INFRAÇÕES IMPEDITIVAS (Q31 a Q45) ---
+  {
+    id: 'con-q31',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Exame Prático e Pontuação de Faltas',
+    difficulty: 'Médio',
+    statement: 'No exame de direção veicular para obtenção da CNH (Resolução CONTRAN nº 1.020/2025, Art. 45 a 47), a avaliação do candidato é feita mediante a apuração de faltas cometidas durante o percurso. Para ser considerado APROVADO, a pontuação negativa total do candidato não poderá exceder a:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 47',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: '1 (um) ponto.' },
+      { letter: 'B', text: '2 (dois) pontos.' },
+      { letter: 'C', text: '3 (três) pontos.' },
+      { letter: 'D', text: '4 (quatro) pontos.' },
+      { letter: 'E', text: '5 (cinco) pontos.' }
+    ],
+    correctLetter: 'C',
+    generalExplanation: 'O Art. 47 da Res. CONTRAN 1.020/2025 dispõe que "Para aprovação no exame de direção veicular, o candidato deverá ter nota atribuída não superior a 3 (três) pontos negativos". Somar 4 ou mais pontos resulta em reprovação.',
+    explanations: {
+      A: 'INCORRETA. O limite tolerado é até 3 pontos.',
+      B: 'INCORRETA. Com 2 pontos o candidato ainda está dentro da margem de aprovação.',
+      C: 'CORRETA. Res. 1.020/2025 Art. 47: Máximo de 3 pontos de faltas para aprovação.',
+      D: 'INCORRETA. 4 pontos reprova o candidato.',
+      E: 'INCORRETA. 5 pontos é acima do limite regulamentar.'
+    }
+  },
+  {
+    id: 'con-q32',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Falta Eliminatória no Exame Prático',
+    difficulty: 'Médio',
+    statement: 'Durante a realização do exame prático de direção veicular na Categoria B, o candidato comete uma falta eliminatória ao subir com a roda no meio-fio durante a manobra de estacionamento (baliza). De acordo com a Resolução CONTRAN nº 1.020/2025 (Art. 46):',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 46',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'O candidato perde apenas 1 ponto e pode continuar o percurso normalmente.' },
+      { letter: 'B', text: 'O exame poderá ser imediatamente interrompido pela comissão examinadora, resultando na reprovação direta do candidato.' },
+      { letter: 'C', text: 'O examinador deve conceder 3 tentativas adicionais para refazer a baliza.' },
+      { letter: 'D', text: 'O candidato é aprovado com ressalva, devendo fazer 2 aulas extras.' },
+      { letter: 'E', text: 'A falta é convertida em multa pecuniária a ser paga na autoescola.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Conforme o Art. 46, a comissão examinadora interromperá o exame e reprovará o candidato imediatamente após o cometimento de qualquer falta eliminatória (como subir no meio-fio, avançar sinal vermelho ou colidir o veículo).',
+    explanations: {
+      A: 'INCORRETA. Subir no meio-fio é falta eliminatória, não leve de 1 ponto.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 46: Falta eliminatória interrompe o exame e reprova sumariamente.',
+      C: 'INCORRETA. Não há concessão de tentativas extras após falta eliminatória.',
+      D: 'INCORRETA. Não existe aprovação com ressalva em exame prático.',
+      E: 'INCORRETA. Não há conversão de falta técnica em cobrança pecuniária.'
+    }
+  },
+  {
+    id: 'con-q33',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Classificação das Faltas no Exame Prático',
+    difficulty: 'Médio',
+    statement: 'Na valoração das faltas durante o exame de direção veicular (Resolução CONTRAN nº 1.020/2025), a uma falta de natureza GRAVE é atribuída a pontuação de:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 45',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: '1 (um) ponto negativo.' },
+      { letter: 'B', text: '2 (dois) pontos negativos.' },
+      { letter: 'C', text: '3 (três) pontos negativos.' },
+      { letter: 'D', text: '4 (quatro) pontos negativos.' },
+      { letter: 'E', text: '5 (cinco) pontos negativos.' }
+    ],
+    correctLetter: 'C',
+    generalExplanation: 'A escala de pontuação de faltas no exame prático é: Eliminatória (reprovação direta); Grave = 3 pontos; Média = 2 pontos; Leve = 1 ponto. Portanto, uma falta grave equivale a 3 pontos.',
+    explanations: {
+      A: 'INCORRETA. 1 ponto é atribuído à falta Leve.',
+      B: 'INCORRETA. 2 pontos são atribuídos à falta Média.',
+      C: 'CORRETA. Res. 1.020/2025 Art. 45: Falta Grave = 3 pontos negativos.',
+      D: 'INCORRETA. 4 pontos não é valor de tabela isolado.',
+      E: 'INCORRETA. Tabela não possui pontuação de 5 pontos.'
+    }
+  },
+  {
+    id: 'con-q34',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Combinação de Faltas no Exame Prático',
+    difficulty: 'Médio',
+    statement: 'Durante a prova de direção veicular, um candidato cometeu 1 (uma) falta de natureza média (2 pontos) e 1 (uma) falta de natureza leve (1 ponto). Ao final do percurso, considerando os critérios da Resolução CONTRAN nº 1.020/2025, o candidato será considerado:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 47',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'APROVADO, pois a soma total de faltas foi de 3 pontos negativos (limite máximo permitido).' },
+      { letter: 'B', text: 'REPROVADO, pois o acúmulo de duas faltas de naturezas diferentes gera eliminação direta.' },
+      { letter: 'C', text: 'APROVADO com obrigação de refazer o teste de baliza.' },
+      { letter: 'D', text: 'REPROVADO, pois faltas médias e leves não podem se somar.' },
+      { letter: 'E', text: 'ENCAMINHADO para junta médica pericial.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Soma dos pontos: Média (2 pts) + Leve (1 pt) = 3 pontos negativos. Como o Art. 47 permite aprovação com até 3 pontos negativos inclusive, o candidato é considerado APROVADO.',
+    explanations: {
+      A: 'CORRETA. Total de 3 pontos = APROVADO (atingiu exatamente o limite máximo permitido).',
+      B: 'INCORRETA. Faltas de naturezas diferentes se somam aritmeticamente.',
+      C: 'INCORRETA. Se aprovado, a prova está encerrada com sucesso.',
+      D: 'INCORRETA. Faltas leves e médias somam normalmente.',
+      E: 'INCORRETA. Não há encaminhamento médico por pontuação de exame prático.'
+    }
+  },
+  {
+    id: 'con-q35',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Validade da Permissão para Dirigir (PPD)',
+    difficulty: 'Fácil',
+    statement: 'A Permissão para Dirigir (PPD), emitida ao candidato aprovado em todas as etapas do processo de primeira habilitação (Resolução CONTRAN nº 1.020/2025, Art. 49), possui validade de exatamente:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 49 & Art. 148, § 2º CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: '6 (seis) meses.' },
+      { letter: 'B', text: '1 (um) ano.' },
+      { letter: 'C', text: '2 (dois) anos.' },
+      { letter: 'D', text: '5 (cinco) anos.' },
+      { letter: 'E', text: '10 (dez) anos.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'A PPD tem validade de exatamente 1 (um) ano, contado a partir da data de expedição do documento, conforme determina o Art. 49 da Res. 1.020/2025 e o Art. 148, § 2º do CTB.',
+    explanations: {
+      A: 'INCORRETA. 6 meses é o prazo de suspensão da LADV por infração.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 49: Validade de 1 ano para a PPD.',
+      C: 'INCORRETA. 2 anos não é o prazo da PPD.',
+      D: 'INCORRETA. 5 anos é validade de CNH para faixa de 50 a 69 anos.',
+      E: 'INCORRETA. 10 anos é validade de CNH para menores de 50 anos.'
+    }
+  },
+  {
+    id: 'con-q36',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Concessão da CNH Definitiva e Infrações',
+    difficulty: 'Médio',
+    statement: 'Ao término do período de 1 ano de validade da Permissão para Dirigir (PPD), o condutor receberá a CNH definitiva desde que atenda à seguinte condição legal (Resolução CONTRAN nº 1.020/2025, Art. 51):',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 51 & Art. 148, § 3º CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Não ter cometido nenhuma infração de trânsito de qualquer natureza.' },
+      { letter: 'B', text: 'Não ter sido autuado por nenhuma infração de natureza GRAVE ou GRAVÍSSIMA, nem ser REINCIDENTE em infração MÉDIA.' },
+      { letter: 'C', text: 'Ter realizado pelo menos 1.000 quilômetros de rodagem comprovados por GPS.' },
+      { letter: 'D', text: 'Apresentar declaração de quitação de tributos municipais e estaduais.' },
+      { letter: 'E', text: 'Prestar 20 horas de serviços comunitários na Prefeitura.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Conforme o Art. 51 da Res. 1.020/2025 e Art. 148, § 3º do CTB, a CNH definitiva será concedida desde que o condutor não tenha cometido nenhuma infração grave ou gravíssima, nem seja reincidente em infração média durante os 12 meses da PPD.',
+    explanations: {
+      A: 'INCORRETA. Infrações leves ou 1 infração média isolada NÃO impedem a CNH.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 51: Proibido 1 Grave, 1 Gravíssima ou 2+ Médias.',
+      C: 'INCORRETA. Não há monitoramento de quilometragem por GPS para emissão de CNH.',
+      D: 'INCORRETA. Débitos fiscais não impedem a concessão da CNH definitiva.',
+      E: 'INCORRETA. Serviço comunitário é sanção penal/administrativa, não requisito de PPD.'
+    }
+  },
+  {
+    id: 'con-q37',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Infração Média Isolada na PPD',
+    difficulty: 'Médio',
+    statement: 'Um condutor portador de Permissão para Dirigir (PPD) há 8 meses cometeu uma única infração de trânsito de natureza MÉDIA (ex: ter seu veículo imobilizado na via por falta de combustível - Art. 180 CTB). Ao completar 12 meses de PPD, ele:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 51 & Art. 148, § 3º CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Terá sua PPD cancelada e deverá reiniciar todo o processo de habilitação do zero.' },
+      { letter: 'B', text: 'Poderá obter normalmente a CNH definitiva, pois a lei veda apenas a REINCIDÊNCIA em infrações médias.' },
+      { letter: 'C', text: 'Será obrigado a cumprir 6 meses adicionais de estágio probatório.' },
+      { letter: 'D', text: 'Terá a PPD suspensa por 30 dias com apreensão do veículo.' },
+      { letter: 'E', text: 'Deverá realizar obrigatoriamente novo exame prático de baliza.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'A regra do Art. 148, § 3º do CTB e Art. 51 da Res. 1.020/2025 proíbe a reincidência em infração média (ou seja, cometer 2 ou mais médias). O cometimento de UMA ÚNICA infração média não impede a obtenção da CNH definitiva.',
+    explanations: {
+      A: 'INCORRETA. O cancelamento exige infração grave, gravíssima ou reincidência em média.',
+      B: 'CORRETA. 1 infração média isolada PERMITE a emissão da CNH definitiva.',
+      C: 'INCORRETA. Não existe prorrogação de prazo probatório.',
+      D: 'INCORRETA. Não há previsão de suspensão por 1 infração média isolada na PPD.',
+      E: 'INCORRETA. Não se exige novo exame de direção.'
+    }
+  },
+  {
+    id: 'con-q38',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Cometimento de Infração Gravíssima na PPD',
+    difficulty: 'Médio',
+    statement: 'Um condutor titular de Permissão para Dirigir (PPD) é autuado por transitar em velocidade superior à máxima permitida em mais de 50% (infração gravíssima). Nos termos da Resolução CONTRAN nº 1.020/2025 (Art. 51, § 1º) e do Art. 148, § 4º do CTB:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 51, § 1º & Art. 148, § 4º CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'A PPD será renovada por mais 1 ano sob supervisão policial.' },
+      { letter: 'B', text: 'A CNH definitiva não será concedida, ocorrendo o cancelamento do documento de habilitação e a obrigação de reiniciar todo o processo de formação do zero.' },
+      { letter: 'C', text: 'O condutor receberá apenas uma advertência por escrito se não tiver outros pontos.' },
+      { letter: 'D', text: 'A PPD será convertida em CNH definitiva na Categoria A.' },
+      { letter: 'E', text: 'O condutor pagará multa dobrada e receberá a CNH definitiva normalmente.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O cometimento de infração de natureza Gravíssima durante a PPD impede a concessão da CNH definitiva e cancela o processo (Art. 148, § 4º CTB / Res. 1.020 Art. 51). O cidadão é considerado inabilitado e deve reiniciar todo o processo de habilitação.',
+    explanations: {
+      A: 'INCORRETA. Não há renovação probatória sob supervisão.',
+      B: 'CORRETA. Infração gravíssima cancela a PPD e exige reiniciar o processo do zero.',
+      C: 'INCORRETA. Infração gravíssima não é passível de advertência por escrito.',
+      D: 'INCORRETA. Não há mudança involuntária de categoria.',
+      E: 'INCORRETA. O pagamento da multa não anula o impedimento administrativo da CNH.'
+    }
+  },
+  {
+    id: 'con-q39',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Infrações Leves na PPD',
+    difficulty: 'Fácil',
+    statement: 'Durante os 12 meses de vigência da Permissão para Dirigir (PPD), um condutor foi autuado por 3 (três) infrações de trânsito de natureza LEVE. De acordo com a regramento da Resolução CONTRAN nº 1.020/2025 e do CTB, ao final do período ele:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 51 & Art. 148 CTB',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'Receberá normalmente a CNH definitiva, pois o CTB não veda o cometimento de infrações de natureza leve.' },
+      { letter: 'B', text: 'Terá a PPD cancelada imediatamente por ter somado mais de 2 infrações.' },
+      { letter: 'C', text: 'Será obrigado a realizar curso de reciclagem para infratores leves.' },
+      { letter: 'D', text: 'Ficará impedido de dirigir por 6 meses.' },
+      { letter: 'E', text: 'Terá que refazer o exame de aptidão física e mental.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A restrição imposta pelo Art. 148, § 3º do CTB e Res. 1.020/2025 recai exclusivamente sobre infrações GRAVES, GRAVÍSSIMAS ou REINCIDÊNCIA EM MÉDIAS. Infrações de natureza LEVE, independentemente da quantidade, NÃO impedem a concessão da CNH definitiva.',
+    explanations: {
+      A: 'CORRETA. Infrações leves não são impeditivas para a CNH definitiva.',
+      B: 'INCORRETA. O cancelamento não se aplica a infrações leves.',
+      C: 'INCORRETA. Não há reciclagem por acúmulo de infrações leves na PPD sem atingir o limite geral de pontos.',
+      D: 'INCORRETA. Não há impedimento.',
+      E: 'INCORRETA. Não se exige reexame médico fora do vencimento regulamentar.'
+    }
+  },
+  {
+    id: 'con-q40',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Interrupção do Exame Prático por Falta Eliminatória',
+    difficulty: 'Médio',
+    statement: 'Nos termos do Art. 46 da Resolução CONTRAN nº 1.020/2025, durante a aplicação do exame de direção veicular, o exame poderá ser interrompido pela comissão examinadora quando:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 46',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'O candidato cometer 1 falta leve e 1 falta média.' },
+      { letter: 'B', text: 'O candidato cometer qualquer falta eliminatória ou atingir a pontuação limite de reprovação.' },
+      { letter: 'C', text: 'O tempo de prova ultrapassar 5 minutos no total.' },
+      { letter: 'D', text: 'O veículo de instrução estancar o motor uma única vez.' },
+      { letter: 'E', text: 'O candidato não estiver usando calçado com salto alto.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 46 determina que o exame será interrompido pela comissão examinadora assim que constatada falta eliminatória ou atinjida a pontuação superior a 3 pontos de faltas, declarando a reprovação do candidato.',
+    explanations: {
+      A: 'INCORRETA. 1 leve (1 pt) + 1 média (2 pts) = 3 pts (candidato continua aprovado).',
+      B: 'CORRETA. Res. 1.020/2025 Art. 46: Falta eliminatória ou estouro de pontos interrompe o exame.',
+      C: 'INCORRETA. O tempo de prova segue os parâmetros regulamentares do percurso.',
+      D: 'INCORRETA. Estancar o motor é falta leve ou média (conforme regramento), não eliminatória imediata.',
+      E: 'INCORRETA. Usar calçado inadequado é infração/falta, mas a regra de salto alto não é motivo de interrupção padrão.'
+    }
+  },
+
+  // --- BLOCO 4: MUDANÇA DE CATEGORIA, CURSOS ESPECIALIZADOS E REQUISITOS (Q41 a Q55) ---
+  {
+    id: 'con-q41',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Requisitos para Mudança de Categoria C',
+    difficulty: 'Médio',
+    statement: 'Para habilitar-se na Categoria C (veículos de carga com PBT superior a 3.500 kg), a Resolução CONTRAN nº 1.020/2025 e o Art. 145 do CTB exigem do condutor:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 53 & Art. 145 do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Estar habilitado há pelo menos 1 (um) ano na Categoria B e não ter cometido nenhuma infração gravíssima nos últimos 12 (doze) meses.' },
+      { letter: 'B', text: 'Estar habilitado há pelo menos 2 anos na Categoria A e ter 25 anos completos.' },
+      { letter: 'C', text: 'Estar habilitado na Categoria B há 6 meses, independentemente de histórico de infrações.' },
+      { letter: 'D', text: 'Ter concluído o curso superior de engenharia de transportes.' },
+      { letter: 'E', text: 'Ter 21 anos completos e 3 anos de habilitação na Categoria B.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'De acordo com o Art. 53 da Res. 1.020/2025 e Art. 145 do CTB, para mudança da Categoria B para a C, exige-se: 1) estar habilitado há no mínimo 1 ano na Categoria B; 2) não ter cometido nenhuma infração GRAVÍSSIMA nos últimos 12 meses; 3) aprovação em exame toxicológico.',
+    explanations: {
+      A: 'CORRETA. 1 ano de B + ausência de infração gravíssima nos últimos 12 meses.',
+      B: 'INCORRETA. Categoria A não dá acesso direto à Categoria C.',
+      C: 'INCORRETA. 6 meses em B é insuficiente e o histórico de infrações é relevante.',
+      D: 'INCORRETA. Não se exige nível superior.',
+      E: 'INCORRETA. Para Categoria C não se exige 21 anos completos (21 anos é exigido para D e E).'
+    }
+  },
+  {
+    id: 'con-q42',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Requisitos para Categoria D',
+    difficulty: 'Médio',
+    statement: 'Para obter a Categoria D (transporte de passageiros com mais de 8 lugares), o candidato vindo da Categoria B deve comprovar os seguintes requisitos (Resolução CONTRAN nº 1.020/2025 e Art. 145 CTB):',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 53 & Art. 145 CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Estar habilitado no mínimo há 2 (dois) anos na Categoria B, ter 21 (vinte e um) anos de idade completos e não ter cometido infração gravíssima nos últimos 12 meses.' },
+      { letter: 'B', text: 'Estar habilitado há 1 ano na Categoria B e ter 18 anos completos.' },
+      { letter: 'C', text: 'Possuir 5 anos de Categoria B e 30 anos de idade.' },
+      { letter: 'D', text: 'Estar habilitado na Categoria A há 3 anos.' },
+      { letter: 'E', text: 'Ter 21 anos e estar na PPD há 6 meses.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Regra de B para D: exige mínimo de 2 anos na Categoria B, idade de no mínimo 21 anos completos e não ter cometido infração gravíssima nos últimos 12 meses.',
+    explanations: {
+      A: 'CORRETA. B para D exige 2 anos de B, 21 anos de idade e ausência de infração gravíssima nos últimos 12 meses.',
+      B: 'INCORRETA. Exige-se 21 anos de idade e 2 anos de B.',
+      C: 'INCORRETA. 5 anos de B e 30 anos são exigências exageradas.',
+      D: 'INCORRETA. Categoria A não pontua para obtenção de D.',
+      E: 'INCORRETA. Condutor na PPD não pode mudar diretamente para D.'
+    }
+  },
+  {
+    id: 'con-q43',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Requisitos para Categoria E',
+    difficulty: 'Médio',
+    statement: 'Um condutor habilitado na Categoria C pretende obter a Categoria E (combinação de veículos com reboque/semi-reboque com PBT superior a 6.000 kg). Quais requisitos ele deve comprovar perante o Detran (Resolução CONTRAN nº 1.020/2025)?',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 53 & Art. 145 CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Estar habilitado há no mínimo 1 (um) ano na Categoria C, ter 21 (vinte e um) anos completos e não ter cometido infração gravíssima nos últimos 12 meses.' },
+      { letter: 'B', text: 'Estar habilitado há 6 meses na Categoria C e ter 18 anos completos.' },
+      { letter: 'C', text: 'Estar habilitado há 3 anos na Categoria B sem necessidade de ter passado pela C.' },
+      { letter: 'D', text: 'Ter 18 anos completos e aprovação em exame teórico de aviação.' },
+      { letter: 'E', text: 'Apenas apresentação de exame toxicológico negativo.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Para transitar de C para E, o condutor deve comprovar no mínimo 1 ano de Categoria C, ter 21 anos de idade completos e ausência de infrações gravíssimas nos últimos 12 meses.',
+    explanations: {
+      A: 'CORRETA. C para E exige 1 ano de C, 21 anos de idade e ausência de infração gravíssima nos últimos 12 meses.',
+      B: 'INCORRETA. 6 meses de C é insuficiente e exige-se 21 anos.',
+      C: 'INCORRETA. De B para E exige ter passado por C ou D primeiro.',
+      D: 'INCORRETA. Não se exige aviação.',
+      E: 'INCORRETA. Exige-se também tempo de habilitação e idade.'
+    }
+  },
+  {
+    id: 'con-q44',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Rebaixamento Voluntário de Categoria',
+    difficulty: 'Fácil',
+    statement: 'Um condutor habilitado na Categoria E decide, por conveniência pessoal e para isentar-se do exame toxicológico periódico, solicitar o rebaixamento de sua habilitação para a Categoria B. De acordo com o Art. 54 da Resolução CONTRAN nº 1.020/2025:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 54',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'O pedido de rebaixamento de categoria é um direito do condutor e pode ser requerido a qualquer tempo junto ao órgão executivo de trânsito.' },
+      { letter: 'B', text: 'O rebaixamento é expressamente proibido pela legislação de trânsito brasileira.' },
+      { letter: 'C', text: 'O rebaixamento exige autorização de junta médica do Ministério da Saúde.' },
+      { letter: 'D', text: 'Ao solicitar o rebaixamento, a CNH é cancelada definitivamente e o condutor perde o direito de dirigir.' },
+      { letter: 'E', text: 'O condutor deve pagar uma multa de rebaixamento no valor de 10 mensalidades do Detran.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 54 permite expressamente que o condutor requeira a qualquer momento o rebaixamento de sua categoria de habilitação (ex: de E para B), desobrigando-o das exigências das categorias pesadas.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 54: Rebaixamento a pedido é facultado ao condutor.',
+      B: 'INCORRETA. É expressamente permitido.',
+      C: 'INCORRETA. É ato administrativo a pedido do interessado.',
+      D: 'INCORRETA. O condutor mantém a CNH na categoria B.',
+      E: 'INCORRETA. Não há cobrança de multa por rebaixamento voluntário.'
+    }
+  },
+  {
+    id: 'con-q45',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Cursos Especializados (Renovação)',
+    difficulty: 'Médio',
+    statement: 'Os cursos especializados para condutores (Transporte Escolar, MOPP, Veículos de Emergência, Transporte Coletivo de Passageiros) disciplinados no Art. 67 da Resolução CONTRAN nº 1.020/2025 possuem validade de:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 67 e 70',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: '1 (um) ano, devendo ser refeitos anualmente.' },
+      { letter: 'B', text: '2 (dois) anos.' },
+      { letter: 'C', text: '5 (cinco) anos, devendo o condutor realizar curso de atualização periodicamente.' },
+      { letter: 'D', text: '10 (dez) anos para condutores de qualquer idade.' },
+      { letter: 'E', text: 'Validade vitalícia, sem necessidade de atualização.' }
+    ],
+    correctLetter: 'C',
+    generalExplanation: 'Os cursos especializados homologados pelo CONTRAN têm validade de 5 (cinco) anos, devendo o profissional realizar o curso de atualização a cada 5 anos para manter a homologação ativa no RENACH.',
+    explanations: {
+      A: 'INCORRETA. 1 ano é o prazo de validade da PPD.',
+      B: 'INCORRETA. 2 anos não é a periodicidade dos cursos especializados.',
+      C: 'CORRETA. Cursos especializados possuem validade de 5 anos.',
+      D: 'INCORRETA. 10 anos é a validade do exame médico de CNH para <50 anos.',
+      E: 'INCORRETA. Os cursos exigem atualização quinquenal.'
+    }
+  },
+  {
+    id: 'con-q46',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Curso de Reciclagem para Suspenso',
+    difficulty: 'Fácil',
+    statement: 'Quando um condutor tem seu direito de dirigir suspenso por acúmulo de pontos ou por infração auto-suspensiva (Resolução CONTRAN nº 1.020/2025, Art. 87), para reaver a CNH ele deverá:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 87 e 91',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Apenas aguardar o cumprimento do prazo de suspensão e solicitar a devolução do documento.' },
+      { letter: 'B', text: 'Cumprir integralmente o prazo de suspensão e comprovar aprovação em Curso de Reciclagem para Condutores Infratores.' },
+      { letter: 'C', text: 'Prestar 100 horas de trabalho voluntário na Polícia Rodoviária Federal.' },
+      { letter: 'D', text: 'Refazer integralmente o processo de 1ª habilitação com aulas práticas de baliza.' },
+      { letter: 'E', text: 'Realizar apenas exame de visão em clínica credenciada.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Conforme o Art. 87 e 91 da Res. 1.020/2025 e Art. 261, § 2º do CTB, a restituição da CNH suspensa fica condicionada ao cumprimento do prazo de suspensão E à aprovação em Curso de Reciclagem.',
+    explanations: {
+      A: 'INCORRETA. Apenas aguardar o prazo não devolve a CNH sem o curso de reciclagem aprovado.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 87 e 91: Cumprimento do prazo + Aprovação em Reciclagem.',
+      C: 'INCORRETA. Trabalho voluntário não substitui o curso de reciclagem exigido por lei.',
+      D: 'INCORRETA. Refazer o processo do zero é exigência no caso de CASSAÇÃO, e não de suspensão.',
+      E: 'INCORRETA. Exame de visão isolado não resolve a penalidade pedagógica da suspensão.'
+    }
+  },
+  {
+    id: 'con-q47',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Aprovação no Curso de Reciclagem',
+    difficulty: 'Fácil',
+    statement: 'Para obter aprovação na prova teórica do Curso de Reciclagem para Condutores Infratores (Resolução CONTRAN nº 1.020/2025, Art. 90), o condutor deve alcançar aproveitamento mínimo de:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 90 & Art. 34',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: '50% (cinquenta por cento).' },
+      { letter: 'B', text: '60% (sessenta por cento).' },
+      { letter: 'C', text: '70% (setenta por cento).' },
+      { letter: 'D', text: '80% (oitenta por cento).' },
+      { letter: 'E', text: '100% (cem por cento).' }
+    ],
+    correctLetter: 'C',
+    generalExplanation: 'Assim como na prova teórica da primeira habilitação, a aprovação no exame do curso de reciclagem exige o aproveitamento mínimo de 70% (setenta por cento) de acertos nas questões.',
+    explanations: {
+      A: 'INCORRETA. 50% é nota insuficiente.',
+      B: 'INCORRETA. 60% não atinge a exigência legal.',
+      C: 'CORRETA. Res. 1.020/2025 Art. 90: Exige-se 70% de aproveitamento.',
+      D: 'INCORRETA. 80% é superior ao limite legal exigido.',
+      E: 'INCORRETA. Não se exige gabarito 100% perfeito.'
+    }
+  },
+  {
+    id: 'con-q48',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Cassação de CNH e Reabilitação',
+    difficulty: 'Médio',
+    statement: 'O condutor que tem sua CNH CASADA por pilotar sob a influência de álcool reincidente em 12 meses poderá requerer sua REABILITAÇÃO (Resolução CONTRAN nº 1.020/2025, Art. 6º, VII & Art. 263 CTB) após decorridos:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 6º, VII & Art. 263, § 2º CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: '6 (seis) meses de cassação.' },
+      { letter: 'B', text: '1 (um) ano de cassação.' },
+      { letter: 'C', text: '2 (dois) anos de cassação, submetendo-se a todos os exames necessários à habilitação.' },
+      { letter: 'D', text: '5 (cinco) anos de cassação.' },
+      { letter: 'E', text: '10 (dez) anos de cassação.' }
+    ],
+    correctLetter: 'C',
+    generalExplanation: 'Decorridos 2 (dois) anos da cassação da CNH, o condutor poderá requerer sua reabilitação submetendo-se a todos os exames exigidos para habilitação (Art. 263, § 2º do CTB / Res. 1.020 Art. 6º, VII).',
+    explanations: {
+      A: 'INCORRETA. 6 meses é prazo de suspensão da LADV ou penalidades leves.',
+      B: 'INCORRETA. 1 ano é o prazo da PPD.',
+      C: 'CORRETA. Cassação exige o cumprimento do prazo de 2 anos (24 meses) para requerimento de reabilitação.',
+      D: 'INCORRETA. 5 anos é prazo prescricional de débitos, não carência de cassação.',
+      E: 'INCORRETA. 10 anos não é prazo de cassação.'
+    }
+  },
+  {
+    id: 'con-q49',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Impedimentos para Instrutor de Trânsito',
+    difficulty: 'Médio',
+    statement: 'Nos termos da Resolução CONTRAN nº 1.020/2025 (Art. 113), é vedado aos instrutores de trânsito durante o exercício de suas funções pedagógicas:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 113',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Ministrar aulas em veículos adaptados para candidatos com deficiência.' },
+      { letter: 'B', text: 'Agressão física ou verbal a candidatos, ausentar-se da aula de instrução ou ministrar aulas sob efeito de álcool ou substância psicoativa.' },
+      { letter: 'C', text: 'Utilizar mapas impressos para orientar o percurso.' },
+      { letter: 'D', text: 'Orientações sobre direção defensiva e regras de circulação.' },
+      { letter: 'E', text: 'Registrar a frequência biométrica do aluno no início da aula.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'O Art. 113 disciplina o código de conduta dos instrutores, proibindo condutas como faltas com a ética, agressão verbal/física, ausentar-se do veículo em instrução ou estar sob efeito de álcool/drogas.',
+    explanations: {
+      A: 'INCORRETA. Ministrar aula em veículo adaptado é permitido e necessário para PCD.',
+      B: 'CORRETA. Res. 1.020/2025 Art. 113: Condutas sumariamente vedadas ao instrutor.',
+      C: 'INCORRETA. Orientação pedagógica por mapas é válida.',
+      D: 'INCORRETA. Orientar sobre regras é o dever do instrutor.',
+      E: 'INCORRETA. O registro biométrico é obrigatório por lei.'
+    }
+  },
+  {
+    id: 'con-q50',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Impedimentos para Examinador de Trânsito',
+    difficulty: 'Médio',
+    statement: 'A Resolução CONTRAN nº 1.020/2025 (Art. 116) veda expressamente aos examinadores de trânsito que compõem as comissões de exame prático:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 116',
+    bancaTag: 'Vunesp',
+    options: [
+      { letter: 'A', text: 'Avaliar candidatos que sejam seus parentes consanguíneos ou afins até o 3º grau, ou alunos dos quais tenham sido instrutores.' },
+      { letter: 'B', text: 'Portar prancheta ou dispositivo eletrônico de anotação de faltas.' },
+      { letter: 'C', text: 'Usar uniforme oficial fornecido pelo Detran.' },
+      { letter: 'D', text: 'Exigir o documento de identidade antes de iniciar a prova.' },
+      { letter: 'E', text: 'Informar o resultado da prova ao final da avaliação.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 116 proíbe o conflito de interesses e o nepotismo na avaliação, impedindo que o examinador avalie parentes de até 3º grau ou alunos que ele próprio tenha treinado como instrutor.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 116: Impedimento por parentesco até 3º grau ou relação instrutor-aluno.',
+      B: 'INCORRETA. O uso de prancheta/tablet de avaliação é o dever do examinador.',
+      C: 'INCORRETA. O uso de uniforme oficial é permitido/exigido.',
+      D: 'INCORRETA. Checar documento com foto é obrigação do examinador.',
+      E: 'INCORRETA. Comunicar o resultado ao candidato ao final é procedimento padrão.'
+    }
+  },
+
+  // --- BLOCO 5: RENOVAÇÃO, PRAZOS MÉDICOS, RES 911, RES 960 E RES 940 (Q51 a Q70) ---
+  {
+    id: 'con-q51',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Validade do Exame Médico (<50 Anos)',
+    difficulty: 'Fácil',
+    statement: 'De acordo com o Art. 92 da Resolução CONTRAN nº 1.020/2025 e o Art. 147, § 2º do CTB, o prazo máximo de validade do exame de aptidão física e mental para um condutor com 35 anos de idade é de:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 92 & Art. 147, § 2º CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: '3 (três) anos.' },
+      { letter: 'B', text: '5 (cinco) anos.' },
+      { letter: 'C', text: '10 (dez) anos.' },
+      { letter: 'D', text: '15 (quinze) anos.' },
+      { letter: 'E', text: 'Indefinido até a aposentadoria.' }
+    ],
+    correctLetter: 'C',
+    generalExplanation: 'Para condutores com idade inferior a 50 anos (caso do condutor de 35 anos), o prazo máximo de validade do exame médico de renovação da CNH é de 10 (dez) anos.',
+    explanations: {
+      A: 'INCORRETA. 3 anos aplica-se aos condutores com 70 anos de idade ou mais.',
+      B: 'INCORRETA. 5 anos aplica-se aos condutores com idade entre 50 e 69 anos.',
+      C: 'CORRETA. Res. 1.020/2025 Art. 92: 10 anos de validade para condutores <50 anos.',
+      D: 'INCORRETA. Não existe prazo de 15 anos.',
+      E: 'INCORRETA. O exame médico obrigatoriamente expira em prazo determinado por lei.'
+    }
+  },
+  {
+    id: 'con-q52',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Validade do Exame Médico (50 a 69 Anos)',
+    difficulty: 'Fácil',
+    statement: 'Um condutor de 58 anos de idade comparece ao Detran para renovar sua CNH. Nos termos do Art. 92 da Resolução CONTRAN nº 1.020/2025 e do CTB, o prazo de validade de seu novo exame médico será de até:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 92 & Art. 147, § 2º CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: '2 (dois) anos.' },
+      { letter: 'B', text: '3 (três) anos.' },
+      { letter: 'C', text: '5 (cinco) anos.' },
+      { letter: 'D', text: '10 (dez) anos.' },
+      { letter: 'E', text: '1 (um) ano.' }
+    ],
+    correctLetter: 'C',
+    generalExplanation: 'Para a faixa etária compreendida entre 50 e 69 anos de idade (caso do condutor de 58 anos), o prazo máximo de validade do exame de aptidão física e mental é de 5 (cinco) anos.',
+    explanations: {
+      A: 'INCORRETA. 2 anos não é patamar etário da regra geral.',
+      B: 'INCORRETA. 3 anos aplica-se a condutores com 70 anos de idade ou mais.',
+      C: 'CORRETA. Faixa de 50 a 69 anos = validade máxima de 5 anos.',
+      D: 'INCORRETA. 10 anos aplica-se aos condutores com menos de 50 anos.',
+      E: 'INCORRETA. 1 ano é validade da PPD.'
+    }
+  },
+  {
+    id: 'con-q53',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Validade do Exame Médico (70+ Anos)',
+    difficulty: 'Fácil',
+    statement: 'Um condutor com 72 anos de idade renova sua CNH. Conforme o regramento do Art. 92 da Resolução CONTRAN nº 1.020/2025, qual é o prazo máximo de validade de seu exame de aptidão física e mental?',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 92 & Art. 147, § 2º CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: '1 (um) ano.' },
+      { letter: 'B', text: '3 (três) anos.' },
+      { letter: 'C', text: '5 (cinco) anos.' },
+      { letter: 'D', text: '10 (dez) anos.' },
+      { letter: 'E', text: '6 (seis) meses.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Para condutores com idade igual ou superior a 70 anos, o prazo máximo de validade do exame de aptidão física e mental para renovação da CNH é de 3 (três) anos.',
+    explanations: {
+      A: 'INCORRETA. 1 ano é validade de PPD.',
+      B: 'CORRETA. Faixa de 70 anos ou mais = validade máxima de 3 anos.',
+      C: 'INCORRETA. 5 anos aplica-se à faixa de 50 a 69 anos.',
+      D: 'INCORRETA. 10 anos aplica-se a menores de 50 anos.',
+      E: 'INCORRETA. 6 meses não é padrão regulamentar etário.'
+    }
+  },
+  {
+    id: 'con-q54',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 911/2022 - Exame Toxicológico Periódico',
+    difficulty: 'Médio',
+    statement: 'Nos termos da Resolução CONTRAN nº 911/2022 e do Art. 148-A do CTB, os condutores das categorias C, D e E com idade inferior a 70 anos deverão realizar exame toxicológico intermediário com qual periodicidade regular?',
+    lawReference: 'Resolução CONTRAN 911/2022 & Art. 148-A, § 2º CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'A cada 1 (um) ano.' },
+      { letter: 'B', text: 'A cada 2 (dois) anos e 6 (seis) meses.' },
+      { letter: 'C', text: 'A cada 3 (três) anos.' },
+      { letter: 'D', text: 'A cada 5 (cinco) anos.' },
+      { letter: 'E', text: 'Apenas no momento da renovação decenal da CNH.' }
+    ],
+    correctLetter: 'B',
+    generalExplanation: 'Conforme a Res. CONTRAN 911/2022 e o Art. 148-A, § 2º do CTB, os condutores C, D e E com menos de 70 anos realizarão exame toxicológico periódico a cada 2 ANOS E 6 MESES (30 meses), a contar da obtenção ou renovação.',
+    explanations: {
+      A: 'INCORRETA. Não é exame de periodicidade anual.',
+      B: 'CORRETA. Res. 911/2022 e Art. 148-A, § 2º CTB: Periodicidade de 2 anos e 6 meses.',
+      C: 'INCORRETA. 3 anos é o prazo médico para condutores maiores de 70 anos.',
+      D: 'INCORRETA. 5 anos é o prazo médico para faixa 50-69 anos.',
+      E: 'INCORRETA. O exame intermediário independe da validade total da CNH.'
+    }
+  },
+  {
+    id: 'con-q55',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 911/2022 - Penalidade por Dirigir com Toxicológico Vencido',
+    difficulty: 'Difícil',
+    statement: 'Um condutor da Categoria D é abordado fiscalizado dirigindo caminhão de carga após 45 dias do vencimento do prazo do exame toxicológico periódico (Resolução CONTRAN 911/2022 e Art. 165-B do CTB). De acordo com a legislação, ele cometeu infração de natureza:',
+    lawReference: 'Resolução CONTRAN 911/2022 & Art. 165-B do CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Leve, com penalidade de advertência por escrito.' },
+      { letter: 'B', text: 'Média, com retenção do veículo por 2 horas.' },
+      { letter: 'C', text: 'Grave, com acúmulo de 5 pontos na CNH.' },
+      { letter: 'D', text: 'Gravíssima, com penalidade de multa multiplicada por 5 (cinco) vezes.' },
+      { letter: 'E', text: 'Administrativa sem pontuação na carteira.' }
+    ],
+    correctLetter: 'D',
+    generalExplanation: 'Dirigir veículo para o qual se exige C, D ou E sem realizar o exame toxicológico após 30 dias do vencimento é infração GRAVÍSSIMA, com penalidade de MULTA MULTIPLICADA POR 5 (Art. 165-B do CTB).',
+    explanations: {
+      A: 'INCORRETA. É infração gravíssima gravíssima de trânsito.',
+      B: 'INCORRETA. Não é infração média.',
+      C: 'INCORRETA. Não é apenas gravidade grave.',
+      D: 'CORRETA. Art. 165-B CTB & Res. 911/2022: Infração Gravíssima com valor de multa x5.',
+      E: 'INCORRETA. Incide pontuação e penalidade financeira multiplicada por 5.'
+    }
+  },
+  {
+    id: 'con-q56',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 960/2022 - Transmitância Luminosa no Para-brisa',
+    difficulty: 'Médio',
+    statement: 'A Resolução CONTRAN nº 960/2022 unificou a exigência mínima de transmitância luminosa para o para-brisa e demais vidros indispensáveis à dirigibilidade (vidros laterais dianteiros) do veículo em no mínimo:',
     lawReference: 'Resolução CONTRAN 960/2022, Art. 4º',
-    bancaTag: 'FCC / Avalia 2026',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
       { letter: 'A', text: '50% (cinquenta por cento).' },
       { letter: 'B', text: '70% (setenta por cento).' },
@@ -42,963 +1401,363 @@ export const contranQuestions: Question[] = [
       { letter: 'E', text: '100% (cem por cento).' }
     ],
     correctLetter: 'B',
-    generalExplanation: 'A Resolução CONTRAN nº 960/2022 unificou a exigência de transmitância luminosa mínima para o parabrisa e para os vidros das áreas envidraçadas indispensáveis à dirigibilidade (vidros laterais dianteiros) em no mínimo 70% (setenta por cento).',
+    generalExplanation: 'A Resolução CONTRAN nº 960/2022 fixou em 70% (setenta por cento) o índice mínimo de transmitância luminosa para o para-brisa e vidros das áreas envidraçadas indispensáveis à dirigibilidade.',
     explanations: {
-      A: 'INCORRETA. 50% não é o limite mínimo legal.',
+      A: 'INCORRETA. 50% não é o limite mínimo legal das áreas de visão frontal.',
       B: 'CORRETA. Res. CONTRAN 960/2022: Mínimo de 70% de transmitância luminosa.',
-      C: 'INCORRETA. 28% era o limite antigo para vidros que não interferem na dirigibilidade (traseiros).',
-      D: 'INCORRETA. 75% era exigência de normas anteriores já revogadas.',
-      E: 'INCORRETA. 100% representaria ausência total de película.'
+      C: 'INCORRETA. 28% era o limite antigo dos vidros traseiros que não interferem na visão dianteira.',
+      D: 'INCORRETA. 75% era norma revogada.',
+      E: 'INCORRETA. 100% representaria vidro sem película alguma.'
     }
   },
   {
-    id: 'con-q03',
+    id: 'con-q57',
     subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 960/2022 - Bolhas e Película Refletiva',
+    topic: 'Resolução CONTRAN 960/2022 - Proibição de Películas Refletivas e Bolhas',
     difficulty: 'Fácil',
-    statement: 'Acerca das proibições relativas ao uso de películas nos vidros dos veículos (Resolução CONTRAN 960/2022), assinale a opção CORRETA:',
+    statement: 'Sobre a aplicação de películas de proteção solar (insulfilm) e conservação dos vidros dos veículos (Resolução CONTRAN nº 960/2022), é correto afirmar que é ESTRITAMENTE PROIBIDO:',
     lawReference: 'Resolução CONTRAN 960/2022, Art. 4º, § 2º',
-    bancaTag: 'Vunesp',
+    bancaTag: 'Instituto Avalia',
     options: [
-      { letter: 'A', text: 'É permitida a aplicação de películas refletivas ou espelhadas no parabrisa, desde que com chancela.' },
-      { letter: 'B', text: 'Fica proibida a aplicação de películas refletivas no veículo, bem como a presença de bolhas na área de visão do condutor no parabrisa e nos vidros laterais dianteiros.' },
-      { letter: 'C', text: 'Bolhas no insulfilm nos vidros traseiros geram apreensão imediata do veículo.' },
-      { letter: 'D', text: 'A chancela de identificação da película pode ser gravada com caneta esferográfica.' },
-      { letter: 'E', text: 'É autorizada a pintura dos vidros dianteiros com tinta preta opaca.' }
+      { letter: 'A', text: 'O uso de qualquer película de proteção solar em qualquer vidro do veículo.' },
+      { letter: 'B', text: 'A aplicação de películas refletivas ou espelhadas e a presença de bolhas na área de visão do condutor no para-brisa e vidros laterais dianteiros.' },
+      { letter: 'C', text: 'O uso de vidros laminados na parte frontal dos automóveis.' },
+      { letter: 'D', text: 'A higienização dos vidros com produtos à base de álcool.' },
+      { letter: 'E', text: 'A instalação de desembaçador térmico no vidro traseiro.' }
     ],
     correctLetter: 'B',
-    generalExplanation: 'A Res. CONTRAN 960/22 proíbe expressamente: 1) a aplicação de películas refletivas/espelhadas em qualquer vidro do veículo; 2) a presença de bolhas na área de visão do condutor no parabrisa e nos vidros laterais dianteiros.',
+    generalExplanation: 'A Res. CONTRAN 960/2022 proíbe expressamente: 1) a aplicação de películas refletivas ou espelhadas em qualquer vidro; 2) a presença de bolhas na película na área crítica de visão do condutor.',
     explanations: {
-      A: 'INCORRETA. Película refletiva/espelhada é totalmente proibida.',
-      B: 'CORRETA. Res. 960/22, Art. 4º: Proibição de película refletiva e de bolhas na área crítica de visão.',
-      C: 'INCORRETA. A proibição de bolhas enfoca a área crítica de visão dianteira, e a penalidade é retenção, não apreensão.',
-      D: 'INCORRETA. A chancela deve ser indelével e legível por fora.',
-      E: 'INCORRETA. É proibida a opacidade ou pintura.'
+      A: 'INCORRETA. Películas não refletivas são permitidas desde que respeitada a transmitância mínima de 70%.',
+      B: 'CORRETA. Res. 960/2022: Proibição de película refletiva/espelhada e bolhas na área de visão.',
+      C: 'INCORRETA. Vidros laminados são obrigatórios no para-brisa.',
+      D: 'INCORRETA. Não há vedação quanto a produtos de limpeza.',
+      E: 'INCORRETA. Desembaçador térmico é equipamento de segurança permitido.'
     }
   },
   {
-    id: 'con-q04',
+    id: 'con-q58',
     subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 940/2022 - Capacete de Motociclista',
-    difficulty: 'Médio',
-    statement: 'A Resolução CONTRAN nº 940/2022 disciplina o uso de capacete para condutores e passageiros de motocicletas, motonetas, ciclomotores, triciclos e quadriciclos motorizados. É correto afirmar que o capacete deve conter obrigatoriamente:',
+    topic: 'Resolução CONTRAN 940/2022 - Capacete de Motociclista e Certificação',
+    difficulty: 'Fácil',
+    statement: 'A Resolução CONTRAN nº 940/2022 disciplina o uso de capacete para condutores e passageiros de motocicletas e ciclomotores. O capacete de segurança deve conter obrigatoriamente:',
     lawReference: 'Resolução CONTRAN 940/2022, Art. 2º',
-    bancaTag: 'FCC / Avalia 2026',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Selo de certificação do INMETRO (ou gravado no capacete) e dispositivo retrorrefletivo nas laterais e traseira.' },
-      { letter: 'B', text: 'Viseira fumê de uso obrigatório no período noturno.' },
-      { letter: 'C', text: 'Número do CPF do condutor gravado na parte interna.' },
-      { letter: 'D', text: 'Trava metálica com chave de segurança integrada.' },
-      { letter: 'E', text: 'Pintura amarela fluorescente em toda a calota.' }
+      { letter: 'A', text: 'Selo ou gravação de certificação do INMETRO e dispositivos retrorrefletivos nas laterais e parte traseira.' },
+      { letter: 'B', text: 'Viseira escura fumê de uso obrigatório no período noturno.' },
+      { letter: 'C', text: 'Gravação do número do CPF do condutor em letras amarelas.' },
+      { letter: 'D', text: 'Farol de LED embutido na calota superior.' },
+      { letter: 'E', text: 'Dispositivo de travamento por senha biométrica.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A Res. CONTRAN 940/22 exige que o capacete de segurança possua obrigatoriamente: 1) Certificação de conformidade pelo INMETRO (selo ou gravação indelével); 2) Dispositivos retrorrefletivos de segurança nas laterais e parte traseira; 3) Viseira ou óculos de proteção (vedada viseira escura à noite).',
+    generalExplanation: 'A Res. CONTRAN 940/2022 exige que o capacete possua certificação do INMETRO (selo ou etiqueta indelével) e faixas retrorrefletivas de segurança nas laterais e traseira.',
     explanations: {
-      A: 'CORRETA. Res. 940/22: Selo/gravação do INMETRO e retrorrefletivos obrigatórios.',
-      B: 'INCORRETA. No período noturno é proibido o uso de viseira com película ou escura/fumê.',
-      C: 'INCORRETA. Não exige gravação de CPF.',
-      D: 'INCORRETA. A cinta jugular deve ser ajustada, mas não há trava por chave.',
-      E: 'INCORRETA. A cor do capacete é livre, exigindo-se apenas os retrorrefletivos.'
+      A: 'CORRETA. Res. 940/2022: Certificação INMETRO e faixas retrorrefletivas obrigatórias.',
+      B: 'INCORRETA. No período noturno é PROIBIDA a viseira fumê/escura.',
+      C: 'INCORRETA. Não se exige CPF gravado no capacete.',
+      D: 'INCORRETA. Não se exige farol embutido no capacete.',
+      E: 'INCORRETA. Não há exigência de senha biométrica na cinta jugular.'
     }
   },
   {
-    id: 'con-q05',
+    id: 'con-q59',
     subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 915/2022 - Transporte de Crianças',
+    topic: 'Resolução CONTRAN 940/2022 - Viseira e Óculos de Proteção',
     difficulty: 'Médio',
-    statement: 'A Resolução CONTRAN nº 915/2022 e o Art. 64 do CTB regulam o transporte de crianças com idade inferior a 10 anos em veículos automotores. O dispositivo de retenção adequado conhecido como "ASSENTO DE ELEVAÇÃO" é obrigatório para crianças com a seguinte faixa etária/estatura:',
-    lawReference: 'Resolução CONTRAN 915/2022, Art. 3º',
-    bancaTag: 'Vunesp / DETRAN-SP',
+    statement: 'Em relação ao uso de viseira ou óculos de proteção na condução de motocicletas (Resolução CONTRAN nº 940/2022), assinale a afirmativa CORRETA:',
+    lawReference: 'Resolução CONTRAN 940/2022, Art. 3º e 4º',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Crianças de até 1 ano de idade.' },
-      { letter: 'B', text: 'Crianças com idade superior a 1 ano e até 4 anos.' },
-      { letter: 'C', text: 'Crianças com idade superior a 4 anos e até 7 anos e meio (ou até 1,45m de altura).' },
-      { letter: 'D', text: 'Crianças maiores de 10 anos exclusivamente no banco dianteiro.' },
-      { letter: 'E', text: 'Crianças de qualquer idade sem cinto de segurança.' }
+      { letter: 'A', text: 'O uso de óculos de sol comuns ou de grau substitui legalmente os óculos de proteção de motociclista.' },
+      { letter: 'B', text: 'É permitida a utilização de viseira com película fumê ou escura no período noturno.' },
+      { letter: 'C', text: 'A viseira ou óculos de proteção deve estar totalmente posicionada à frente dos olhos durante a circulação do veículo.' },
+      { letter: 'D', text: 'Com o veículo parado no semáforo, a viseira não pode ser levantada sob hipótese alguma.' },
+      { letter: 'E', text: 'Capacetes sem viseira dispensam o uso de óculos de proteção se o condutor usar barba.' }
     ],
     correctLetter: 'C',
-    generalExplanation: 'Dispositivos de retenção infantis (Res. 915/22 e Art. 64 CTB):\n- Bebê Conforto: até 1 ano;\n- Cadeirinha: > 1 ano até 4 anos;\n- Assento de Elevação: > 4 anos até 7 anos e meio (ou até atingir 1,45 m de altura);\n- Cinto de segurança do veículo no banco traseiro: > 7,5 anos até 10 anos (ou mais de 1,45m).',
+    generalExplanation: 'Conforme a Res. CONTRAN 940/2022, quando o veículo estiver em circulação, a viseira ou os óculos de proteção devem estar posicionados de forma a proteger integralmente os olhos. Com o veículo imobilizado na via (ex: no semáforo), a viseira pode ser levantada, devendo ser fechada ao reiniciar o deslocamento.',
     explanations: {
-      A: 'INCORRETA. Para até 1 ano utiliza-se o Bebê Conforto (voltado para trás).',
-      B: 'INCORRETA. Para 1 a 4 anos utiliza-se a Cadeirinha.',
-      C: 'CORRETA. Assento de elevação: crianças de 4 a 7,5 anos que não tenham atingido 1,45m.',
-      D: 'INCORRETA. Maiores de 10 anos usam cinto normal e podem ir no banco dianteiro.',
-      E: 'INCORRETA. Cinto ou dispositivo é sempre obrigatório.'
+      A: 'INCORRETA. Óculos de sol/grau comuns não substituem os óculos de proteção específicos.',
+      B: 'INCORRETA. No período noturno é vedado o uso de viseira escura ou com películas.',
+      C: 'CORRETA. Res. 940/2022: Viseira abaixada em circulação.',
+      D: 'INCORRETA. Com o veículo parado, a viseira pode ser levantada para ventilação.',
+      E: 'INCORRETA. Barba não substitui equipamento de proteção visual.'
     }
   },
   {
-    id: 'con-q06',
+    id: 'con-q60',
     subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 915/2022 - Exceção do Banco Dianteiro',
-    difficulty: 'Difícil',
-    statement: 'Uma criança menor de 10 anos que ainda não atingiu 1,45 m de altura poderá ser transportada no BANCO DIANTEIRO do veículo, utilizando o dispositivo de retenção adequado, em qual das situações excepcionais abaixo?',
-    lawReference: 'Resolução CONTRAN 915/2022, Art. 4º',
-    bancaTag: 'FCC / Avalia 2026',
-    options: [
-      { letter: 'A', text: 'Quando o veículo for dotado exclusivamente de banco dianteiro (ex: caminhonete cabine simples) ou quando a quantidade de crianças dessa idade exceder a lotação do banco traseiro.' },
-      { letter: 'B', text: 'Sempre que o motorista for o pai ou a mãe da criança.' },
-      { letter: 'C', text: 'Em viagens de longa distância em rodovias federais.' },
-      { letter: 'D', text: 'Quando o banco traseiro estiver ocupado por bagagens soltas.' },
-      { letter: 'E', text: 'Apenas se a criança for maior de 5 anos e estiver de capacete.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Res. 915/22, Art. 4º: A criança menor de 10 anos pode ir no banco dianteiro nas exceções legais: 1) quando o veículo for dotado apenas de banco dianteiro; 2) quando a quantidade de crianças menores de 10 anos exceder a capacidade de lotação do banco traseiro; 3) quando o veículo possuir apenas cintos de 2 pontos no banco traseiro e de 3 pontos no dianteiro.',
-    explanations: {
-      A: 'CORRETA. Res. 915/22, Art. 4º: Exceções legais para transporte no banco dianteiro.',
-      B: 'INCORRETA. A relação de parentesco não flexibiliza a regra de segurança.',
-      C: 'INCORRETA. A extensão da viagem não é exceção permitida.',
-      D: 'INCORRETA. Bagagens não justificam desalojar crianças do banco traseiro.',
-      E: 'INCORRETA. Capacete não se aplica a veículos de passeio.'
-    }
-  },
-  {
-    id: 'con-q07',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 925/2022 - Sinalização e Fiscalização',
+    topic: 'Resolução CONTRAN 915/2022 - Transporte de Crianças (Cadeirinhas)',
     difficulty: 'Médio',
-    statement: 'Conforme a Resolução CONTRAN nº 925/2022, os equipamentos medidores de velocidade (radares fixos, estáticos e portáteis) utilizados pela fiscalização de trânsito dependem de requisitos de validação. Qual é a periodicidade máxima de verificação metrológica pelo INMETRO ou entidade credenciada?',
-    lawReference: 'Resolução CONTRAN 925/2022 & Portaria INMETRO',
-    bancaTag: 'Vunesp',
-    options: [
-      { letter: 'A', text: 'A cada 6 meses.' },
-      { letter: 'B', text: 'A cada 12 (doze) meses.' },
-      { letter: 'C', text: 'A cada 2 anos.' },
-      { letter: 'D', text: 'A cada 5 anos.' },
-      { letter: 'E', text: 'Apenas uma vez na instalação inicial.' }
-    ],
-    correctLetter: 'B',
-    generalExplanation: 'Res. CONTRAN 925/2022 e normas de metrologia legal: Todo medidor de velocidade (radar) deve ser aprovado pelo INMETRO e passar por verificação metrológica periódica no prazo máximo de 12 (DOIS) MESES (1 ano). Sem a verificação anual válida, o auto de infração é nulo.',
-    explanations: {
-      A: 'INCORRETA. Não é semestral.',
-      B: 'CORRETA. A aferição/verificação metrológica de radares deve ser feita a cada 12 meses.',
-      C: 'INCORRETA. 2 anos não atende ao requisito anual.',
-      D: 'INCORRETA. Prazo excessivo.',
-      E: 'INCORRETA. A aferição inicial isolada não basta.'
-    }
-  },
-  {
-    id: 'con-q08',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto Estadual SP nº 69.053/2024 - Estrutura do DETRAN-SP',
-    difficulty: 'Médio',
-    statement: 'O Decreto Estadual nº 69.053/2024 reorganizou a Estrutura Organizacional do Departamento Estadual de Trânsito de São Paulo (DETRAN-SP). Nos termos deste Decreto, o DETRAN-SP é caracterizado juridicamente como:',
-    lawReference: 'Decreto Estadual SP 69.053/2024, Art. 1º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Autarquia estadual de regime especial, dotada de autonomia administrativa, financeira e patrimonial, vinculada à Secretaria de Gestão e Governo Digital.' },
-      { letter: 'B', text: 'Empresa pública estadual com fins lucrativos.' },
-      { letter: 'C', text: 'Sociedade de economia mistada vinculada ao Ministério dos Transportes.' },
-      { letter: 'D', text: 'Órgão da administração direta integrante da Polícia Militar do Estado de São Paulo.' },
-      { letter: 'E', text: 'Fundação privada sem fins lucrativos.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'O DETRAN-SP (transformado pela Lei Complementar Estadual 1.195/2013 e estruturado pelo Decreto 69.053/2024) é uma AUTARQUIA ESTADUAL de regime especial, com autonomia administrativa e financeira, vinculada à Secretaria de Gestão e Governo Digital do Estado de São Paulo.',
-    explanations: {
-      A: 'CORRETA. Decreto 69.053/2024, Art. 1º: Autarquia estadual de regime especial vinculada à SGGD.',
-      B: 'INCORRETA. Não é empresa pública.',
-      C: 'INCORRETA. Não é sociedade de economia mista e é estadual, não federal.',
-      D: 'INCORRETA. Não é órgão da administração direta e não integra a PM.',
-      E: 'INCORRETA. Não é fundação privada.'
-    }
-  },
-  {
-    id: 'con-q09',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto Estadual SP nº 69.053/2024 - Diretoria Presidência do DETRAN-SP',
-    difficulty: 'Difícil',
-    statement: 'Segundo a estrutura estabelecida no Decreto Estadual SP nº 69.053/2024, qual é o órgão de direção superior competente para representar o DETRAN-SP em juízo e fora dele, bem como exercer a gestão executiva da autarquia?',
-    lawReference: 'Decreto Estadual SP 69.053/2024, Art. 5º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Conselho Estadual de Trânsito (CETRAN).' },
-      { letter: 'B', text: 'Diretoria Presidência do DETRAN-SP.' },
-      { letter: 'C', text: 'Superintendência Regional de Polícia Científica.' },
-      { letter: 'D', text: 'Junta Administrativa de Recursos de Infrações (JARI).' },
-      { letter: 'E', text: 'Ouvidoria Geral do Estado.' }
-    ],
-    correctLetter: 'B',
-    generalExplanation: 'Decreto 69.053/2024, Art. 5º: A Diretoria Presidência é o órgão executivo de direção superior encarregado de administrar, coordenar, supervisionar e representar o DETRAN-SP em todas as suas instâncias.',
-    explanations: {
-      A: 'INCORRETA. CETRAN é órgão colegiado normativo estadual.',
-      B: 'CORRETA. Decreto 69.053/2024: A Diretoria Presidência representa e dirige a autarquia.',
-      C: 'INCORRETA. Não integra a estrutura do DETRAN-SP.',
-      D: 'INCORRETA. JARI é órgão julgador de recursos de infrações.',
-      E: 'INCORRETA. Ouvidoria é órgão de controle e escuta cidadã.'
-    }
-  },
-  {
-    id: 'con-q10',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto Estadual SP nº 69.328/2025 - Código de Ética de SP',
-    difficulty: 'Médio',
-    statement: 'O Código de Ética da Administração Pública do Estado de São Paulo (Decreto Estadual nº 69.328/2025) estabelece os deveres dos agentes públicos estaduais. Dentre esses deveres, destaca-se:',
-    lawReference: 'Decreto Estadual SP 69.328/2025, Art. 4º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Exercer as atribuições do cargo com urbanidade, imparcialidade, transparência e eficiência, evitando conflitos de interesses.' },
-      { letter: 'B', text: 'Aceitar brindes de alto valor de fornecedores licitantes em datas comemorativas.' },
-      { letter: 'C', text: 'Utilizar informações privilegiadas obtidas no cargo para investimentos pessoais no mercado financeiro.' },
-      { letter: 'D', text: 'Ocultar relatórios de auditoria interna para preservar a imagem do órgão.' },
-      { letter: 'E', text: 'Priorizar o atendimento de parentes e amigos na fila das Ciretrans.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'O Decreto Estadual SP nº 69.328/2025 (Código de Ética) impõe como dever dos agentes públicos agir com probidade, urbanidade, impessoalidade, transparência e estrita prevenção a conflitos de interesse na administração pública paulista.',
-    explanations: {
-      A: 'CORRETA. Decreto 69.328/2025: Princípios fundamentais de ética, imparcialidade e eficiência.',
-      B: 'INCORRETA. O recebimento de brindes de licitantes é vedado pelo Código de Ética.',
-      C: 'INCORRETA. Constitui ato ilícito e improbidade administrativa.',
-      D: 'INCORRETA. Viola a transparência e a legalidade.',
-      E: 'INCORRETA. Afronta o princípio constitucional da impessoalidade.'
-    }
-  },
-  {
-    id: 'con-q11',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto Estadual SP nº 69.328/2025 - Recebimento de Presentes',
-    difficulty: 'Difícil',
-    statement: 'Nos termos do Decreto Estadual nº 69.328/2025 (Código de Ética de SP), é VEDADO ao agente público do DETRAN-SP aceitar presentes, favores ou vantagens de pessoas que tenham interesse em decisão de sua alçada. Não se consideram presentes, contudo, os brindes que:',
-    lawReference: 'Decreto Estadual SP 69.328/2025, Art. 8º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Não tenham valor comercial ou sejam distribuídos por entidades a título de cortesia, de valor modesto e caráter de divulgação em massa.' },
-      { letter: 'B', text: 'Superem o valor de um salário mínimo mensal.' },
-      { letter: 'C', text: 'Sejam entregues em dinheiro vivo ou Pix diretamente na conta pessoal.' },
-      { letter: 'D', text: 'Consistam em viagens de férias pagas por despachantes credenciados.' },
-      { letter: 'E', text: 'Venham acompanhados de nota fiscal no nome do agente.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto 69.328/2025 (Código de Ética de SP): O recebimento de presentes é expressamente proibido. Excepcionam-se apenas os brindes sem valor comercial expressivo, distribuídos de forma genérica e em massa (ex: canetas, agendas promocionais institucionais de valor irrisório).',
-    explanations: {
-      A: 'CORRETA. Decreto 69.328/2025, Art. 8º: Brindes de valor modesto e divulgação institucional são a única exceção.',
-      B: 'INCORRETA. Brindes de valor relevante são vedados.',
-      C: 'INCORRETA. Receber valor em dinheiro/Pix é crime de corrupção e improbidade.',
-      D: 'INCORRETA. Constitui vantagem indevida grave.',
-      E: 'INCORRETA. Ter nota fiscal em nome pessoal não descaracteriza o presente proibido.'
-    }
-  },
-  {
-    id: 'con-q12',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto Estadual SP nº 70.551/2026 - PSV-SP (2025-2035)',
-    difficulty: 'Médio',
-    statement: 'O Decreto Estadual SP nº 70.551/2026 instituiu o Plano de Segurança Viária do Estado de São Paulo (PSV-SP 2025-2035). O plano adota a premissa internacional da "Visão Zero" (Vision Zero), segundo a qual:',
-    lawReference: 'Decreto Estadual SP 70.551/2026, Art. 2º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Nenhuma morte ou lesão grave no trânsito é aceitável, e a responsabilidade pela segurança deve ser compartilhada entre quem projeta as vias, fiscaliza e os usuários.' },
-      { letter: 'B', text: 'O número de acidentes deve ser reduzido a zero mediante a eliminação total de veículos particulares das rodovias.' },
-      { letter: 'C', text: 'A culpa dos acidentes é sempre 100% exclusiva do pedestre.' },
-      { letter: 'D', text: 'As infrações de trânsito deixam de ser punidas com multas financeiras.' },
-      { letter: 'E', text: 'A velocidade máxima em todas as rodovias passa a ser fixada em 30 km/h.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'O conceito internacional de "Visão Zero" e "Sistema Seguro", incorporado no PSV-SP 2025-2035 (Decreto 70.551/2026), estabelece que nenhuma morte ou lesão severa no trânsito é eticamente aceitável, reconhecendo que seres humanos erram e que o sistema viário deve ser projetado de forma tolerante para salvar vidas.',
-    explanations: {
-      A: 'CORRETA. Princípio fundamental da Visão Zero no PSV-SP 2025-2035.',
-      B: 'INCORRETA. Não prega eliminação de veículos particulares.',
-      C: 'INCORRETA. O sistema seguro descentraliza e compartilha a responsabilidade.',
-      D: 'INCORRETA. A fiscalização e punição continuam sendo pilares.',
-      E: 'INCORRETA. Não impõe velocidade única de 30 km/h em rodovias.'
-    }
-  },
-  {
-    id: 'con-q13',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto Estadual SP nº 70.551/2026 - Pilares do PSV-SP',
-    difficulty: 'Difícil',
-    statement: 'Dentre os pilares de ação estruturados pelo Decreto Estadual SP nº 70.551/2026 no Plano de Segurança Viária (PSV-SP), destacam-se as seguintes áreas prioritárias, EXCETO:',
-    lawReference: 'Decreto Estadual SP 70.551/2026, Art. 4º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Gestão da Segurança Viária e Vias Mais Seguras.' },
-      { letter: 'B', text: 'Velocidades Seguras e Veículos Mais Seguros.' },
-      { letter: 'C', text: 'Usuários de Vias Mais Seguros e Atendimento Pós-Acidente.' },
-      { letter: 'D', text: 'Privatização de 100% dos postos de atendimento de saúde municipal.' },
-      { letter: 'E', text: 'Fiscalização Integrada e Educação para o Trânsito.' }
-    ],
-    correctLetter: 'D',
-    generalExplanation: 'Os pilares do PSV-SP (baseados na Década de Ação para Segurança no Trânsito da ONU/OMS) incluem: 1) Gestão; 2) Vias Seguras; 3) Veículos Seguros; 4) Usuários Seguros; 5) Velocidades Seguras; 6) Atendimento Pós-Acidente. Não existe pilar de privatização de postos de saúde.',
-    explanations: {
-      A: 'PILAR DO PSV-SP. Art. 4º.',
-      B: 'PILAR DO PSV-SP. Art. 4º.',
-      C: 'PILAR DO PSV-SP. Art. 4º.',
-      D: 'EXCEÇÃO / OPCÃO CORRETA. Não é pilar nem objetivo do Plano de Segurança Viária.',
-      E: 'PILAR DO PSV-SP. Art. 4º.'
-    }
-  },
-  {
-    id: 'con-q14',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 960/2022 - Medição com Luxímetro',
-    difficulty: 'Médio',
-    statement: 'A fiscalização da transmitância luminosa de películas aplicadas nos vidros dos veículos deve ser realizada pelo agente de trânsito mediante a utilização do instrumento medidor denominado:',
-    lawReference: 'Resolução CONTRAN 960/2022, Art. 7º',
-    bancaTag: 'Vunesp / FCC',
-    options: [
-      { letter: 'A', text: 'Etilômetro.' },
-      { letter: 'B', text: 'Medidor de Transmitância Luminosa (Luxímetro / Medidor de Película) aprovado pelo INMETRO.' },
-      { letter: 'C', text: 'Tacógrafo eletrônico.' },
-      { letter: 'D', text: 'Decibelímetro.' },
-      { letter: 'E', text: 'Opacímetro de exaustão.' }
-    ],
-    correctLetter: 'B',
-    generalExplanation: 'Res. 960/2022, Art. 7º: A medição do índice de transmitância luminosa deve ser realizada exclusivamente por Medidor de Transmitância Luminosa (MTL) aprovado pelo INMETRO e homologado pelo SENATRAN. A constatação puramente visual não autoriza a autuação por transmitância.',
-    explanations: {
-      A: 'INCORRETA. Etilômetro mede alcoolemia.',
-      B: 'CORRETA. Exigência formal do MTL (Medidor de Transmitância Luminosa).',
-      C: 'INCORRETA. Tacógrafo registra velocidade e tempo.',
-      D: 'INCORRETA. Decibelímetro mede ruído sonoro.',
-      E: 'INCORRETA. Opacímetro mede fumaça expelida por motores diesel.'
-    }
-  },
-  {
-    id: 'con-q15',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 940/2022 - Viseiras e Óculos de Proteção',
-    difficulty: 'Fácil',
-    statement: 'Durante a condução de motocicleta na ausência de viseira no capacete, a Resolução CONTRAN nº 940/2022 exige o uso de:',
-    lawReference: 'Resolução CONTRAN 940/2022, Art. 3º',
-    bancaTag: 'FCC',
-    options: [
-      { letter: 'A', text: 'Óculos de sol convencionais de acrílico.' },
-      { letter: 'B', text: 'Óculos de grau de uso diário.' },
-      { letter: 'C', text: 'Óculos de proteção apropriados que permitam ao usuário a utilização simultânea de óculos corretivos ou de sol.' },
-      { letter: 'D', text: 'Máscara de solda industrial.' },
-      { letter: 'E', text: 'Nenhum acessório adicional.' }
-    ],
-    correctLetter: 'C',
-    generalExplanation: 'Res. 940/22, Art. 3º, § 2º: Na ausência da viseira, é obrigatório o uso de Óculos de Proteção específicos para motociclista. É proibido o uso de óculos de sol comuns, óculos corretivos ou óculos de segurança do trabalho em substituição aos óculos de proteção para motociclo.',
-    explanations: {
-      A: 'INCORRETA. Óculos de sol comuns não substituem óculos de proteção motociclística.',
-      B: 'INCORRETA. Óculos de grau comuns não servem como óculos de proteção.',
-      C: 'CORRETA. Óculos de proteção motociclística próprios que cobrem a cavidade ocular.',
-      D: 'INCORRETA. Totalmente desapropriado.',
-      E: 'INCORRETA. O uso de proteção ocular é obrigatório.'
-    }
-  },
-  {
-    id: 'con-q16',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 911/2022 - Sanção por Falso Positivo / Recusa',
-    difficulty: 'Difícil',
-    statement: 'Caso o condutor habilitado na categoria C, D ou E obtenha resultado POSITIVO no exame toxicológico periódico (Res. 911/2022 e Art. 165-C do CTB), qual será a consequência direta aplicada?',
-    lawReference: 'Art. 165-C do CTB & Res. 911/2022',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Infração gravíssima, multa (5x) e suspensão do direito de dirigir por 3 meses.' },
-      { letter: 'B', text: 'Cancelamento definitivo e irrevogável de todos os documentos de habilitação.' },
-      { letter: 'C', text: 'Prisão em flagrante pelo crime de tráfico de drogas.' },
-      { letter: 'D', text: 'Rebaixamento automático e perpétuo para a Categoria A.' },
-      { letter: 'E', text: 'Advertência por escrito e permissão para dirigir apenas aos finais de semana.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Art. 165-C do CTB: Dirigir veículo tendo obtido resultado positivo no exame toxicológico é infração GRAVÍSSIMA, com penalidade de Multa (5 vezes) e Suspensão do Direito de Dirigir por 3 meses. A renovação/liberação depende de novo teste com resultado negativo.',
-    explanations: {
-      A: 'CORRETA. Art. 165-C: Gravíssima, Multa (5x) e Suspensão do direito de dirigir por 3 meses.',
-      B: 'INCORRETA. Não há cancelamento irrevogável automático.',
-      C: 'INCORRETA. O resultado positivo no toxicológico em si gera sanção estritamente administrativa.',
-      D: 'INCORRETA. Não há rebaixamento perpétuo forçado.',
-      E: 'INCORRETA. A suspensão impede a condução.'
-    }
-  },
-  {
-    id: 'con-q17',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 915/2022 - Transporte em Táxi e Aplicativo',
-    difficulty: 'Médio',
-    statement: 'Conforme dispõe a Resolução CONTRAN nº 915/2022, as exigências relativas ao uso dos dispositivos de retenção de crianças (bebê conforto, cadeirinha e assento de elevação) NÃO se aplicam obrigatoriamente a:',
-    lawReference: 'Resolução CONTRAN 915/2022, Art. 2º, § 3º',
-    bancaTag: 'Vunesp / FCC',
-    options: [
-      { letter: 'A', text: 'Veículos de transporte coletivo de passageiros, táxis, veículos alugados e transporte escolar.' },
-      { letter: 'B', text: 'Veículos de passeio de famílias particulares em viagens rodoviárias.' },
-      { letter: 'C', text: 'Automóveis conduzidos por motoristas com mais de 50 anos.' },
-      { letter: 'D', text: 'Veículos novos com menos de 1.000 km rodados.' },
-      { letter: 'E', text: 'SUVs e caminhonetes de grande porte.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Res. 915/2022, Art. 2º, § 3º: As exigências de uso dos dispositivos de retenção infantil (bebê conforto/cadeirinha/assento) não se aplicam aos veículos de transporte coletivo, de aluguel, aos táxis e aos veículos de transporte escolar (estes sujeitos a normas específicas do Art. 136).',
-    explanations: {
-      A: 'CORRETA. Res. 915/22: Isenção expressa da obrigatoriedade do transporte do dispositivo próprio de retenção para táxis, aluguel e coletivos.',
-      B: 'INCORRETA. Carros particulares de passeio são obrigados.',
-      C: 'INCORRETA. A idade do condutor é irrelevante.',
-      D: 'INCORRETA. Quilometragem é irrelevante.',
-      E: 'INCORRETA. Veículos de passeio SUV são obrigados a ter o dispositivo.'
-    }
-  },
-  {
-    id: 'con-q18',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto Estadual SP nº 69.053/2024 - CIRETRANS',
-    difficulty: 'Fácil',
-    statement: 'No âmbito da descentralização territorial do DETRAN-SP disciplinada pelo Decreto Estadual SP nº 69.053/2024, as unidades operacionais incumbidas de prestar atendimento presencial ao público e executar serviços de trânsito nos municípios do interior do Estado denominam-se:',
-    lawReference: 'Decreto Estadual SP 69.053/2024, Art. 14',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Circunscrições Regionais de Trânsito (CIRETRANS).' },
-      { letter: 'B', text: 'Delegacias Seccionais de Polícia Civil.' },
-      { letter: 'C', text: 'Juntas Comerciais Paulistas.' },
-      { letter: 'D', text: 'Batalhões de Polícia Rodoviária Federal.' },
-      { letter: 'E', text: 'Inspetorias Fazendárias Estaduais.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto 69.053/2024: As CIRETRANS (Circunscrições Regionais de Trânsito) são as unidades desconcentradas do DETRAN-SP responsáveis pela execução dos serviços de habilitação e veículos nos municípios do interior de São Paulo.',
-    explanations: {
-      A: 'CORRETA. CIRETRANS são as unidades desconcentradas regionais do DETRAN-SP.',
-      B: 'INCORRETA. Delegacias pertencem à estrutura da Segurança Pública / Polícia Civil.',
-      C: 'INCORRETA. Jucesp cuida do registro de empresas.',
-      D: 'INCORRETA. PRF é órgão federal.',
-      E: 'INCORRETA. Inspetorias pertencem à Secretaria da Fazenda.'
-    }
-  },
-  {
-    id: 'con-q19',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto Estadual SP nº 69.328/2025 - Conflito de Interesses',
-    difficulty: 'Médio',
-    statement: 'De acordo com o Código de Ética (Decreto 69.328/2025), configura situação de CONFLITO DE INTERESSES o exercício por parte de servidor do DETRAN-SP de atividades que possam comprometer a imparcialidade de suas funções. Constitui exemplo de conflito de interesses:',
-    lawReference: 'Decreto Estadual SP 69.328/2025, Art. 6º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Atuar simultaneamente como sócio-proprietário ou instrutor em Centro de Formação de Condutores (CFC) credenciado pela autarquia.' },
-      { letter: 'B', text: 'Ministrar aulas gratuitas em universidades públicas estaduais fora do horário de expediente.' },
-      { letter: 'C', text: 'Doar sangue em campanhas de saúde pública.' },
-      { letter: 'D', text: 'Votar em eleições sindicais da categoria.' },
-      { letter: 'E', text: 'Publicar artigos científicos acadêmicos sobre engenharia de tráfego.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto 69.328/2025, Art. 6º: É flagrante conflito de interesses o agente do DETRAN-SP possuir participação ou prestar serviços a CFCs, estampadoras de placas ou empresas de vistoria credenciadas e fiscalizadas pelo próprio órgão de trânsito.',
-    explanations: {
-      A: 'CORRETA. Conflito direto entre fiscalizador e fiscalizado.',
-      B: 'INCORRETA. Atividade docente é compatível na forma da lei.',
-      C: 'INCORRETA. Ato de cidadania.',
-      D: 'INCORRETA. Direito sindical legítimo.',
-      E: 'INCORRETA. Produção acadêmica é permitida.'
-    }
-  },
-  {
-    id: 'con-q20',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto Estadual SP nº 70.551/2026 - Meta de Redução de Mortes',
-    difficulty: 'Difícil',
-    statement: 'Qual é o percentual meta de redução de mortes no trânsito paulista estabelecido pelo Plano de Segurança Viária do Estado de São Paulo (PSV-SP 2025-2035 - Decreto nº 70.551/2026) até o ano de 2030, em alinhamento com a Meta da ONU?',
-    lawReference: 'Decreto Estadual SP 70.551/2026, Art. 3º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Redução de no mínimo 50% (cinquenta por cento) nas mortes por sinistros de trânsito.' },
-      { letter: 'B', text: 'Redução de 10% nas mortes em rodovias estaduais apenas.' },
-      { letter: 'C', text: 'Manutenção dos índices atuais sem acréscimo.' },
-      { letter: 'D', text: 'Redução de 100% das multas de velocidade.' },
-      { letter: 'E', text: 'Redução de 25% exclusivamente nas infrações de estacionamento.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto SP 70.551/2026 e Segunda Década de Ação para Segurança no Trânsito da ONU (PNATRANS / PSV-SP): A meta oficial alinhada globalmente é REDUZIR EM NO MÍNIMO 50% as mortes e lesões graves no trânsito até 2030.',
-    explanations: {
-      A: 'CORRETA. Meta global e estadual oficial de 50% de redução nas mortes de trânsito até 2030.',
-      B: 'INCORRETA. A meta é de 50% e abrange todas as vias.',
-      C: 'INCORRETA. O plano visa redução drástica da mortalidade.',
-      D: 'INCORRETA. Não tem relação com as metas de vidas salvas.',
-      E: 'INCORRETA. Meta desassociada da preservação da vida.'
-    }
-  },
-  {
-    id: 'con-q21',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 960/2022 - Vidros do Teto Solar',
-    difficulty: 'Fácil',
-    statement: 'As exigências de transmitância luminosa fixadas na Resolução CONTRAN nº 960/2022 aplicam-se aos vidros do teto solar dos veículos?',
-    lawReference: 'Resolução CONTRAN 960/2022, Art. 5º',
-    bancaTag: 'Vunesp',
-    options: [
-      { letter: 'A', text: 'Não se aplicam aos vidros do teto solar.' },
-      { letter: 'B', text: 'Exigem transmitância mínima de 90%.' },
-      { letter: 'C', text: 'São idênticas às exigências do parabrisa (70%).' },
-      { letter: 'D', text: 'Proíbem totalmente a presença de vidros no teto.' },
-      { letter: 'E', text: 'Exigem chancela do INMETRO gravada a laser no teto.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Res. CONTRAN 960/2022, Art. 5º: Ficam excluídos das exigências de transmitância luminosa estabelecidas nesta Resolução os vidros do teto solar e os vidros blindados de veículos de uso militar.',
-    explanations: {
-      A: 'CORRETA. O teto solar é expressamente isento dos limites mínimos de transmitância.',
-      B: 'INCORRETA. Não há essa exigência.',
-      C: 'INCORRETA. Não se aplica o limite do parabrisa.',
-      D: 'INCORRETA. Teto solar é perfeitamente legal.',
-      E: 'INCORRETA. Isenção expressa.'
-    }
-  },
-  {
-    id: 'con-q22',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 940/2022 - Tipos de Capacete Permitidos',
-    difficulty: 'Médio',
-    statement: 'Segundo a Resolução CONTRAN nº 940/2022, são modelos de capacetes de segurança permitidos para uso em vias públicas:',
-    lawReference: 'Resolução CONTRAN 940/2022, Anexo I',
-    bancaTag: 'FCC',
-    options: [
-      { letter: 'A', text: 'Capacete integral (fechado), capacete misto (com queixeira removível), capacete modular (articulado) e capacete aberto (sem queixeira).' },
-      { letter: 'B', text: 'Capacete do tipo "coquinho" (sem proteção auricular ou occipital).' },
-      { letter: 'C', text: 'Capacete de ciclista leve de isopor.' },
-      { letter: 'D', text: 'Capacete de obra/construção civil de plástico seco.' },
-      { letter: 'E', text: 'Capacete de equitação e hipismo.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Res. 940/22: São permitidos os 4 tipos homologados de capacete motociclístico: 1) Integral (fechado); 2) Misto; 3) Modular (escamoteável/articulado); 4) Aberto (sem queixeira, desde que com viseira/óculos de proteção). É PROIBIDO o capacete estilo "coquinho" ou capacetes industriais/esportivos não ciclísticos.',
-    explanations: {
-      A: 'CORRETA. Apresenta os 4 modelos válidos homologados pelo INMETRO.',
-      B: 'INCORRETA. Capacete tipo "coquinho" é proibido.',
-      C: 'INCORRETA. Capacete de bicicleta é proibido para motos.',
-      D: 'INCORRETA. Capacete de obra não possui proteção para trânsito.',
-      E: 'INCORRETA. Proibido em motocicletas.'
-    }
-  },
-  {
-    id: 'con-q23',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 911/2022 - Laboratórios Credenciados',
-    difficulty: 'Difícil',
-    statement: 'A coleta de material biológico para o exame toxicológico de larga janela de detecção (Res. 911/22) deve ser realizada por laboratório credenciado pelo SENATRAN. A amostra biológica utilizada prioritariamente para o exame é:',
-    lawReference: 'Resolução CONTRAN 911/2022, Art. 4º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Cabelos, pelos ou unhas.' },
-      { letter: 'B', text: 'Sangue venoso colhido em jejum.' },
-      { letter: 'C', text: 'Urina colhida no momento do teste.' },
-      { letter: 'D', text: 'Ar alveolar expelido no etilômetro.' },
-      { letter: 'E', text: 'Saliva colhida com swab.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Res. 911/2022: O exame toxicológico exige larga janela de detecção (mínimo de 90 dias), sendo realizado a partir de amostras de keratina (cabelos, pelos corporais ou unhas). Exames de sangue ou urina possuem janela curta e não atendem a esse requisito.',
-    explanations: {
-      A: 'CORRETA. Res. 911/22: Amostras de cabelo, pelo ou unhas garantem janela retroativa de 90 dias.',
-      B: 'INCORRETA. Sangue possui janela curta de horas/dias.',
-      C: 'INCORRETA. Urina possui janela curta (poucos dias).',
-      D: 'INCORRETA. Etilômetro mede apenas álcool recente no ar expirado.',
-      E: 'INCORRETA. Saliva é para detecção imediata.'
-    }
-  },
-  {
-    id: 'con-q24',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto SP 69.053/2024 - Ouvidoria e Canal de Denúncias',
-    difficulty: 'Médio',
-    statement: 'De acordo com o Decreto Estadual nº 69.053/2024, a Ouvidoria do DETRAN-SP tem como atribuição precípua:',
-    lawReference: 'Decreto Estadual SP 69.053/2024, Art. 21',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Receber, examinar e encaminhar reclamações, elogios, sugestões e denúncias dos cidadãos quanto aos serviços prestados pela autarquia.' },
-      { letter: 'B', text: 'Aplicar penas de demissão a servidores concursados.' },
-      { letter: 'C', text: 'Realizar o julgamento em 2ª instância dos recursos de multas de velocidade.' },
-      { letter: 'D', text: 'Expedir as carteiras de habilitação e os licenciamentos.' },
-      { letter: 'E', text: 'Fiscalizar a arrecadação do imposto sobre a propriedade de veículos (IPVA).' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto 69.053/2024, Art. 21: A Ouvidoria do DETRAN-SP atua como canal direto entre a sociedade e o órgão, garantindo o tratamento de manifestações, denúncias de irregularidades e a melhoria da qualidade dos serviços públicos.',
-    explanations: {
-      A: 'CORRETA. Função institucional de ouvidoria pública.',
-      B: 'INCORRETA. Aplicação de penalidades disciplinares cabe à Corregedoria/Presidência após PAD.',
-      C: 'INCORRETA. Compete ao CETRAN.',
-      D: 'INCORRETA. Função das Diretorias Setoriais operacionais.',
-      E: 'INCORRETA. IPVA é tributo gerido pela Secretaria da Fazenda e Planejamento (SFAZ).'
-    }
-  },
-  {
-    id: 'con-q25',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto SP 69.328/2025 - Comissão de Ética',
-    difficulty: 'Difícil',
-    statement: 'A apuração de infrações ao Código de Ética da Administração Pública do Estado de São Paulo (Decreto nº 69.328/2025) no âmbito do DETRAN-SP cabe à:',
-    lawReference: 'Decreto Estadual SP 69.328/2025, Art. 12',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Comissão de Ética Setorial do DETRAN-SP.' },
-      { letter: 'B', text: 'Polícia Rodoviária Estadual.' },
-      { letter: 'C', text: 'Assembleia Legislativa do Estado de São Paulo (ALESP).' },
-      { letter: 'D', text: 'Câmara Municipal de São Paulo.' },
-      { letter: 'E', text: 'Tribunal de Justiça do Estado.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto 69.328/2025: A gestão da ética e a apuração de desvios éticos nos órgãos e autarquias estaduais é exercida pelas respectivas Comissões de Ética Setoriais, com competência para orientar e aplicar a sanção ética de censura.',
-    explanations: {
-      A: 'CORRETA. Decreto 69.328/2025: Comissão de Ética responsável por zelar pelo cumprimento do Código.',
-      B: 'INCORRETA. Atua na fiscalização de trânsito em rodovias.',
-      C: 'INCORRETA. Poder Legislativo Estadual.',
-      D: 'INCORRETA. Poder Legislativo Municipal.',
-      E: 'INCORRETA. Poder Judiciário.'
-    }
-  },
-  {
-    id: 'con-q26',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 925/2022 - Balanças de Pesagem',
-    difficulty: 'Médio',
-    statement: 'A fiscalização do excesso de peso de veículos de carga (Resolução CONTRAN nº 925/2022) exige a tolerância máxima sobre o Peso Bruto Total (PBT) de:',
-    lawReference: 'Resolução CONTRAN 925/2022 & Lei 14.229/21',
-    bancaTag: 'FCC / Vunesp',
-    options: [
-      { letter: 'A', text: '5% (cinco por cento) sobre o Peso Bruto Total (PBT).' },
-      { letter: 'B', text: '12% (doze por cento) sobre o PBT.' },
-      { letter: 'C', text: '20% (vinte por cento) sobre o PBT.' },
-      { letter: 'D', text: 'Isenção total sem tolerância.' },
-      { letter: 'E', text: '15% sobre o peso por eixo apenas.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Legislação de Pesagem (Res. 925/2022 e CTB Art. 257): A tolerância máxima admitida na medição do Peso Bruto Total (PBT) do veículo de carga é de 5% (cinco por cento). Para o excesso por eixo, a tolerância legal atualizada é de 12,5%.',
-    explanations: {
-      A: 'CORRETA. Tolerância de 5% sobre o Peso Bruto Total (PBT).',
-      B: 'INCORRETA. 12,5% aplica-se ao peso por eixo.',
-      C: 'INCORRETA. Valor incorreto.',
-      D: 'INCORRETA. Há margem de tolerância metrológica.',
-      E: 'INCORRETA. O limite por eixo é 12,5%.'
-    }
-  },
-  {
-    id: 'con-q27',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 960/2022 - Painéis Luminosos / Publicidade',
-    difficulty: 'Fácil',
-    statement: 'É permitida a afixação de inscrições, painéis luminosos, faixas publicitárias ou pictogramas no parabrisa e nos vidros laterais dianteiros dos veículos?',
-    lawReference: 'Resolução CONTRAN 960/2022, Art. 6º',
-    bancaTag: 'Vunesp',
-    options: [
-      { letter: 'A', text: 'É expressamente proibida a afixação de qualquer publicidade ou painel luminoso nessas áreas.' },
-      { letter: 'B', text: 'É permitida se a empresa pagar taxa ao DETRAN.' },
-      { letter: 'C', text: 'É autorizada durante o período diurno.' },
-      { letter: 'D', text: 'É permitida em veículos de táxi e transporte privado.' },
-      { letter: 'E', text: 'É permitida se o texto for escrito em letras brancas.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Res. 960/2022, Art. 6º: Fica proibida a afixação de cartazes, painéis decorativos, adesivos ou painéis luminosos na área envidraçada indispensável à dirigibilidade (parabrisa e vidros laterais dianteiros), para evitar prejuízo à visibilidade do condutor.',
-    explanations: {
-      A: 'CORRETA. Proibição taxativa para preservar a visibilidade e a segurança viária.',
-      B: 'INCORRETA. Nenhuma taxa descaracteriza a vedação de segurança.',
-      C: 'INCORRETA. Proibido em qualquer horário.',
-      D: 'INCORRETA. Proibido também para veículos de transporte de passageiros.',
-      E: 'INCORRETA. A cor da letra não afasta o risco de obstrução da visão.'
-    }
-  },
-  {
-    id: 'con-q28',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 940/2022 - Cinta Jugular e Engate',
-    difficulty: 'Médio',
-    statement: 'O uso do capacete de segurança exige a perfeita fixação à cabeça. Nos termos da Resolução CONTRAN nº 940/2022, a cinta jugular deve ser:',
-    lawReference: 'Resolução CONTRAN 940/2022, Art. 2º, § 1º',
-    bancaTag: 'FCC',
-    options: [
-      { letter: 'A', text: 'Devidamente engatada e ajustada por baixo do maxilar inferior.' },
-      { letter: 'B', text: 'Deixada frouxa para facilitar a respiração.' },
-      { letter: 'C', text: 'Posicionada em cima do nariz do condutor.' },
-      { letter: 'D', text: 'Amarrada no guidão da motocicleta.' },
-      { letter: 'E', text: 'Removida após o início do percurso.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Res. 940/22: O capacete só cumpre sua função protetiva se estiver corretamente afixado à cabeça, com a cinta jugular devidamente engatada e ajustada por baixo do maxilar inferior.',
-    explanations: {
-      A: 'CORRETA. Exigência expressa de segurança do Art. 2º da Res. 940/22.',
-      B: 'INCORRETA. Deixar frouxa faz o capacete voar no momento do impacto.',
-      C: 'INCORRETA. Posição perigosa e incorreta.',
-      D: 'INCORRETA. Descabido.',
-      E: 'INCORRETA. A cinta jugular é componente essencial do capacete.'
-    }
-  },
-  {
-    id: 'con-q29',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto SP 70.551/2026 - Engenharia e Infraestrutura Segura',
-    difficulty: 'Médio',
-    statement: 'No âmbito do Plano de Segurança Viária do Estado de São Paulo (PSV-SP 2025-2035), as intervenções de ENGENHARIA DE INFRAESTRUTURA nas rodovias estaduais administradas pelo DER-SP ou concedidas priorizam:',
-    lawReference: 'Decreto Estadual SP 70.551/2026, Art. 6º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Eliminação de pontos críticos de sinistros (blackspots), implantação de defensas metálicas/barreiras de proteção e sinalização tátil/refletiva.' },
-      { letter: 'B', text: 'Aumento ilimitado dos limites de velocidade sem estudos técnicos.' },
-      { letter: 'C', text: 'Remoção de todas as passadeiras de pedestres e passarelas.' },
-      { letter: 'D', text: 'Substituição do asfalto por paralelepípedos liso.' },
-      { letter: 'E', text: 'Desativação total da iluminação pública nas travessias urbanas.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto SP 70.551/2026 (PSV-SP): As diretrizes de engenharia viária segura focam na identificação e tratamento dos pontos concentradores de acidentes (blackspots), adequação da geometria, instalação de contenções viárias e sinalização padrão.',
-    explanations: {
-      A: 'CORRETA. Diretriz oficial do pilar de Infraestrutura e Vias Seguras do PSV-SP.',
-      B: 'INCORRETA. Velocidades devem ser gerenciadas e reduzidas em pontos vulneráveis.',
-      C: 'INCORRETA. Passarelas e faixas protegem os vulneráveis.',
-      D: 'INCORRETA. Paralelepípedo liso reduz aderência e aumenta acidentes.',
-      E: 'INCORRETA. Iluminação é fator crítico de proteção noturna.'
-    }
-  },
-  {
-    id: 'con-q30',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 911/2022 - Validade do Laudo Toxicológico',
-    difficulty: 'Difícil',
-    statement: 'O laudo do exame toxicológico de larga janela de detecção possui validade máxima para ser utilizado no processo de renovação ou mudança de categoria da CNH de:',
-    lawReference: 'Resolução CONTRAN 911/2022, Art. 6º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: '90 (noventa) dias, contados a partir da data da coleta da amostra.' },
-      { letter: 'B', text: '30 (trinta) dias da coleta.' },
-      { letter: 'C', text: '180 (cento e oitenta) dias da coleta.' },
-      { letter: 'D', text: '1 (um) ano da coleta.' },
-      { letter: 'E', text: 'Indefinida.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Res. CONTRAN 911/2022, Art. 6º: O laudo do exame toxicológico tem validade de 90 (noventa) dias, contados a partir da data da coleta da amostra. Decorrido esse prazo sem que tenha sido apresentado ao DETRAN, o condutor deverá realizar nova coleta.',
-    explanations: {
-      A: 'CORRETA. Res. 911/22, Art. 6º: Prazo de validade legal de 90 dias a contar da coleta.',
-      B: 'INCORRETA. Prazo de 30 dias é o limite para dirigir com o exame vencido antes da autuação.',
-      C: 'INCORRETA. 180 dias é superior ao prazo regulamentar.',
-      D: 'INCORRETA. 1 ano é incorreto.',
-      E: 'INCORRETA. O laudo tem validade temporal estrita.'
-    }
-  },
-  {
-    id: 'con-q31',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto SP 69.053/2024 - Corregedoria do DETRAN-SP',
-    difficulty: 'Médio',
-    statement: 'No âmbito do Decreto Estadual SP nº 69.053/2024, a Unidade de Corregedoria do DETRAN-SP tem como finalidade primordial:',
-    lawReference: 'Decreto Estadual SP 69.053/2024, Art. 18',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Instaurar e conduzir procedimentos disciplinares e apurações preliminares sobre a conduta funcionária de servidores e agentes credenciados.' },
-      { letter: 'B', text: 'Efetuar a cobrança judicial da dívida ativa do IPVA.' },
-      { letter: 'C', text: 'Elaborar o orçamento anual de investimento do Estado.' },
-      { letter: 'D', text: 'Conceder descontos na compra de veículos novos zero km.' },
-      { letter: 'E', text: 'Organizar leilões de veículos apreendidos.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto 69.053/2024, Art. 18: A Corregedoria é o órgão de correição encarregado de apurar denúncias, instaurar Sindicâncias e Processos Administrativos Disciplinares (PAD) e fiscalizar parceiros credenciados (CFCs, ECVs, estampadoras).',
-    explanations: {
-      A: 'CORRETA. Função institucional da Corregedoria do DETRAN-SP.',
-      B: 'INCORRETA. Cobrança de dívida ativa é atribuição da PGE-SP (Procuradoria Geral do Estado).',
-      C: 'INCORRETA. Atribuição da Secretaria da Fazenda e Planejamento.',
-      D: 'INCORRETA. Não cabe à autarquia intervir no comércio de veículos.',
-      E: 'INCORRETA. Leilões cabem à Comissão de Leilões / Diretoria de Veículos.'
-    }
-  },
-  {
-    id: 'con-q32',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto SP 69.328/2025 - Vedações Éticas na Gestão Pública',
-    difficulty: 'Fácil',
-    statement: 'Qual das condutas abaixo é tipificada como VEDAÇÃO ÉTICA expressa aos servidores do Estado pelo Decreto nº 69.328/2025?',
-    lawReference: 'Decreto Estadual SP 69.328/2025, Art. 7º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Usar do cargo ou função para obter favorecimento pessoal ou para terceiros.' },
-      { letter: 'B', text: 'Cumprir as ordens superiores legais expedidas pela chefia.' },
-      { letter: 'C', text: 'Atender aos cidadãos com cortesia e prontidão.' },
-      { letter: 'D', text: 'Manter atualizados os sistemas informatizados de atendimento.' },
-      { letter: 'E', text: 'Participar de treinamentos de capacitação promovidos pelo órgão.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto 69.328/2025, Art. 7º: É vedado ao agente público utilizar o cargo, a função ou as facilidades do serviço para obter qualquer espécie de favorecimento, benefício pessoal ou para outrem, configurando quebra do dever de moralidade administrativa.',
-    explanations: {
-      A: 'CORRETA. Trata-se de vedação ética gravíssima expressa no Código de Ética.',
-      B: 'INCORRETA. Trata-se de dever do servidor público.',
-      C: 'INCORRETA. Trata-se de dever de urbanidade.',
-      D: 'INCORRETA. Trata-se de dever de eficiência.',
-      E: 'INCORRETA. Trata-se de direito/dever de aprimoramento profissional.'
-    }
-  },
-  {
-    id: 'con-q33',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto SP 70.551/2026 - Proteção dos Pedestres e Ciclistas',
-    difficulty: 'Médio',
-    statement: 'No âmbito do Plano de Segurança Viária (PSV-SP 2025-2035 - Decreto 70.551/2026), a proteção aos USUÁRIOS VULNERÁVEIS (pedestres, ciclistas e motociclistas) estabelece como medida prioritária:',
-    lawReference: 'Decreto Estadual SP 70.551/2026, Art. 5º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'A pacificação do trânsito urbano com zonas de velocidade reduzida (Zonas 30), ampliação da malha cicloviária e faixas elevadas de pedestres.' },
-      { letter: 'B', text: 'A proibição do trânsito de bicicletas em todas as cidades paulistas.' },
-      { letter: 'C', text: 'A obrigatoriedade de pedestres registrarem licença no DETRAN antes de caminhar na rua.' },
-      { letter: 'D', text: 'A eliminação das calçadas nas avenidas de grande fluxo.' },
-      { letter: 'E', text: 'A autorização de ultrapassagem de ciclistas a menos de 10 cm de distância.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'PSV-SP 2025-2035 (Decreto 70.551/2026): A proteção dos usuários vulneráveis exige desenho urbano seguro (Zonas 30, travessias elevadas, calçadas acessíveis e infraestrutura cicloviária segregada).',
-    explanations: {
-      A: 'CORRETA. Diretriz essencial de proteção aos vulneráveis no PSV-SP.',
-      B: 'INCORRETA. Bicicletas são modais sustentáveis incentivados.',
-      C: 'INCORRETA. Pedestres não necessitam de licença ou registro.',
-      D: 'INCORRETA. Calçadas são elementos indispensáveis de circulação.',
-      E: 'INCORRETA. O CTB exige distância mínima de 1,5m ao ultrapassar ciclista (Art. 201).'
-    }
-  },
-  {
-    id: 'con-q34',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 960/2022 - Transmitância em Vidros Traseiros',
-    difficulty: 'Médio',
-    statement: 'Para os vidros que não interferem na dirigibilidade do veículo (vidros das portas traseiras e vidro traseiro/vigia), a Resolução CONTRAN nº 960/2022 fixa a transmitância luminosa mínima de:',
-    lawReference: 'Resolução CONTRAN 960/2022, Art. 4º, § 1º',
-    bancaTag: 'FCC / Vunesp',
-    options: [
-      { letter: 'A', text: 'Não há limite mínimo de transmitância luminosa, desde que o veículo possua espelhos retrovisores externos em ambos os lados.' },
-      { letter: 'B', text: '70% obrigatório.' },
-      { letter: 'C', text: '90% obrigatório.' },
-      { letter: 'D', text: '50% obrigatório.' },
-      { letter: 'E', text: '28% obrigatório para veículos de passeio e 70% para utilitários.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Res. 960/2022, Art. 4º, § 1º: A transmitância luminosa dos vidros que NÃO interferem na dirigibilidade do veículo (portas traseiras e vigia traseiro) não poderá ser inferior a 28%, porém, a alteração da norma estabeleceu que, desde que o veículo esteja dotado de espelhos retrovisores externos de ambos os lados, não há exigência de transmitância mínima para as áreas não críticas à visão do condutor (com ressalva da proibição de películas refletivas).',
-    explanations: {
-      A: 'CORRETA. Redação da Res. 960/2022 para áreas não críticas à dirigibilidade quando munido de retrovisores em ambos os lados.',
-      B: 'INCORRETA. 70% é a exigência para o parabrisa e vidros dianteiros.',
-      C: 'INCORRETA. Valor inexistente.',
-      D: 'INCORRETA. 50% não é o limite aplicável.',
-      E: 'INCORRETA. A regra antiga de 28% foi flexibilizada na norma atualizada para dispensar limite mínimo se houver retrovisor nos dois lados.'
-    }
-  },
-  {
-    id: 'con-q35',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 940/2022 - Capacete e Viseira Noturna',
-    difficulty: 'Fácil',
-    statement: 'No período noturno, o condutor de motocicleta pode utilizar viseira do capacete com película escura ou efeito fumê?',
-    lawReference: 'Resolução CONTRAN 940/2022, Art. 3º, § 1º',
-    bancaTag: 'Vunesp',
-    options: [
-      { letter: 'A', text: 'É proibido o uso de viseira com filme protetor ou no padrão escuro/fumê no período noturno.' },
-      { letter: 'B', text: 'É permitido se a via for dotada de iluminação por LED.' },
-      { letter: 'C', text: 'É permitido desde que a velocidade seja inferior a 40 km/h.' },
-      { letter: 'D', text: 'É obrigatório para evitar o ofuscamento dos faróis contrários.' },
-      { letter: 'E', text: 'É permitido apenas para entregadores de aplicativos.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Res. 940/2022, Art. 3º, § 1º: No período noturno, é OBRIGATÓRIO o uso de viseira no padrão CRISTAL (transparente). É proibido o uso de viseira fumê, escura ou com películas no período noturno.',
-    explanations: {
-      A: 'CORRETA. À noite exige-se transparência total (padrão cristal) na viseira.',
-      B: 'INCORRETA. O tipo de iluminação pública não afasta a proibição legal.',
-      C: 'INCORRETA. Velocidade reduzida não autoriza o uso.',
-      D: 'INCORRETA. É proibido pelo risco sério de perda de visibilidade noturna.',
-      E: 'INCORRETA. Nenhuma categoria de motociclista está isenta.'
-    }
-  },
-  {
-    id: 'con-q36',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 911/2022 - Contraprova Toxicológica',
-    difficulty: 'Difícil',
-    statement: 'Caso o laudo do exame toxicológico resulte POSITIVO, é facultado ao condutor solicitar a realização de contraprova ou novo exame. Nos termos da Resolução CONTRAN nº 911/2022, a contraprova deverá ser realizada:',
-    lawReference: 'Resolução CONTRAN 911/2022, Art. 8º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Utilizando-se a amostra testemunha colhida no mesmo ato da primeira amostragem, no mesmo laboratório ou em laboratório credenciado.' },
-      { letter: 'B', text: 'Mediante nova coleta de cabelo após 6 meses.' },
-      { letter: 'C', text: 'Através de teste de saliva realizado perante o agente de trânsito.' },
-      { letter: 'D', text: 'Por meio de atestado médico particular sem análise laboratorial.' },
-      { letter: 'E', text: 'Exclusivamente por perícia judicial no Tribunal de Justiça.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Res. 911/2022, Art. 8º: A contraprova é o exame realizado na amostra testemunha (alíquota colhida no mesmo momento do primeiro teste e armazenada sob custódia), assegurando a ampla defesa técnica ao condutor.',
-    explanations: {
-      A: 'CORRETA. Res. 911/22, Art. 8º: Contraprova realizada com a amostra testemunha colhida originariamente.',
-      B: 'INCORRETA. A contraprova não se faz com nova coleta posterior, mas com a amostra reservada.',
-      C: 'INCORRETA. Saliva não substitui o teste laboratorial de keratina.',
-      D: 'INCORRETA. Atestado simples não sobrepõe a análise toxicológica.',
-      E: 'INCORRETA. Trata-se de procedimento administrativo laboratorial.'
-    }
-  },
-  {
-    id: 'con-q37',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto SP 69.053/2024 - Diretoria de Habilitação do DETRAN-SP',
-    difficulty: 'Médio',
-    statement: 'No âmbito do Decreto Estadual SP nº 69.053/2024, a Diretoria Setorial responsável pela coordenação, credenciamento e fiscalização dos Centros de Formação de Condutores (CFCs) e exames de habilitação é a:',
-    lawReference: 'Decreto Estadual SP 69.053/2024, Art. 10',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Diretoria de Habilitação do DETRAN-SP.' },
-      { letter: 'B', text: 'Diretoria de Veículos.' },
-      { letter: 'C', text: 'Diretoria de Tecnologia da Informação.' },
-      { letter: 'D', text: 'Diretoria de Educação para o Trânsito.' },
-      { letter: 'E', text: 'Diretoria de Licitações e Contratos.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto 69.053/2024, Art. 10: Compete à Diretoria de Habilitação gerir todos os processos relativos à formação de condutores, exames teóricos e práticos, junta médica/psicológica e credenciamento de CFCs.',
-    explanations: {
-      A: 'CORRETA. Atribuição regimental da Diretoria de Habilitação.',
-      B: 'INCORRETA. Cuida de emplacamento, CRV, CRLV e registro de veículos.',
-      C: 'INCORRETA. Cuida da infraestrutura de sistemas e TI.',
-      D: 'INCORRETA. Cuida de campanhas educativas e programas pedagógicos.',
-      E: 'INCORRETA. Cuida de compras públicas e contratos administrativos.'
-    }
-  },
-  {
-    id: 'con-q38',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto SP 69.328/2025 - Sanção Ética de Censura',
-    difficulty: 'Difícil',
-    statement: 'A penalidade máxima de natureza exclusivamente ÉTICA aplicável pela Comissão de Ética do Estado ao servidor que descumprir o Código de Ética (Decreto SP 69.328/2025) consiste em:',
-    lawReference: 'Decreto Estadual SP 69.328/2025, Art. 15',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Censura Ética, registrada nos assentamentos funcionais do agente público.' },
-      { letter: 'B', text: 'Demissão a bem do serviço público.' },
-      { letter: 'C', text: 'Cassação da aposentadoria.' },
-      { letter: 'D', text: 'Prisão administrativa por 30 dias.' },
-      { letter: 'E', text: 'Multa no valor de 10 salários mínimos.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto 69.328/2025: As Comissões de Ética não aplicam penalidades disciplinares estatutárias (como demissão ou suspensão), limitando-se à aplicação da sanção ética de CENSURA ÉTICA, com o devido registro nos assentamentos funcionais do servidor.',
-    explanations: {
-      A: 'CORRETA. Censura Ética é a sanção própria aplicável pelas Comissões de Ética pública.',
-      B: 'INCORRETA. Demissão é penalidade disciplinar de PAD (Estatuto dos Servidores / Lei 10.261/68).',
-      C: 'INCORRETA. Cassação é penalidade disciplinar estatutária.',
-      D: 'INCORRETA. Não existe prisão administrativa por violação ética.',
-      E: 'INCORRETA. Comissão de Ética não aplica penas pecuniárias de multa.'
-    }
-  },
-  {
-    id: 'con-q39',
-    subjectId: 'contran_estadual',
-    topic: 'Decreto SP 70.551/2026 - Atendimento Pós-Acidente no PSV-SP',
-    difficulty: 'Médio',
-    statement: 'O pilar "Atendimento Pós-Acidente" do Plano de Segurança Viária do Estado de São Paulo (PSV-SP 2025-2035 - Decreto 70.551/2026) visa reduzir a severidade das lesões através de:',
-    lawReference: 'Decreto Estadual SP 70.551/2026, Art. 7º',
-    bancaTag: 'Avalia DETRAN-SP 2026',
-    options: [
-      { letter: 'A', text: 'Integração entre resgate (SAMU, Corpo de Bombeiros e Concessionárias), redução do tempo de resposta (hora de ouro) e suporte pré-hospitalar qualificado.' },
-      { letter: 'B', text: 'Exigência de pagamento antecipado do resgate pelos familiares da vítima.' },
-      { letter: 'C', text: 'Proibição de ambulâncias transitarem com sirene ligada em rodovias.' },
-      { letter: 'D', text: 'Substituição das equipes médicas por voluntários sem treinamento.' },
-      { letter: 'E', text: 'Atendimento exclusivo por telemedicina no local do acidente.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'Decreto SP 70.551/2026: O atendimento pré-hospitalar e o resgate rápido ("Golden Hour" / Hora de Ouro) são determinantes para evitar que feridos graves venham a óbito, sendo pilar estratégico do PSV-SP.',
-    explanations: {
-      A: 'CORRETA. Agilidade no socorro integrado e suporte pré-hospitalar para salvar vidas.',
-      B: 'INCORRETA. O socorro público de urgência é gratuito e universal.',
-      C: 'INCORRETA. Veículos de socorro têm prioridade de trânsito e uso de sirene (Art. 29, VII CTB).',
-      D: 'INCORRETA. O pilar exige alta qualificação técnica.',
-      E: 'INCORRETA. Atendimento presencial de emergência no local é insubstituível.'
-    }
-  },
-  {
-    id: 'con-q40',
-    subjectId: 'contran_estadual',
-    topic: 'Resolução CONTRAN 915/2022 - Crianças até 10 Anos no Banco Traseiro',
-    difficulty: 'Fácil',
-    statement: 'Em regra geral, as crianças com idade INFERIOR a 10 (dez) anos que NÃO tenham atingido 1,45 m (um metro e quarenta e cinco centímetros) de altura devem ser transportadas obrigatoriamente:',
+    statement: 'A Resolução CONTRAN nº 915/2022 e o Art. 64 do CTB tratam do transporte de crianças em veículos automotores. As crianças com idade inferior a 10 anos que não tenham atingido 1,45m de altura devem obrigatoriamente:',
     lawReference: 'Resolução CONTRAN 915/2022 & Art. 64 do CTB',
-    bancaTag: 'Vunesp',
+    bancaTag: 'Vunesp / DETRAN 2019',
     options: [
-      { letter: 'A', text: 'Nos bancos traseiros dos veículos, utilizando individualmente cinto de segurança ou dispositivo de retenção equivalente.' },
-      { letter: 'B', text: 'No banco dianteiro ao lado do condutor.' },
-      { letter: 'C', text: 'No porta-malas do veículo.' },
-      { letter: 'D', text: 'No colo de passageiro adulto no banco dianteiro.' },
-      { letter: 'E', text: 'Em caçambas abertas com capacete de ciclista.' }
+      { letter: 'A', text: 'Ser transportadas nos bancos traseiros utilizando dispositivo de retenção adequado à sua idade, peso e altura.' },
+      { letter: 'B', text: 'Ser transportadas no banco dianteiro desde que no colo de um adulto com cinto.' },
+      { letter: 'C', text: 'Ser transportadas no porta-malas em caixas de transporte ventiladas.' },
+      { letter: 'D', text: 'Usar apenas o cinto de segurança abdominal de dois pontos do banco dianteiro.' },
+      { letter: 'E', text: 'Ser transportadas apenas em ônibus de transporte coletivo municipal.' }
     ],
     correctLetter: 'A',
-    generalExplanation: 'Art. 64 do CTB e Resolução CONTRAN 915/2022: Crianças menores de 10 anos que não tenham atingido 1,45m de altura devem ser transportadas nos BANCOS TRASEIROS, usando o dispositivo de retenção adequado à sua idade/peso.',
+    generalExplanation: 'As crianças menores de 10 anos que não tenham atingido 1,45m de altura devem ser transportadas obrigatoriamente no banco traseiro utilizando o dispositivo de retenção adequado (bebê conforto, cadeirinha ou assento de elevação), nos termos da Res. 915/2022 e do CTB.',
     explanations: {
-      A: 'CORRETA. Regra geral imperativa de segurança do Art. 64 do CTB e Res. 915/22.',
-      B: 'INCORRETA. O banco dianteiro é exceção estrita.',
-      C: 'INCORRETA. Absurdo e infração gravíssima.',
-      D: 'INCORRETA. Transportar no colo é extremamente perigoso e proibido.',
-      E: 'INCORRETA. Proibido pelo CTB.'
+      A: 'CORRETA. Banco traseiro com dispositivo de retenção compatível com a idade/peso/altura.',
+      B: 'INCORRETA. Transportar criança no colo no banco dianteiro é infração gravíssima.',
+      C: 'INCORRETA. Prática ilegal e extremamente perigosa.',
+      D: 'INCORRETA. Cinto abdominal de 2 pontos não atende crianças menores de 1,45m.',
+      E: 'INCORRETA. A regra aplica-se aos veículos de passeio particulares.'
+    }
+  },
+  {
+    id: 'con-q61',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 915/2022 - Exceção de Criança no Banco Dianteiro',
+    difficulty: 'Difícil',
+    statement: 'Em qual das hipóteses a seguir a legislação de trânsito (Resolução CONTRAN nº 915/2022 e CTB) AUTORIZA o transporte de criança menor de 10 anos no banco dianteiro do veículo passeio?',
+    lawReference: 'Resolução CONTRAN 915/2022 & Art. 64 CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Quando a quantidade de crianças dessa faixa etária exceder a lotação do banco traseiro.' },
+      { letter: 'B', text: 'Sempre que o motorista estiver sozinho no veículo com a criança.' },
+      { letter: 'C', text: 'Quando a viagem ocorrer durante o período noturno em rodovias.' },
+      { letter: 'D', text: 'Apenas quando o veículo tiver câmbio manual.' },
+      { letter: 'E', text: 'Em nenhuma hipótese a lei permite criança no banco dianteiro.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Constitui exceção legal permitida: quando a quantidade de crianças menores de 10 anos exceder a capacidade de lotação do banco traseiro, a criança de maior estatura dessa faixa etária poderá ser transportada no banco dianteiro, utilizando o dispositivo de retenção adequado (com air-bag desativado se for bebê conforto).',
+    explanations: {
+      A: 'CORRETA. Excesso de lotação no banco traseiro autoriza a criança de maior estatura no banco dianteiro.',
+      B: 'INCORRETA. Estar sozinho não é exceção permitida.',
+      C: 'INCORRETA. O horário da viagem não altera a regra de segurança.',
+      D: 'INCORRETA. Tipo de câmbio não interfere.',
+      E: 'INCORRETA. Existem exceções expressas na norma (ex: veículo sem banco traseiro como caminhonetes de cabine simples ou excesso de lotação traseira).'
+    }
+  },
+  {
+    id: 'con-q62',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Credenciamento de Autoescolas (CFCs)',
+    difficulty: 'Médio',
+    statement: 'As autoescolas (Centros de Formação de Condutores - CFCs) integram o conjunto de entidades credenciadas para a formação de condutores. De acordo com o Art. 119 da Resolução CONTRAN nº 1.020/2025, o credenciamento de uma autoescola é ato de competência dos:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 119 e 120',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'Órgãos ou entidades executivos de trânsito dos Estados e do Distrito Federal (DETRANs).' },
+      { letter: 'B', text: 'Ministério da Educação (MEC).' },
+      { letter: 'C', text: 'Conselhos Municipais de Educação.' },
+      { letter: 'D', text: 'Sindicatos estaduais de motoristas autônomos.' },
+      { letter: 'E', text: 'Tribunais de Justiça dos Estados.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O credenciamento, regulação e fiscalização das autoescolas e seus instrutores incumbem aos órgãos executivos estaduais de trânsito (DETRANs), sob diretrizes gerais do CONTRAN e da SENATRAN.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 119 e 120: Competência dos DETRANs estaduais.',
+      B: 'INCORRETA. O MEC regula educação formal escolar, não o credenciamento de trânsito.',
+      C: 'INCORRETA. Conselhos de educação não credenciam autoescolas.',
+      D: 'INCORRETA. Sindicatos não possuem poder público credenciador.',
+      E: 'INCORRETA. O Poder Judiciário não administra credenciamento de CFCs.'
+    }
+  },
+  {
+    id: 'con-q63',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Formação de Profissionais das Forças Armadas',
+    difficulty: 'Médio',
+    statement: 'A Resolução CONTRAN nº 1.020/2025, no Art. 76 a 79, disciplina a formação de condutores promovida no âmbito das Forças Armadas, Polícias e Bombeiros Militares. É correto afirmar que essas corporações:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 76 a 79',
+    bancaTag: 'Vunesp',
+    options: [
+      { letter: 'A', text: 'Podem realizar o processo de formação de seus próprios integrantes para a condução de veículos oficiais, mediante autorização do órgão máximo executivo de trânsito da União.' },
+      { letter: 'B', text: 'São obrigadas a contratar autoescolas privadas para a instrução de seus militares.' },
+      { letter: 'C', text: 'Estão isentas de registrar seus alunos no sistema RENACH.' },
+      { letter: 'D', text: 'Emitem CNHs militares que não possuem validade em vias civis.' },
+      { letter: 'E', text: 'Não necessitam submeter seus instruendos a exames de aptidão médica.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'As Forças Armadas e Auxiliares podem formar seus próprios condutores de veículos militares/oficiais através de centros de instrução próprios autorizados pela Senatran, com emissão de CNH válida registrada no RENACH.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 76 a 79: Formação própria autorizada pela Senatran.',
+      B: 'INCORRETA. As corporações possuem autonomia para instrução própria.',
+      C: 'INCORRETA. O registro no RENACH é obrigatório para emissão do documento nacional.',
+      D: 'INCORRETA. A CNH expedida possui validade nacional plena.',
+      E: 'INCORRETA. Exames de aptidão física e mental são obrigatórios.'
+    }
+  },
+  {
+    id: 'con-q64',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Penalidades Administrativas aos CFCs',
+    difficulty: 'Médio',
+    statement: 'Uma autoescola credenciada descumpriu as regras de transmissão das aulas práticas via biometria, incorrendo em irregularidade administrativa grave. Conforme o Art. 133 da Resolução CONTRAN nº 1.020/2025, ela estará sujeita às seguintes penalidades impostas pelo Detran:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 133',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'Advertência, suspensão das atividades do credenciamento ou cassação do credenciamento, apuradas em processo administrativo.' },
+      { letter: 'B', text: 'Prisão em flagrante dos diretores da autoescola.' },
+      { letter: 'C', text: 'Confisco imediato dos veículos de passeio sem direito a defesa.' },
+      { letter: 'D', text: 'Cancelamento das CNHs de todos os alunos que já se formaram na autoescola há mais de 10 anos.' },
+      { letter: 'E', text: 'Obrigação de fornecer gasolina gratuita ao Detran.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 133 e 134 da Res. 1.020/2025 preveem o rol de sanções administrativas cabíveis às entidades credenciadas: advertência, suspensão das atividades e cassação do credenciamento, mediante devido processo administrativo com contraditório e ampla defesa.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 133: Advertência, suspensão ou cassação do credenciamento.',
+      B: 'INCORRETA. Penalidades penais de prisão são privativas do Poder Judiciário em processos criminais.',
+      C: 'INCORRETA. Confisco direto de bens sem processo é vedado pela Constituição.',
+      D: 'INCORRETA. Alunos formados de boa-fé não têm suas CNHs antigas anuladas por infração posterior da escola.',
+      E: 'INCORRETA. Não existe sanção de fornecimento de combustível.'
+    }
+  },
+  {
+    id: 'con-q65',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Cursos para Condução de Ambulâncias',
+    difficulty: 'Médio',
+    statement: 'De acordo com o Art. 75 da Resolução CONTRAN nº 1.020/2025, o condutor de veículos de emergência (ambulâncias) deve comprovar a conclusão de curso especializado específico. É um pré-requisito para matricular-se nesse curso:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 75 & Art. 145 CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Estar habilitado no mínimo na Categoria B, ter 21 anos completos e não estar cumprindo pena de suspensão da CNH.' },
+      { letter: 'B', text: 'Estar obrigatoriamente na Categoria E e ter concluído curso de medicina.' },
+      { letter: 'C', text: 'Possuir CNH na Categoria A há 5 anos.' },
+      { letter: 'D', text: 'Ser maior de 18 anos e estar no período da PPD.' },
+      { letter: 'E', text: 'Apresentar diploma de bacharel em enfermagem.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Para cursos especializados de veículos de emergência (como ambulâncias), exige-se ter 21 anos de idade completos, estar habilitado na categoria compatível (mínimo B) e não estar com a CNH suspensa ou cassada.',
+    explanations: {
+      A: 'CORRETA. 21 anos completos, CNH válida (mínimo B) e ausência de suspensão do direito de dirigir.',
+      B: 'INCORRETA. Não se exige curso de medicina nem Categoria E obrigatória para condutor de ambulância de passeio/van (pode ser B, C ou D).',
+      C: 'INCORRETA. Categoria A é para motos, não atende condução de ambulâncias de 4 rodas.',
+      D: 'INCORRETA. Exige-se 21 anos e CNH definitiva.',
+      E: 'INCORRETA. Não se exige graduação em enfermagem para ser condutor socorrista de trânsito.'
+    }
+  },
+  {
+    id: 'con-q66',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Cursos para Transporte Escolar',
+    difficulty: 'Médio',
+    statement: 'Para conduzir veículos de transporte escolar (vans e ônibus escolares), além de aprovação em curso especializado (Resolução CONTRAN nº 1.020/2025 e Art. 138 do CTB), exige-se do condutor ter idade mínima de 21 anos e estar habilitado na Categoria:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 67 & Art. 138 CTB',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Categoria B.' },
+      { letter: 'B', text: 'Categoria C.' },
+      { letter: 'C', text: 'Categoria D.' },
+      { letter: 'D', text: 'Categoria A.' },
+      { letter: 'E', text: 'ACC.' }
+    ],
+    correctLetter: 'C',
+    generalExplanation: 'O Art. 138 do CTB e a Resolução CONTRAN nº 1.020/2025 exigem expressamente a Categoria D para condutores de transporte escolar, além de idade superior a 21 anos e ausência de infração gravíssima nos últimos 12 meses.',
+    explanations: {
+      A: 'INCORRETA. Categoria B não habilita transporte escolar.',
+      B: 'INCORRETA. Categoria C é para transporte de carga, não de passageiros escolares.',
+      C: 'CORRETA. Transporte escolar exige Categoria D.',
+      D: 'INCORRETA. Categoria A é para veículos de duas rodas.',
+      E: 'INCORRETA. ACC é para ciclomotores.'
+    }
+  },
+  {
+    id: 'con-q67',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Gratuidade no Processo de Habilitação',
+    difficulty: 'Fácil',
+    statement: 'Em relação à cobrança de taxas públicas pelos serviços de habilitação de condutores, a Resolução CONTRAN nº 1.020/2025 estabelece em seu Art. 26 que:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 26',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'As taxas devidas pelos serviços de habilitação são regulamentadas e arrecadadas pelos órgãos executivos estaduais (Detrans) conforme legislação tributária estadual específica.' },
+      { letter: 'B', text: 'Todos os exames de habilitação são 100% gratuitos por lei federal em qualquer circunstância.' },
+      { letter: 'C', text: 'A taxa é fixada em dólares americanos pelo Banco Central.' },
+      { letter: 'D', text: 'O candidato deve pagar uma mensalidade perpétua para manter a CNH ativa.' },
+      { letter: 'E', text: 'As taxas são arrecadadas diretamente pelas bancas examinadoras privadas.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'Conforme o Art. 26, as taxas estaduais de trânsito relativas aos exames e emissão de documentos são disciplinadas pela legislação tributária de cada Unidade da Federação e arrecadadas pelos Detrans.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 26: Taxas reguladas por lei estadual específica de cada Estado.',
+      B: 'INCORRETA. Não há gratuidade geral universal na lei federal de trânsito.',
+      C: 'INCORRETA. Cobraria em moeda nacional (Reais).',
+      D: 'INCORRETA. Não existe mensalidade de CNH.',
+      E: 'INCORRETA. As taxas públicas de trânsito são receitas tributárias estaduais.'
+    }
+  },
+  {
+    id: 'con-q68',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Validade da LADV',
+    difficulty: 'Médio',
+    statement: 'A Licença de Aprendizagem de Direção Veicular (LADV) expedida ao candidato (Resolução CONTRAN nº 1.020/2025, Art. 35) tem sua validade vinculada a qual evento no sistema?',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 35',
+    bancaTag: 'Vunesp',
+    options: [
+      { letter: 'A', text: 'Permanece válida enquanto durar o processo de formação do candidato para a obtenção da habilitação correspondente.' },
+      { letter: 'B', text: 'Expira impreterivelmente em 30 dias contados de sua emissão.' },
+      { letter: 'C', text: 'Possui validade vitalícia para qualquer veículo.' },
+      { letter: 'D', text: 'Expira assim que o aluno completa 10 horas de aulas práticas.' },
+      { letter: 'E', text: 'Vale apenas para o município de residência do instrutor.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A LADV permanece válida e ativa durante todo o trâmite do processo de formação de condutores no RENACH, até a conclusão com aprovação no exame prático ou eventuais sanções de suspensão.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 35: Validade atrelada à duração do processo no RENACH.',
+      B: 'INCORRETA. Não expira em apenas 30 dias.',
+      C: 'INCORRETA. Não é vitalícia; expira na conclusão do processo ou expedição da PPD.',
+      D: 'INCORRETA. Permanece válida até a realização do exame prático.',
+      E: 'INCORRETA. A LADV autoriza o aprendizado em vias terrestres conforme jurisdição do órgão de trânsito.'
+    }
+  },
+  {
+    id: 'con-q69',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Revogação de Normas Anteriores',
+    difficulty: 'Fácil',
+    statement: 'A Resolução CONTRAN nº 1.020/2025 (Art. 139 e 140) promoveu a consolidação das normas de habilitação de condutores no Brasil. Qual foi o principal objetivo dessa consolidação legislativa?',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 1º, 139 e 140',
+    bancaTag: 'Instituto Avalia',
+    options: [
+      { letter: 'A', text: 'Unificar a regulamentação sobre formação, aprendizagem e exames, revogando resoluções esparsas para desburocratizar o processo e aumentar a segurança viária.' },
+      { letter: 'B', text: 'Tornar os exames de direção veicular facultativos no Brasil.' },
+      { letter: 'C', text: 'Proibir o funcionamento de autoescolas em todo o território nacional.' },
+      { letter: 'D', text: 'Transferir a fiscalização de CNH para o Exército Brasileiro.' },
+      { letter: 'E', text: 'Extinguir as categorias de habilitação C, D e E.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'A Resolução CONTRAN nº 1.020/2025 unificou e consolidou dezenas de normas esparsas (como a Res. 789/2020 e atualizações), tornando o processo de habilitação mais claro, moderno e integrado ao sistema digital.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025: Consolidação normativa para desburocratizar e unificar regras de habilitação.',
+      B: 'INCORRETA. Os exames teórico e prático permanecem estritamente obrigatórios.',
+      C: 'INCORRETA. As autoescolas continuam credenciadas e integradas ao SNT.',
+      D: 'INCORRETA. A fiscalização de trânsito é do SNT (Detrans, PRF, PMs).',
+      E: 'INCORRETA. As categorias de CNH continuam mantidas nos termos do CTB.'
+    }
+  },
+  {
+    id: 'con-q70',
+    subjectId: 'contran_estadual',
+    topic: 'Resolução CONTRAN 1.020/2025 - Entrada em Vigor e Vigência',
+    difficulty: 'Fácil',
+    statement: 'Nos termos do Art. 142 da Resolução CONTRAN nº 1.020/2025, a nova norma regulamentadora sobre a formação e habilitação de condutores entrou em vigor:',
+    lawReference: 'Resolução CONTRAN nº 1.020/2025, Art. 142',
+    bancaTag: 'Vunesp / DETRAN 2019',
+    options: [
+      { letter: 'A', text: 'Na data de sua publicação oficial no Diário Oficial da União.' },
+      { letter: 'B', text: 'Após o decurso da vacatio legis de 180 dias.' },
+      { letter: 'C', text: 'Em 1º de janeiro de 2030.' },
+      { letter: 'D', text: 'Apenas após homologação por plebiscito popular.' },
+      { letter: 'E', text: 'Regressivamente retroagindo a 1997.' }
+    ],
+    correctLetter: 'A',
+    generalExplanation: 'O Art. 142 dispõe formalmente: "Esta Resolução entra em vigor na data de sua publicação" no Diário Oficial da União.',
+    explanations: {
+      A: 'CORRETA. Res. 1.020/2025 Art. 142: Vigência imediata na data de sua publicação.',
+      B: 'INCORRETA. Não houve estipulação de vacatio legis de 180 dias.',
+      C: 'INCORRETA. A entrada em vigor não foi postergada para 2030.',
+      D: 'INCORRETA. Não depende de plebiscito.',
+      E: 'INCORRETA. Normas administrativas entram em vigor no presente/futuro.'
     }
   }
 ];

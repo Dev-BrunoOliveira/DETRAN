@@ -5,6 +5,7 @@ import { ModuleStudy } from './components/ModuleStudy';
 import { Simulator } from './components/Simulator';
 import { Flashcards } from './components/Flashcards';
 import { CtbGuide } from './components/CtbGuide';
+import { ContranGuide } from './components/ContranGuide';
 import { ErrorNotebook } from './components/ErrorNotebook';
 import { RedacaoGuide } from './components/RedacaoGuide';
 import { getStoredProgress } from './utils/storage';
@@ -70,6 +71,15 @@ export function App() {
 
           {activeTab === 'ctb_guide' && (
             <CtbGuide />
+          )}
+
+          {activeTab === 'contran_guide' && (
+            <ContranGuide
+              onSelectTopicForQuestions={(topic) => {
+                setSelectedSubjectFilter('contran_estadual');
+                setActiveTab('modules');
+              }}
+            />
           )}
 
           {activeTab === 'errors' && (
