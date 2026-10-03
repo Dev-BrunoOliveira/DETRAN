@@ -1,4 +1,5 @@
-import { UserProgress, ExamResultRecord } from '../types';
+import { UserProgress, ExamResultRecord, DailyAnswerRecord } from '../types';
+import { QUESTIONS_DATABASE } from '../data/questionsData';
 
 const STORAGE_KEY = 'prepdetran_user_progress_2026_v1';
 
@@ -9,7 +10,8 @@ const defaultProgress: UserProgress = {
   studyTimeMinutes: 0,
   streakDays: 1,
   lastStudyDate: new Date().toISOString().split('T')[0],
-  examHistory: []
+  examHistory: [],
+  dailyHistory: []
 };
 
 export const getStoredProgress = (): UserProgress => {
@@ -48,8 +50,25 @@ export const recordQuestionAnswer = (
     updatedErrorIds = updatedErrorIds.filter(id => id !== questionId);
   }
 
-  // Update streak if needed
+  const questionObj = QUESTIONS_DATABASE.find(q => q.id === questionId);
   const today = new Date().toISOString().split('T')[0];
+  const timestamp = Date.now();
+
+  const newRecord: DailyAnswerRecord = {
+    id: `${questionId}-${timestamp}`,
+    questionId,
+    subjectId: questionObj?.subjectId || 'ctb',
+    selectedOption,
+    correctOption: questionObj?.correctLetter || (isCorrect ? selectedOption : 'A'),
+    isCorrect,
+    date: today,
+    timestamp
+  };
+
+  const existingHistory = current.dailyHistory || [];
+  const updatedHistory = [newRecord, ...existingHistory];
+
+  // Update streak if needed
   let streak = current.streakDays;
   if (current.lastStudyDate !== today) {
     const lastDate = new Date(current.lastStudyDate);
@@ -68,7 +87,8 @@ export const recordQuestionAnswer = (
     errorNotebookIds: updatedErrorIds,
     streakDays: streak,
     lastStudyDate: today,
-    studyTimeMinutes: current.studyTimeMinutes + 1
+    studyTimeMinutes: current.studyTimeMinutes + 1,
+    dailyHistory: updatedHistory
   };
 
   saveProgress(updated);
@@ -101,6 +121,31 @@ export const saveExamResult = (result: ExamResultRecord): UserProgress => {
     studyTimeMinutes: current.studyTimeMinutes + Math.round(result.timeSpentSeconds / 60)
   };
 
+  saveProgress(updated);
+  return updated;
+};
+
+export const resetAllAnsweredQuestions = (): UserProgress => {
+  const current = getStoredProgress();
+  const updated: UserProgress = {
+    ...current,
+    answeredQuestions: {},
+    errorNotebookIds: [],
+  };
+  saveProgress(updated);
+  return updated;
+};
+
+export const clearQuestionAnswer = (questionId: string): UserProgress => {
+  const current = getStoredProgress();
+  const newAnswers = { ...current.answeredQuestions };
+  delete newAnswers[questionId];
+  const newErrors = current.errorNotebookIds.filter(id => id !== questionId);
+  const updated: UserProgress = {
+    ...current,
+    answeredQuestions: newAnswers,
+    errorNotebookIds: newErrors
+  };
   saveProgress(updated);
   return updated;
 };

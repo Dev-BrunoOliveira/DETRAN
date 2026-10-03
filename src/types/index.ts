@@ -77,6 +77,17 @@ export interface CtbChapter {
   importantArticles: CtbArticleSummary[];
 }
 
+export interface DailyAnswerRecord {
+  id: string;
+  questionId: string;
+  subjectId: SubjectId;
+  selectedOption: 'A' | 'B' | 'C' | 'D' | 'E';
+  correctOption: 'A' | 'B' | 'C' | 'D' | 'E';
+  isCorrect: boolean;
+  date: string;
+  timestamp: number;
+}
+
 export interface UserProgress {
   answeredQuestions: Record<string, 'A' | 'B' | 'C' | 'D' | 'E'>;
   bookmarkedQuestionIds: string[];
@@ -85,6 +96,7 @@ export interface UserProgress {
   streakDays: number;
   lastStudyDate: string;
   examHistory: ExamResultRecord[];
+  dailyHistory?: DailyAnswerRecord[];
 }
 
 export interface ExamResultRecord {

@@ -68,10 +68,10 @@ export const Navbar: React.FC<NavbarProps> = ({
     { id: "contran_guide" as TabType, label: "API CONTRAN", icon: FileCheck2 },
     {
       id: "errors" as TabType,
-      label: "Caderno de Erros",
+      label: "Acertos & Erros",
       icon: BookMarked,
-      badge: errorsCount > 0 ? errorsCount : undefined,
-      color: "text-rose-400",
+      badge: answeredCount > 0 ? answeredCount : undefined,
+      color: "text-amber-400",
     },
     { id: "redacao" as TabType, label: "Redação Técnica", icon: PenTool },
   ];
