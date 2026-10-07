@@ -3,8 +3,9 @@ import { UserProgress, SubjectId } from '../types';
 import { QUESTIONS_DATABASE } from '../data/questionsData';
 import { SUBJECTS_LIST } from '../data/editalData';
 import { QuestionCard } from './QuestionCard';
-import { Search, Filter, BookOpen, Sparkles, CheckCircle2, Headphones, Radio } from 'lucide-react';
+import { Search, Filter, BookOpen, Sparkles, CheckCircle2, Headphones, Radio, RotateCcw } from 'lucide-react';
 import { useAudioPlayer } from '../context/AudioContext';
+import { resetAllAnsweredQuestions } from '../utils/storage';
 
 interface ModuleStudyProps {
   userProgress: UserProgress;
@@ -24,6 +25,13 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [difficultyFilter, setDifficultyFilter] = useState<string>('all');
   const [statusFilter, setStatusFilter] = useState<'all' | 'unanswered' | 'wrong'>('all');
+
+  const handleResetAllAnswers = () => {
+    if (window.confirm('Deseja reiniciar as respostas salvas para poder responder todas as questões novamente? Seu histórico diário e estatísticas continuam gravados.')) {
+      const updated = resetAllAnsweredQuestions();
+      onProgressUpdate(updated);
+    }
+  };
 
   // Filter questions
   const filteredQuestions = QUESTIONS_DATABASE.filter((q) => {
@@ -49,6 +57,8 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
     return true;
   });
 
+  const answeredCount = Object.keys(userProgress.answeredQuestions).length;
+
   return (
     <div className="space-y-6 animate-fadeIn">
       
@@ -64,7 +74,18 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
           </p>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
+          {answeredCount > 0 && (
+            <button
+              onClick={handleResetAllAnswers}
+              title="Limpa as respostas salvas para que você possa responder todas as questões novamente"
+              className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 text-xs font-bold transition-all shrink-0"
+            >
+              <RotateCcw className="w-3.5 h-3.5 text-amber-400" />
+              <span>Resetar Respostas Módulo</span>
+            </button>
+          )}
+
           <button
             onClick={() => {
               setIsPlayerVisible(true);

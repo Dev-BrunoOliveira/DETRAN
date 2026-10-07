@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Question, UserProgress } from '../types';
 import { 
   CheckCircle2, 
@@ -8,9 +8,10 @@ import {
   ChevronDown, 
   ChevronUp, 
   Scale, 
-  Sparkles 
+  Sparkles,
+  RotateCcw
 } from 'lucide-react';
-import { recordQuestionAnswer, toggleBookmarkQuestion } from '../utils/storage';
+import { recordQuestionAnswer, toggleBookmarkQuestion, clearQuestionAnswer } from '../utils/storage';
 import { SUBJECTS_LIST } from '../data/editalData';
 
 interface QuestionCardProps {
@@ -30,15 +31,30 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   const [selectedOption, setSelectedOption] = useState<'A' | 'B' | 'C' | 'D' | 'E' | null>(previousAnswer || null);
   const [showDetailedExplanations, setShowDetailedExplanations] = useState<boolean>(Boolean(previousAnswer));
   
+  // Keep selectedOption in sync with userProgress.answeredQuestions
+  useEffect(() => {
+    const prev = userProgress.answeredQuestions[question.id] || null;
+    setSelectedOption(prev);
+    setShowDetailedExplanations(Boolean(prev));
+  }, [question.id, userProgress.answeredQuestions]);
+
   const isBookmarked = userProgress.bookmarkedQuestionIds.includes(question.id);
   const subjectInfo = SUBJECTS_LIST.find((s) => s.id === question.subjectId);
 
   const handleSelectOption = (letter: 'A' | 'B' | 'C' | 'D' | 'E') => {
-    if (selectedOption !== null && previousAnswer !== undefined) return;
+    if (selectedOption !== null) return;
     setSelectedOption(letter);
     const isCorrect = letter === question.correctLetter;
     const updated = recordQuestionAnswer(question.id, letter, isCorrect);
     setShowDetailedExplanations(true);
+    onProgressUpdate(updated);
+  };
+
+  const handleResetQuestion = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation();
+    const updated = clearQuestionAnswer(question.id);
+    setSelectedOption(null);
+    setShowDetailedExplanations(false);
     onProgressUpdate(updated);
   };
 
@@ -82,6 +98,17 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 
         {/* Action icons */}
         <div className="flex items-center gap-2">
+          {hasAnswered && (
+            <button
+              onClick={handleResetQuestion}
+              title="Limpar resposta e responder esta questão novamente"
+              className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-lg sm:rounded-xl text-[11px] sm:text-xs font-bold flex items-center gap-1 sm:gap-1.5 bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 border border-amber-500/30 transition-all hover:scale-105"
+            >
+              <RotateCcw className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400" />
+              <span>Refazer Questão</span>
+            </button>
+          )}
+
           <button
             onClick={handleToggleBookmark}
             title={isBookmarked ? 'Remover dos favoritos' : 'Favoritar questão'}
@@ -152,24 +179,38 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 
       {/* Immediate Result Feedback Banner */}
       {hasAnswered && (
-        <div className={`mb-4 sm:mb-6 p-4 sm:p-6 rounded-xl sm:rounded-2xl border flex items-start gap-3 sm:gap-4 animate-fadeIn ${
+        <div className={`mb-4 sm:mb-6 p-4 sm:p-6 rounded-xl sm:rounded-2xl border flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4 animate-fadeIn ${
           isCorrect 
             ? 'bg-emerald-950/60 border-emerald-500/40 text-emerald-100' 
             : 'bg-rose-950/60 border-rose-500/40 text-rose-100'
         }`}>
-          {isCorrect ? (
-            <CheckCircle2 className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-400 shrink-0 mt-0.5" />
-          ) : (
-            <XCircle className="w-5 h-5 sm:w-6 sm:h-6 text-rose-400 shrink-0 mt-0.5" />
-          )}
-          <div className="flex-1 space-y-1">
-            <h4 className="font-extrabold text-sm sm:text-base md:text-lg font-outfit">
-              {isCorrect ? 'Resposta Correta! Excelente fixação 🎉' : `Resposta Incorreta. A alternativa correta é a (${question.correctLetter}).`}
-            </h4>
-            <p className="text-xs sm:text-sm md:text-base leading-relaxed opacity-95">
-              {question.generalExplanation}
-            </p>
+          <div className="flex items-start gap-3 sm:gap-4 flex-1">
+            {isCorrect ? (
+              <CheckCircle2 className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-400 shrink-0 mt-0.5" />
+            ) : (
+              <XCircle className="w-5 h-5 sm:w-6 sm:h-6 text-rose-400 shrink-0 mt-0.5" />
+            )}
+            <div className="space-y-1">
+              <h4 className="font-extrabold text-sm sm:text-base md:text-lg font-outfit">
+                {isCorrect ? 'Resposta Correta! Excelente fixação 🎉' : `Resposta Incorreta. A alternativa correta é a (${question.correctLetter}).`}
+              </h4>
+              <p className="text-xs sm:text-sm md:text-base leading-relaxed opacity-95">
+                {question.generalExplanation}
+              </p>
+            </div>
           </div>
+
+          <button
+            onClick={handleResetQuestion}
+            className={`px-3 py-1.5 sm:px-4 sm:py-2 rounded-xl text-xs font-black flex items-center gap-1.5 shrink-0 border transition-all hover:scale-105 shadow-md ${
+              isCorrect
+                ? 'bg-emerald-500/20 text-emerald-200 border-emerald-400/40 hover:bg-emerald-500/30'
+                : 'bg-rose-500/20 text-rose-200 border-rose-400/40 hover:bg-rose-500/30'
+            }`}
+          >
+            <RotateCcw className="w-3.5 h-3.5 text-amber-400" />
+            <span>Responder Novamente</span>
+          </button>
         </div>
       )}
 
