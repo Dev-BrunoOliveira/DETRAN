@@ -16,7 +16,6 @@ interface AudioContextType {
   isMinimized: boolean;
   isPlaylistOpen: boolean;
   
-  // Actions
   playTrack: (index: number) => void;
   togglePlayPause: () => void;
   nextTrack: () => void;
@@ -50,7 +49,6 @@ export const AudioProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  // Initialize audio element
   useEffect(() => {
     const audio = new Audio();
     audioRef.current = audio;
@@ -66,7 +64,6 @@ export const AudioProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
     const handleEnded = () => {
       setIsPlaying(false);
-      // Auto play next in sequence if enabled
       if (autoPlayNext) {
         setCurrentTrackIndex((prev) => {
           const nextIndex = (prev + 1) % tracks.length;
