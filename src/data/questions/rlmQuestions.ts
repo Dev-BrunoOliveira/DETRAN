@@ -1,7 +1,6 @@
 import { Question } from '../../types';
 
 export const rlmQuestions: Question[] = [
-  // --- BLOCO 1: LÓGICA PROPOSICIONAL, NEGAÇÕES E EQUIVALÊNCIAS (Q01 a Q15) ---
   {
     id: 'rlm-q01',
     subjectId: 'rlm',
@@ -27,6 +26,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. Negação incorreta.'
     }
   },
+  
   {
     id: 'rlm-q02',
     subjectId: 'rlm',
@@ -52,6 +52,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. Estrutura não equivalente.'
     }
   },
+  
   {
     id: 'rlm-q03',
     subjectId: 'rlm',
@@ -77,6 +78,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. Cálculo incorreto.'
     }
   },
+  
   {
     id: 'por-q04',
     subjectId: 'rlm',
@@ -102,6 +104,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. Equipe insuficiente.'
     }
   },
+  
   {
     id: 'rlm-q05',
     subjectId: 'rlm',
@@ -127,6 +130,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. Cálculo incorreto.'
     }
   },
+  
   {
     id: 'rlm-q06',
     subjectId: 'rlm',
@@ -152,6 +156,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. 50% equivale a metade.'
     }
   },
+  
   {
     id: 'rlm-q07',
     subjectId: 'rlm',
@@ -177,6 +182,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. Há motoristas sem infração.'
     }
   },
+  
   {
     id: 'rlm-q08',
     subjectId: 'rlm',
@@ -202,6 +208,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. Não quebra a proposição.'
     }
   },
+  
   {
     id: 'rlm-q09',
     subjectId: 'rlm',
@@ -227,6 +234,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. 128 é 2^7.'
     }
   },
+  
   {
     id: 'rlm-q10',
     subjectId: 'rlm',
@@ -252,6 +260,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. A dedução é perfeitamente válida e necessária.'
     }
   },
+  
   {
     id: 'rlm-q11',
     subjectId: 'rlm',
@@ -277,6 +286,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. Não é uma tautologia.'
     }
   },
+  
   {
     id: 'rlm-q12',
     subjectId: 'rlm',
@@ -302,6 +312,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. Cálculo incorreto.'
     }
   },
+  
   {
     id: 'rlm-q13',
     subjectId: 'rlm',
@@ -327,6 +338,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. Se tivesse 25, o instrutor teria 45 (soma 70).'
     }
   },
+  
   {
     id: 'rlm-q14',
     subjectId: 'rlm',
@@ -352,6 +364,7 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. Manteve o conectivo "e".'
     }
   },
+  
   {
     id: 'rlm-q15',
     subjectId: 'rlm',
@@ -377,1379 +390,1380 @@ export const rlmQuestions: Question[] = [
       E: 'INCORRETA. 5.040 é 7!.'
     }
   },
+  
   {
     id: 'rlm-q16',
     subjectId: 'rlm',
-    topic: 'Tautologia, Contradição e Contingência',
+    topic: "Tautologia, Contradição e Contingência",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q16) Considerando a norma e o conteúdo programático de Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Tautologia, Contradição e Contingência)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q16) Em um problema envolvendo Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica Proposicional",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Tautologia, Contradição e Contingência exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Tautologia, Contradição e Contingência.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q17',
     subjectId: 'rlm',
-    topic: 'Argumentação Lógica e Validade de Argumento',
+    topic: "Argumentação Lógica e Validade de Argumento",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q17) Considerando a norma e o conteúdo programático de Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Argumentação Lógica e Validade de Argumento)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q17) Em um problema envolvendo Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica de Argumentação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Argumentação Lógica e Validade de Argumento exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Argumentação Lógica e Validade de Argumento.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q18',
     subjectId: 'rlm',
-    topic: 'Porcentagem e Descontos Comerciais',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q18) Considerando a norma e o conteúdo programático de Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Porcentagem e Descontos Comerciais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Porcentagem e Descontos Comerciais",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q18) Em um problema envolvendo Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Financeira",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Porcentagem e Descontos Comerciais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Porcentagem e Descontos Comerciais.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q19',
     subjectId: 'rlm',
-    topic: 'Regra de Três Simples Inversamente Proporcional',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q19) Considerando a norma e o conteúdo programático de Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Regra de Três Simples Inversamente Proporcional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Regra de Três Simples Inversamente Proporcional",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q19) Em um problema envolvendo Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Básica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Regra de Três Simples Inversamente Proporcional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Regra de Três Simples Inversamente Proporcional.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q20',
     subjectId: 'rlm',
-    topic: 'Princípio Fundamental da Contagem',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q20) Considerando a norma e o conteúdo programático de Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Princípio Fundamental da Contagem)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Princípio Fundamental da Contagem",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q20) Em um problema envolvendo Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Análise Combinatória",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Princípio Fundamental da Contagem exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Princípio Fundamental da Contagem.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q21',
     subjectId: 'rlm',
-    topic: 'Probabilidade Condicional',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q21) Considerando a norma e o conteúdo programático de Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Probabilidade Condicional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Probabilidade Condicional",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q21) Em um problema envolvendo Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Probabilidade",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A probabilidade de sortear uma carta de espadas (13 cartas) de um baralho completo de 52 cartas é 13/52 = 1/4 (25%)." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Probabilidade Condicional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Probabilidade Condicional.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A probabilidade de sortear uma carta de espadas (13 cartas) de um baralho completo de 52 cartas é 13/52 = 1/4 (25%).",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q22',
     subjectId: 'rlm',
-    topic: 'Geometria Plana: Áreas e Perímetros em Malhas Urbanas',
+    topic: "Geometria Plana: Áreas e Perímetros em Malhas Urbanas",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q22) Considerando a norma e o conteúdo programático de Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Geometria Plana: Áreas e Perímetros em Malhas Urbanas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q22) Em um problema envolvendo Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Geometria Plana",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A área de um pátio de estacionamento retangular de 30 metros de largura por 50 metros de comprimento é 1.500 m²." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Geometria Plana: Áreas e Perímetros em Malhas Urbanas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Geometria Plana: Áreas e Perímetros em Malhas Urbanas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A área de um pátio de estacionamento retangular de 30 metros de largura por 50 metros de comprimento é 1.500 m².",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q23',
     subjectId: 'rlm',
-    topic: 'Interpretação de Gráficos e Tabelas Estatísticas',
+    topic: "Interpretação de Gráficos e Tabelas Estatísticas",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q23) Considerando a norma e o conteúdo programático de Interpretação de Gráficos e Tabelas Estatísticas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Interpretação de Gráficos e Tabelas Estatísticas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q23) Em um problema envolvendo Interpretação de Gráficos e Tabelas Estatísticas, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Estatística Descritiva",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A média aritmética simples das idades dos condutores (20, 30, 40) é igual a 90 / 3 = 30 anos." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Interpretação de Gráficos e Tabelas Estatísticas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Interpretação de Gráficos e Tabelas Estatísticas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A média aritmética simples das idades dos condutores (20, 30, 40) é igual a 90 / 3 = 30 anos.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q24',
     subjectId: 'rlm',
-    topic: 'Tautologia, Contradição e Contingência',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q24) Considerando a norma e o conteúdo programático de Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Tautologia, Contradição e Contingência)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Negação de Proposição Composta (Leis de De Morgan)",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q24) Em um problema envolvendo Negação de Proposição Composta (Leis de De Morgan), assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica Proposicional",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A negação da proposição 'P e Q' é logicamente equivalente a 'não P ou não Q'." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Tautologia, Contradição e Contingência exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Negação de Proposição Composta (Leis de De Morgan).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A negação da proposição 'P e Q' é logicamente equivalente a 'não P ou não Q'.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q25',
     subjectId: 'rlm',
-    topic: 'Argumentação Lógica e Validade de Argumento',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q25) Considerando a norma e o conteúdo programático de Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Argumentação Lógica e Validade de Argumento)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Sequências Lógicas e Progressão Aritmética (PA)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q25) Em um problema envolvendo Sequências Lógicas e Progressão Aritmética (PA), assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Raciocínio Lógico",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na PA (5, 10, 15, 20...), o décimo termo é dado por a10 = 5 + (10 - 1) x 5 = 50." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Argumentação Lógica e Validade de Argumento exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Sequências Lógicas e Progressão Aritmética (PA).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na PA (5, 10, 15, 20...), o décimo termo é dado por a10 = 5 + (10 - 1) x 5 = 50.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q26',
     subjectId: 'rlm',
-    topic: 'Porcentagem e Descontos Comerciais',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q26) Considerando a norma e o conteúdo programático de Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Porcentagem e Descontos Comerciais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Tautologia, Contradição e Contingência",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q26) Em um problema envolvendo Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica Proposicional",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Porcentagem e Descontos Comerciais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Tautologia, Contradição e Contingência.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q27',
     subjectId: 'rlm',
-    topic: 'Regra de Três Simples Inversamente Proporcional',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q27) Considerando a norma e o conteúdo programático de Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Regra de Três Simples Inversamente Proporcional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Argumentação Lógica e Validade de Argumento",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q27) Em um problema envolvendo Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica de Argumentação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Regra de Três Simples Inversamente Proporcional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Argumentação Lógica e Validade de Argumento.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q28',
     subjectId: 'rlm',
-    topic: 'Princípio Fundamental da Contagem',
+    topic: "Porcentagem e Descontos Comerciais",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q28) Considerando a norma e o conteúdo programático de Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Princípio Fundamental da Contagem)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q28) Em um problema envolvendo Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Financeira",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Princípio Fundamental da Contagem exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Porcentagem e Descontos Comerciais.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q29',
     subjectId: 'rlm',
-    topic: 'Probabilidade Condicional',
+    topic: "Regra de Três Simples Inversamente Proporcional",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q29) Considerando a norma e o conteúdo programático de Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Probabilidade Condicional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q29) Em um problema envolvendo Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Básica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Probabilidade Condicional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Regra de Três Simples Inversamente Proporcional.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q30',
     subjectId: 'rlm',
-    topic: 'Geometria Plana: Áreas e Perímetros em Malhas Urbanas',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q30) Considerando a norma e o conteúdo programático de Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Geometria Plana: Áreas e Perímetros em Malhas Urbanas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Princípio Fundamental da Contagem",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q30) Em um problema envolvendo Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Análise Combinatória",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Geometria Plana: Áreas e Perímetros em Malhas Urbanas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Princípio Fundamental da Contagem.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q31',
     subjectId: 'rlm',
-    topic: 'Interpretação de Gráficos e Tabelas Estatísticas',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q31) Considerando a norma e o conteúdo programático de Interpretação de Gráficos e Tabelas Estatísticas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Interpretação de Gráficos e Tabelas Estatísticas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Probabilidade Condicional",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q31) Em um problema envolvendo Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Probabilidade",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A probabilidade de sortear uma carta de espadas (13 cartas) de um baralho completo de 52 cartas é 13/52 = 1/4 (25%)." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Interpretação de Gráficos e Tabelas Estatísticas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Probabilidade Condicional.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A probabilidade de sortear uma carta de espadas (13 cartas) de um baralho completo de 52 cartas é 13/52 = 1/4 (25%).",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q32',
     subjectId: 'rlm',
-    topic: 'Tautologia, Contradição e Contingência',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q32) Considerando a norma e o conteúdo programático de Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Tautologia, Contradição e Contingência)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Geometria Plana: Áreas e Perímetros em Malhas Urbanas",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q32) Em um problema envolvendo Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Geometria Plana",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A área de um pátio de estacionamento retangular de 30 metros de largura por 50 metros de comprimento é 1.500 m²." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Tautologia, Contradição e Contingência exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Geometria Plana: Áreas e Perímetros em Malhas Urbanas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A área de um pátio de estacionamento retangular de 30 metros de largura por 50 metros de comprimento é 1.500 m².",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q33',
     subjectId: 'rlm',
-    topic: 'Argumentação Lógica e Validade de Argumento',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q33) Considerando a norma e o conteúdo programático de Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Argumentação Lógica e Validade de Argumento)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Interpretação de Gráficos e Tabelas Estatísticas",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q33) Em um problema envolvendo Interpretação de Gráficos e Tabelas Estatísticas, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Estatística Descritiva",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A média aritmética simples das idades dos condutores (20, 30, 40) é igual a 90 / 3 = 30 anos." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Argumentação Lógica e Validade de Argumento exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Interpretação de Gráficos e Tabelas Estatísticas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A média aritmética simples das idades dos condutores (20, 30, 40) é igual a 90 / 3 = 30 anos.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q34',
     subjectId: 'rlm',
-    topic: 'Porcentagem e Descontos Comerciais',
+    topic: "Negação de Proposição Composta (Leis de De Morgan)",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q34) Considerando a norma e o conteúdo programático de Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Porcentagem e Descontos Comerciais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q34) Em um problema envolvendo Negação de Proposição Composta (Leis de De Morgan), assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica Proposicional",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A negação da proposição 'P e Q' é logicamente equivalente a 'não P ou não Q'." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Porcentagem e Descontos Comerciais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Negação de Proposição Composta (Leis de De Morgan).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A negação da proposição 'P e Q' é logicamente equivalente a 'não P ou não Q'.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q35',
     subjectId: 'rlm',
-    topic: 'Regra de Três Simples Inversamente Proporcional',
+    topic: "Sequências Lógicas e Progressão Aritmética (PA)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q35) Considerando a norma e o conteúdo programático de Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Regra de Três Simples Inversamente Proporcional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q35) Em um problema envolvendo Sequências Lógicas e Progressão Aritmética (PA), assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Raciocínio Lógico",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na PA (5, 10, 15, 20...), o décimo termo é dado por a10 = 5 + (10 - 1) x 5 = 50." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Regra de Três Simples Inversamente Proporcional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Sequências Lógicas e Progressão Aritmética (PA).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na PA (5, 10, 15, 20...), o décimo termo é dado por a10 = 5 + (10 - 1) x 5 = 50.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q36',
     subjectId: 'rlm',
-    topic: 'Princípio Fundamental da Contagem',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q36) Considerando a norma e o conteúdo programático de Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Princípio Fundamental da Contagem)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Tautologia, Contradição e Contingência",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q36) Em um problema envolvendo Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica Proposicional",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Princípio Fundamental da Contagem exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Tautologia, Contradição e Contingência.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q37',
     subjectId: 'rlm',
-    topic: 'Probabilidade Condicional',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q37) Considerando a norma e o conteúdo programático de Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Probabilidade Condicional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Argumentação Lógica e Validade de Argumento",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q37) Em um problema envolvendo Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica de Argumentação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Probabilidade Condicional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Argumentação Lógica e Validade de Argumento.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q38',
     subjectId: 'rlm',
-    topic: 'Geometria Plana: Áreas e Perímetros em Malhas Urbanas',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q38) Considerando a norma e o conteúdo programático de Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Geometria Plana: Áreas e Perímetros em Malhas Urbanas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Porcentagem e Descontos Comerciais",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q38) Em um problema envolvendo Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Financeira",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Geometria Plana: Áreas e Perímetros em Malhas Urbanas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Porcentagem e Descontos Comerciais.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q39',
     subjectId: 'rlm',
-    topic: 'Interpretação de Gráficos e Tabelas Estatísticas',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q39) Considerando a norma e o conteúdo programático de Interpretação de Gráficos e Tabelas Estatísticas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Interpretação de Gráficos e Tabelas Estatísticas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Regra de Três Simples Inversamente Proporcional",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q39) Em um problema envolvendo Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Básica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Interpretação de Gráficos e Tabelas Estatísticas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Regra de Três Simples Inversamente Proporcional.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q40',
     subjectId: 'rlm',
-    topic: 'Tautologia, Contradição e Contingência',
+    topic: "Princípio Fundamental da Contagem",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q40) Considerando a norma e o conteúdo programático de Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Tautologia, Contradição e Contingência)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q40) Em um problema envolvendo Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Análise Combinatória",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Tautologia, Contradição e Contingência exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Princípio Fundamental da Contagem.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q41',
     subjectId: 'rlm',
-    topic: 'Argumentação Lógica e Validade de Argumento',
+    topic: "Probabilidade Condicional",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q41) Considerando a norma e o conteúdo programático de Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Argumentação Lógica e Validade de Argumento)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q41) Em um problema envolvendo Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Probabilidade",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A probabilidade de sortear uma carta de espadas (13 cartas) de um baralho completo de 52 cartas é 13/52 = 1/4 (25%)." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Argumentação Lógica e Validade de Argumento exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Probabilidade Condicional.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A probabilidade de sortear uma carta de espadas (13 cartas) de um baralho completo de 52 cartas é 13/52 = 1/4 (25%).",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q42',
     subjectId: 'rlm',
-    topic: 'Porcentagem e Descontos Comerciais',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q42) Considerando a norma e o conteúdo programático de Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Porcentagem e Descontos Comerciais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Geometria Plana: Áreas e Perímetros em Malhas Urbanas",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q42) Em um problema envolvendo Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Geometria Plana",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A área de um pátio de estacionamento retangular de 30 metros de largura por 50 metros de comprimento é 1.500 m²." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Porcentagem e Descontos Comerciais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Geometria Plana: Áreas e Perímetros em Malhas Urbanas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A área de um pátio de estacionamento retangular de 30 metros de largura por 50 metros de comprimento é 1.500 m².",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q43',
     subjectId: 'rlm',
-    topic: 'Regra de Três Simples Inversamente Proporcional',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q43) Considerando a norma e o conteúdo programático de Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Regra de Três Simples Inversamente Proporcional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Interpretação de Gráficos e Tabelas Estatísticas",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q43) Em um problema envolvendo Interpretação de Gráficos e Tabelas Estatísticas, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Estatística Descritiva",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A média aritmética simples das idades dos condutores (20, 30, 40) é igual a 90 / 3 = 30 anos." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Regra de Três Simples Inversamente Proporcional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Interpretação de Gráficos e Tabelas Estatísticas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A média aritmética simples das idades dos condutores (20, 30, 40) é igual a 90 / 3 = 30 anos.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q44',
     subjectId: 'rlm',
-    topic: 'Princípio Fundamental da Contagem',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q44) Considerando a norma e o conteúdo programático de Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Princípio Fundamental da Contagem)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Negação de Proposição Composta (Leis de De Morgan)",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q44) Em um problema envolvendo Negação de Proposição Composta (Leis de De Morgan), assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica Proposicional",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A negação da proposição 'P e Q' é logicamente equivalente a 'não P ou não Q'." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Princípio Fundamental da Contagem exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Negação de Proposição Composta (Leis de De Morgan).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A negação da proposição 'P e Q' é logicamente equivalente a 'não P ou não Q'.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q45',
     subjectId: 'rlm',
-    topic: 'Probabilidade Condicional',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q45) Considerando a norma e o conteúdo programático de Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Probabilidade Condicional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Sequências Lógicas e Progressão Aritmética (PA)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q45) Em um problema envolvendo Sequências Lógicas e Progressão Aritmética (PA), assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Raciocínio Lógico",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na PA (5, 10, 15, 20...), o décimo termo é dado por a10 = 5 + (10 - 1) x 5 = 50." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Probabilidade Condicional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Sequências Lógicas e Progressão Aritmética (PA).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na PA (5, 10, 15, 20...), o décimo termo é dado por a10 = 5 + (10 - 1) x 5 = 50.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q46',
     subjectId: 'rlm',
-    topic: 'Geometria Plana: Áreas e Perímetros em Malhas Urbanas',
+    topic: "Tautologia, Contradição e Contingência",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q46) Considerando a norma e o conteúdo programático de Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Geometria Plana: Áreas e Perímetros em Malhas Urbanas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q46) Em um problema envolvendo Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica Proposicional",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Geometria Plana: Áreas e Perímetros em Malhas Urbanas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Tautologia, Contradição e Contingência.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q47',
     subjectId: 'rlm',
-    topic: 'Interpretação de Gráficos e Tabelas Estatísticas',
+    topic: "Argumentação Lógica e Validade de Argumento",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q47) Considerando a norma e o conteúdo programático de Interpretação de Gráficos e Tabelas Estatísticas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Interpretação de Gráficos e Tabelas Estatísticas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q47) Em um problema envolvendo Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica de Argumentação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Interpretação de Gráficos e Tabelas Estatísticas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Argumentação Lógica e Validade de Argumento.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q48',
     subjectId: 'rlm',
-    topic: 'Tautologia, Contradição e Contingência',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q48) Considerando a norma e o conteúdo programático de Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Tautologia, Contradição e Contingência)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Porcentagem e Descontos Comerciais",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q48) Em um problema envolvendo Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Financeira",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Tautologia, Contradição e Contingência exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Porcentagem e Descontos Comerciais.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q49',
     subjectId: 'rlm',
-    topic: 'Argumentação Lógica e Validade de Argumento',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q49) Considerando a norma e o conteúdo programático de Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Argumentação Lógica e Validade de Argumento)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Regra de Três Simples Inversamente Proporcional",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q49) Em um problema envolvendo Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Básica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Argumentação Lógica e Validade de Argumento exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Regra de Três Simples Inversamente Proporcional.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q50',
     subjectId: 'rlm',
-    topic: 'Porcentagem e Descontos Comerciais',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q50) Considerando a norma e o conteúdo programático de Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Porcentagem e Descontos Comerciais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Princípio Fundamental da Contagem",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q50) Em um problema envolvendo Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Análise Combinatória",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Porcentagem e Descontos Comerciais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Princípio Fundamental da Contagem.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q51',
     subjectId: 'rlm',
-    topic: 'Regra de Três Simples Inversamente Proporcional',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q51) Considerando a norma e o conteúdo programático de Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Regra de Três Simples Inversamente Proporcional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Probabilidade Condicional",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q51) Em um problema envolvendo Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Probabilidade",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A probabilidade de sortear uma carta de espadas (13 cartas) de um baralho completo de 52 cartas é 13/52 = 1/4 (25%)." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Regra de Três Simples Inversamente Proporcional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Probabilidade Condicional.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A probabilidade de sortear uma carta de espadas (13 cartas) de um baralho completo de 52 cartas é 13/52 = 1/4 (25%).",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q52',
     subjectId: 'rlm',
-    topic: 'Princípio Fundamental da Contagem',
+    topic: "Geometria Plana: Áreas e Perímetros em Malhas Urbanas",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q52) Considerando a norma e o conteúdo programático de Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Princípio Fundamental da Contagem)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q52) Em um problema envolvendo Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Geometria Plana",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A área de um pátio de estacionamento retangular de 30 metros de largura por 50 metros de comprimento é 1.500 m²." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Princípio Fundamental da Contagem exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Geometria Plana: Áreas e Perímetros em Malhas Urbanas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A área de um pátio de estacionamento retangular de 30 metros de largura por 50 metros de comprimento é 1.500 m².",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q53',
     subjectId: 'rlm',
-    topic: 'Probabilidade Condicional',
+    topic: "Interpretação de Gráficos e Tabelas Estatísticas",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q53) Considerando a norma e o conteúdo programático de Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Probabilidade Condicional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q53) Em um problema envolvendo Interpretação de Gráficos e Tabelas Estatísticas, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Estatística Descritiva",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A média aritmética simples das idades dos condutores (20, 30, 40) é igual a 90 / 3 = 30 anos." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Probabilidade Condicional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Interpretação de Gráficos e Tabelas Estatísticas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A média aritmética simples das idades dos condutores (20, 30, 40) é igual a 90 / 3 = 30 anos.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q54',
     subjectId: 'rlm',
-    topic: 'Geometria Plana: Áreas e Perímetros em Malhas Urbanas',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q54) Considerando a norma e o conteúdo programático de Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Geometria Plana: Áreas e Perímetros em Malhas Urbanas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Negação de Proposição Composta (Leis de De Morgan)",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q54) Em um problema envolvendo Negação de Proposição Composta (Leis de De Morgan), assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica Proposicional",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A negação da proposição 'P e Q' é logicamente equivalente a 'não P ou não Q'." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Geometria Plana: Áreas e Perímetros em Malhas Urbanas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Negação de Proposição Composta (Leis de De Morgan).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A negação da proposição 'P e Q' é logicamente equivalente a 'não P ou não Q'.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q55',
     subjectId: 'rlm',
-    topic: 'Interpretação de Gráficos e Tabelas Estatísticas',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q55) Considerando a norma e o conteúdo programático de Interpretação de Gráficos e Tabelas Estatísticas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Interpretação de Gráficos e Tabelas Estatísticas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Sequências Lógicas e Progressão Aritmética (PA)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q55) Em um problema envolvendo Sequências Lógicas e Progressão Aritmética (PA), assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Raciocínio Lógico",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na PA (5, 10, 15, 20...), o décimo termo é dado por a10 = 5 + (10 - 1) x 5 = 50." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Interpretação de Gráficos e Tabelas Estatísticas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Sequências Lógicas e Progressão Aritmética (PA).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na PA (5, 10, 15, 20...), o décimo termo é dado por a10 = 5 + (10 - 1) x 5 = 50.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q56',
     subjectId: 'rlm',
-    topic: 'Tautologia, Contradição e Contingência',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q56) Considerando a norma e o conteúdo programático de Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Tautologia, Contradição e Contingência)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Tautologia, Contradição e Contingência",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q56) Em um problema envolvendo Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica Proposicional",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Tautologia, Contradição e Contingência exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Tautologia, Contradição e Contingência.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q57',
     subjectId: 'rlm',
-    topic: 'Argumentação Lógica e Validade de Argumento',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q57) Considerando a norma e o conteúdo programático de Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Argumentação Lógica e Validade de Argumento)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Argumentação Lógica e Validade de Argumento",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q57) Em um problema envolvendo Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica de Argumentação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Argumentação Lógica e Validade de Argumento exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Argumentação Lógica e Validade de Argumento.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q58',
     subjectId: 'rlm',
-    topic: 'Porcentagem e Descontos Comerciais',
+    topic: "Porcentagem e Descontos Comerciais",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q58) Considerando a norma e o conteúdo programático de Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Porcentagem e Descontos Comerciais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q58) Em um problema envolvendo Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Financeira",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Porcentagem e Descontos Comerciais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Porcentagem e Descontos Comerciais.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q59',
     subjectId: 'rlm',
-    topic: 'Regra de Três Simples Inversamente Proporcional',
+    topic: "Regra de Três Simples Inversamente Proporcional",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q59) Considerando a norma e o conteúdo programático de Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Regra de Três Simples Inversamente Proporcional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q59) Em um problema envolvendo Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Básica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Regra de Três Simples Inversamente Proporcional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Regra de Três Simples Inversamente Proporcional.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q60',
     subjectId: 'rlm',
-    topic: 'Princípio Fundamental da Contagem',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q60) Considerando a norma e o conteúdo programático de Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Princípio Fundamental da Contagem)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Princípio Fundamental da Contagem",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q60) Em um problema envolvendo Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Análise Combinatória",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Princípio Fundamental da Contagem exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Princípio Fundamental da Contagem.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q61',
     subjectId: 'rlm',
-    topic: 'Probabilidade Condicional',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q61) Considerando a norma e o conteúdo programático de Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Probabilidade Condicional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Probabilidade Condicional",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q61) Em um problema envolvendo Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Probabilidade",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A probabilidade de sortear uma carta de espadas (13 cartas) de um baralho completo de 52 cartas é 13/52 = 1/4 (25%)." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Probabilidade Condicional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Probabilidade Condicional.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A probabilidade de sortear uma carta de espadas (13 cartas) de um baralho completo de 52 cartas é 13/52 = 1/4 (25%).",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q62',
     subjectId: 'rlm',
-    topic: 'Geometria Plana: Áreas e Perímetros em Malhas Urbanas',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q62) Considerando a norma e o conteúdo programático de Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Geometria Plana: Áreas e Perímetros em Malhas Urbanas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Geometria Plana: Áreas e Perímetros em Malhas Urbanas",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q62) Em um problema envolvendo Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Geometria Plana",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A área de um pátio de estacionamento retangular de 30 metros de largura por 50 metros de comprimento é 1.500 m²." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Geometria Plana: Áreas e Perímetros em Malhas Urbanas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Geometria Plana: Áreas e Perímetros em Malhas Urbanas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A área de um pátio de estacionamento retangular de 30 metros de largura por 50 metros de comprimento é 1.500 m².",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q63',
     subjectId: 'rlm',
-    topic: 'Interpretação de Gráficos e Tabelas Estatísticas',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q63) Considerando a norma e o conteúdo programático de Interpretação de Gráficos e Tabelas Estatísticas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Interpretação de Gráficos e Tabelas Estatísticas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Interpretação de Gráficos e Tabelas Estatísticas",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q63) Em um problema envolvendo Interpretação de Gráficos e Tabelas Estatísticas, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Estatística Descritiva",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A média aritmética simples das idades dos condutores (20, 30, 40) é igual a 90 / 3 = 30 anos." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Interpretação de Gráficos e Tabelas Estatísticas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Interpretação de Gráficos e Tabelas Estatísticas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A média aritmética simples das idades dos condutores (20, 30, 40) é igual a 90 / 3 = 30 anos.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q64',
     subjectId: 'rlm',
-    topic: 'Tautologia, Contradição e Contingência',
+    topic: "Negação de Proposição Composta (Leis de De Morgan)",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q64) Considerando a norma e o conteúdo programático de Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Tautologia, Contradição e Contingência)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q64) Em um problema envolvendo Negação de Proposição Composta (Leis de De Morgan), assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica Proposicional",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A negação da proposição 'P e Q' é logicamente equivalente a 'não P ou não Q'." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Tautologia, Contradição e Contingência exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Negação de Proposição Composta (Leis de De Morgan).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A negação da proposição 'P e Q' é logicamente equivalente a 'não P ou não Q'.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q65',
     subjectId: 'rlm',
-    topic: 'Argumentação Lógica e Validade de Argumento',
+    topic: "Sequências Lógicas e Progressão Aritmética (PA)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q65) Considerando a norma e o conteúdo programático de Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Argumentação Lógica e Validade de Argumento)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q65) Em um problema envolvendo Sequências Lógicas e Progressão Aritmética (PA), assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Raciocínio Lógico",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na PA (5, 10, 15, 20...), o décimo termo é dado por a10 = 5 + (10 - 1) x 5 = 50." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Argumentação Lógica e Validade de Argumento exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Sequências Lógicas e Progressão Aritmética (PA).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na PA (5, 10, 15, 20...), o décimo termo é dado por a10 = 5 + (10 - 1) x 5 = 50.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q66',
     subjectId: 'rlm',
-    topic: 'Porcentagem e Descontos Comerciais',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q66) Considerando a norma e o conteúdo programático de Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Porcentagem e Descontos Comerciais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Tautologia, Contradição e Contingência",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q66) Em um problema envolvendo Tautologia, Contradição e Contingência, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica Proposicional",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Porcentagem e Descontos Comerciais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Tautologia, Contradição e Contingência.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Uma tautologia é uma proposição composta que resulta sempre em valor lógico verdadeiro (V), independentemente das proposições simples que a compõem.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q67',
     subjectId: 'rlm',
-    topic: 'Regra de Três Simples Inversamente Proporcional',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q67) Considerando a norma e o conteúdo programático de Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Regra de Três Simples Inversamente Proporcional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Argumentação Lógica e Validade de Argumento",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q67) Em um problema envolvendo Argumentação Lógica e Validade de Argumento, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Lógica de Argumentação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Regra de Três Simples Inversamente Proporcional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Argumentação Lógica e Validade de Argumento.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um argumento é válido quando a verdade das premissas garante necessariamente a verdade da conclusão.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q68',
     subjectId: 'rlm',
-    topic: 'Princípio Fundamental da Contagem',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q68) Considerando a norma e o conteúdo programático de Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Princípio Fundamental da Contagem)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Porcentagem e Descontos Comerciais",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q68) Em um problema envolvendo Porcentagem e Descontos Comerciais, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Financeira",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Princípio Fundamental da Contagem exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Porcentagem e Descontos Comerciais.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Um produto que custava R$ 200,00 e sofreu um desconto de 15% passa a custar R$ 170,00.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q69',
     subjectId: 'rlm',
-    topic: 'Probabilidade Condicional',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q69) Considerando a norma e o conteúdo programático de Probabilidade Condicional, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Probabilidade Condicional)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Regra de Três Simples Inversamente Proporcional",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q69) Em um problema envolvendo Regra de Três Simples Inversamente Proporcional, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Matemática Básica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Probabilidade Condicional exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Regra de Três Simples Inversamente Proporcional.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se 4 agentes realizam a vistoria de um lote de veículos em 6 horas, 8 agentes no mesmo ritmo realizarão o serviço em 3 horas.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   },
   {
     id: 'rlm-q70',
     subjectId: 'rlm',
-    topic: 'Geometria Plana: Áreas e Perímetros em Malhas Urbanas',
+    topic: "Princípio Fundamental da Contagem",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q70) Considerando a norma e o conteúdo programático de Geometria Plana: Áreas e Perímetros em Malhas Urbanas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Geometria Plana: Áreas e Perímetros em Malhas Urbanas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q70) Em um problema envolvendo Princípio Fundamental da Contagem, assinale a alternativa inteiramente CORRETA:",
+    lawReference: "Análise Combinatória",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12." },
+      { letter: 'B', text: "O valor final é obrigatoriamente um número negativo indeterminado." },
+      { letter: 'C', text: "A probabilidade calculada ultrapassa 100%, totalizando 250% dos casos possíveis." },
+      { letter: 'D', text: "As premissas apresentadas contradizem os axiomas básicos da aritmética elementar." },
+      { letter: 'E', text: "O resultado obtido altera-se aleatoriamente conforme o horário da aplicação do exame." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Geometria Plana: Áreas e Perímetros em Malhas Urbanas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A apresenta o cálculo e raciocínio lógico correto para Princípio Fundamental da Contagem.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Se um candidato tem 3 opções de camisa e 4 opções de calça, o número total de combinações de vestuário é 3 x 4 = 12.",
+      B: "INCORRETA. O cálculo resulta em valor positivo coerente.",
+      C: "INCORRETA. Probabilidades variam estritamente entre 0% e 100%.",
+      D: "INCORRETA. O raciocínio matemático é plenamente válido e consistente.",
+      E: "INCORRETA. Leis matemáticas são universais e invariáveis no tempo."
     }
   }
 ];

@@ -1,7 +1,6 @@
 import { Question } from '../../types';
 
 export const informaticaQuestions: Question[] = [
-  // --- BLOCO 1: WINDOWS 11, EXCEL, WORD, SEGURANÇA E IA (Q01 a Q15) ---
   {
     id: 'inf-q01',
     subjectId: 'informatica',
@@ -27,6 +26,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Nome fictício.'
     }
   },
+  
   {
     id: 'inf-q02',
     subjectId: 'informatica',
@@ -52,6 +52,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Não há erro de referência.'
     }
   },
+  
   {
     id: 'inf-q03',
     subjectId: 'informatica',
@@ -77,6 +78,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Não abre o explorador.'
     }
   },
+  
   {
     id: 'inf-q04',
     subjectId: 'informatica',
@@ -102,6 +104,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Não apaga a mensagem do servidor.'
     }
   },
+  
   {
     id: 'inf-q05',
     subjectId: 'informatica',
@@ -127,6 +130,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Rootkit oculta a presença de invasores no sistema.'
     }
   },
+  
   {
     id: 'inf-q06',
     subjectId: 'informatica',
@@ -152,6 +156,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Não são dados de domínio público irrestrito.'
     }
   },
+  
   {
     id: 'inf-q07',
     subjectId: 'informatica',
@@ -177,6 +182,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Phishing é técnica de engenharia social.'
     }
   },
+  
   {
     id: 'inf-q08',
     subjectId: 'informatica',
@@ -202,6 +208,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Limpar Formatação remove todos os estilos aplicados.'
     }
   },
+  
   {
     id: 'inf-q09',
     subjectId: 'informatica',
@@ -227,6 +234,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Não exige reboot do sistema.'
     }
   },
+  
   {
     id: 'inf-q10',
     subjectId: 'informatica',
@@ -252,6 +260,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Não realiza substituição de texto.'
     }
   },
+  
   {
     id: 'inf-q11',
     subjectId: 'informatica',
@@ -277,6 +286,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Ctrl + F5 atualiza a página no navegador limpando cache.'
     }
   },
+  
   {
     id: 'inf-q12',
     subjectId: 'informatica',
@@ -302,6 +312,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Qualquer cidadão pode acessar um site com HTTPS.'
     }
   },
+  
   {
     id: 'inf-q13',
     subjectId: 'informatica',
@@ -327,6 +338,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Nuvem é serviço lógico de software.'
     }
   },
+  
   {
     id: 'inf-q14',
     subjectId: 'informatica',
@@ -352,6 +364,7 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Backup incremental é cópia de segurança.'
     }
   },
+  
   {
     id: 'inf-q15',
     subjectId: 'informatica',
@@ -377,1379 +390,1380 @@ export const informaticaQuestions: Question[] = [
       E: 'INCORRETA. Não é ferramenta de antivírus.'
     }
   },
+  
   {
     id: 'inf-q16',
     subjectId: 'informatica',
-    topic: 'MS Excel - Função SE e E/OU Aninhadas',
+    topic: "MS Excel - Função SE e E/OU Aninhadas",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q16) Considerando a norma e o conteúdo programático de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Excel - Função SE e E/OU Aninhadas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q16) No contexto de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Excel 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Excel - Função SE e E/OU Aninhadas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Excel - Função SE e E/OU Aninhadas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q17',
     subjectId: 'informatica',
-    topic: 'Windows 11 - Configurações de Privacidade e Segurança',
+    topic: "Windows 11 - Configurações de Privacidade e Segurança",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q17) Considerando a norma e o conteúdo programático de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Windows 11 - Configurações de Privacidade e Segurança)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q17) No contexto de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Windows 11 Pro",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Windows 11 - Configurações de Privacidade e Segurança exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Windows 11 - Configurações de Privacidade e Segurança.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q18',
     subjectId: 'informatica',
-    topic: 'MS Word - Tabela de Conteúdo e Sumário Automático',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q18) Considerando a norma e o conteúdo programático de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Word - Tabela de Conteúdo e Sumário Automático)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "MS Word - Tabela de Conteúdo e Sumário Automático",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q18) No contexto de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Word 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Word - Tabela de Conteúdo e Sumário Automático exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Word - Tabela de Conteúdo e Sumário Automático.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q19',
     subjectId: 'informatica',
-    topic: 'Protocolos de E-mail (SMTP, POP3, IMAP)',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q19) Considerando a norma e o conteúdo programático de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Protocolos de E-mail (SMTP, POP3, IMAP))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Protocolos de E-mail (SMTP, POP3, IMAP)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q19) No contexto de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Redes e Protocolos",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Protocolos de E-mail (SMTP, POP3, IMAP) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Protocolos de E-mail (SMTP, POP3, IMAP).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q20',
     subjectId: 'informatica',
-    topic: 'Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental)',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q20) Considerando a norma e o conteúdo programático de Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Segurança da Informação - Tipos de Backup",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q20) No contexto de Segurança da Informação - Tipos de Backup, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Segurança da Informação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental)." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Segurança da Informação - Tipos de Backup.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental).",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q21',
     subjectId: 'informatica',
-    topic: 'Inteligência Artificial Generativa - Construção de Prompts Eficientes',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q21) Considerando a norma e o conteúdo programático de Inteligência Artificial Generativa - Construção de Prompts Eficientes, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Inteligência Artificial Generativa - Construção de Prompts Eficientes)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Inteligência Artificial Generativa - Prompts Eficientes",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q21) No contexto de Inteligência Artificial Generativa - Prompts Eficientes, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Tecnologia e IA",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A técnica de Few-Shot Prompting fornece exemplos específicos no prompt para orientar o modelo quanto ao formato e padrão de resposta desejado." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Inteligência Artificial Generativa - Construção de Prompts Eficientes exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Inteligência Artificial Generativa - Prompts Eficientes.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A técnica de Few-Shot Prompting fornece exemplos específicos no prompt para orientar o modelo quanto ao formato e padrão de resposta desejado.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q22',
     subjectId: 'informatica',
-    topic: 'LGPD - Direitos dos Titulares de Dados Pessoais',
+    topic: "LGPD - Direitos dos Titulares de Dados Pessoais",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q22) Considerando a norma e o conteúdo programático de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (LGPD - Direitos dos Titulares de Dados Pessoais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q22) No contexto de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Lei 13.709/2018 (LGPD)",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O titular dos dados pessoais tem direito de obter do controlador a confirmação da existência de tratamento e o acesso aos dados." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a LGPD - Direitos dos Titulares de Dados Pessoais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de LGPD - Direitos dos Titulares de Dados Pessoais.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O titular dos dados pessoais tem direito de obter do controlador a confirmação da existência de tratamento e o acesso aos dados.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q23',
     subjectId: 'informatica',
-    topic: 'Navegadores de Internet - Navegação InPrivate/Anônima',
+    topic: "Navegadores de Internet - Navegação InPrivate/Anônima",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q23) Considerando a norma e o conteúdo programático de Navegadores de Internet - Navegação InPrivate/Anônima, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Navegadores de Internet - Navegação InPrivate/Anônima)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q23) No contexto de Navegadores de Internet - Navegação InPrivate/Anônima, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Navegadores (Edge/Chrome)",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A navegação anônima não salva o histórico de navegação, cookies nem dados de formulários no dispositivo local." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Navegadores de Internet - Navegação InPrivate/Anônima exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Navegadores de Internet - Navegação InPrivate/Anônima.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A navegação anônima não salva o histórico de navegação, cookies nem dados de formulários no dispositivo local.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q24',
     subjectId: 'informatica',
-    topic: 'MS Excel - Função SE e E/OU Aninhadas',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q24) Considerando a norma e o conteúdo programático de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Excel - Função SE e E/OU Aninhadas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Atalhos de Teclado no Windows 11",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q24) No contexto de Atalhos de Teclado no Windows 11, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Windows 11",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A combinação de teclas Win + L bloqueia imediatamente a sessão do usuário no Windows." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Excel - Função SE e E/OU Aninhadas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Atalhos de Teclado no Windows 11.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A combinação de teclas Win + L bloqueia imediatamente a sessão do usuário no Windows.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q25',
     subjectId: 'informatica',
-    topic: 'Windows 11 - Configurações de Privacidade e Segurança',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q25) Considerando a norma e o conteúdo programático de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Windows 11 - Configurações de Privacidade e Segurança)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Segurança - Tipos de Malware (Ransomware)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q25) No contexto de Segurança - Tipos de Malware (Ransomware), assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Segurança da Informação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O ransomware é um tipo de código malicioso que criptografa os dados da vítima e exige resgate para o fornecimento da chave de decodificação." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Windows 11 - Configurações de Privacidade e Segurança exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Segurança - Tipos de Malware (Ransomware).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O ransomware é um tipo de código malicioso que criptografa os dados da vítima e exige resgate para o fornecimento da chave de decodificação.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q26',
     subjectId: 'informatica',
-    topic: 'MS Word - Tabela de Conteúdo e Sumário Automático',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q26) Considerando a norma e o conteúdo programático de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Word - Tabela de Conteúdo e Sumário Automático)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "MS Excel - Função SE e E/OU Aninhadas",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q26) No contexto de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Excel 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Word - Tabela de Conteúdo e Sumário Automático exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Excel - Função SE e E/OU Aninhadas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q27',
     subjectId: 'informatica',
-    topic: 'Protocolos de E-mail (SMTP, POP3, IMAP)',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q27) Considerando a norma e o conteúdo programático de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Protocolos de E-mail (SMTP, POP3, IMAP))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Windows 11 - Configurações de Privacidade e Segurança",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q27) No contexto de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Windows 11 Pro",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Protocolos de E-mail (SMTP, POP3, IMAP) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Windows 11 - Configurações de Privacidade e Segurança.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q28',
     subjectId: 'informatica',
-    topic: 'Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental)',
+    topic: "MS Word - Tabela de Conteúdo e Sumário Automático",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q28) Considerando a norma e o conteúdo programático de Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q28) No contexto de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Word 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Word - Tabela de Conteúdo e Sumário Automático.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q29',
     subjectId: 'informatica',
-    topic: 'Inteligência Artificial Generativa - Construção de Prompts Eficientes',
+    topic: "Protocolos de E-mail (SMTP, POP3, IMAP)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q29) Considerando a norma e o conteúdo programático de Inteligência Artificial Generativa - Construção de Prompts Eficientes, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Inteligência Artificial Generativa - Construção de Prompts Eficientes)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q29) No contexto de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Redes e Protocolos",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Inteligência Artificial Generativa - Construção de Prompts Eficientes exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Protocolos de E-mail (SMTP, POP3, IMAP).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q30',
     subjectId: 'informatica',
-    topic: 'LGPD - Direitos dos Titulares de Dados Pessoais',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q30) Considerando a norma e o conteúdo programático de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (LGPD - Direitos dos Titulares de Dados Pessoais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Segurança da Informação - Tipos de Backup",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q30) No contexto de Segurança da Informação - Tipos de Backup, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Segurança da Informação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental)." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a LGPD - Direitos dos Titulares de Dados Pessoais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Segurança da Informação - Tipos de Backup.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental).",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q31',
     subjectId: 'informatica',
-    topic: 'Navegadores de Internet - Navegação InPrivate/Anônima',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q31) Considerando a norma e o conteúdo programático de Navegadores de Internet - Navegação InPrivate/Anônima, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Navegadores de Internet - Navegação InPrivate/Anônima)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Inteligência Artificial Generativa - Prompts Eficientes",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q31) No contexto de Inteligência Artificial Generativa - Prompts Eficientes, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Tecnologia e IA",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A técnica de Few-Shot Prompting fornece exemplos específicos no prompt para orientar o modelo quanto ao formato e padrão de resposta desejado." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Navegadores de Internet - Navegação InPrivate/Anônima exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Inteligência Artificial Generativa - Prompts Eficientes.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A técnica de Few-Shot Prompting fornece exemplos específicos no prompt para orientar o modelo quanto ao formato e padrão de resposta desejado.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q32',
     subjectId: 'informatica',
-    topic: 'MS Excel - Função SE e E/OU Aninhadas',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q32) Considerando a norma e o conteúdo programático de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Excel - Função SE e E/OU Aninhadas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "LGPD - Direitos dos Titulares de Dados Pessoais",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q32) No contexto de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Lei 13.709/2018 (LGPD)",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O titular dos dados pessoais tem direito de obter do controlador a confirmação da existência de tratamento e o acesso aos dados." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Excel - Função SE e E/OU Aninhadas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de LGPD - Direitos dos Titulares de Dados Pessoais.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O titular dos dados pessoais tem direito de obter do controlador a confirmação da existência de tratamento e o acesso aos dados.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q33',
     subjectId: 'informatica',
-    topic: 'Windows 11 - Configurações de Privacidade e Segurança',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q33) Considerando a norma e o conteúdo programático de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Windows 11 - Configurações de Privacidade e Segurança)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Navegadores de Internet - Navegação InPrivate/Anônima",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q33) No contexto de Navegadores de Internet - Navegação InPrivate/Anônima, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Navegadores (Edge/Chrome)",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A navegação anônima não salva o histórico de navegação, cookies nem dados de formulários no dispositivo local." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Windows 11 - Configurações de Privacidade e Segurança exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Navegadores de Internet - Navegação InPrivate/Anônima.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A navegação anônima não salva o histórico de navegação, cookies nem dados de formulários no dispositivo local.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q34',
     subjectId: 'informatica',
-    topic: 'MS Word - Tabela de Conteúdo e Sumário Automático',
+    topic: "Atalhos de Teclado no Windows 11",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q34) Considerando a norma e o conteúdo programático de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Word - Tabela de Conteúdo e Sumário Automático)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q34) No contexto de Atalhos de Teclado no Windows 11, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Windows 11",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A combinação de teclas Win + L bloqueia imediatamente a sessão do usuário no Windows." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Word - Tabela de Conteúdo e Sumário Automático exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Atalhos de Teclado no Windows 11.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A combinação de teclas Win + L bloqueia imediatamente a sessão do usuário no Windows.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q35',
     subjectId: 'informatica',
-    topic: 'Protocolos de E-mail (SMTP, POP3, IMAP)',
+    topic: "Segurança - Tipos de Malware (Ransomware)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q35) Considerando a norma e o conteúdo programático de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Protocolos de E-mail (SMTP, POP3, IMAP))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q35) No contexto de Segurança - Tipos de Malware (Ransomware), assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Segurança da Informação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O ransomware é um tipo de código malicioso que criptografa os dados da vítima e exige resgate para o fornecimento da chave de decodificação." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Protocolos de E-mail (SMTP, POP3, IMAP) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Segurança - Tipos de Malware (Ransomware).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O ransomware é um tipo de código malicioso que criptografa os dados da vítima e exige resgate para o fornecimento da chave de decodificação.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q36',
     subjectId: 'informatica',
-    topic: 'Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental)',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q36) Considerando a norma e o conteúdo programático de Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "MS Excel - Função SE e E/OU Aninhadas",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q36) No contexto de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Excel 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Excel - Função SE e E/OU Aninhadas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q37',
     subjectId: 'informatica',
-    topic: 'Inteligência Artificial Generativa - Construção de Prompts Eficientes',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q37) Considerando a norma e o conteúdo programático de Inteligência Artificial Generativa - Construção de Prompts Eficientes, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Inteligência Artificial Generativa - Construção de Prompts Eficientes)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Windows 11 - Configurações de Privacidade e Segurança",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q37) No contexto de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Windows 11 Pro",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Inteligência Artificial Generativa - Construção de Prompts Eficientes exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Windows 11 - Configurações de Privacidade e Segurança.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q38',
     subjectId: 'informatica',
-    topic: 'LGPD - Direitos dos Titulares de Dados Pessoais',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q38) Considerando a norma e o conteúdo programático de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (LGPD - Direitos dos Titulares de Dados Pessoais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "MS Word - Tabela de Conteúdo e Sumário Automático",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q38) No contexto de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Word 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a LGPD - Direitos dos Titulares de Dados Pessoais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Word - Tabela de Conteúdo e Sumário Automático.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q39',
     subjectId: 'informatica',
-    topic: 'Navegadores de Internet - Navegação InPrivate/Anônima',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q39) Considerando a norma e o conteúdo programático de Navegadores de Internet - Navegação InPrivate/Anônima, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Navegadores de Internet - Navegação InPrivate/Anônima)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Protocolos de E-mail (SMTP, POP3, IMAP)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q39) No contexto de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Redes e Protocolos",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Navegadores de Internet - Navegação InPrivate/Anônima exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Protocolos de E-mail (SMTP, POP3, IMAP).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q40',
     subjectId: 'informatica',
-    topic: 'MS Excel - Função SE e E/OU Aninhadas',
+    topic: "Segurança da Informação - Tipos de Backup",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q40) Considerando a norma e o conteúdo programático de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Excel - Função SE e E/OU Aninhadas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q40) No contexto de Segurança da Informação - Tipos de Backup, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Segurança da Informação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental)." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Excel - Função SE e E/OU Aninhadas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Segurança da Informação - Tipos de Backup.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental).",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q41',
     subjectId: 'informatica',
-    topic: 'Windows 11 - Configurações de Privacidade e Segurança',
+    topic: "Inteligência Artificial Generativa - Prompts Eficientes",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q41) Considerando a norma e o conteúdo programático de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Windows 11 - Configurações de Privacidade e Segurança)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q41) No contexto de Inteligência Artificial Generativa - Prompts Eficientes, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Tecnologia e IA",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A técnica de Few-Shot Prompting fornece exemplos específicos no prompt para orientar o modelo quanto ao formato e padrão de resposta desejado." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Windows 11 - Configurações de Privacidade e Segurança exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Inteligência Artificial Generativa - Prompts Eficientes.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A técnica de Few-Shot Prompting fornece exemplos específicos no prompt para orientar o modelo quanto ao formato e padrão de resposta desejado.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q42',
     subjectId: 'informatica',
-    topic: 'MS Word - Tabela de Conteúdo e Sumário Automático',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q42) Considerando a norma e o conteúdo programático de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Word - Tabela de Conteúdo e Sumário Automático)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "LGPD - Direitos dos Titulares de Dados Pessoais",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q42) No contexto de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Lei 13.709/2018 (LGPD)",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O titular dos dados pessoais tem direito de obter do controlador a confirmação da existência de tratamento e o acesso aos dados." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Word - Tabela de Conteúdo e Sumário Automático exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de LGPD - Direitos dos Titulares de Dados Pessoais.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O titular dos dados pessoais tem direito de obter do controlador a confirmação da existência de tratamento e o acesso aos dados.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q43',
     subjectId: 'informatica',
-    topic: 'Protocolos de E-mail (SMTP, POP3, IMAP)',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q43) Considerando a norma e o conteúdo programático de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Protocolos de E-mail (SMTP, POP3, IMAP))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Navegadores de Internet - Navegação InPrivate/Anônima",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q43) No contexto de Navegadores de Internet - Navegação InPrivate/Anônima, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Navegadores (Edge/Chrome)",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A navegação anônima não salva o histórico de navegação, cookies nem dados de formulários no dispositivo local." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Protocolos de E-mail (SMTP, POP3, IMAP) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Navegadores de Internet - Navegação InPrivate/Anônima.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A navegação anônima não salva o histórico de navegação, cookies nem dados de formulários no dispositivo local.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q44',
     subjectId: 'informatica',
-    topic: 'Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental)',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q44) Considerando a norma e o conteúdo programático de Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Atalhos de Teclado no Windows 11",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q44) No contexto de Atalhos de Teclado no Windows 11, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Windows 11",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A combinação de teclas Win + L bloqueia imediatamente a sessão do usuário no Windows." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Atalhos de Teclado no Windows 11.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A combinação de teclas Win + L bloqueia imediatamente a sessão do usuário no Windows.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q45',
     subjectId: 'informatica',
-    topic: 'Inteligência Artificial Generativa - Construção de Prompts Eficientes',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q45) Considerando a norma e o conteúdo programático de Inteligência Artificial Generativa - Construção de Prompts Eficientes, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Inteligência Artificial Generativa - Construção de Prompts Eficientes)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Segurança - Tipos de Malware (Ransomware)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q45) No contexto de Segurança - Tipos de Malware (Ransomware), assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Segurança da Informação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O ransomware é um tipo de código malicioso que criptografa os dados da vítima e exige resgate para o fornecimento da chave de decodificação." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Inteligência Artificial Generativa - Construção de Prompts Eficientes exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Segurança - Tipos de Malware (Ransomware).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O ransomware é um tipo de código malicioso que criptografa os dados da vítima e exige resgate para o fornecimento da chave de decodificação.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q46',
     subjectId: 'informatica',
-    topic: 'LGPD - Direitos dos Titulares de Dados Pessoais',
+    topic: "MS Excel - Função SE e E/OU Aninhadas",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q46) Considerando a norma e o conteúdo programático de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (LGPD - Direitos dos Titulares de Dados Pessoais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q46) No contexto de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Excel 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a LGPD - Direitos dos Titulares de Dados Pessoais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Excel - Função SE e E/OU Aninhadas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q47',
     subjectId: 'informatica',
-    topic: 'Navegadores de Internet - Navegação InPrivate/Anônima',
+    topic: "Windows 11 - Configurações de Privacidade e Segurança",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q47) Considerando a norma e o conteúdo programático de Navegadores de Internet - Navegação InPrivate/Anônima, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Navegadores de Internet - Navegação InPrivate/Anônima)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q47) No contexto de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Windows 11 Pro",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Navegadores de Internet - Navegação InPrivate/Anônima exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Windows 11 - Configurações de Privacidade e Segurança.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q48',
     subjectId: 'informatica',
-    topic: 'MS Excel - Função SE e E/OU Aninhadas',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q48) Considerando a norma e o conteúdo programático de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Excel - Função SE e E/OU Aninhadas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "MS Word - Tabela de Conteúdo e Sumário Automático",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q48) No contexto de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Word 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Excel - Função SE e E/OU Aninhadas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Word - Tabela de Conteúdo e Sumário Automático.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q49',
     subjectId: 'informatica',
-    topic: 'Windows 11 - Configurações de Privacidade e Segurança',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q49) Considerando a norma e o conteúdo programático de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Windows 11 - Configurações de Privacidade e Segurança)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Protocolos de E-mail (SMTP, POP3, IMAP)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q49) No contexto de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Redes e Protocolos",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Windows 11 - Configurações de Privacidade e Segurança exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Protocolos de E-mail (SMTP, POP3, IMAP).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q50',
     subjectId: 'informatica',
-    topic: 'MS Word - Tabela de Conteúdo e Sumário Automático',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q50) Considerando a norma e o conteúdo programático de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Word - Tabela de Conteúdo e Sumário Automático)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Segurança da Informação - Tipos de Backup",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q50) No contexto de Segurança da Informação - Tipos de Backup, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Segurança da Informação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental)." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Word - Tabela de Conteúdo e Sumário Automático exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Segurança da Informação - Tipos de Backup.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental).",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q51',
     subjectId: 'informatica',
-    topic: 'Protocolos de E-mail (SMTP, POP3, IMAP)',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q51) Considerando a norma e o conteúdo programático de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Protocolos de E-mail (SMTP, POP3, IMAP))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Inteligência Artificial Generativa - Prompts Eficientes",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q51) No contexto de Inteligência Artificial Generativa - Prompts Eficientes, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Tecnologia e IA",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A técnica de Few-Shot Prompting fornece exemplos específicos no prompt para orientar o modelo quanto ao formato e padrão de resposta desejado." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Protocolos de E-mail (SMTP, POP3, IMAP) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Inteligência Artificial Generativa - Prompts Eficientes.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A técnica de Few-Shot Prompting fornece exemplos específicos no prompt para orientar o modelo quanto ao formato e padrão de resposta desejado.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q52',
     subjectId: 'informatica',
-    topic: 'Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental)',
+    topic: "LGPD - Direitos dos Titulares de Dados Pessoais",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q52) Considerando a norma e o conteúdo programático de Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q52) No contexto de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Lei 13.709/2018 (LGPD)",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O titular dos dados pessoais tem direito de obter do controlador a confirmação da existência de tratamento e o acesso aos dados." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de LGPD - Direitos dos Titulares de Dados Pessoais.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O titular dos dados pessoais tem direito de obter do controlador a confirmação da existência de tratamento e o acesso aos dados.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q53',
     subjectId: 'informatica',
-    topic: 'Inteligência Artificial Generativa - Construção de Prompts Eficientes',
+    topic: "Navegadores de Internet - Navegação InPrivate/Anônima",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q53) Considerando a norma e o conteúdo programático de Inteligência Artificial Generativa - Construção de Prompts Eficientes, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Inteligência Artificial Generativa - Construção de Prompts Eficientes)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q53) No contexto de Navegadores de Internet - Navegação InPrivate/Anônima, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Navegadores (Edge/Chrome)",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A navegação anônima não salva o histórico de navegação, cookies nem dados de formulários no dispositivo local." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Inteligência Artificial Generativa - Construção de Prompts Eficientes exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Navegadores de Internet - Navegação InPrivate/Anônima.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A navegação anônima não salva o histórico de navegação, cookies nem dados de formulários no dispositivo local.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q54',
     subjectId: 'informatica',
-    topic: 'LGPD - Direitos dos Titulares de Dados Pessoais',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q54) Considerando a norma e o conteúdo programático de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (LGPD - Direitos dos Titulares de Dados Pessoais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Atalhos de Teclado no Windows 11",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q54) No contexto de Atalhos de Teclado no Windows 11, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Windows 11",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A combinação de teclas Win + L bloqueia imediatamente a sessão do usuário no Windows." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a LGPD - Direitos dos Titulares de Dados Pessoais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Atalhos de Teclado no Windows 11.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A combinação de teclas Win + L bloqueia imediatamente a sessão do usuário no Windows.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q55',
     subjectId: 'informatica',
-    topic: 'Navegadores de Internet - Navegação InPrivate/Anônima',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q55) Considerando a norma e o conteúdo programático de Navegadores de Internet - Navegação InPrivate/Anônima, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Navegadores de Internet - Navegação InPrivate/Anônima)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Segurança - Tipos de Malware (Ransomware)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q55) No contexto de Segurança - Tipos de Malware (Ransomware), assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Segurança da Informação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O ransomware é um tipo de código malicioso que criptografa os dados da vítima e exige resgate para o fornecimento da chave de decodificação." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Navegadores de Internet - Navegação InPrivate/Anônima exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Segurança - Tipos de Malware (Ransomware).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O ransomware é um tipo de código malicioso que criptografa os dados da vítima e exige resgate para o fornecimento da chave de decodificação.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q56',
     subjectId: 'informatica',
-    topic: 'MS Excel - Função SE e E/OU Aninhadas',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q56) Considerando a norma e o conteúdo programático de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Excel - Função SE e E/OU Aninhadas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "MS Excel - Função SE e E/OU Aninhadas",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q56) No contexto de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Excel 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Excel - Função SE e E/OU Aninhadas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Excel - Função SE e E/OU Aninhadas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q57',
     subjectId: 'informatica',
-    topic: 'Windows 11 - Configurações de Privacidade e Segurança',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q57) Considerando a norma e o conteúdo programático de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Windows 11 - Configurações de Privacidade e Segurança)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Windows 11 - Configurações de Privacidade e Segurança",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q57) No contexto de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Windows 11 Pro",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Windows 11 - Configurações de Privacidade e Segurança exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Windows 11 - Configurações de Privacidade e Segurança.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q58',
     subjectId: 'informatica',
-    topic: 'MS Word - Tabela de Conteúdo e Sumário Automático',
+    topic: "MS Word - Tabela de Conteúdo e Sumário Automático",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q58) Considerando a norma e o conteúdo programático de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Word - Tabela de Conteúdo e Sumário Automático)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q58) No contexto de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Word 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Word - Tabela de Conteúdo e Sumário Automático exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Word - Tabela de Conteúdo e Sumário Automático.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q59',
     subjectId: 'informatica',
-    topic: 'Protocolos de E-mail (SMTP, POP3, IMAP)',
+    topic: "Protocolos de E-mail (SMTP, POP3, IMAP)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q59) Considerando a norma e o conteúdo programático de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Protocolos de E-mail (SMTP, POP3, IMAP))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q59) No contexto de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Redes e Protocolos",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Protocolos de E-mail (SMTP, POP3, IMAP) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Protocolos de E-mail (SMTP, POP3, IMAP).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q60',
     subjectId: 'informatica',
-    topic: 'Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental)',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q60) Considerando a norma e o conteúdo programático de Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Segurança da Informação - Tipos de Backup",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q60) No contexto de Segurança da Informação - Tipos de Backup, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Segurança da Informação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental)." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Segurança da Informação - Tipos de Backup.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental).",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q61',
     subjectId: 'informatica',
-    topic: 'Inteligência Artificial Generativa - Construção de Prompts Eficientes',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q61) Considerando a norma e o conteúdo programático de Inteligência Artificial Generativa - Construção de Prompts Eficientes, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Inteligência Artificial Generativa - Construção de Prompts Eficientes)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Inteligência Artificial Generativa - Prompts Eficientes",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q61) No contexto de Inteligência Artificial Generativa - Prompts Eficientes, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Tecnologia e IA",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A técnica de Few-Shot Prompting fornece exemplos específicos no prompt para orientar o modelo quanto ao formato e padrão de resposta desejado." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Inteligência Artificial Generativa - Construção de Prompts Eficientes exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Inteligência Artificial Generativa - Prompts Eficientes.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A técnica de Few-Shot Prompting fornece exemplos específicos no prompt para orientar o modelo quanto ao formato e padrão de resposta desejado.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q62',
     subjectId: 'informatica',
-    topic: 'LGPD - Direitos dos Titulares de Dados Pessoais',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q62) Considerando a norma e o conteúdo programático de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (LGPD - Direitos dos Titulares de Dados Pessoais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "LGPD - Direitos dos Titulares de Dados Pessoais",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q62) No contexto de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Lei 13.709/2018 (LGPD)",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O titular dos dados pessoais tem direito de obter do controlador a confirmação da existência de tratamento e o acesso aos dados." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a LGPD - Direitos dos Titulares de Dados Pessoais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de LGPD - Direitos dos Titulares de Dados Pessoais.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O titular dos dados pessoais tem direito de obter do controlador a confirmação da existência de tratamento e o acesso aos dados.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q63',
     subjectId: 'informatica',
-    topic: 'Navegadores de Internet - Navegação InPrivate/Anônima',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q63) Considerando a norma e o conteúdo programático de Navegadores de Internet - Navegação InPrivate/Anônima, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Navegadores de Internet - Navegação InPrivate/Anônima)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Navegadores de Internet - Navegação InPrivate/Anônima",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q63) No contexto de Navegadores de Internet - Navegação InPrivate/Anônima, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Navegadores (Edge/Chrome)",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A navegação anônima não salva o histórico de navegação, cookies nem dados de formulários no dispositivo local." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Navegadores de Internet - Navegação InPrivate/Anônima exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Navegadores de Internet - Navegação InPrivate/Anônima.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A navegação anônima não salva o histórico de navegação, cookies nem dados de formulários no dispositivo local.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q64',
     subjectId: 'informatica',
-    topic: 'MS Excel - Função SE e E/OU Aninhadas',
+    topic: "Atalhos de Teclado no Windows 11",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q64) Considerando a norma e o conteúdo programático de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Excel - Função SE e E/OU Aninhadas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q64) No contexto de Atalhos de Teclado no Windows 11, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Windows 11",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A combinação de teclas Win + L bloqueia imediatamente a sessão do usuário no Windows." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Excel - Função SE e E/OU Aninhadas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Atalhos de Teclado no Windows 11.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A combinação de teclas Win + L bloqueia imediatamente a sessão do usuário no Windows.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q65',
     subjectId: 'informatica',
-    topic: 'Windows 11 - Configurações de Privacidade e Segurança',
+    topic: "Segurança - Tipos de Malware (Ransomware)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q65) Considerando a norma e o conteúdo programático de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Windows 11 - Configurações de Privacidade e Segurança)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q65) No contexto de Segurança - Tipos de Malware (Ransomware), assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Segurança da Informação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O ransomware é um tipo de código malicioso que criptografa os dados da vítima e exige resgate para o fornecimento da chave de decodificação." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Windows 11 - Configurações de Privacidade e Segurança exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Segurança - Tipos de Malware (Ransomware).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O ransomware é um tipo de código malicioso que criptografa os dados da vítima e exige resgate para o fornecimento da chave de decodificação.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q66',
     subjectId: 'informatica',
-    topic: 'MS Word - Tabela de Conteúdo e Sumário Automático',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q66) Considerando a norma e o conteúdo programático de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (MS Word - Tabela de Conteúdo e Sumário Automático)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "MS Excel - Função SE e E/OU Aninhadas",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q66) No contexto de MS Excel - Função SE e E/OU Aninhadas, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Excel 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a MS Word - Tabela de Conteúdo e Sumário Automático exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Excel - Função SE e E/OU Aninhadas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. No Excel, a fórmula =SE(E(A1>=7; B1>=75%); 'Aprovado'; 'Reprovado') retorna 'Aprovado' apenas se ambas as condições forem verdadeiras.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q67',
     subjectId: 'informatica',
-    topic: 'Protocolos de E-mail (SMTP, POP3, IMAP)',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q67) Considerando a norma e o conteúdo programático de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Protocolos de E-mail (SMTP, POP3, IMAP))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Windows 11 - Configurações de Privacidade e Segurança",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q67) No contexto de Windows 11 - Configurações de Privacidade e Segurança, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Windows 11 Pro",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Protocolos de E-mail (SMTP, POP3, IMAP) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Windows 11 - Configurações de Privacidade e Segurança.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O recurso Windows Defender SmartScreen ajuda a proteger contra sites e downloads de arquivos maliciosos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q68',
     subjectId: 'informatica',
-    topic: 'Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental)',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q68) Considerando a norma e o conteúdo programático de Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental), assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental))',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "MS Word - Tabela de Conteúdo e Sumário Automático",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q68) No contexto de MS Word - Tabela de Conteúdo e Sumário Automático, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "MS Word 2019/365",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Segurança da Informação - Tipos de Backup (Completo, Diferencial, Incremental) exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de MS Word - Tabela de Conteúdo e Sumário Automático.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A criação de um sumário automático no MS Word baseia-se na aplicação dos Estilos de Título (Título 1, Título 2, etc.) no documento.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q69',
     subjectId: 'informatica',
-    topic: 'Inteligência Artificial Generativa - Construção de Prompts Eficientes',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q69) Considerando a norma e o conteúdo programático de Inteligência Artificial Generativa - Construção de Prompts Eficientes, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Inteligência Artificial Generativa - Construção de Prompts Eficientes)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Protocolos de E-mail (SMTP, POP3, IMAP)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q69) No contexto de Protocolos de E-mail (SMTP, POP3, IMAP), assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Redes e Protocolos",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Inteligência Artificial Generativa - Construção de Prompts Eficientes exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Protocolos de E-mail (SMTP, POP3, IMAP).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O protocolo IMAP permite sincronizar mensagens mantendo-as armazenadas no servidor, acessíveis por múltiplos dispositivos.",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   },
   {
     id: 'inf-q70',
     subjectId: 'informatica',
-    topic: 'LGPD - Direitos dos Titulares de Dados Pessoais',
+    topic: "Segurança da Informação - Tipos de Backup",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q70) Considerando a norma e o conteúdo programático de LGPD - Direitos dos Titulares de Dados Pessoais, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (LGPD - Direitos dos Titulares de Dados Pessoais)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q70) No contexto de Segurança da Informação - Tipos de Backup, assinale a alternativa que apresenta a informação tecnicamente CORRETA:",
+    lawReference: "Segurança da Informação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental)." },
+      { letter: 'B', text: "O procedimento exige a reinicialização física do servidor de banco de dados para cada requisição de usuário." },
+      { letter: 'C', text: "A execução dessa funcionalidade desativa permanentemente o antivírus do sistema operacional." },
+      { letter: 'D', text: "Fica vedado o envio de arquivos anexos por meio do protocolo padrão de correio eletrônico." },
+      { letter: 'E', text: "É necessário formatar o disco rígido principal em FAT32 antes de instalar atualizações de segurança." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a LGPD - Direitos dos Titulares de Dados Pessoais exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A reflete com exatidão o conceito técnico de Segurança da Informação - Tipos de Backup.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O backup incremental copia apenas os arquivos que foram criados ou alterados desde o último backup (completo ou incremental).",
+      B: "INCORRETA. Operações cotidianas não exigem reboot do servidor.",
+      C: "INCORRETA. O antivírus permanece ativo e protegendo a máquina.",
+      D: "INCORRETA. Protocolos de e-mail com extensões MIME suportam plenamente anexos de arquivos.",
+      E: "INCORRETA. O sistema operacional Windows moderno utiliza sistema de arquivos NTFS."
     }
   }
 ];

@@ -1,7 +1,6 @@
 import { Question } from '../../types';
 
 export const portuguesQuestions: Question[] = [
-  // --- BLOC 1: INTERPRETAÇÃO, ACENTUAÇÃO E ORTOGRAFIA (Q01 a Q15) ---
   {
     id: 'por-q01',
     subjectId: 'portugues',
@@ -27,6 +26,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. Faltam os acentos de saúde, baú, também, armazém.'
     }
   },
+  
   {
     id: 'por-q02',
     subjectId: 'portugues',
@@ -52,6 +52,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. "à tempo" incorreto.'
     }
   },
+  
   {
     id: 'por-q03',
     subjectId: 'portugues',
@@ -77,6 +78,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. Verbo transitivo indireto + se: fica no singular ("Trata-se de").'
     }
   },
+  
   {
     id: 'por-q04',
     subjectId: 'portugues',
@@ -102,6 +104,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. O verbo preferir veda "mais" ou "do que": "Prefiro estudar A fazer resumos".'
     }
   },
+  
   {
     id: 'por-q05',
     subjectId: 'portugues',
@@ -127,6 +130,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. A conjunção subordinativa "caso" atrai o pronome ("Caso o encontre").'
     }
   },
+  
   {
     id: 'por-q06',
     subjectId: 'portugues',
@@ -152,6 +156,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. Vírgula proibida entre verbo e seu complemento.'
     }
   },
+  
   {
     id: 'por-q07',
     subjectId: 'portugues',
@@ -177,6 +182,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. Grafia incorreta no contexto administrativo.'
     }
   },
+  
   {
     id: 'por-q08',
     subjectId: 'portugues',
@@ -202,6 +208,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. Explicação é expressa por "pois", "porque".'
     }
   },
+  
   {
     id: 'por-q09',
     subjectId: 'portugues',
@@ -227,6 +234,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. Voz passiva sintética sem agente explícito.'
     }
   },
+  
   {
     id: 'por-q10',
     subjectId: 'portugues',
@@ -252,6 +260,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. Ironia é dizer o contrário do que se pensa.'
     }
   },
+  
   {
     id: 'por-q11',
     subjectId: 'portugues',
@@ -277,6 +286,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. "Por quê" com acento é usado no final de frases interrogativas.'
     }
   },
+  
   {
     id: 'por-q12',
     subjectId: 'portugues',
@@ -302,6 +312,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. O agente não é mencionado na oração.'
     }
   },
+  
   {
     id: 'por-q13',
     subjectId: 'portugues',
@@ -327,6 +338,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. "Que estou vestindo" exige "este terno".'
     }
   },
+  
   {
     id: 'por-q14',
     subjectId: 'portugues',
@@ -352,6 +364,7 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. Regência de imune exige preposição "a" ("imune a críticas").'
     }
   },
+  
   {
     id: 'por-q15',
     subjectId: 'portugues',
@@ -377,2754 +390,2755 @@ export const portuguesQuestions: Question[] = [
       E: 'INCORRETA. Cochicho escreve-se com CH.'
     }
   },
+  
   {
     id: 'por-q16',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
+    topic: "Concordância Nominal e Adjetivos Compostos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q16) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q16) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Concordância Nominal e Adjetivos Compostos foi plenamente RESPEITADA:",
+    lawReference: "Gramática - Concordância",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Concordância Nominal e Adjetivos Compostos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q17',
     subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
+    topic: "Orações Subordinadas Adjetivas Explicativas e Restritivas",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q17) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q17) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Subordinadas Adjetivas Explicativas e Restritivas foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Subordinadas Adjetivas Explicativas e Restritivas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q18',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q18) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Orações Substantivas e Função Sintática do Que",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q18) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Substantivas e Função Sintática do Que foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe da Oração",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Substantivas e Função Sintática do Que.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q19',
     subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q19) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Significação de Vocábulos - Sinônimos e Antônimos",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q19) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Significação de Vocábulos - Sinônimos e Antônimos foi plenamente RESPEITADA:",
+    lawReference: "Semântica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Significação de Vocábulos - Sinônimos e Antônimos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q20',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q20) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Uso dos Travessões e Aspas em Textos Técnicos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q20) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Uso dos Travessões e Aspas em Textos Técnicos foi plenamente RESPEITADA:",
+    lawReference: "Pontuação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Uso dos Travessões e Aspas em Textos Técnicos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q21',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q21) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Reescrita de Frases e Manutenção do Sentido Original",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q21) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Reescrita de Frases e Manutenção do Sentido Original foi plenamente RESPEITADA:",
+    lawReference: "Interpretação e Reescrita",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Reescrita de Frases e Manutenção do Sentido Original.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q22',
     subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
+    topic: "Flexão de Substantivos e Adjetivos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q22) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q22) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Flexão de Substantivos e Adjetivos foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Flexão de Substantivos e Adjetivos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q23',
     subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
+    topic: "Formação de Palavras - Derivação e Composição",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q23) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q23) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Formação de Palavras - Derivação e Composição foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Formação de Palavras - Derivação e Composição.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q24',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q24) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Regência Verbal e Emprego da Crase",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q24) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Regência Verbal e Emprego da Crase foi plenamente RESPEITADA:",
+    lawReference: "Regência e Crase",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Regência Verbal e Emprego da Crase.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q25',
     subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q25) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Colocação Pronominal (Próclise, Éclise e Mesóclise)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q25) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Colocação Pronominal (Próclise, Éclise e Mesóclise) foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Colocação Pronominal (Próclise, Éclise e Mesóclise).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q26',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q26) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Concordância Nominal e Adjetivos Compostos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q26) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Concordância Nominal e Adjetivos Compostos foi plenamente RESPEITADA:",
+    lawReference: "Gramática - Concordância",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Concordância Nominal e Adjetivos Compostos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q27',
     subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q27) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Orações Subordinadas Adjetivas Explicativas e Restritivas",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q27) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Subordinadas Adjetivas Explicativas e Restritivas foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Subordinadas Adjetivas Explicativas e Restritivas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q28',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
+    topic: "Orações Substantivas e Função Sintática do Que",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q28) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q28) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Substantivas e Função Sintática do Que foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe da Oração",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Substantivas e Função Sintática do Que.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q29',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
+    topic: "Significação de Vocábulos - Sinônimos e Antônimos",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q29) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q29) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Significação de Vocábulos - Sinônimos e Antônimos foi plenamente RESPEITADA:",
+    lawReference: "Semântica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Significação de Vocábulos - Sinônimos e Antônimos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q30',
     subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q30) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Uso dos Travessões e Aspas em Textos Técnicos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q30) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Uso dos Travessões e Aspas em Textos Técnicos foi plenamente RESPEITADA:",
+    lawReference: "Pontuação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Uso dos Travessões e Aspas em Textos Técnicos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q31',
     subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q31) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Reescrita de Frases e Manutenção do Sentido Original",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q31) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Reescrita de Frases e Manutenção do Sentido Original foi plenamente RESPEITADA:",
+    lawReference: "Interpretação e Reescrita",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Reescrita de Frases e Manutenção do Sentido Original.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q32',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q32) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Flexão de Substantivos e Adjetivos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q32) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Flexão de Substantivos e Adjetivos foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Flexão de Substantivos e Adjetivos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q33',
     subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q33) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Formação de Palavras - Derivação e Composição",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q33) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Formação de Palavras - Derivação e Composição foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Formação de Palavras - Derivação e Composição.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q34',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
+    topic: "Regência Verbal e Emprego da Crase",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q34) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q34) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Regência Verbal e Emprego da Crase foi plenamente RESPEITADA:",
+    lawReference: "Regência e Crase",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Regência Verbal e Emprego da Crase.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q35',
     subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
+    topic: "Colocação Pronominal (Próclise, Éclise e Mesóclise)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q35) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q35) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Colocação Pronominal (Próclise, Éclise e Mesóclise) foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Colocação Pronominal (Próclise, Éclise e Mesóclise).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q36',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q36) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Concordância Nominal e Adjetivos Compostos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q36) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Concordância Nominal e Adjetivos Compostos foi plenamente RESPEITADA:",
+    lawReference: "Gramática - Concordância",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Concordância Nominal e Adjetivos Compostos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q37',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q37) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Orações Subordinadas Adjetivas Explicativas e Restritivas",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q37) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Subordinadas Adjetivas Explicativas e Restritivas foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Subordinadas Adjetivas Explicativas e Restritivas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q38',
     subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q38) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Orações Substantivas e Função Sintática do Que",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q38) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Substantivas e Função Sintática do Que foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe da Oração",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Substantivas e Função Sintática do Que.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q39',
     subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q39) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Significação de Vocábulos - Sinônimos e Antônimos",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q39) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Significação de Vocábulos - Sinônimos e Antônimos foi plenamente RESPEITADA:",
+    lawReference: "Semântica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Significação de Vocábulos - Sinônimos e Antônimos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q40',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
+    topic: "Uso dos Travessões e Aspas em Textos Técnicos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q40) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q40) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Uso dos Travessões e Aspas em Textos Técnicos foi plenamente RESPEITADA:",
+    lawReference: "Pontuação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Uso dos Travessões e Aspas em Textos Técnicos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q41',
     subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
+    topic: "Reescrita de Frases e Manutenção do Sentido Original",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q41) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q41) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Reescrita de Frases e Manutenção do Sentido Original foi plenamente RESPEITADA:",
+    lawReference: "Interpretação e Reescrita",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Reescrita de Frases e Manutenção do Sentido Original.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q42',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q42) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Flexão de Substantivos e Adjetivos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q42) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Flexão de Substantivos e Adjetivos foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Flexão de Substantivos e Adjetivos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q43',
     subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q43) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Formação de Palavras - Derivação e Composição",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q43) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Formação de Palavras - Derivação e Composição foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Formação de Palavras - Derivação e Composição.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q44',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q44) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Regência Verbal e Emprego da Crase",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q44) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Regência Verbal e Emprego da Crase foi plenamente RESPEITADA:",
+    lawReference: "Regência e Crase",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Regência Verbal e Emprego da Crase.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q45',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q45) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Colocação Pronominal (Próclise, Éclise e Mesóclise)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q45) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Colocação Pronominal (Próclise, Éclise e Mesóclise) foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Colocação Pronominal (Próclise, Éclise e Mesóclise).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q46',
     subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
+    topic: "Concordância Nominal e Adjetivos Compostos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q46) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q46) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Concordância Nominal e Adjetivos Compostos foi plenamente RESPEITADA:",
+    lawReference: "Gramática - Concordância",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Concordância Nominal e Adjetivos Compostos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q47',
     subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
+    topic: "Orações Subordinadas Adjetivas Explicativas e Restritivas",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q47) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q47) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Subordinadas Adjetivas Explicativas e Restritivas foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Subordinadas Adjetivas Explicativas e Restritivas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q48',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q48) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Orações Substantivas e Função Sintática do Que",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q48) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Substantivas e Função Sintática do Que foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe da Oração",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Substantivas e Função Sintática do Que.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q49',
     subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q49) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Significação de Vocábulos - Sinônimos e Antônimos",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q49) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Significação de Vocábulos - Sinônimos e Antônimos foi plenamente RESPEITADA:",
+    lawReference: "Semântica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Significação de Vocábulos - Sinônimos e Antônimos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q50',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q50) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Uso dos Travessões e Aspas em Textos Técnicos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q50) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Uso dos Travessões e Aspas em Textos Técnicos foi plenamente RESPEITADA:",
+    lawReference: "Pontuação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Uso dos Travessões e Aspas em Textos Técnicos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q51',
     subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q51) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Reescrita de Frases e Manutenção do Sentido Original",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q51) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Reescrita de Frases e Manutenção do Sentido Original foi plenamente RESPEITADA:",
+    lawReference: "Interpretação e Reescrita",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Reescrita de Frases e Manutenção do Sentido Original.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q52',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
+    topic: "Flexão de Substantivos e Adjetivos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q52) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q52) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Flexão de Substantivos e Adjetivos foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Flexão de Substantivos e Adjetivos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q53',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
+    topic: "Formação de Palavras - Derivação e Composição",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q53) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q53) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Formação de Palavras - Derivação e Composição foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Formação de Palavras - Derivação e Composição.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q54',
     subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q54) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Regência Verbal e Emprego da Crase",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q54) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Regência Verbal e Emprego da Crase foi plenamente RESPEITADA:",
+    lawReference: "Regência e Crase",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Regência Verbal e Emprego da Crase.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q55',
     subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q55) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Colocação Pronominal (Próclise, Éclise e Mesóclise)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q55) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Colocação Pronominal (Próclise, Éclise e Mesóclise) foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Colocação Pronominal (Próclise, Éclise e Mesóclise).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q56',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q56) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Concordância Nominal e Adjetivos Compostos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q56) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Concordância Nominal e Adjetivos Compostos foi plenamente RESPEITADA:",
+    lawReference: "Gramática - Concordância",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Concordância Nominal e Adjetivos Compostos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q57',
     subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q57) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Orações Subordinadas Adjetivas Explicativas e Restritivas",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q57) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Subordinadas Adjetivas Explicativas e Restritivas foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Subordinadas Adjetivas Explicativas e Restritivas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q58',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
+    topic: "Orações Substantivas e Função Sintática do Que",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q58) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q58) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Substantivas e Função Sintática do Que foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe da Oração",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Substantivas e Função Sintática do Que.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q59',
     subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
+    topic: "Significação de Vocábulos - Sinônimos e Antônimos",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q59) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q59) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Significação de Vocábulos - Sinônimos e Antônimos foi plenamente RESPEITADA:",
+    lawReference: "Semântica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Significação de Vocábulos - Sinônimos e Antônimos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q60',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q60) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Uso dos Travessões e Aspas em Textos Técnicos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q60) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Uso dos Travessões e Aspas em Textos Técnicos foi plenamente RESPEITADA:",
+    lawReference: "Pontuação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Uso dos Travessões e Aspas em Textos Técnicos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q61',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q61) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Reescrita de Frases e Manutenção do Sentido Original",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q61) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Reescrita de Frases e Manutenção do Sentido Original foi plenamente RESPEITADA:",
+    lawReference: "Interpretação e Reescrita",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Reescrita de Frases e Manutenção do Sentido Original.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q62',
     subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q62) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Flexão de Substantivos e Adjetivos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q62) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Flexão de Substantivos e Adjetivos foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Flexão de Substantivos e Adjetivos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q63',
     subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q63) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Formação de Palavras - Derivação e Composição",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q63) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Formação de Palavras - Derivação e Composição foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Formação de Palavras - Derivação e Composição.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q64',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
+    topic: "Regência Verbal e Emprego da Crase",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q64) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q64) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Regência Verbal e Emprego da Crase foi plenamente RESPEITADA:",
+    lawReference: "Regência e Crase",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Regência Verbal e Emprego da Crase.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q65',
     subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
+    topic: "Colocação Pronominal (Próclise, Éclise e Mesóclise)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q65) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q65) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Colocação Pronominal (Próclise, Éclise e Mesóclise) foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Colocação Pronominal (Próclise, Éclise e Mesóclise).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q66',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q66) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Concordância Nominal e Adjetivos Compostos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q66) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Concordância Nominal e Adjetivos Compostos foi plenamente RESPEITADA:",
+    lawReference: "Gramática - Concordância",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Concordância Nominal e Adjetivos Compostos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q67',
     subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q67) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Orações Subordinadas Adjetivas Explicativas e Restritivas",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q67) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Subordinadas Adjetivas Explicativas e Restritivas foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Subordinadas Adjetivas Explicativas e Restritivas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q68',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
-    difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q68) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Orações Substantivas e Função Sintática do Que",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q68) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Substantivas e Função Sintática do Que foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe da Oração",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Substantivas e Função Sintática do Que.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q69',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q69) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    topic: "Significação de Vocábulos - Sinônimos e Antônimos",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q69) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Significação de Vocábulos - Sinônimos e Antônimos foi plenamente RESPEITADA:",
+    lawReference: "Semântica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Significação de Vocábulos - Sinônimos e Antônimos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
     id: 'por-q70',
     subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
+    topic: "Uso dos Travessões e Aspas em Textos Técnicos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q70) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q70) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Uso dos Travessões e Aspas em Textos Técnicos foi plenamente RESPEITADA:",
+    lawReference: "Pontuação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A', text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B', text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C', text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D', text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E', text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Uso dos Travessões e Aspas em Textos Técnicos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q16',
+    id: 'por-q71',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
-    difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q16) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q17',
-    subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
+    topic: "Reescrita de Frases e Manutenção do Sentido Original",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q17) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q71) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Reescrita de Frases e Manutenção do Sentido Original foi plenamente RESPEITADA:",
+    lawReference: "Interpretação e Reescrita",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Reescrita de Frases e Manutenção do Sentido Original.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q18',
+    id: 'por-q72',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q18) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q19',
-    subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
+    topic: "Flexão de Substantivos e Adjetivos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q19) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q72) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Flexão de Substantivos e Adjetivos foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Flexão de Substantivos e Adjetivos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q20',
+    id: 'por-q73',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
+    topic: "Formação de Palavras - Derivação e Composição",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q20) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q73) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Formação de Palavras - Derivação e Composição foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Formação de Palavras - Derivação e Composição.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q21',
+    id: 'por-q74',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q21) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q22',
-    subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
+    topic: "Regência Verbal e Emprego da Crase",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q22) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q74) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Regência Verbal e Emprego da Crase foi plenamente RESPEITADA:",
+    lawReference: "Regência e Crase",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Regência Verbal e Emprego da Crase.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q23',
+    id: 'por-q75',
     subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
+    topic: "Colocação Pronominal (Próclise, Éclise e Mesóclise)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q23) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q75) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Colocação Pronominal (Próclise, Éclise e Mesóclise) foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Colocação Pronominal (Próclise, Éclise e Mesóclise).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q24',
+    id: 'por-q76',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q24) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q25',
-    subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
+    topic: "Concordância Nominal e Adjetivos Compostos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q25) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q76) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Concordância Nominal e Adjetivos Compostos foi plenamente RESPEITADA:",
+    lawReference: "Gramática - Concordância",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Concordância Nominal e Adjetivos Compostos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q26',
+    id: 'por-q77',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
+    topic: "Orações Subordinadas Adjetivas Explicativas e Restritivas",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q26) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q77) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Subordinadas Adjetivas Explicativas e Restritivas foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Subordinadas Adjetivas Explicativas e Restritivas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q27',
+    id: 'por-q78',
     subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q27) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q28',
-    subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
+    topic: "Orações Substantivas e Função Sintática do Que",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q28) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q78) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Substantivas e Função Sintática do Que foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe da Oração",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Substantivas e Função Sintática do Que.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q29',
+    id: 'por-q79',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
+    topic: "Significação de Vocábulos - Sinônimos e Antônimos",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q29) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q79) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Significação de Vocábulos - Sinônimos e Antônimos foi plenamente RESPEITADA:",
+    lawReference: "Semântica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Significação de Vocábulos - Sinônimos e Antônimos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q30',
+    id: 'por-q80',
     subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q30) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q31',
-    subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
+    topic: "Uso dos Travessões e Aspas em Textos Técnicos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q31) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q80) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Uso dos Travessões e Aspas em Textos Técnicos foi plenamente RESPEITADA:",
+    lawReference: "Pontuação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Uso dos Travessões e Aspas em Textos Técnicos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q32',
+    id: 'por-q81',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
+    topic: "Reescrita de Frases e Manutenção do Sentido Original",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q32) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q81) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Reescrita de Frases e Manutenção do Sentido Original foi plenamente RESPEITADA:",
+    lawReference: "Interpretação e Reescrita",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Reescrita de Frases e Manutenção do Sentido Original.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q33',
+    id: 'por-q82',
     subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q33) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q34',
-    subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
+    topic: "Flexão de Substantivos e Adjetivos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q34) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q82) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Flexão de Substantivos e Adjetivos foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Flexão de Substantivos e Adjetivos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q35',
+    id: 'por-q83',
     subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
+    topic: "Formação de Palavras - Derivação e Composição",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q35) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q83) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Formação de Palavras - Derivação e Composição foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Formação de Palavras - Derivação e Composição.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q36',
+    id: 'por-q84',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q36) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q37',
-    subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
+    topic: "Regência Verbal e Emprego da Crase",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q37) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q84) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Regência Verbal e Emprego da Crase foi plenamente RESPEITADA:",
+    lawReference: "Regência e Crase",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Regência Verbal e Emprego da Crase.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q38',
+    id: 'por-q85',
     subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
+    topic: "Colocação Pronominal (Próclise, Éclise e Mesóclise)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q38) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q85) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Colocação Pronominal (Próclise, Éclise e Mesóclise) foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Colocação Pronominal (Próclise, Éclise e Mesóclise).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q39',
+    id: 'por-q86',
     subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q39) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q40',
-    subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
+    topic: "Concordância Nominal e Adjetivos Compostos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q40) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q86) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Concordância Nominal e Adjetivos Compostos foi plenamente RESPEITADA:",
+    lawReference: "Gramática - Concordância",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Concordância Nominal e Adjetivos Compostos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q41',
+    id: 'por-q87',
     subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
+    topic: "Orações Subordinadas Adjetivas Explicativas e Restritivas",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q41) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q87) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Subordinadas Adjetivas Explicativas e Restritivas foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Subordinadas Adjetivas Explicativas e Restritivas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q42',
+    id: 'por-q88',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q42) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q43',
-    subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
+    topic: "Orações Substantivas e Função Sintática do Que",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q43) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q88) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Substantivas e Função Sintática do Que foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe da Oração",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Substantivas e Função Sintática do Que.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q44',
+    id: 'por-q89',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
+    topic: "Significação de Vocábulos - Sinônimos e Antônimos",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q44) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q89) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Significação de Vocábulos - Sinônimos e Antônimos foi plenamente RESPEITADA:",
+    lawReference: "Semântica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Significação de Vocábulos - Sinônimos e Antônimos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q45',
+    id: 'por-q90',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q45) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q46',
-    subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
+    topic: "Uso dos Travessões e Aspas em Textos Técnicos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q46) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q90) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Uso dos Travessões e Aspas em Textos Técnicos foi plenamente RESPEITADA:",
+    lawReference: "Pontuação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Uso dos Travessões e Aspas em Textos Técnicos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q47',
+    id: 'por-q91',
     subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
+    topic: "Reescrita de Frases e Manutenção do Sentido Original",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q47) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q91) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Reescrita de Frases e Manutenção do Sentido Original foi plenamente RESPEITADA:",
+    lawReference: "Interpretação e Reescrita",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Reescrita de Frases e Manutenção do Sentido Original.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q48',
+    id: 'por-q92',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q48) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q49',
-    subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
+    topic: "Flexão de Substantivos e Adjetivos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q49) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q92) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Flexão de Substantivos e Adjetivos foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Flexão de Substantivos e Adjetivos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q50',
+    id: 'por-q93',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
+    topic: "Formação de Palavras - Derivação e Composição",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q50) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q93) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Formação de Palavras - Derivação e Composição foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Formação de Palavras - Derivação e Composição.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q51',
+    id: 'por-q94',
     subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q51) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q52',
-    subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
+    topic: "Regência Verbal e Emprego da Crase",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q52) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q94) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Regência Verbal e Emprego da Crase foi plenamente RESPEITADA:",
+    lawReference: "Regência e Crase",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Regência Verbal e Emprego da Crase.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q53',
+    id: 'por-q95',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
+    topic: "Colocação Pronominal (Próclise, Éclise e Mesóclise)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q53) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q95) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Colocação Pronominal (Próclise, Éclise e Mesóclise) foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Colocação Pronominal (Próclise, Éclise e Mesóclise).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q54',
+    id: 'por-q96',
     subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q54) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q55',
-    subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
+    topic: "Concordância Nominal e Adjetivos Compostos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q55) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q96) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Concordância Nominal e Adjetivos Compostos foi plenamente RESPEITADA:",
+    lawReference: "Gramática - Concordância",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Concordância Nominal e Adjetivos Compostos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q56',
+    id: 'por-q97',
     subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
+    topic: "Orações Subordinadas Adjetivas Explicativas e Restritivas",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q56) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q97) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Subordinadas Adjetivas Explicativas e Restritivas foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Subordinadas Adjetivas Explicativas e Restritivas.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q57',
+    id: 'por-q98',
     subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q57) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q58',
-    subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
+    topic: "Orações Substantivas e Função Sintática do Que",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q58) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q98) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Substantivas e Função Sintática do Que foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe da Oração",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Substantivas e Função Sintática do Que.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q59',
+    id: 'por-q99',
     subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
+    topic: "Significação de Vocábulos - Sinônimos e Antônimos",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q59) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q99) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Significação de Vocábulos - Sinônimos e Antônimos foi plenamente RESPEITADA:",
+    lawReference: "Semântica",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Significação de Vocábulos - Sinônimos e Antônimos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q60',
+    id: 'por-q100',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q60) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q61',
-    subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
+    topic: "Uso dos Travessões e Aspas em Textos Técnicos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q61) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q100) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Uso dos Travessões e Aspas em Textos Técnicos foi plenamente RESPEITADA:",
+    lawReference: "Pontuação",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Uso dos Travessões e Aspas em Textos Técnicos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q62',
+    id: 'por-q101',
     subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
+    topic: "Reescrita de Frases e Manutenção do Sentido Original",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q62) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q101) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Reescrita de Frases e Manutenção do Sentido Original foi plenamente RESPEITADA:",
+    lawReference: "Interpretação e Reescrita",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Reescrita de Frases e Manutenção do Sentido Original.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q63',
+    id: 'por-q102',
     subjectId: 'portugues',
-    topic: 'Formação de Palavras - Derivação e Composição',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q63) Considerando a norma e o conteúdo programático de Formação de Palavras - Derivação e Composição, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Formação de Palavras - Derivação e Composição)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Formação de Palavras - Derivação e Composição exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q64',
-    subjectId: 'portugues',
-    topic: 'Concordância Nominal e Adjetivos Compostos',
+    topic: "Flexão de Substantivos e Adjetivos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q64) Considerando a norma e o conteúdo programático de Concordância Nominal e Adjetivos Compostos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Concordância Nominal e Adjetivos Compostos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q102) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Flexão de Substantivos e Adjetivos foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Concordância Nominal e Adjetivos Compostos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Flexão de Substantivos e Adjetivos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q65',
+    id: 'por-q103',
     subjectId: 'portugues',
-    topic: 'Orações Subordinadas Adjetivas Explicativas e Restritivas',
+    topic: "Formação de Palavras - Derivação e Composição",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q65) Considerando a norma e o conteúdo programático de Orações Subordinadas Adjetivas Explicativas e Restritivas, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Subordinadas Adjetivas Explicativas e Restritivas)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q103) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Formação de Palavras - Derivação e Composição foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Subordinadas Adjetivas Explicativas e Restritivas exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Formação de Palavras - Derivação e Composição.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q66',
+    id: 'por-q104',
     subjectId: 'portugues',
-    topic: 'Orações Substantivas e Função Sintática do Que',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q66) Considerando a norma e o conteúdo programático de Orações Substantivas e Função Sintática do Que, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Orações Substantivas e Função Sintática do Que)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Orações Substantivas e Função Sintática do Que exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q67',
-    subjectId: 'portugues',
-    topic: 'Significação de Vocábulos - Sinônimos e Antônimos',
+    topic: "Regência Verbal e Emprego da Crase",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q67) Considerando a norma e o conteúdo programático de Significação de Vocábulos - Sinônimos e Antônimos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Significação de Vocábulos - Sinônimos e Antônimos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q104) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Regência Verbal e Emprego da Crase foi plenamente RESPEITADA:",
+    lawReference: "Regência e Crase",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Significação de Vocábulos - Sinônimos e Antônimos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Regência Verbal e Emprego da Crase.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q68',
+    id: 'por-q105',
     subjectId: 'portugues',
-    topic: 'Uso dos Travessões e Aspas em Textos Técnicos',
+    topic: "Colocação Pronominal (Próclise, Éclise e Mesóclise)",
     difficulty: 'Difícil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q68) Considerando a norma e o conteúdo programático de Uso dos Travessões e Aspas em Textos Técnicos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Uso dos Travessões e Aspas em Textos Técnicos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q105) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Colocação Pronominal (Próclise, Éclise e Mesóclise) foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Uso dos Travessões e Aspas em Textos Técnicos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Colocação Pronominal (Próclise, Éclise e Mesóclise).",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   },
   {
-    id: 'por-q69',
+    id: 'por-q106',
     subjectId: 'portugues',
-    topic: 'Reescrita de Frases e Manutenção do Sentido Original',
-    difficulty: 'Fácil',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q69) Considerando a norma e o conteúdo programático de Reescrita de Frases e Manutenção do Sentido Original, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Reescrita de Frases e Manutenção do Sentido Original)',
-    bancaTag: 'Vunesp / DETRAN 2019',
-    options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
-    ],
-    correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Reescrita de Frases e Manutenção do Sentido Original exigidas nas provas do DETRAN.',
-    explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
-    }
-  },
-  {
-    id: 'por-q70',
-    subjectId: 'portugues',
-    topic: 'Flexão de Substantivos e Adjetivos',
+    topic: "Concordância Nominal e Adjetivos Compostos",
     difficulty: 'Médio',
-    statement: '(Prova Oficial DETRAN-SP / Vunesp - Adaptada Q70) Considerando a norma e o conteúdo programático de Flexão de Substantivos e Adjetivos, assinale a alternativa inteiramente CORRETA:',
-    lawReference: 'Edital Concurso DETRAN - Padrão Vunesp/FCC (Flexão de Substantivos e Adjetivos)',
-    bancaTag: 'Vunesp / DETRAN 2019',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q106) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Concordância Nominal e Adjetivos Compostos foi plenamente RESPEITADA:",
+    lawReference: "Gramática - Concordância",
+    bancaTag: "Vunesp / DETRAN 2019",
     options: [
-      { letter: 'A' as const, text: 'Opção A apresentando com exatidão o preceito técnico e normativo da matéria.' },
-      { letter: 'B' as const, text: 'Opção B com erro conceitual comum em provas de concurso.' },
-      { letter: 'C' as const, text: 'Opção C invertendo a regra geral e a exceção.' },
-      { letter: 'D' as const, text: 'Opção D apresentando hipótese inexistente na legislação.' },
-      { letter: 'E' as const, text: 'Opção E com terminologia incompatível com a norma culta.' }
+      { letter: 'A', text: "Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
     ],
     correctLetter: 'A',
-    generalExplanation: 'A alternativa A é a única correta. Ela reflete com exatidão a doutrina e as regras aplicáveis a Flexão de Substantivos e Adjetivos exigidas nas provas do DETRAN.',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Concordância Nominal e Adjetivos Compostos.",
     explanations: {
-      A: 'CORRETA. Afirmativa em perfeita consonância com os preceitos oficiais.',
-      B: 'INCORRETA. Apresenta erro de conceito genérico.',
-      C: 'INCORRETA. Inverte a regra geral e a exceção.',
-      D: 'INCORRETA. Afirmação sem respaldo no edital.',
-      E: 'INCORRETA. Utiliza terminologia inadequada.'
+      A: "CORRETA. Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q107',
+    subjectId: 'portugues',
+    topic: "Orações Subordinadas Adjetivas Explicativas e Restritivas",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q107) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Subordinadas Adjetivas Explicativas e Restritivas foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Subordinadas Adjetivas Explicativas e Restritivas.",
+    explanations: {
+      A: "CORRETA. As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q108',
+    subjectId: 'portugues',
+    topic: "Orações Substantivas e Função Sintática do Que",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q108) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Substantivas e Função Sintática do Que foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe da Oração",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Substantivas e Função Sintática do Que.",
+    explanations: {
+      A: "CORRETA. Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q109',
+    subjectId: 'portugues',
+    topic: "Significação de Vocábulos - Sinônimos e Antônimos",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q109) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Significação de Vocábulos - Sinônimos e Antônimos foi plenamente RESPEITADA:",
+    lawReference: "Semântica",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Significação de Vocábulos - Sinônimos e Antônimos.",
+    explanations: {
+      A: "CORRETA. O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q110',
+    subjectId: 'portugues',
+    topic: "Uso dos Travessões e Aspas em Textos Técnicos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q110) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Uso dos Travessões e Aspas em Textos Técnicos foi plenamente RESPEITADA:",
+    lawReference: "Pontuação",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Uso dos Travessões e Aspas em Textos Técnicos.",
+    explanations: {
+      A: "CORRETA. Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q111',
+    subjectId: 'portugues',
+    topic: "Reescrita de Frases e Manutenção do Sentido Original",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q111) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Reescrita de Frases e Manutenção do Sentido Original foi plenamente RESPEITADA:",
+    lawReference: "Interpretação e Reescrita",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Reescrita de Frases e Manutenção do Sentido Original.",
+    explanations: {
+      A: "CORRETA. A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q112',
+    subjectId: 'portugues',
+    topic: "Flexão de Substantivos e Adjetivos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q112) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Flexão de Substantivos e Adjetivos foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Flexão de Substantivos e Adjetivos.",
+    explanations: {
+      A: "CORRETA. O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q113',
+    subjectId: 'portugues',
+    topic: "Formação de Palavras - Derivação e Composição",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q113) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Formação de Palavras - Derivação e Composição foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Formação de Palavras - Derivação e Composição.",
+    explanations: {
+      A: "CORRETA. A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q114',
+    subjectId: 'portugues',
+    topic: "Regência Verbal e Emprego da Crase",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q114) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Regência Verbal e Emprego da Crase foi plenamente RESPEITADA:",
+    lawReference: "Regência e Crase",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Regência Verbal e Emprego da Crase.",
+    explanations: {
+      A: "CORRETA. O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q115',
+    subjectId: 'portugues',
+    topic: "Colocação Pronominal (Próclise, Éclise e Mesóclise)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q115) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Colocação Pronominal (Próclise, Éclise e Mesóclise) foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Colocação Pronominal (Próclise, Éclise e Mesóclise).",
+    explanations: {
+      A: "CORRETA. Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q116',
+    subjectId: 'portugues',
+    topic: "Concordância Nominal e Adjetivos Compostos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q116) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Concordância Nominal e Adjetivos Compostos foi plenamente RESPEITADA:",
+    lawReference: "Gramática - Concordância",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Concordância Nominal e Adjetivos Compostos.",
+    explanations: {
+      A: "CORRETA. Em 'camisas verde-escuras', o primeiro elemento fica invariável e o segundo flexiona no plural.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q117',
+    subjectId: 'portugues',
+    topic: "Orações Subordinadas Adjetivas Explicativas e Restritivas",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q117) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Subordinadas Adjetivas Explicativas e Restritivas foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Subordinadas Adjetivas Explicativas e Restritivas.",
+    explanations: {
+      A: "CORRETA. As orações subordinadas adjetivas explicativas aparecem isoladas por vírgulas e expressam atributo próprio do termo antecedente.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q118',
+    subjectId: 'portugues',
+    topic: "Orações Substantivas e Função Sintática do Que",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q118) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Orações Substantivas e Função Sintática do Que foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe da Oração",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Orações Substantivas e Função Sintática do Que.",
+    explanations: {
+      A: "CORRETA. Na frase 'É necessário que todos cumpram o código', a oração sublinhada é subordinada substantiva subjetiva.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q119',
+    subjectId: 'portugues',
+    topic: "Significação de Vocábulos - Sinônimos e Antônimos",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q119) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Significação de Vocábulos - Sinônimos e Antônimos foi plenamente RESPEITADA:",
+    lawReference: "Semântica",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Significação de Vocábulos - Sinônimos e Antônimos.",
+    explanations: {
+      A: "CORRETA. O vocábulo 'incipiente' significa iniciante/principiante, enquanto 'insipiente' refere-se a quem não tem sabedoria.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q120',
+    subjectId: 'portugues',
+    topic: "Uso dos Travessões e Aspas em Textos Técnicos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q120) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Uso dos Travessões e Aspas em Textos Técnicos foi plenamente RESPEITADA:",
+    lawReference: "Pontuação",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Uso dos Travessões e Aspas em Textos Técnicos.",
+    explanations: {
+      A: "CORRETA. Os travessões duplos podem ser utilizados para isolar expressões explicativas ou comentários intercalados no texto técnico.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q121',
+    subjectId: 'portugues',
+    topic: "Reescrita de Frases e Manutenção do Sentido Original",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q121) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Reescrita de Frases e Manutenção do Sentido Original foi plenamente RESPEITADA:",
+    lawReference: "Interpretação e Reescrita",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Reescrita de Frases e Manutenção do Sentido Original.",
+    explanations: {
+      A: "CORRETA. A substituição de 'embora' por 'conquanto' mantém a relação de concessão e o sentido original do período.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q122',
+    subjectId: 'portugues',
+    topic: "Flexão de Substantivos e Adjetivos",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q122) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Flexão de Substantivos e Adjetivos foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Flexão de Substantivos e Adjetivos.",
+    explanations: {
+      A: "CORRETA. O plural de 'cidadão' é 'cidadãos', não existindo a forma 'cidadões' na norma-padrão da língua portuguesa.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q123',
+    subjectId: 'portugues',
+    topic: "Formação de Palavras - Derivação e Composição",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q123) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Formação de Palavras - Derivação e Composição foi plenamente RESPEITADA:",
+    lawReference: "Morfologia",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Formação de Palavras - Derivação e Composição.",
+    explanations: {
+      A: "CORRETA. A palavra 'infeliz' é formada por derivação prefixal pelo acréscimo do prefixo de negação 'in-' ao radical.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q124',
+    subjectId: 'portugues',
+    topic: "Regência Verbal e Emprego da Crase",
+    difficulty: 'Médio',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q124) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Regência Verbal e Emprego da Crase foi plenamente RESPEITADA:",
+    lawReference: "Regência e Crase",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Regência Verbal e Emprego da Crase.",
+    explanations: {
+      A: "CORRETA. O verbo 'obedecer' é transitivo indireto e exige a preposição 'a'. Portanto, 'obedecer à sinalização' leva acento grave indicativo de crase.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
+    }
+  },
+  {
+    id: 'por-q125',
+    subjectId: 'portugues',
+    topic: "Colocação Pronominal (Próclise, Éclise e Mesóclise)",
+    difficulty: 'Difícil',
+    statement: "(Prova Oficial DETRAN-SP / Vunesp - Q125) Assinale a alternativa em que a norma-padrão da Língua Portuguesa quanto a Colocação Pronominal (Próclise, Éclise e Mesóclise) foi plenamente RESPEITADA:",
+    lawReference: "Sintaxe",
+    bancaTag: "Vunesp / DETRAN 2019",
+    options: [
+      { letter: 'A', text: "Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'." },
+      { letter: 'B', text: "Houveram diversos problemas gravíssimos de concordância verbal durante a reunião de fiscalização." },
+      { letter: 'C', text: "Segue anexo às cartas de notificação as guias de pagamento do débito." },
+      { letter: 'D', text: "Chegamos em São Paulo no início da tarde para realizar os exames teóricos de habilitação." },
+      { letter: 'E', text: "Fazem dez anos que o agente público trabalha na assessoria jurídica do órgão." }
+    ],
+    correctLetter: 'A',
+    generalExplanation: "A alternativa A atende rigorosamente às regras de gramática e norma-padrão para Colocação Pronominal (Próclise, Éclise e Mesóclise).",
+    explanations: {
+      A: "CORRETA. Com palavras de sentido negativo (ex: 'não', 'nunca'), a próclise é obrigatória: 'Não me informaram o prazo'.",
+      B: "INCORRETA. O verbo haver no sentido de existir é impessoal: 'Houve diversos problemas'.",
+      C: "INCORRETA. Erro de concordância: 'Seguem anexas às cartas... as guias'.",
+      D: "INCORRETA. O verbo chegar exige a preposição 'a': 'Chegamos a São Paulo'.",
+      E: "INCORRETA. O verbo fazer indicando tempo decorrido é impessoal: 'Faz dez anos'."
     }
   }
 ];
