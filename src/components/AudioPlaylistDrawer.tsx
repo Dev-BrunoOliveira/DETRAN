@@ -176,9 +176,9 @@ export const AudioPlaylistDrawer: React.FC = () => {
         <div className="p-4 border-t border-slate-800 bg-slate-950 text-center text-[11px] text-slate-500 flex items-center justify-between">
           <span className="flex items-center gap-1.5">
             <Volume2 className="w-3.5 h-3.5 text-amber-400" />
-            <span>Áudio em alta qualidade CTB 2026</span>
+            <span>Áudio em alta qualidade CTB Atualizado 2026</span>
           </span>
-          <span className="font-semibold text-slate-400">Total: 22 Capítulos</span>
+          <span className="font-semibold text-slate-400">Total: {tracks.length} Capítulos</span>
         </div>
       </div>
     </div>

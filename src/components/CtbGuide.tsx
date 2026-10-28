@@ -49,7 +49,7 @@ export const CtbGuide: React.FC = () => {
               className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-400 text-slate-950 font-extrabold text-xs shadow-lg shadow-amber-500/20 hover:scale-105 transition-all"
             >
               <Headphones className="w-4 h-4" />
-              <span>Ouvir CTB em Ordem (22 Áudios)</span>
+              <span>Ouvir CTB em Ordem ({tracks.length} Áudios)</span>
             </button>
 
             <button
@@ -79,7 +79,7 @@ export const CtbGuide: React.FC = () => {
                 <span className="text-xs font-bold text-slate-300">Tocar Enquanto Estuda ou Responde Questões</span>
               </div>
               <p className="text-xs text-slate-400 mt-0.5">
-                Os 22 áudios continuam tocando sem interrupção mesmo se você mudar de tela ou resolver simulados!
+                Os {tracks.length} áudios continuam tocando sem interrupção mesmo se você mudar de tela ou resolver simulados!
               </p>
             </div>
           </div>
