@@ -90,7 +90,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             className="flex items-center gap-2.5 sm:gap-3.5 cursor-pointer group shrink-0"
             onClick={() => handleSelectTab("dashboard")}
           >
-            <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-gradient-to-tr from-blue-700 via-blue-600 to-sky-400 p-0.5 shadow-lg shadow-blue-600/30 flex items-center justify-center transition-transform group-hover:scale-105">
+            <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-linear-to-tr from-blue-700 via-blue-600 to-sky-400 p-0.5 shadow-lg shadow-blue-600/30 flex items-center justify-center transition-transform group-hover:scale-105">
               <div className="w-full h-full bg-[#080f1e] rounded-[10px] sm:rounded-[14px] flex items-center justify-center">
                 <BookOpenCheck className="w-4 h-4 sm:w-6 sm:h-6 text-sky-400" />
               </div>
@@ -215,12 +215,18 @@ export const Navbar: React.FC<NavbarProps> = ({
                   : "bg-slate-900/80 text-slate-300 border border-slate-800 hover:text-white"
               }`}
             >
-              <Icon className={`w-3.5 h-3.5 ${isActive ? "text-white" : "text-sky-400"}`} />
+              <Icon
+                className={`w-3.5 h-3.5 ${isActive ? "text-white" : "text-sky-400"}`}
+              />
               <span>{item.label}</span>
               {item.badge !== undefined && (
-                <span className={`px-1 py-0.2 text-[9px] rounded-full font-black ${
-                  isActive ? "bg-white/25 text-white" : "bg-blue-500/20 text-sky-300"
-                }`}>
+                <span
+                  className={`px-1 py-0.2 text-[9px] rounded-full font-black ${
+                    isActive
+                      ? "bg-white/25 text-white"
+                      : "bg-blue-500/20 text-sky-300"
+                  }`}
+                >
                   {item.badge}
                 </span>
               )}
@@ -288,11 +294,13 @@ export const Navbar: React.FC<NavbarProps> = ({
 
                     <div className="flex items-center gap-2">
                       {item.badge !== undefined && (
-                        <span className={`px-2 py-0.5 text-xs font-black rounded-full border ${
-                          isActive
-                            ? "bg-white/20 text-white border-white/30"
-                            : "bg-blue-500/20 text-sky-300 border-blue-500/40"
-                        }`}>
+                        <span
+                          className={`px-2 py-0.5 text-xs font-black rounded-full border ${
+                            isActive
+                              ? "bg-white/20 text-white border-white/30"
+                              : "bg-blue-500/20 text-sky-300 border-blue-500/40"
+                          }`}
+                        >
                           {item.badge}
                         </span>
                       )}
