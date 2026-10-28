@@ -81,7 +81,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
   return (
     <div className="space-y-8 animate-fadeIn">
       {/* Motivational Daily Banner */}
-      <div className="glass-panel p-5 sm:p-6 rounded-3xl border border-blue-500/20 bg-gradient-to-r from-blue-950/40 via-slate-900 to-[#080f1e] flex items-center gap-4">
+      <div className="glass-panel p-5 sm:p-6 rounded-3xl border border-blue-500/20 bg-linear-to-r from-blue-950/40 via-slate-900 to-[#080f1e] flex items-center gap-4">
         <div className="w-12 h-12 rounded-2xl bg-blue-500/20 text-sky-400 border border-blue-500/30 flex items-center justify-center shrink-0">
           <Sparkles className="w-6 h-6 animate-pulse" />
         </div>
@@ -96,7 +96,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
       </div>
 
       {/* Hero Banner: DETRAN-SP Exam Header with QConcursos Style */}
-      <div className="relative overflow-hidden rounded-3xl glass-panel p-6 sm:p-8 border border-blue-500/30 bg-gradient-to-r from-[#070d19] via-[#0b162c] to-blue-950/50">
+      <div className="relative overflow-hidden rounded-3xl glass-panel p-6 sm:p-8 border border-blue-500/30 bg-linear-to-r from-[#070d19] via-[#0b162c] to-blue-950/50">
         <div className="absolute -right-10 -bottom-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute left-1/3 -top-10 w-64 h-64 bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />
 
@@ -112,7 +112,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tight font-outfit">
-              Concurso <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-300 to-blue-200">DETRAN-SP 2026</span>
+              Concurso{" "}
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 via-sky-300 to-blue-200">
+                DETRAN-SP 2026
+              </span>
             </h1>
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed font-medium">
               Preparação didática e focada para o emprego público de{" "}
@@ -139,7 +142,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </div>
               <div className="w-full bg-slate-900 rounded-full h-3 overflow-hidden border border-slate-800">
                 <div
-                  className="bg-gradient-to-r from-blue-600 via-blue-500 to-sky-400 h-full rounded-full transition-all duration-500 shadow-md shadow-blue-500/20"
+                  className="bg-linear-to-r from-blue-600 via-blue-500 to-sky-400 h-full rounded-full transition-all duration-500 shadow-md shadow-blue-500/20"
                   style={{ width: `${xpProgressPct}%` }}
                 />
               </div>
@@ -156,7 +159,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
               <span className="text-base font-bold text-slate-300">dias</span>
             </div>
             <p className="text-xs text-slate-300 font-medium">
-              Data da Prova: 26 de Outubro de 2026
+              Data da Prova: 11 de Novembro de 2026
             </p>
           </div>
         </div>
@@ -288,7 +291,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         {subject.totalPoints} pts
                       </span>
                       <span className="text-xs text-slate-400 ml-2">
-                        ({subject.questionCount} q. × {subject.weightPerQuestion})
+                        ({subject.questionCount} q. ×{" "}
+                        {subject.weightPerQuestion})
                       </span>
                     </div>
                   </div>
@@ -296,7 +300,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   {/* Progress Bar */}
                   <div className="w-full bg-slate-950 rounded-full h-2.5 overflow-hidden border border-slate-800">
                     <div
-                      className="bg-gradient-to-r from-blue-600 to-sky-400 h-full rounded-full transition-all duration-500 shadow-sm shadow-blue-500/20"
+                      className="bg-linear-to-r from-blue-600 to-sky-400 h-full rounded-full transition-all duration-500 shadow-sm shadow-blue-500/20"
                       style={{ width: `${progressPct}%` }}
                     />
                   </div>
@@ -325,26 +329,29 @@ export const Dashboard: React.FC<DashboardProps> = ({
               <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 flex items-start gap-3">
                 <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                 <span>
-                  <strong>Mínimo Prova Objetiva:</strong> 6,0 pontos (de 10,0 possíveis).
+                  <strong>Mínimo Prova Objetiva:</strong> 6,0 pontos (de 10,0
+                  possíveis).
                 </span>
               </div>
               <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 flex items-start gap-3">
                 <AlertTriangle className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
                 <span>
-                  <strong>Proibição de Zerar:</strong> O candidato NÃO pode tirar nota 0 em NENHUMA disciplina.
+                  <strong>Proibição de Zerar:</strong> O candidato NÃO pode
+                  tirar nota 0 em NENHUMA disciplina.
                 </span>
               </div>
               <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 flex items-start gap-3">
                 <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                 <span>
-                  <strong>Mínimo Prova de Redação:</strong> 6,0 pontos (de 10,0 possíveis).
+                  <strong>Mínimo Prova de Redação:</strong> 6,0 pontos (de 10,0
+                  possíveis).
                 </span>
               </div>
             </div>
 
             <button
               onClick={() => setActiveTab("simulator")}
-              className="w-full py-4 px-5 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-black text-xs uppercase tracking-wider shadow-xl shadow-blue-600/30 transition-all flex items-center justify-center gap-2"
+              className="w-full py-4 px-5 rounded-2xl bg-linear-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-black text-xs uppercase tracking-wider shadow-xl shadow-blue-600/30 transition-all flex items-center justify-center gap-2"
             >
               <Timer className="w-5 h-5" />
               <span>Iniciar Simulado Completo Avalia</span>
