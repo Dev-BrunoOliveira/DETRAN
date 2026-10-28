@@ -92,13 +92,13 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-gradient-to-tr from-blue-700 via-blue-600 to-sky-400 p-0.5 shadow-lg shadow-blue-600/30 flex items-center justify-center transition-transform group-hover:scale-105">
               <div className="w-full h-full bg-[#080f1e] rounded-[10px] sm:rounded-[14px] flex items-center justify-center">
-                <ShieldAlert className="w-4 h-4 sm:w-6 sm:h-6 text-sky-400" />
+                <BookOpenCheck className="w-4 h-4 sm:w-6 sm:h-6 text-sky-400" />
               </div>
             </div>
             <div>
               <div className="flex items-center gap-1.5 sm:gap-2">
                 <span className="font-black text-base sm:text-xl tracking-tight text-white font-outfit">
-                  Prep<span className="text-sky-400">DETRAN</span>
+                  <span className="text-sky-400">DETRAN</span>
                 </span>
                 <span className="px-1.5 py-0.2 sm:px-2 sm:py-0.5 text-[10px] sm:text-xs font-black rounded-full bg-blue-600/20 text-sky-300 border border-blue-500/30">
                   2026
