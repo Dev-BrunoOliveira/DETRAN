@@ -71,7 +71,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       label: "Acertos & Erros",
       icon: BookMarked,
       badge: answeredCount > 0 ? answeredCount : undefined,
-      color: "text-amber-400",
+      color: "text-rose-400",
     },
     { id: "redacao" as TabType, label: "Redação Técnica", icon: PenTool },
   ];
@@ -82,35 +82,35 @@ export const Navbar: React.FC<NavbarProps> = ({
   };
 
   return (
-    <header className="sticky top-0 z-50 glass-panel border-b border-slate-800 bg-slate-950/95 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 glass-panel border-b border-blue-900/30 bg-[#070d19]/95 backdrop-blur-xl">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
-          {/* Logo & Title */}
+          {/* Logo & Title - QConcursos Vibe */}
           <div
             className="flex items-center gap-2.5 sm:gap-3.5 cursor-pointer group shrink-0"
             onClick={() => handleSelectTab("dashboard")}
           >
-            <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-linear-to-tr from-amber-500 via-amber-400 to-yellow-300 p-0.5 shadow-lg shadow-amber-500/25 flex items-center justify-center transition-transform group-hover:scale-105">
-              <div className="w-full h-full bg-slate-950 rounded-[10px] sm:rounded-[14px] flex items-center justify-center">
-                <ShieldAlert className="w-4 h-4 sm:w-6 sm:h-6 text-amber-400" />
+            <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-gradient-to-tr from-blue-700 via-blue-600 to-sky-400 p-0.5 shadow-lg shadow-blue-600/30 flex items-center justify-center transition-transform group-hover:scale-105">
+              <div className="w-full h-full bg-[#080f1e] rounded-[10px] sm:rounded-[14px] flex items-center justify-center">
+                <ShieldAlert className="w-4 h-4 sm:w-6 sm:h-6 text-sky-400" />
               </div>
             </div>
             <div>
               <div className="flex items-center gap-1.5 sm:gap-2">
                 <span className="font-black text-base sm:text-xl tracking-tight text-white font-outfit">
-                  Prep<span className="text-amber-400">DETRAN</span>
+                  Prep<span className="text-sky-400">DETRAN</span>
                 </span>
-                <span className="px-1.5 py-0.2 sm:px-2 sm:py-0.5 text-[10px] sm:text-xs font-black rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40">
+                <span className="px-1.5 py-0.2 sm:px-2 sm:py-0.5 text-[10px] sm:text-xs font-black rounded-full bg-blue-600/20 text-sky-300 border border-blue-500/30">
                   2026
                 </span>
               </div>
               <p className="text-[10px] sm:text-xs text-slate-400 font-medium hidden xs:block">
-                Banca Avalia • Agente
+                Banca Avalia • Agente Estadual de Trânsito
               </p>
             </div>
           </div>
 
-          {}
+          {/* Desktop Navigation Tabs */}
           <nav className="hidden lg:flex items-center gap-1.5">
             {navItems.map((item) => {
               const Icon = item.icon;
@@ -121,18 +121,24 @@ export const Navbar: React.FC<NavbarProps> = ({
                   onClick={() => handleSelectTab(item.id)}
                   className={`relative flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 ${
                     isActive
-                      ? "bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-lg shadow-amber-500/10"
+                      ? "bg-blue-600 text-white shadow-lg shadow-blue-600/30 border border-blue-400/40"
                       : item.highlight
-                        ? "bg-blue-600/20 text-blue-300 hover:bg-blue-600/30 border border-blue-500/40 font-black"
+                        ? "bg-blue-600/20 text-sky-300 hover:bg-blue-600/30 border border-blue-500/40 font-black"
                         : "text-slate-300 hover:text-white hover:bg-slate-800/80"
                   }`}
                 >
                   <Icon
-                    className={`w-4 h-4 ${isActive ? "text-amber-400" : item.color || "text-slate-400"}`}
+                    className={`w-4 h-4 ${isActive ? "text-white" : item.color || "text-slate-400"}`}
                   />
                   <span>{item.label}</span>
                   {item.badge !== undefined && (
-                    <span className="ml-1 px-1.5 py-0.5 text-[10px] rounded-full bg-amber-500/25 text-amber-300 font-extrabold border border-amber-500/40">
+                    <span
+                      className={`ml-1 px-1.5 py-0.5 text-[10px] rounded-full font-extrabold border ${
+                        isActive
+                          ? "bg-white/20 text-white border-white/30"
+                          : "bg-blue-500/20 text-sky-300 border-blue-500/30"
+                      }`}
+                    >
                       {item.badge}
                     </span>
                   )}
@@ -141,7 +147,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             })}
           </nav>
 
-          {}
+          {/* Right Header Actions */}
           <div className="flex items-center gap-2 sm:gap-3">
             {/* CTB Audio Button */}
             <button
@@ -149,21 +155,21 @@ export const Navbar: React.FC<NavbarProps> = ({
                 setIsPlayerVisible(true);
                 setIsPlaylistOpen(true);
               }}
-              title="Escutar os áudios do CTB em ordem (22 capítulos)"
+              title="Escutar os áudios do CTB em ordem"
               className={`flex items-center gap-1.5 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-lg sm:rounded-xl text-[11px] sm:text-xs font-bold transition-all border shadow-sm ${
                 isPlaying
-                  ? "bg-amber-500/20 text-amber-300 border-amber-500/50 shadow-amber-500/10 animate-pulse"
-                  : "bg-slate-900 hover:bg-slate-800 border-amber-500/30 text-amber-300 hover:border-amber-400"
+                  ? "bg-sky-500/20 text-sky-300 border-sky-500/50 shadow-sky-500/20 animate-pulse"
+                  : "bg-slate-900/90 hover:bg-slate-800 border-blue-500/30 text-sky-300 hover:border-sky-400"
               }`}
             >
               {isPlaying ? (
                 <div className="flex items-end gap-0.5 h-3.5">
-                  <span className="w-0.5 bg-amber-400 animate-[bounce_1s_infinite_100ms] h-full" />
-                  <span className="w-0.5 bg-amber-400 animate-[bounce_1s_infinite_300ms] h-2/3" />
-                  <span className="w-0.5 bg-amber-400 animate-[bounce_1s_infinite_200ms] h-5/6" />
+                  <span className="w-0.5 bg-sky-400 animate-[bounce_1s_infinite_100ms] h-full" />
+                  <span className="w-0.5 bg-sky-400 animate-[bounce_1s_infinite_300ms] h-2/3" />
+                  <span className="w-0.5 bg-sky-400 animate-[bounce_1s_infinite_200ms] h-5/6" />
                 </div>
               ) : (
-                <Headphones className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400" />
+                <Headphones className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-sky-400" />
               )}
               <span className="hidden xs:inline">
                 {isPlaying
@@ -173,7 +179,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             </button>
 
             {/* Streak Badge */}
-            <div className="flex items-center gap-1 sm:gap-1.5 px-2.5 py-1.5 sm:px-3.5 sm:py-2 rounded-lg sm:rounded-xl bg-slate-900 border border-slate-800 text-[11px] sm:text-xs font-extrabold text-amber-400 shadow-inner">
+            <div className="flex items-center gap-1 sm:gap-1.5 px-2.5 py-1.5 sm:px-3.5 sm:py-2 rounded-lg sm:rounded-xl bg-slate-900/90 border border-slate-800 text-[11px] sm:text-xs font-extrabold text-amber-400 shadow-inner">
               <Flame className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400 animate-pulse" />
               <span>{userProgress.streakDays}d</span>
             </div>
@@ -185,9 +191,9 @@ export const Navbar: React.FC<NavbarProps> = ({
               aria-label="Abrir Menu de Navegação"
             >
               {isMobileMenuOpen ? (
-                <X className="w-5 h-5 text-amber-400" />
+                <X className="w-5 h-5 text-sky-400" />
               ) : (
-                <Menu className="w-5 h-5 text-amber-400" />
+                <Menu className="w-5 h-5 text-sky-400" />
               )}
             </button>
           </div>
@@ -203,16 +209,18 @@ export const Navbar: React.FC<NavbarProps> = ({
             <button
               key={item.id}
               onClick={() => handleSelectTab(item.id)}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap shrink-0 ${
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap shrink-0 transition-all ${
                 isActive
-                  ? "bg-amber-500/20 text-amber-300 border border-amber-500/40"
-                  : "bg-slate-900/80 text-slate-300 border border-slate-800"
+                  ? "bg-blue-600 text-white shadow-md shadow-blue-600/30"
+                  : "bg-slate-900/80 text-slate-300 border border-slate-800 hover:text-white"
               }`}
             >
-              <Icon className="w-3.5 h-3.5 text-amber-400" />
+              <Icon className={`w-3.5 h-3.5 ${isActive ? "text-white" : "text-sky-400"}`} />
               <span>{item.label}</span>
               {item.badge !== undefined && (
-                <span className="px-1 py-0.2 text-[9px] rounded-full bg-amber-500/30 text-amber-200 font-black">
+                <span className={`px-1 py-0.2 text-[9px] rounded-full font-black ${
+                  isActive ? "bg-white/25 text-white" : "bg-blue-500/20 text-sky-300"
+                }`}>
                   {item.badge}
                 </span>
               )}
@@ -231,13 +239,13 @@ export const Navbar: React.FC<NavbarProps> = ({
           />
 
           {/* Drawer Sheet */}
-          <div className="relative z-10 w-full max-h-[85vh] bg-slate-950 border-t border-amber-500/30 rounded-t-3xl p-5 shadow-2xl flex flex-col overflow-y-auto space-y-4 animate-slideUp">
+          <div className="relative z-10 w-full max-h-[85vh] bg-[#080f1e] border-t border-blue-500/30 rounded-t-3xl p-5 shadow-2xl flex flex-col overflow-y-auto space-y-4 animate-slideUp">
             {/* Drawer Header */}
             <div className="flex items-center justify-between border-b border-slate-800 pb-3">
               <div className="flex items-center gap-2">
-                <ShieldAlert className="w-5 h-5 text-amber-400" />
+                <ShieldAlert className="w-5 h-5 text-sky-400" />
                 <span className="font-extrabold text-white text-base font-outfit">
-                  Menu Principal
+                  Menu de Navegação
                 </span>
               </div>
               <button
@@ -259,15 +267,19 @@ export const Navbar: React.FC<NavbarProps> = ({
                     onClick={() => handleSelectTab(item.id)}
                     className={`w-full flex items-center justify-between p-3.5 rounded-2xl border text-sm font-bold transition-all ${
                       isActive
-                        ? "bg-amber-500/20 border-amber-500/50 text-amber-300 shadow-md shadow-amber-500/10"
+                        ? "bg-blue-600 border-blue-400 text-white shadow-lg shadow-blue-600/30"
                         : item.highlight
-                          ? "bg-blue-600/20 border-blue-500/40 text-blue-300 font-extrabold"
+                          ? "bg-blue-600/20 border-blue-500/40 text-sky-300 font-extrabold"
                           : "bg-slate-900/80 border-slate-800 text-slate-200 hover:bg-slate-800"
                     }`}
                   >
                     <div className="flex items-center gap-3">
                       <div
-                        className={`p-2 rounded-xl ${isActive ? "bg-amber-500/30 text-amber-300" : "bg-slate-800 text-slate-400"}`}
+                        className={`p-2 rounded-xl ${
+                          isActive
+                            ? "bg-white/20 text-white"
+                            : "bg-slate-800 text-sky-400"
+                        }`}
                       >
                         <Icon className="w-4 h-4" />
                       </div>
@@ -276,7 +288,11 @@ export const Navbar: React.FC<NavbarProps> = ({
 
                     <div className="flex items-center gap-2">
                       {item.badge !== undefined && (
-                        <span className="px-2 py-0.5 text-xs font-black rounded-full bg-amber-500/30 text-amber-200 border border-amber-500/40">
+                        <span className={`px-2 py-0.5 text-xs font-black rounded-full border ${
+                          isActive
+                            ? "bg-white/20 text-white border-white/30"
+                            : "bg-blue-500/20 text-sky-300 border-blue-500/40"
+                        }`}>
                           {item.badge}
                         </span>
                       )}

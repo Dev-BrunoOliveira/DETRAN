@@ -81,13 +81,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
   return (
     <div className="space-y-8 animate-fadeIn">
       {/* Motivational Daily Banner */}
-      <div className="glass-panel p-5 sm:p-6 rounded-3xl border border-amber-500/30 bg-linear-to-r from-amber-950/40 via-slate-900 to-slate-950 flex items-center gap-4">
-        <div className="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-400 border border-amber-500/30 flex items-center justify-center shrink-0">
+      <div className="glass-panel p-5 sm:p-6 rounded-3xl border border-blue-500/20 bg-gradient-to-r from-blue-950/40 via-slate-900 to-[#080f1e] flex items-center gap-4">
+        <div className="w-12 h-12 rounded-2xl bg-blue-500/20 text-sky-400 border border-blue-500/30 flex items-center justify-center shrink-0">
           <Sparkles className="w-6 h-6 animate-pulse" />
         </div>
         <div className="space-y-1">
-          <span className="text-xs font-black uppercase tracking-wider text-amber-400 flex items-center gap-1">
-            <Zap className="w-3.5 h-3.5" /> Motivação do Concurseiro DETRAN-SP
+          <span className="text-xs font-black uppercase tracking-wider text-sky-400 flex items-center gap-1">
+            <Zap className="w-3.5 h-3.5" /> Foco do Concurseiro DETRAN-SP
           </span>
           <p className="text-base sm:text-lg font-bold text-white font-outfit leading-snug">
             "{dailyQuote}"
@@ -95,22 +95,24 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>
       </div>
 
-      {/* Hero Banner: DETRAN-SP Exam Header */}
-      <div className="relative overflow-hidden rounded-3xl glass-panel p-6 sm:p-8 border border-amber-500/40 bg-linear-to-r from-slate-950 via-slate-900 to-amber-950/50">
-        <div className="absolute -right-10 -bottom-10 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+      {/* Hero Banner: DETRAN-SP Exam Header with QConcursos Style */}
+      <div className="relative overflow-hidden rounded-3xl glass-panel p-6 sm:p-8 border border-blue-500/30 bg-gradient-to-r from-[#070d19] via-[#0b162c] to-blue-950/50">
+        <div className="absolute -right-10 -bottom-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute left-1/3 -top-10 w-64 h-64 bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />
+
         <div className="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
           <div className="space-y-4 max-w-2xl">
             <div className="flex flex-wrap items-center gap-2.5">
-              <span className="px-3.5 py-1 rounded-full text-xs font-extrabold bg-amber-500/20 text-amber-300 border border-amber-500/30">
+              <span className="px-3.5 py-1 rounded-full text-xs font-extrabold bg-blue-600/20 text-sky-300 border border-blue-500/30">
                 EDITAL DETRAN-SP 2026
               </span>
-              <span className="px-3.5 py-1 rounded-full text-xs font-bold bg-blue-500/20 text-blue-300 border border-blue-500/30">
+              <span className="px-3.5 py-1 rounded-full text-xs font-bold bg-indigo-600/20 text-indigo-300 border border-indigo-500/30">
                 {EDITAL_INFO.banca}
               </span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tight font-outfit">
-              Concurso <span className="text-amber-400">DETRAN-SP 2026</span>
+              Concurso <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-300 to-blue-200">DETRAN-SP 2026</span>
             </h1>
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed font-medium">
               Preparação didática e focada para o emprego público de{" "}
@@ -125,10 +127,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </p>
 
             {/* Level & XP Progress Bar */}
-            <div className="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-2">
+            <div className="p-4 rounded-2xl bg-slate-950/80 border border-blue-900/30 space-y-2">
               <div className="flex items-center justify-between text-xs sm:text-sm font-bold">
-                <span className="text-amber-300 flex items-center gap-1.5 font-outfit">
-                  <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
+                <span className="text-sky-300 flex items-center gap-1.5 font-outfit">
+                  <Star className="w-4 h-4 text-sky-400 fill-sky-400" />
                   Nível {currentLevel} • Especialista em Trânsito
                 </span>
                 <span className="text-slate-400">
@@ -137,7 +139,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </div>
               <div className="w-full bg-slate-900 rounded-full h-3 overflow-hidden border border-slate-800">
                 <div
-                  className="bg-linear-to-r from-amber-500 to-yellow-300 h-full rounded-full transition-all duration-500"
+                  className="bg-gradient-to-r from-blue-600 via-blue-500 to-sky-400 h-full rounded-full transition-all duration-500 shadow-md shadow-blue-500/20"
                   style={{ width: `${xpProgressPct}%` }}
                 />
               </div>
@@ -145,30 +147,30 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
 
           {/* Exam Countdown Box */}
-          <div className="w-full lg:w-auto shrink-0 bg-slate-950/90 p-6 rounded-3xl border border-amber-500/30 flex flex-col items-center justify-center text-center shadow-2xl">
+          <div className="w-full lg:w-auto shrink-0 bg-[#080f1e]/90 p-6 rounded-3xl border border-blue-500/30 flex flex-col items-center justify-center text-center shadow-2xl">
             <span className="text-xs uppercase tracking-wider text-slate-400 font-black mb-1 flex items-center gap-1.5">
-              <Clock className="w-4 h-4 text-amber-400" /> Rumo à Aprovacão
+              <Clock className="w-4 h-4 text-sky-400" /> Rumo à Aprovação
             </span>
-            <div className="text-5xl font-black text-amber-400 font-outfit my-2">
+            <div className="text-5xl font-black text-sky-400 font-outfit my-2">
               {daysRemaining}{" "}
               <span className="text-base font-bold text-slate-300">dias</span>
             </div>
             <p className="text-xs text-slate-300 font-medium">
-              Data da Prova: 11 de Novembro de 2026
+              Data da Prova: 26 de Outubro de 2026
             </p>
           </div>
         </div>
       </div>
 
-      {/* Main Metrics Cards with Enriched Text */}
+      {/* Main Metrics Cards with QConcursos Color Balance */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-        <div className="glass-panel p-6 rounded-3xl border border-slate-800 flex items-center gap-4">
-          <div className="w-14 h-14 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 shrink-0">
+        <div className="glass-panel p-6 rounded-3xl border border-slate-800 hover:border-blue-500/30 flex items-center gap-4 transition-colors">
+          <div className="w-14 h-14 rounded-2xl bg-blue-500/15 border border-blue-500/30 flex items-center justify-center text-sky-400 shrink-0">
             <BookOpenCheck className="w-7 h-7" />
           </div>
           <div>
             <p className="text-xs text-slate-400 font-bold uppercase tracking-wider">
-              Questões Respondidas
+              Questões Resolvidas
             </p>
             <h3 className="text-3xl font-black text-white font-outfit">
               {answeredCount}{" "}
@@ -179,7 +181,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
         </div>
 
-        <div className="glass-panel p-6 rounded-3xl border border-slate-800 flex items-center gap-4">
+        <div className="glass-panel p-6 rounded-3xl border border-slate-800 hover:border-emerald-500/30 flex items-center gap-4 transition-colors">
           <div className="w-14 h-14 rounded-2xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
             <TrendingUp className="w-7 h-7" />
           </div>
@@ -193,7 +195,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
         </div>
 
-        <div className="glass-panel p-6 rounded-3xl border border-slate-800 flex items-center gap-4">
+        <div className="glass-panel p-6 rounded-3xl border border-slate-800 hover:border-amber-500/30 flex items-center gap-4 transition-colors">
           <div className="w-14 h-14 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 shrink-0">
             <Flame className="w-7 h-7 text-amber-400 animate-bounce" />
           </div>
@@ -208,7 +210,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
         </div>
 
-        <div className="glass-panel p-6 rounded-3xl border border-slate-800 flex items-center gap-4">
+        <div className="glass-panel p-6 rounded-3xl border border-slate-800 hover:border-rose-500/30 flex items-center gap-4 transition-colors">
           <div className="w-14 h-14 rounded-2xl bg-rose-500/15 border border-rose-500/30 flex items-center justify-center text-rose-400 shrink-0">
             <AlertTriangle className="w-7 h-7 text-rose-400" />
           </div>
@@ -233,7 +235,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
           <div className="flex items-center justify-between">
             <div>
               <h3 className="text-xl font-black text-white font-outfit flex items-center gap-2.5">
-                <Scale className="w-6 h-6 text-amber-400" />
+                <Scale className="w-6 h-6 text-sky-400" />
                 Matérias do Edital & Pesos de Prova
               </h3>
               <p className="text-sm text-slate-400 font-medium">
@@ -242,9 +244,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </div>
             <button
               onClick={() => setActiveTab("modules")}
-              className="text-xs sm:text-sm text-amber-400 hover:underline flex items-center gap-1 font-bold"
+              className="text-xs sm:text-sm text-sky-400 hover:text-sky-300 hover:underline flex items-center gap-1 font-bold"
             >
-              <span>Estudar Questões</span>
+              <span>Praticar Questões</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>
@@ -272,22 +274,21 @@ export const Dashboard: React.FC<DashboardProps> = ({
                       setSelectedSubjectFilter(subject.id);
                     setActiveTab("modules");
                   }}
-                  className="p-5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-amber-500/50 cursor-pointer transition-all hover:bg-slate-800/80 group space-y-2.5"
+                  className="p-5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-blue-500/50 cursor-pointer transition-all hover:bg-slate-800/80 group space-y-2.5"
                 >
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                      <span className="w-3.5 h-3.5 rounded-full bg-amber-400 shrink-0 shadow-sm shadow-amber-400/50" />
-                      <h4 className="font-extrabold text-base text-slate-100 group-hover:text-amber-300 transition-colors font-outfit">
+                      <span className="w-3.5 h-3.5 rounded-full bg-blue-500 shrink-0 shadow-sm shadow-blue-500/50" />
+                      <h4 className="font-extrabold text-base text-slate-100 group-hover:text-sky-300 transition-colors font-outfit">
                         {subject.title}
                       </h4>
                     </div>
                     <div className="text-right shrink-0">
-                      <span className="text-sm font-black text-amber-400">
+                      <span className="text-sm font-black text-sky-400">
                         {subject.totalPoints} pts
                       </span>
                       <span className="text-xs text-slate-400 ml-2">
-                        ({subject.questionCount} q. ×{" "}
-                        {subject.weightPerQuestion})
+                        ({subject.questionCount} q. × {subject.weightPerQuestion})
                       </span>
                     </div>
                   </div>
@@ -295,13 +296,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   {/* Progress Bar */}
                   <div className="w-full bg-slate-950 rounded-full h-2.5 overflow-hidden border border-slate-800">
                     <div
-                      className="bg-amber-400 h-full rounded-full transition-all duration-500"
+                      className="bg-gradient-to-r from-blue-600 to-sky-400 h-full rounded-full transition-all duration-500 shadow-sm shadow-blue-500/20"
                       style={{ width: `${progressPct}%` }}
                     />
                   </div>
                   <div className="flex items-center justify-between text-xs text-slate-300 font-medium pt-0.5">
                     <span>{subject.description}</span>
-                    <span className="font-extrabold text-amber-300">
+                    <span className="font-extrabold text-sky-300">
                       {progressPct}% praticado
                     </span>
                   </div>
@@ -314,9 +315,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
         {/* Right 1 Col: Quick Actions & Passing Rules */}
         <div className="space-y-6">
           {/* Passing Criteria Card */}
-          <div className="glass-panel p-6 sm:p-7 rounded-3xl border border-amber-500/40 bg-slate-900/90 space-y-5">
+          <div className="glass-panel p-6 sm:p-7 rounded-3xl border border-blue-500/30 bg-slate-900/90 space-y-5">
             <h3 className="text-lg font-black text-white font-outfit flex items-center gap-2">
-              <Award className="w-5 h-5 text-amber-400" />
+              <Award className="w-5 h-5 text-sky-400" />
               Regras Oficiais de Aprovação
             </h3>
 
@@ -324,29 +325,26 @@ export const Dashboard: React.FC<DashboardProps> = ({
               <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 flex items-start gap-3">
                 <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                 <span>
-                  <strong>Mínimo Prova Objetiva:</strong> 6,0 pontos (de 10,0
-                  possíveis).
+                  <strong>Mínimo Prova Objetiva:</strong> 6,0 pontos (de 10,0 possíveis).
                 </span>
               </div>
               <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 flex items-start gap-3">
                 <AlertTriangle className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
                 <span>
-                  <strong>Proibição de Zerar:</strong> O candidato NÃO pode
-                  tirar nota 0 em NENHUMA disciplina.
+                  <strong>Proibição de Zerar:</strong> O candidato NÃO pode tirar nota 0 em NENHUMA disciplina.
                 </span>
               </div>
               <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 flex items-start gap-3">
                 <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                 <span>
-                  <strong>Mínimo Prova de Redação:</strong> 6,0 pontos (de 10,0
-                  possíveis).
+                  <strong>Mínimo Prova de Redação:</strong> 6,0 pontos (de 10,0 possíveis).
                 </span>
               </div>
             </div>
 
             <button
               onClick={() => setActiveTab("simulator")}
-              className="w-full py-4 px-5 rounded-2xl bg-linear-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black text-xs uppercase tracking-wider shadow-xl shadow-amber-500/20 transition-all flex items-center justify-center gap-2"
+              className="w-full py-4 px-5 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-black text-xs uppercase tracking-wider shadow-xl shadow-blue-600/30 transition-all flex items-center justify-center gap-2"
             >
               <Timer className="w-5 h-5" />
               <span>Iniciar Simulado Completo Avalia</span>
@@ -356,15 +354,15 @@ export const Dashboard: React.FC<DashboardProps> = ({
           {/* Quick Study Modes */}
           <div className="glass-panel p-6 rounded-3xl border border-slate-800 space-y-3">
             <h4 className="text-xs uppercase tracking-wider text-slate-400 font-black">
-              Atalhos Principais
+              Atalhos de Estudo
             </h4>
 
             <button
               onClick={() => setActiveTab("flashcards")}
-              className="w-full p-4 rounded-2xl bg-slate-900 border border-slate-800 hover:border-amber-500/40 text-left text-sm font-bold text-slate-200 flex items-center justify-between group transition-colors"
+              className="w-full p-4 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/40 text-left text-sm font-bold text-slate-200 flex items-center justify-between group transition-colors"
             >
               <div className="flex items-center gap-3">
-                <Layers className="w-5 h-5 text-blue-400" />
+                <Layers className="w-5 h-5 text-sky-400" />
                 <span>Flashcards de Memorização</span>
               </div>
               <ArrowRight className="w-4 h-4 text-slate-500 group-hover:text-white" />
@@ -372,10 +370,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
             <button
               onClick={() => setActiveTab("ctb_guide")}
-              className="w-full p-4 rounded-2xl bg-slate-900 border border-slate-800 hover:border-amber-500/40 text-left text-sm font-bold text-slate-200 flex items-center justify-between group transition-colors"
+              className="w-full p-4 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/40 text-left text-sm font-bold text-slate-200 flex items-center justify-between group transition-colors"
             >
               <div className="flex items-center gap-3">
-                <FileText className="w-5 h-5 text-emerald-400" />
+                <FileText className="w-5 h-5 text-blue-400" />
                 <span>Resumo Esquematizado CTB 2026</span>
               </div>
               <ArrowRight className="w-4 h-4 text-slate-500 group-hover:text-white" />
@@ -383,11 +381,11 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
             <button
               onClick={() => setActiveTab("errors")}
-              className="w-full p-4 rounded-2xl bg-slate-900 border border-slate-800 hover:border-amber-500/40 text-left text-sm font-bold text-slate-200 flex items-center justify-between group transition-colors"
+              className="w-full p-4 rounded-2xl bg-slate-900 border border-slate-800 hover:border-rose-500/40 text-left text-sm font-bold text-slate-200 flex items-center justify-between group transition-colors"
             >
               <div className="flex items-center gap-3">
                 <AlertTriangle className="w-5 h-5 text-rose-400" />
-                <span>Caderno de Erros</span>
+                <span>Caderno de Erros & Revisão</span>
               </div>
               <ArrowRight className="w-4 h-4 text-slate-500 group-hover:text-white" />
             </button>

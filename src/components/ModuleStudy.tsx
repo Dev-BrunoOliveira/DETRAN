@@ -62,15 +62,15 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
   return (
     <div className="space-y-6 animate-fadeIn">
       
-      {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 glass-panel p-6 rounded-2xl border border-slate-800">
+      {/* Header with QConcursos Styling */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 glass-panel p-6 rounded-2xl border border-blue-900/30">
         <div>
           <h2 className="text-2xl font-bold text-white font-outfit flex items-center gap-2">
-            <BookOpen className="w-6 h-6 text-amber-400" />
+            <BookOpen className="w-6 h-6 text-sky-400" />
             Estudo por Módulos & Questões Comentadas
           </h2>
           <p className="text-xs text-slate-400 mt-1">
-            Explore dezenas de questões organizadas rigorosamente pelas matérias pedidas no Edital DETRAN-SP 2026.
+            Filtre e resolva centenas de questões com gabarito didático fundamentado no Edital DETRAN-SP 2026.
           </p>
         </div>
 
@@ -79,10 +79,10 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
             <button
               onClick={handleResetAllAnswers}
               title="Limpa as respostas salvas para que você possa responder todas as questões novamente"
-              className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 text-xs font-bold transition-all shrink-0"
+              className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 text-xs font-bold transition-all shrink-0 hover:text-white"
             >
-              <RotateCcw className="w-3.5 h-3.5 text-amber-400" />
-              <span>Resetar Respostas Módulo</span>
+              <RotateCcw className="w-3.5 h-3.5 text-sky-400" />
+              <span>Resetar Respostas</span>
             </button>
           )}
 
@@ -91,25 +91,25 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
               setIsPlayerVisible(true);
               setIsPlaylistOpen(true);
             }}
-            className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 border border-amber-500/30 font-bold text-xs transition-all shrink-0"
+            className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-blue-600/20 hover:bg-blue-600/30 text-sky-300 border border-blue-500/30 font-bold text-xs transition-all shrink-0"
           >
             {isPlaying ? (
-              <Radio className="w-4 h-4 text-amber-400 animate-pulse" />
+              <Radio className="w-4 h-4 text-sky-400 animate-pulse" />
             ) : (
-              <Headphones className="w-4 h-4 text-amber-400" />
+              <Headphones className="w-4 h-4 text-sky-400" />
             )}
             <span>{isPlaying ? 'Áudio CTB Tocando...' : 'Escutar CTB em Áudio'}</span>
           </button>
 
-          <div className="flex items-center gap-2 text-xs font-semibold px-3 py-2 rounded-xl bg-slate-900 text-slate-300 border border-slate-800 shrink-0">
-            <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>{filteredQuestions.length} questões</span>
+          <div className="flex items-center gap-2 text-xs font-semibold px-3 py-2 rounded-xl bg-[#080f1e] text-slate-300 border border-blue-900/40 shrink-0">
+            <Sparkles className="w-4 h-4 text-sky-400" />
+            <span className="font-bold text-sky-300">{filteredQuestions.length} questões</span>
           </div>
         </div>
       </div>
 
-      {/* Filter bar */}
-      <div className="glass-panel p-4 rounded-2xl border border-slate-800 space-y-4">
+      {/* Filter bar - QConcursos Filter Row */}
+      <div className="glass-panel p-4 rounded-2xl border border-blue-900/30 space-y-4">
         
         {/* Subject Pills */}
         <div className="flex items-center gap-2 overflow-x-auto pb-2 no-scrollbar">
@@ -117,8 +117,8 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
             onClick={() => setSelectedSubject('all')}
             className={`px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
               selectedSubject === 'all'
-                ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20'
-                : 'bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800'
+                ? 'bg-blue-600 text-white shadow-md shadow-blue-600/30 border border-blue-400/40'
+                : 'bg-slate-900/90 text-slate-300 hover:bg-slate-800 hover:text-white border border-slate-800'
             }`}
           >
             Todas as Matérias ({QUESTIONS_DATABASE.length})
@@ -132,8 +132,8 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
                 onClick={() => setSelectedSubject(subj.id)}
                 className={`px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                   isSelected
-                    ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20'
-                    : 'bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800'
+                    ? 'bg-blue-600 text-white shadow-md shadow-blue-600/30 border border-blue-400/40'
+                    : 'bg-slate-900/90 text-slate-300 hover:bg-slate-800 hover:text-white border border-slate-800'
                 }`}
               >
                 {subj.shortTitle} ({count})
@@ -152,8 +152,8 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Buscar por palavra, artigo ou lei..."
-              className="w-full pl-9 pr-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-amber-500/50"
+              placeholder="Buscar por palavra-chave, artigo ou tema..."
+              className="w-full pl-9 pr-4 py-2.5 rounded-xl bg-[#080f1e] border border-slate-800 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-blue-500/60 focus:ring-1 focus:ring-blue-500/30"
             />
           </div>
 
@@ -163,7 +163,7 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
             <select
               value={difficultyFilter}
               onChange={(e) => setDifficultyFilter(e.target.value)}
-              className="w-full py-2.5 px-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-amber-500/50"
+              className="w-full py-2.5 px-3 rounded-xl bg-[#080f1e] border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-blue-500/60"
             >
               <option value="all">Todas as Dificuldades</option>
               <option value="Fácil">Fácil</option>
@@ -178,7 +178,7 @@ export const ModuleStudy: React.FC<ModuleStudyProps> = ({
             <select
               value={statusFilter}
               onChange={(e) => setStatusFilter(e.target.value as any)}
-              className="w-full py-2.5 px-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-amber-500/50"
+              className="w-full py-2.5 px-3 rounded-xl bg-[#080f1e] border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-blue-500/60"
             >
               <option value="all">Todas as questões</option>
               <option value="unanswered">Não respondidas</option>
