@@ -361,7 +361,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
           {/* Quick Study Modes */}
           <div className="glass-panel p-6 rounded-3xl border border-slate-800 space-y-3">
             <h4 className="text-xs uppercase tracking-wider text-slate-400 font-black">
-              Atalhos de Estudo
+              Atalhos para Estudo Rápido
             </h4>
 
             <button
