@@ -370,7 +370,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
             >
               <div className="flex items-center gap-3">
                 <Layers className="w-5 h-5 text-sky-400" />
-                <span>Flashcards de Memorização</span>
+                <span>Flashcards </span>
               </div>
               <ArrowRight className="w-4 h-4 text-slate-500 group-hover:text-white" />
             </button>
