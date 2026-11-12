@@ -50,16 +50,15 @@ export const ErrorNotebook: React.FC<ErrorNotebookProps> = ({ userProgress, onPr
     return userProgress.bookmarkedQuestionIds.includes(q.id);
   });
 
-  // Daily History records
+ 
   const dailyRecords: DailyAnswerRecord[] = userProgress.dailyHistory || [];
-  
-  // Today's stats
+ 
   const todayRecords = dailyRecords.filter(r => r.date === todayStr);
   const todayCorrectCount = todayRecords.filter(r => r.isCorrect).length;
   const todayTotalCount = todayRecords.length;
   const todayAccuracy = todayTotalCount > 0 ? Math.round((todayCorrectCount / todayTotalCount) * 100) : 0;
 
-  // Filter main dataset based on current tab
+  
   const getQuestionsForTab = () => {
     if (activeSubTab === 'acertos') return correctQuestions;
     if (activeSubTab === 'erros') return errorQuestions;
@@ -69,7 +68,6 @@ export const ErrorNotebook: React.FC<ErrorNotebookProps> = ({ userProgress, onPr
 
   const currentTabQuestions = getQuestionsForTab();
 
-  // Apply subject & search filter
   const filteredQuestions = currentTabQuestions.filter(q => {
     if (selectedSubject !== 'all' && q.subjectId !== selectedSubject) return false;
 
@@ -84,7 +82,6 @@ export const ErrorNotebook: React.FC<ErrorNotebookProps> = ({ userProgress, onPr
     return true;
   });
 
-  // Group daily history by date for 'historico' tab
   const historyByDate: Record<string, DailyAnswerRecord[]> = {};
   dailyRecords.forEach(rec => {
     if (!historyByDate[rec.date]) {
