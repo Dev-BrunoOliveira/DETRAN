@@ -150,18 +150,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
           </div>
 
           {/* Exam Countdown Box */}
-          <div className="w-full lg:w-auto shrink-0 bg-[#080f1e]/90 p-6 rounded-3xl border border-blue-500/30 flex flex-col items-center justify-center text-center shadow-2xl">
-            <span className="text-xs uppercase tracking-wider text-slate-400 font-black mb-1 flex items-center gap-1.5">
-              <Clock className="w-4 h-4 text-sky-400" /> Rumo à Aprovação
-            </span>
-            <div className="text-5xl font-black text-sky-400 font-outfit my-2">
-              {daysRemaining}{" "}
-              <span className="text-base font-bold text-slate-300">dias</span>
-            </div>
-            <p className="text-xs text-slate-300 font-medium">
-              Data da Prova: 11 de Novembro de 2026
-            </p>
-          </div>
+          
         </div>
       </div>
 

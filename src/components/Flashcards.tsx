@@ -119,7 +119,7 @@ export const Flashcards: React.FC = () => {
                 </div>
 
                 <div className="text-center text-xs text-slate-500">
-                  Clique novamente para voltar a pergunta
+                  Clique novamente para voltar
                 </div>
               </div>
 
